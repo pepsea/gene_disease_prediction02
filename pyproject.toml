@@ -12,6 +12,7 @@ dependencies = ["numpy>=1.24", "pandas>=2.0"]
 [project.optional-dependencies]
 llama = ["llama-cpp-python>=0.3"]
 dev = ["pytest>=8"]
+notebook = ["jupyter", "matplotlib"]
 
 [tool.setuptools.packages.find]
 include = ["target_loop*"]

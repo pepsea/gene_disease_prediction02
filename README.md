@@ -27,6 +27,16 @@ P = max( M, 0.8×N, 0.6×V )        M:しくみ N:関係の網 V:地図
 逆向き・矛盾 → 点数に関係なく別枠
 ```
 
+## Jupyter Notebook で1ステップずつ実証する
+
+```bash
+pip install -e ".[dev,notebook]"
+jupyter notebook notebooks/01_training_free_loop_demo.ipynb
+```
+
+種の検証 → 拡張 → 質問と回答 → 対戦比較 → 2回目 → 分類 の順に、各セルで中間結果（表・グラフ）を確認できます。
+`MODEL_PATH` に GGUF を指定すると、同じ手順が TxGemma などの本物のLLMで動きます。
+
 ## 使い方
 
 ```bash
