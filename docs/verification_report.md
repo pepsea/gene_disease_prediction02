@@ -92,9 +92,16 @@
 
 ランダム重みの極小モデル（`scripts/make_tiny_gguf.py`）でこの経路が例外なく動くことを確認しました。ただし出力値は無意味です。
 
+### 4.1 guidance 方式（お使いの `option_logprobs`）の確認
+
+guidance 0.3.1 で、`select` の後に `state._trace_nodes` の `TokenOutput.top_k` から制約前の確率が読めることを、極小 GGUF で確認しました。注意点は2つです。
+
+- `LlamaCpp(model, echo=True, top_k=TOP_K)` としないと top_k が記録されません（ソース上 `enable_top_k=echo`）。`echo=False` にすると top_k が空になり、お使いの関数は空の辞書を返します。
+- top_k に選択肢が入らなかった場合、お使いの版は黙ってその選択肢を落とします。`GuidanceBackend` とノートブックでは、top_k の最小確率を上限値として代用し `missing` に記録する形に変えました。`missing` が出たら `TOP_K` を増やしてください。
+
 ## 5. 次にやること（お手元のMacで）
 
-1. `pip install llama-cpp-python` の後、`python scripts/run_txgemma.py --model <TxGemmaのGGUF> --mode compare`。
+1. `pip install llama-cpp-python guidance` の後、`python scripts/run_txgemma.py --model <TxGemmaのGGUF> --mode compare`。
    13遺伝子 × 5問 × 6回 = 390回の forward pass ＋検証質問で、9B Q6_K なら M系Macで10〜20分の見込みです（要実測）。
    出力 `outputs/txgemma_compare.csv` に Claude の確信度と TxGemma の p_yes が並びます。相関が低い質問（例：副作用 Q5）は質問文の見直し候補です。
 2. `--mode loop` で拡張もLLMに任せると、18遺伝子以外（CD28、TNFRSF1B、IL23A など）が出てきます。

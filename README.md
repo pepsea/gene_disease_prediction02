@@ -35,7 +35,7 @@ jupyter notebook notebooks/01_training_free_loop_demo.ipynb
 ```
 
 種の検証 → 拡張 → 質問と回答 → 対戦比較 → 2回目 → 分類 の順に、各セルで中間結果（表・グラフ）を確認できます。
-ノートブックは自己完結型で、`target_loop` の .py を参照しません。ルール・質問文・記録・採点・対戦・ループの処理がすべてセル内に書かれ、`def` は AI 役の2つと記号の取り出しの1つだけです。
+ノートブックは自己完結型で、`target_loop` の .py を参照しません。ルール・質問文・記録・採点・対戦・ループの処理がすべてセル内に書かれ、`def` は `option_logprobs`（guidance で選択肢の log 確率を読む）・AI 役の2つ・記号の取り出しの1つ、計4つだけです。
 `MODEL_PATH` に GGUF を指定すると、同じ手順が TxGemma などの本物のLLMで動きます。
 
 ## 使い方
@@ -50,8 +50,9 @@ python scripts/sensitivity.py   # ルール定数を変えると順位がどう�
 手元のMacで TxGemma-9B（GGUF）を使って同じ18遺伝子を採点し、Claudeの判定と比べる：
 
 ```bash
-pip install llama-cpp-python                       # macOS では Metal 対応版が入ります
-python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf --mode compare
+pip install llama-cpp-python guidance              # macOS では Metal 対応版が入ります
+python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf --mode compare            # 既定: guidance 方式
+python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf --mode compare --engine llama_cpp   # logits 直読み
 python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf --mode loop   # 拡張もLLMに任せる
 ```
 
@@ -65,7 +66,7 @@ python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf --mode 
 | `target_loop/scoring.py` | Q・M・N・V・P・総合点の計算と分類 |
 | `target_loop/pairwise.py` | 左右入れ替え2回の対戦比較、Copeland順位 |
 | `target_loop/loop.py` | 種の検証（薬→標的の逆引き）、3種類の拡張、検証、ループ制御 |
-| `target_loop/backends.py` | `RecordedBackend`（記録の再生）、`LlamaCppBackend`（GGUFの「はい」確率をlogitsから読む） |
+| `target_loop/backends.py` | `RecordedBackend`（記録の再生）、`GuidanceBackend`（guidance の `select` ＋ top_k トレースで確率を読む。お使いの `option_logprobs` 方式）、`LlamaCppBackend`（logits 直読み） |
 | `demo/ra_demo.py` | RAデモの全データ（Claude判定・5段階確信度）と記録ファイル生成 |
 | `scripts/run_txgemma.py` | Mac用：TxGemmaで同じ18遺伝子を採点・比較 |
 | `scripts/sensitivity.py` | ルール定数の感度分析 |

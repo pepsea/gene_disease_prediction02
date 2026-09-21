@@ -36,3 +36,16 @@ def test_llama_cpp_backend_smoke():
     txt = b.generate("List genes:", max_tokens=4)
     assert isinstance(txt, str)
     b.close()
+
+
+@pytest.mark.skipif(not os.path.exists(TINY), reason="tiny GGUF not built")
+def test_guidance_backend_smoke():
+    """guidance の select + top_k トレースで確率が読めること（値はランダム）。"""
+    pytest.importorskip("guidance")
+    from target_loop.backends import GuidanceBackend
+    b = GuidanceBackend(TINY, top_k=20, n_ctx=128, n_gpu_layers=0)
+    lp = b.option_logprobs("Answer Yes or No.\nIs TNF a target?\nAnswer:", [" Yes", " No"])
+    assert set(lp) == {"Yes", "No"} and all(v <= 0 for v in lp.values())
+    p = b.yes_probability("Is TNF a target?", "yes_first")
+    assert 0.0 <= p <= 1.0
+    assert isinstance(b.generate("List genes:", max_tokens=4), str)

@@ -14,6 +14,8 @@ Every backend answers two kinds of requests:
 
 * RecordedBackend  replays answers stored in a JSON file (used for the demo that
   was judged by Claude in the original conversation, and for tests).
+* GuidanceBackend  same model through the guidance library (select + top_k trace),
+  i.e. the option_logprobs mechanism already used in the project's earlier code.
 * LlamaCppBackend  runs a local GGUF model (e.g. TxGemma-9B-Chat Q6_K) with
   llama-cpp-python and reads the next-token probability of "Yes" vs "No"
   directly from the logits.  No text is generated for scoring questions, so a
@@ -206,6 +208,67 @@ class LlamaCppBackend(LLMBackend):
             self.llm.close()
         except Exception:
             pass
+
+
+# ----------------------------------------------------------------------------
+class GuidanceBackend(LLMBackend):
+    """guidance ライブラリ経由で GGUF モデルを動かす AI 役（お使いの option_logprobs 方式）。
+
+    仕組み:
+      state = llm.copy() + prompt            問いを足した状態（元の llm は変わらない）
+      state += select(options, name=...)     答えを選択肢の1つに限る（制約付き生成）
+      state._trace_nodes の TokenOutput      最初に生成したトークンの top_k に「制約をかける前の」
+                                             上位 TOP_K 個の (token, prob, masked) が入っている
+    そこから " Yes" と " No" の確率を取り出し、p_yes = pY / (pY + pN) にします。
+
+    guidance 0.3 系では LlamaCpp(model, echo=True, top_k=TOP_K) としないと top_k が記録されません
+    （enable_top_k=echo）。選択肢が top_k に入らなかった場合は、top_k の最小確率を上限値として
+    代入し、missing に記録します（黙って落とさない）。
+    """
+    name = "guidance"
+
+    def __init__(self, model_path: str, top_k: int = 50, n_ctx: int = 1024, n_gpu_layers: int = -1,
+                 verbose: bool = False, yes_options: Sequence[str] = (" Yes", " No"), **llama_cpp_kwargs):
+        from guidance.models import LlamaCpp  # imported lazily so the package is optional
+        self.llm = LlamaCpp(model_path, echo=True, top_k=top_k, n_ctx=n_ctx, n_gpu_layers=n_gpu_layers,
+                            verbose=verbose, **llama_cpp_kwargs)
+        self.top_k = top_k
+        self.options = list(yes_options)
+        self.missing: List[dict] = []          # 選択肢が top_k に無かった記録
+
+    def option_logprobs(self, prompt: str, options: Sequence[str]) -> Dict[str, float]:
+        """お使いの関数と同じ。各選択肢の log 確率（制約前）を返す。"""
+        from guidance import select
+        state = self.llm.copy() + prompt
+        state += select(list(options), name="answer")
+        generated = [o for node in state._trace_nodes for o in node.output
+                     if type(o).__name__ == "TokenOutput" and not o.is_input]
+        candidates = generated[0].top_k or []
+        floor = min((c.prob for c in candidates if c.prob and c.prob > 0), default=1e-6)
+        result: Dict[str, float] = {}
+        for option in options:
+            probs = ([c.prob for c in candidates if c.token == option]
+                     or [c.prob for c in candidates if c.token.strip() == option.strip()])
+            if probs and probs[0] > 0:
+                result[option.strip()] = math.log(probs[0])
+            else:
+                self.missing.append({"prompt": prompt[:80], "option": option, "floor": floor})
+                result[option.strip()] = math.log(floor)     # 上限値（top_k の最小確率）で代用
+        return result
+
+    def yes_probability(self, prompt: str, option_order: str = "yes_first") -> float:
+        options = "Answer with Yes or No." if option_order == "yes_first" else "Answer with No or Yes."
+        lp = self.option_logprobs(f"{options}\n{prompt}\nAnswer:", self.options)
+        py, pn = math.exp(lp["Yes"]), math.exp(lp["No"])
+        return py / (py + pn)
+
+    def generate(self, prompt: str, max_tokens: int = 128) -> str:
+        from guidance import gen
+        state = self.llm.copy() + prompt + "\n" + gen(name="out", max_tokens=max_tokens, temperature=0.0)
+        return state["out"].strip()
+
+    def close(self) -> None:
+        self.llm = None
 
 
 def cosine(a: Sequence[float], b: Sequence[float]) -> float:

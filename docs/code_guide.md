@@ -60,7 +60,8 @@ models.py（入れ物） ──▶ scoring.py（採点） ──▶ pairwise.py�
 |---|---|
 | `LLMBackend` | 共通の顔：`yes_probability`（確率）、`generate`（文章）、`embed`（ベクトル） |
 | `RecordedBackend` | 記録（質問文 → 答え）を再生。無い質問は `KeyError` で止める |
-| `LlamaCppBackend` | GGUF を llama.cpp で動かし、logits から Yes/No の確率を読む。`logits_all` は使わない |
+| `GuidanceBackend` | guidance の `select` で答えを Yes/No に限り、`_trace_nodes` の `TokenOutput.top_k`（制約前の上位 TOP_K）から確率を読む。`option_logprobs` はお使いの関数そのもの。`echo=True, top_k=TOP_K` が必要 |
+| `LlamaCppBackend` | GGUF を llama.cpp で動かし、logits から Yes/No の確率を直読みする。`logits_all` は使わない |
 | `parse_gene_list` | 文章から大文字の遺伝子記号だけを取り出す。`known_symbols` で照合可 |
 
 ## target_loop/loop.py — 手順書

@@ -7,7 +7,7 @@ Run the same 18-gene RA demo with a local GGUF model (TxGemma-9B-Chat etc.)
 and compare its yes-probabilities with the Claude-judged confidences.
 
 Usage (Mac, Apple Silicon):
-    pip install llama-cpp-python            # Metal build is the default on macOS
+    pip install llama-cpp-python guidance   # Metal build is the default on macOS
     python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf \
         --mode compare            # 18 genes x 6 questions, ~5 min on M-series
     python scripts/run_txgemma.py --model ... --mode loop        # full loop, LLM does expansion too
@@ -18,7 +18,7 @@ Nothing leaves the machine: no network call is made.
 """
 import argparse, csv, os, sys, time
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from target_loop.backends import LlamaCppBackend
+from target_loop.backends import LlamaCppBackend, GuidanceBackend
 from target_loop.config import QUESTIONS, ScoringRules
 from target_loop.loop import TargetLoop
 from target_loop.report import to_markdown
@@ -38,6 +38,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True, help="path to a GGUF file")
     ap.add_argument("--mode", choices=["compare", "loop"], default="compare")
+    ap.add_argument("--engine", choices=["guidance", "llama_cpp"], default="guidance",
+                    help="guidance: select+top_k トレース方式（既定） / llama_cpp: logits 直読み")
+    ap.add_argument("--top-k", type=int, default=50, help="guidance で記録する上位トークン数")
     ap.add_argument("--n-ctx", type=int, default=1024)
     ap.add_argument("--n-gpu-layers", type=int, default=-1)
     ap.add_argument("--no-chat-wrap", action="store_true", help="for base (non-chat) models")
@@ -46,8 +49,11 @@ def main():
     args = ap.parse_args()
 
     os.makedirs("outputs", exist_ok=True)
-    b = LlamaCppBackend(args.model, n_ctx=args.n_ctx, n_gpu_layers=args.n_gpu_layers,
-                        embedding=args.embedding, chat_wrap=not args.no_chat_wrap)
+    if args.engine == "guidance":
+        b = GuidanceBackend(args.model, top_k=args.top_k, n_ctx=args.n_ctx, n_gpu_layers=args.n_gpu_layers)
+    else:
+        b = LlamaCppBackend(args.model, n_ctx=args.n_ctx, n_gpu_layers=args.n_gpu_layers,
+                            embedding=args.embedding, chat_wrap=not args.no_chat_wrap)
     rules = ScoringRules(use_genetics_question=args.genetics)
     loop = TargetLoop(b, CHAIN, rules)
     t0 = time.time()
@@ -72,6 +78,8 @@ def main():
         with open("outputs/txgemma_loop_report.md", "w", encoding="utf-8") as f:
             f.write(md)
         print(md)
+    if getattr(b, "missing", None):
+        print(f"[warn] {len(b.missing)} option(s) were not in top_k; raise --top-k. first: {b.missing[0]}")
     print(f"elapsed {time.time()-t0:.0f}s")
     b.close()
 
