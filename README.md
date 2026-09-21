@@ -35,6 +35,7 @@ jupyter notebook notebooks/01_training_free_loop_demo.ipynb
 ```
 
 種の検証 → 拡張 → 質問と回答 → 対戦比較 → 2回目 → 分類 の順に、各セルで中間結果（表・グラフ）を確認できます。
+ノートブックは自己完結型で、`target_loop` の .py を参照しません。ルール・質問文・記録・採点・対戦・ループの処理がすべてセル内に書かれ、`def` は AI 役の2つと記号の取り出しの1つだけです。
 `MODEL_PATH` に GGUF を指定すると、同じ手順が TxGemma などの本物のLLMで動きます。
 
 ## 使い方
