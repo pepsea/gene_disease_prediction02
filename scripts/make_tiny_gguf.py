@@ -1,4 +1,7 @@
-"""Write a tiny random-weight LLaMA-architecture GGUF (~300 KB) so that the
+"""ランダム重みの極小 GGUF（約 120KB）を自作する。モデルが手に入らない環境で、
+llama.cpp から「はい」の確率を読む経路が動くことだけを確かめるため。出力の値に意味はない。
+
+Write a tiny random-weight LLaMA-architecture GGUF (~300 KB) so that the
 llama.cpp code path can be exercised without downloading a real model.
 Outputs are random; use only for smoke tests."""
 import sys, os

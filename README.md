@@ -70,6 +70,7 @@ python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf --mode 
 | `scripts/sensitivity.py` | ルール定数の感度分析 |
 | `scripts/make_tiny_gguf.py` | ランダム重みの極小GGUF（llama.cpp経路の動作確認用） |
 | `docs/verification_report.md` | 検証結果と、設計上見つかった問題点 |
+| `docs/code_guide.md` | プログラムの読み方（ファイル別・関数別の説明） |
 
 ## ライセンスと商用利用
 

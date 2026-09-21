@@ -1,4 +1,11 @@
-"""Rheumatoid-arthritis demo data, transcribed from the Claude-judged demo.
+"""関節リウマチ（RA）デモのデータ。会話記録の「非常に小さいグループでデモ」の転記。
+
+中学生向けの説明:
+    ここには「AI がこう答えた」という記録だけが入っています（計算はしません）。
+    build_record() がこれを「質問文 → 答え」の辞書に変え、RecordedBackend が再生します。
+    つまり、このファイルを差し替えれば別の病気・別の記録でも同じ手順を再現できます。
+
+Rheumatoid-arthritis demo data, transcribed from the Claude-judged demo.
 
 IMPORTANT CAVEATS (same as in the original conversation)
 * The "LLM" that produced these answers was Claude, answering from memory
@@ -101,7 +108,10 @@ ALL_GENES = sorted(set(ANNOT) | set(ANSWERS) | set(SEEDS_PROPOSED) | {"CD86"})
 
 
 def build_record() -> Dict:
-    """Generate the exact prompt->answer table the loop will ask for."""
+    """上の読みやすい表（ANSWERS, ANNOT, PARTNERS …）から、記録再生用の「質問文 → 答え」辞書を作る。
+
+    質問文は loop.py と同じ雛形（config.py）から作るので、手順側が聞く文とキーが必ず一致します。
+    Generate the exact prompt->answer table the loop will ask for."""
     dummy = L.TargetLoop(RecordedBackend({}), CHAIN)   # only used for .fmt
     fmt = dummy.fmt
     yes: Dict[str, float] = {}
@@ -156,6 +166,7 @@ class LenientPairwiseBackend(RecordedBackend):
 
 
 def run(rules=None, lenient_pairwise=False, **kw):
+    """RA デモを記録再生で1回まわす。rules を差し替えれば感度分析に使える。"""
     from target_loop.config import DEFAULT_RULES
     cls = LenientPairwiseBackend if lenient_pairwise else RecordedBackend
     backend = cls(build_record())

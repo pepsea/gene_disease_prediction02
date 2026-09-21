@@ -1,4 +1,12 @@
-"""LLM backends.
+"""AI 役（バックエンド）。手順（loop.py）と AI の実体を切り離す層。
+
+中学生向けの説明:
+    loop.py は「AI に質問して答えをもらう」ことしかしません。誰が答えるかはここで決めます。
+      RecordedBackend  会話記録の答えを再生する（テスト・再現用。通信なし）
+      LlamaCppBackend  手元の GGUF モデル（TxGemma など）に本当に聞く（通信なし）
+    どちらも同じメソッド名なので、差し替えても手順のコードは1行も変わりません。
+
+LLM backends.
 
 Every backend answers two kinds of requests:
     yes_probability(prompt, option_order) -> float in [0, 1]
@@ -26,7 +34,11 @@ _STOPWORDS = {"YES", "NO", "NONE", "AND", "OR", "THE", "A", "AN", "OF", "IN", "I
 
 
 def parse_gene_list(text: str, known_symbols: Optional[set] = None, exclude: Sequence[str] = ()) -> List[str]:
-    """Extract gene-symbol-like tokens (upper-case, as LLMs write official symbols).
+    """AI の答えの文章から遺伝子記号（大文字の TNF, IL6R など）だけを取り出す。
+
+    小文字の普通の単語は無視し、YES/NO/NONE などの大文字語は除外リストで外します。
+    known_symbols（HGNC の記号一覧など）を渡すと、それ以外は捨てるので誤認を防げます。
+    Extract gene-symbol-like tokens (upper-case, as LLMs write official symbols).
 
     Prose in lower case is ignored on purpose: 'The targets are TNF and IL6R.' -> [TNF, IL6R].
     If `known_symbols` (e.g. an HGNC list) is given, anything outside it is dropped."""
@@ -43,6 +55,11 @@ def parse_gene_list(text: str, known_symbols: Optional[set] = None, exclude: Seq
 
 
 class LLMBackend:
+    """AI 役の共通の顔。loop.py はこの3つのメソッドだけを呼ぶので、AI を差し替えても手順は変わらない。
+        yes_probability  「はい」の確率を返す（採点用。文章は生成しない）
+        generate         文章で答える（種の抽出、拡張のリスト、反論役、対戦比較）
+        embed            文章をベクトルにする（地図の近さ V 用。無ければ None）
+    """
     name = "base"
 
     def yes_probability(self, prompt: str, option_order: str = "yes_first") -> float:
@@ -60,7 +77,11 @@ class LLMBackend:
 
 # ----------------------------------------------------------------------------
 class RecordedBackend(LLMBackend):
-    """Replay answers from a JSON record.
+    """記録を再生する AI 役。会話記録の答えやテストに使う。
+
+    質問文（プロンプト）をキーにして答えを引くだけです。記録にない質問が来たら KeyError で止まります。
+    「黙って既定値を返す」ことをしないので、再現漏れが隠れません。
+    Replay answers from a JSON record.
 
     Record format (see demo/ra_recorded.json):
         {"yes": {"<key>": p, ...}, "text": {"<key>": "...", ...}}
@@ -98,7 +119,11 @@ class RecordedBackend(LLMBackend):
 
 # ----------------------------------------------------------------------------
 class LlamaCppBackend(LLMBackend):
-    """Local GGUF model via llama-cpp-python.
+    """手元の GGUF モデル（TxGemma など）を llama-cpp-python で動かす AI 役。
+
+    採点質問は文章を生成せず、次のトークンの logits から「Yes」「No」の確率だけを読みます。
+    そのため 1 問 ＝ プロンプト1回分の forward pass で済み、外部通信はありません。
+    Local GGUF model via llama-cpp-python.
 
     Notes learned the hard way (these were the errors at the end of the original
     conversation):
@@ -124,6 +149,7 @@ class LlamaCppBackend(LLMBackend):
             raise RuntimeError("could not find single-token spellings of Yes/No in this tokenizer")
 
     def _token_ids(self, spellings: Sequence[str]) -> List[int]:
+        """"Yes" " Yes" "yes" など、1トークンで表せる綴りのトークン番号を集める。"""
         ids: List[int] = []
         for s in spellings:
             toks = self.llm.tokenize(s.encode("utf-8"), add_bos=False, special=False)
@@ -132,12 +158,14 @@ class LlamaCppBackend(LLMBackend):
         return ids
 
     def _wrap(self, prompt: str) -> str:
+        """チャット用モデル向けに Gemma 形式の会話テンプレートで包む（--no-chat-wrap で無効化）。"""
         # Gemma-style chat template; harmless for base models used with plain prompts.
         if not self.chat_wrap:
             return prompt
         return f"<start_of_turn>user\n{prompt}<end_of_turn>\n<start_of_turn>model\n"
 
     def _last_logits(self, text: str):
+        """プロンプトを1回評価し、最後の位置の logits（全語彙のスコア）を取り出す。logits_all は不要。"""
         import numpy as np
         toks = self.llm.tokenize(text.encode("utf-8"), add_bos=True, special=True)
         if len(toks) >= self.llm.n_ctx():
@@ -147,6 +175,7 @@ class LlamaCppBackend(LLMBackend):
         return np.asarray(self.llm.scores[self.llm.n_tokens - 1], dtype=np.float64)
 
     def yes_probability(self, prompt: str, option_order: str = "yes_first") -> float:
+        """p_yes ＝ ΣYes系トークン / (ΣYes系 + ΣNo系)。option_order で「Yes or No」「No or Yes」を切り替える。"""
         options = "Answer with Yes or No." if option_order == "yes_first" else "Answer with No or Yes."
         logits = self._last_logits(self._wrap(f"{prompt}\n{options}"))
         ly = logits[self.yes_ids]
@@ -180,6 +209,7 @@ class LlamaCppBackend(LLMBackend):
 
 
 def cosine(a: Sequence[float], b: Sequence[float]) -> float:
+    """2つのベクトルの角度の近さ（1＝同じ向き、0＝無関係）。地図の近さ V に使う。"""
     num = sum(x * y for x, y in zip(a, b))
     da = math.sqrt(sum(x * x for x in a))
     db = math.sqrt(sum(y * y for y in b))

@@ -1,4 +1,6 @@
-"""Markdown report of a LoopResult (tables the way the demo presented them)."""
+"""結果（LoopResult）を、会話記録と同じ形の Markdown 表にする。計算はしない。
+
+Markdown report of a LoopResult (tables the way the demo presented them)."""
 from __future__ import annotations
 from typing import List
 from .loop import LoopResult
@@ -20,6 +22,7 @@ def _f(x, nd=2):
 
 
 def to_markdown(res: LoopResult, qids: List[str] = ("Q1", "Q2", "Q3", "Q4", "Q5")) -> str:
+    """結果を Markdown の表にする。順に: 種と鎖 / 採点表 / 回ごとの対戦記録 / 4分類 / 反論役 / 根拠の鎖。"""
     L: List[str] = []
     L.append(f"# {res.chain.disease}: training-free target loop\n")
     L.append(f"seeds: {', '.join(res.seeds)}  ")

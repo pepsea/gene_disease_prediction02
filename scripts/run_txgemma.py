@@ -1,4 +1,9 @@
-"""Run the same 18-gene RA demo with a local GGUF model (TxGemma-9B-Chat etc.)
+"""【Mac 用】同じ 18 遺伝子の RA デモを、手元の GGUF モデル（TxGemma-9B-Chat など）で採点する。
+
+    --mode compare  13 候補 × 5 問を TxGemma に聞き、Claude の確信度と並べた CSV と相関を出す
+    --mode loop     拡張も TxGemma に任せて、ループ全体を回す（18 遺伝子に限られなくなる）
+
+Run the same 18-gene RA demo with a local GGUF model (TxGemma-9B-Chat etc.)
 and compare its yes-probabilities with the Claude-judged confidences.
 
 Usage (Mac, Apple Silicon):

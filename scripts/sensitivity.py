@@ -1,4 +1,7 @@
-"""How robust is the ranking to the 'fixed' rule constants?  And which parts of
+"""固定ルールの定数を1つずつ変えて、順位がどれだけ変わるかを調べる（感度分析）。
+結果は docs/sensitivity.md と検証レポート §3 に転記済み。
+
+How robust is the ranking to the 'fixed' rule constants?  And which parts of
 the design are decided by the rules alone, independent of the LLM?
 
 Runs the RA replay under perturbed rules and reports:

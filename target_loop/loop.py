@@ -1,4 +1,12 @@
-"""The training-free loop:  seed -> expand -> verify -> classify, repeated.
+"""学習なしループ本体：種 → 広げる → 確かめる → 分ける を、決めた回数だけくり返す。
+
+中学生向けの説明:
+    このファイルは「手順書」です。AI への質問はすべて config.py の雛形から作り、
+    答えは backends.py の AI 役からもらいます。ここ自体には学習する部品はありません。
+    ノートブック notebooks/01_training_free_loop_demo.ipynb は、この手順書のメソッドを
+    1つずつ呼んで途中経過を見せています。
+
+The training-free loop:  seed -> expand -> verify -> classify, repeated.
 
 Every LLM interaction goes through `backend`; the loop itself contains no
 learned parameter.  All prompts are built from the templates in config.py so
@@ -26,6 +34,7 @@ STAGE_RE = re.compile(r"\bS\d+\b")
 
 @dataclass
 class RoundResult:
+    """ループ1回分の記録（種にした遺伝子、新しく見つかった候補、対戦結果、停止判定用の上位k）。"""
     round_no: int
     sources: List[str]
     new_candidates: List[str]
@@ -36,6 +45,7 @@ class RoundResult:
 
 @dataclass
 class LoopResult:
+    """ループ全体の結果。candidates に全カード、rounds に回ごとの記録、stop_reason に止まった理由。"""
     chain: MoAChain
     seeds: List[str]
     seed_notes: List[str]
@@ -59,6 +69,16 @@ class LoopResult:
 
 # ----------------------------------------------------------------------------
 class TargetLoop:
+    """手順の実行役。run() が全部を自動で回し、各メソッドを個別に呼べば1ステップずつ実行できる（ノートブック参照）。
+
+    主なメソッドと会話記録の対応:
+        build_seeds  ステップ1  種を挙げさせ、承認薬→結合相手の逆引きで検証・修正
+        expand       ステップ2  直接の相手・上流・下流・地図の隣人・同じ段階 で候補を広げる
+        annotate     ステップ3  段階・向き・地図の近さ・Q1〜Q5（言い換え×順序＝6回平均）
+        verify       ステップ3  逆方向の検証質問（承認薬はあるか／段階は逆から聞いても同じか）
+        compare/critic ステップ4 対戦比較と反論役
+        run          ステップ5  減衰と停止判定を含めて最大3回まわす
+    """
     def __init__(self, backend: LLMBackend, chain: MoAChain, rules: ScoringRules = DEFAULT_RULES,
                  n_paraphrases: int = 3, swap_order: bool = True, known_symbols: Optional[Set[str]] = None,
                  vector_pool: Optional[Sequence[str]] = None, qids: Sequence[str] = DEMO_QIDS,
@@ -86,7 +106,7 @@ class TargetLoop:
         return template.format(disease=self.disease, tissue=self.chain.tissue, chain=self.chain.as_text(), **kw)
 
     def ask(self, qid: str, gene: str) -> float:
-        """Average p_yes over paraphrases x option orders."""
+        """1つの質問を「言い換え3通り × 選択肢の順2通り＝6回」聞いて平均する。言い回しと並び順の癖を消すため。"""
         q = QUESTION_BY_ID[qid]
         templates = (q.text,) + tuple(q.paraphrases)
         templates = templates[: max(1, self.n_paraphrases)]
@@ -98,10 +118,12 @@ class TargetLoop:
         return sum(vals) / len(vals)
 
     def gen_list(self, template: str, exclude: Iterable[str] = (), **kw) -> List[str]:
+        """文章で遺伝子リストを答えさせ、記号だけを取り出す（既出は除外、1回の上限あり）。"""
         txt = self.b.generate(self.fmt(template, **kw))
         return parse_gene_list(txt, self.known_symbols, exclude=list(exclude))[: self.max_new_per_source]
 
     def stage_of(self, gene: str) -> Optional[str]:
+        """候補が鎖のどの段階にいるかを AI に答えさせる（S1〜S7 か、鎖に乗らないなら None）。"""
         txt = self.b.generate(self.fmt(C.STAGE_PROMPT, gene=gene), max_tokens=8).upper()
         m = STAGE_RE.search(txt)
         if m and self.chain.by_id(m.group(0)) is not None:
@@ -109,6 +131,7 @@ class TargetLoop:
         return None
 
     def direction_of(self, gene: str) -> Direction:
+        """その遺伝子が働くと病気は悪くなる（WORSE）か良くなる（BETTER）かを AI に答えさせる。"""
         txt = self.b.generate(self.fmt(C.DIRECTION_PROMPT, gene=gene), max_tokens=8).upper()
         if "WORSE" in txt:
             return Direction.WORSE
@@ -117,12 +140,14 @@ class TargetLoop:
         return Direction.UNKNOWN
 
     def description_vector(self, gene: str) -> Optional[List[float]]:
+        """AI に遺伝子の説明文を書かせ、それをベクトル（数字の列）にする。結果は使い回す。"""
         if gene not in self._desc_vec:
             desc = self.b.generate(self.fmt(C.DESCRIPTION_PROMPT, gene=gene), max_tokens=160)
             self._desc_vec[gene] = self.b.embed(desc)
         return self._desc_vec[gene]
 
     def vector_bin(self, gene: str, seeds: Sequence[str]) -> Tuple[Optional[str], Optional[float]]:
+        """地図の近さ。埋め込みがあれば種との最大コサインで near/mid/far、無ければ AI に近・中・遠を判定させる。"""
         v = self.description_vector(gene)
         if v is not None:
             best = -1.0
@@ -141,7 +166,12 @@ class TargetLoop:
 
     # ---- seeds -------------------------------------------------------------
     def build_seeds(self, seeds: Optional[Sequence[str]] = None, n_votes: int = 5, min_votes: int = 4) -> Tuple[List[str], List[str]]:
-        """Seeds from LLM knowledge (majority vote over paraphrased asks),
+        """種を作る。
+
+        seeds を渡さなければ AI に5回挙げさせて4回以上出た遺伝子だけを採用（思いつきを除く）。
+        次に各種について「承認薬の名前は？」→「その薬が結合する分子は？」と逆引きし、
+        薬が無ければ落とし、結合相手が違えばそちらに直す（デモの CTLA4 → CD80）。
+        Seeds from LLM knowledge (majority vote over paraphrased asks),
         then a drug-name check and a reverse target check (drug -> target)."""
         notes: List[str] = []
         if seeds is None:
@@ -169,6 +199,11 @@ class TargetLoop:
     # ---- one round ---------------------------------------------------------
     def expand(self, sources: Sequence[str], cands: Dict[str, Candidate], round_no: int,
                known: Set[str]) -> List[Candidate]:
+        """候補を広げる。sources（種、または前の回を通った候補）1つごとに5種類のリストを AI に挙げさせる。
+
+        網の段数（N の元）は見つけ方で決める: 直接の相手＝元の段数+1、上流・下流・同じ段階・地図の隣人＝+2。
+        元が「既知」なら段数 0 から数える。vector_pool を渡した場合は埋め込みで近い遺伝子も加える。
+        """
         new: List[Candidate] = []
         existing = set(cands) | known
         for src in sources:
@@ -210,6 +245,7 @@ class TargetLoop:
         return new
 
     def annotate(self, c: Candidate, seeds: Sequence[str]) -> None:
+        """候補カードに、段階・向き・地図の近さ・Q1〜Q5（各6回平均）を書き込む。"""
         c.stage = self.stage_of(c.symbol)
         c.direction = self.direction_of(c.symbol)
         if c.vector_bin is None:
@@ -218,7 +254,10 @@ class TargetLoop:
             c.answers[qid] = self.ask(qid, c.symbol)
 
     def verify(self, c: Candidate) -> None:
-        """Reverse question: is there an approved drug with this target? -> known."""
+        """逆方向の検証。
+        1) 「この遺伝子を狙う承認薬はあるか」→ あれば「既知」に再分類（デモの IL6, TNFSF11）。
+        2) 「その段階で働く」という主張を、段階→遺伝子の向きで聞き直し、否定されたら矛盾フラグ。
+        Reverse question: is there an approved drug with this target? -> known."""
         p = self.b.yes_probability(self.fmt(C.REVERSE_DRUG_QUESTION, gene=c.symbol))
         c.verified_known = p >= 0.5
         if c.verified_known:
@@ -235,10 +274,12 @@ class TargetLoop:
                 c.verification_note += f" reverse stage check failed (p={p_rev:.2f})"
 
     def critic(self, c: Candidate) -> None:
+        """反論役。「この候補が失敗する理由を3つ」を書かせて critique に入れる（楽観のブレーキ）。"""
         txt = self.b.generate(self.fmt(C.CRITIC_PROMPT, gene=c.symbol), max_tokens=160)
         c.critique = [s.strip(" -*") for s in re.split(r"\n+|(?<=\.)\s+", txt) if s.strip(" -*")][:3]
 
     def compare(self, a: str, b: str) -> str:
+        """対戦1回分。「a と b のどちらが妥当か」を聞き、答えの記号を返す（読めなければ "?"）。"""
         txt = self.b.generate(self.fmt(C.PAIRWISE_PROMPT, a=a, b=b), max_tokens=8).upper()
         syms = parse_gene_list(txt)
         for s in syms:
@@ -248,6 +289,12 @@ class TargetLoop:
 
     # ---- driver ------------------------------------------------------------
     def run(self, seeds: Optional[Sequence[str]] = None) -> LoopResult:
+        """全部を自動で回す。
+
+        種の検証 → [広げる → 注釈 → 検証 → 採点 → 対戦 → 反論役 → 停止判定] を最大 max_rounds 回。
+        停止条件: 新候補なし / 上位k の顔ぶれが前の回と同じ / 何も検証を通らなかった。
+        次の回の種は、その回に見つかって別枠にならなかった候補。
+        """
         seeds, seed_notes = self.build_seeds(seeds)
         for n in seed_notes:
             self.log.append(n)
