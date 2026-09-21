@@ -58,6 +58,25 @@ python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf --mode 
 
 外部への通信は一切ありません（秘密を守る設計）。
 
+## 遺伝子リスト（data/genes/）
+
+| ファイル | 内容 |
+|---|---|
+| `hgnc_protein_coding.tsv` | HGNC のタンパク質コード遺伝子 19,297 件。記号・遺伝子名・別名・UniProt ID。AI の答えの記号照合にも使う |
+| `ra_known.tsv` / `scz_known.tsv` | 正解遺伝子（承認薬の標的） |
+| `ra_candidates.tsv` / `scz_candidates.tsv` | 可能性遺伝子（GWAS・エクソーム・CNV・臨床試験・生物学。`evidence` 列に種類） |
+| `ra_random.tsv` / `scz_random.tsv` | ランダム遺伝子（固定シード 20260921） |
+| `ra_set100.tsv` / `scz_set100.tsv` | 正解 + 可能性 + ランダム = 100（順序シャッフル） |
+| `ra_set1000.tsv` / `scz_set1000.tsv` | 同 1000（set100 を含む） |
+
+出典: HGNC 完全版（CC0）。`protein_name_uniprot` 列は UniProt REST に届く環境で `python scripts/build_gene_sets.py --uniprot` を実行すると埋まります（HGNC の `gene_name` はタンパク質コード遺伝子ではほぼ同じ名前です）。
+**正解・可能性の表（`data/curated/`）は現状 Claude の知識で作った未検証のものです。** Open Targets に届く環境では `--opentargets` で置き換えられます（未テスト）。
+
+```bash
+python scripts/build_gene_sets.py                  # data/raw/hgnc_complete_set.txt から再生成
+python scripts/run_txgemma.py --model <GGUF> --gene-set data/genes/ra_set100.tsv   # set100 を Q1〜Q5 で採点
+```
+
 ## ファイル構成
 
 | パス | 役割 |
@@ -73,6 +92,8 @@ python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf --mode 
 | `scripts/make_tiny_gguf.py` | ランダム重みの極小GGUF（llama.cpp経路の動作確認用） |
 | `docs/verification_report.md` | 検証結果と、設計上見つかった問題点 |
 | `docs/code_guide.md` | プログラムの読み方（ファイル別・関数別の説明） |
+| `docs/concept.md` | 標的探索のコンセプト（整理版） |
+| `scripts/build_gene_sets.py` | HGNC と curated 表から遺伝子セット TSV を作る |
 
 ## ライセンスと商用利用
 

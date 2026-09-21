@@ -1,0 +1,10 @@
+symbol	drug_examples	approval_note	source
+DRD2	haloperidol; risperidone; olanzapine; aripiprazole (all antipsychotics)	primary target of approved antipsychotics	curated (Claude knowledge, 2026-05; unverified)
+DRD3	cariprazine; aripiprazole	approved antipsychotics (D3-preferring partial agonists)	curated (Claude knowledge, 2026-05; unverified)
+HTR2A	clozapine; risperidone; olanzapine; quetiapine; lurasidone	5-HT2A antagonism of atypical antipsychotics	curated (Claude knowledge, 2026-05; unverified)
+HTR1A	aripiprazole; brexpiprazole; lurasidone; cariprazine	5-HT1A partial agonism	curated (Claude knowledge, 2026-05; unverified)
+CHRM1	xanomeline-trospium (KarXT)	approved 2024 (FDA); muscarinic M1/M4 agonist	curated (Claude knowledge, 2026-05; unverified)
+CHRM4	xanomeline-trospium (KarXT)	approved 2024 (FDA); muscarinic M1/M4 agonist	curated (Claude knowledge, 2026-05; unverified)
+HTR2C	olanzapine; clozapine	secondary target of several antipsychotics	curated (Claude knowledge, 2026-05; unverified)
+HTR7	lurasidone; amisulpride	secondary target	curated (Claude knowledge, 2026-05; unverified)
+DRD1	lumateperone; clozapine	secondary target	curated (Claude knowledge, 2026-05; unverified)

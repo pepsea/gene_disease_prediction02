@@ -46,6 +46,9 @@ def main():
     ap.add_argument("--no-chat-wrap", action="store_true", help="for base (non-chat) models")
     ap.add_argument("--embedding", action="store_true", help="also compute description embeddings for V")
     ap.add_argument("--genetics", action="store_true", help="include Q6 (human genetics)")
+    ap.add_argument("--gene-set", default=None, help="data/genes/*_set100.tsv などを渡すと、その遺伝子を Q1〜Q5 で採点して CSV に書く（mode=compare の代わり）")
+    ap.add_argument("--symbols", default=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "genes", "hgnc_protein_coding.tsv"),
+                    help="AI の答えの記号照合に使う HGNC 一覧（known_symbols）")
     args = ap.parse_args()
 
     os.makedirs("outputs", exist_ok=True)
@@ -55,10 +58,28 @@ def main():
         b = LlamaCppBackend(args.model, n_ctx=args.n_ctx, n_gpu_layers=args.n_gpu_layers,
                             embedding=args.embedding, chat_wrap=not args.no_chat_wrap)
     rules = ScoringRules(use_genetics_question=args.genetics)
-    loop = TargetLoop(b, CHAIN, rules)
+    known_symbols = None
+    if os.path.exists(args.symbols):
+        with open(args.symbols, encoding="utf-8") as f:
+            known_symbols = {row["symbol"] for row in csv.DictReader(f, delimiter="\t")}
+    loop = TargetLoop(b, CHAIN, rules, known_symbols=known_symbols)
     t0 = time.time()
 
-    if args.mode == "compare":
+    if args.gene_set:
+        # 遺伝子セット（正解・可能性・ランダム）を Q1〜Q5 で採点し、既知の再現をランダム基準線と比べる材料にする
+        qids = [q.qid for q in QUESTIONS if args.genetics or q.qid != "Q6"]
+        with open(args.gene_set, encoding="utf-8") as f:
+            rows_in = list(csv.DictReader(f, delimiter="\t"))
+        out_path = "outputs/" + os.path.basename(args.gene_set).replace(".tsv", "_scored.csv")
+        with open(out_path, "w", newline="") as f:
+            w = csv.writer(f); w.writerow(["symbol", "category", "label"] + qids + ["Q"])
+            for i, r in enumerate(rows_in, 1):
+                ans = {qid: loop.ask(qid, r["symbol"]) for qid in qids}
+                q = sum((1 - ans[k]) if k == "Q5" else ans[k] for k in qids) / len(qids)
+                w.writerow([r["symbol"], r["category"], r["label"]] + [round(ans[k], 4) for k in qids] + [round(q, 4)])
+                print(f"{i:4d}/{len(rows_in)} {r['symbol']:10s} {r['category']:9s} Q={q:.3f}")
+        print("wrote", out_path)
+    elif args.mode == "compare":
         rows, xs, ys = [], [], []
         qids = [q.qid for q in QUESTIONS if args.genetics or q.qid != "Q6"]
         for gene, conf in ANSWERS.items():

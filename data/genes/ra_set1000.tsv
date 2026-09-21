@@ -1,0 +1,1001 @@
+symbol	hgnc_id	entrez_id	ensembl_gene_id	gene_name	uniprot_ids	protein_name_uniprot	alias_symbols	disease	category	label	evidence	note	source
+COL4A3	HGNC:2204	1285	ENSG00000169031	collagen type IV alpha 3 chain	Q01955			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CSF2RA	HGNC:2435	1438	ENSG00000198223	colony stimulating factor 2 receptor subunit alpha	P15509		CD116|alphaGMR|CSF2R	rheumatoid arthritis	candidate	0	clinical_trial	GM-CSF receptor alpha; mavrilimumab phase 2	curated (Claude knowledge; unverified)
+FAM13A	HGNC:19367	10144	ENSG00000138640	family with sequence similarity 13 member A	O94988		KIAA0914|ARHGAP48|FAM13A1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TAGAP	HGNC:15669	117289	ENSG00000164691	T cell activation RhoGTPase activating protein	Q8N103		FLJ32631|IDDM21|ARHGAP47	rheumatoid arthritis	candidate	0	GWAS	T-cell activation GTPase	curated (Claude knowledge; unverified)
+REM2	HGNC:20248	161253	ENSG00000139890	RRAD and GEM like GTPase 2	Q8IYK8		FLJ38964	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BRPF1	HGNC:14255	7862	ENSG00000156983	bromodomain and PHD finger containing 1	P55201		BR140	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LIN28A	HGNC:15986	79727	ENSG00000131914	lin-28 RNA binding posttranscriptional regulator A	Q9H9Z2		LIN-28|FLJ12457|ZCCHC1|CSDD1|LIN28	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SOWAHC	HGNC:26149	65124	ENSG00000198142	sosondowah ankyrin repeat domain family member C	Q53LP3		FLJ21870|C2orf26|ANKRD57	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LDHC	HGNC:6544	3948	ENSG00000166796	lactate dehydrogenase C	P07864		CT32	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+H4C2	HGNC:4789	8366	ENSG00000278705	H4 clustered histone 2	P62805		H4/I|H4FI|HIST1H4B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SOX11	HGNC:11191	6664	ENSG00000176887	SRY-box transcription factor 11	P35716			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TNFAIP3	HGNC:11896	7128	ENSG00000118503	TNF alpha induced protein 3	P21580		A20|OTUD7C	rheumatoid arthritis	candidate	0	GWAS	A20; NF-kB negative regulator	curated (Claude knowledge; unverified)
+TAF13	HGNC:11546	6884	ENSG00000197780	TATA-box binding protein associated factor 13	Q15543		TAFII18|TAF2K	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TNFRSF13B	HGNC:18153	23495	ENSG00000240505	TNF receptor superfamily member 13B	O14836		TACI|CD267|IGAD2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL18	HGNC:5986	3606	ENSG00000150782	interleukin 18	Q14116		IGIF|IL1F4|IL-1g|IL-18	rheumatoid arthritis	candidate	0	biology	inflammasome cytokine	curated (Claude knowledge; unverified)
+PGS1	HGNC:30029	9489	ENSG00000087157	phosphatidylglycerophosphate synthase 1	Q32NB8		DKFZP762M186	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+REXO2	HGNC:17851	25996	ENSG00000076043	RNA exonuclease 2	Q9Y3B8		DKFZP566E144|SFN|CGI-114	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CLDN20	HGNC:2042	49861	ENSG00000171217	claudin 20	P56880			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PSMD12	HGNC:9557	5718	ENSG00000197170	proteasome 26S subunit, non-ATPase 12	O00232		p55|Rpn5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SIRPD	HGNC:16248	128646	ENSG00000125900	signal regulatory protein delta	Q9H106		dJ576H24.4|PTPNS1L2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MXRA8	HGNC:7542	54587	ENSG00000162576	matrix remodeling associated 8	Q9BRK3		DKFZp586E2023	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ACMSD	HGNC:19288	130013	ENSG00000153086	aminocarboxymuconate semialdehyde decarboxylase	Q8TDX5			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NQO1	HGNC:2874	1728	ENSG00000181019	NAD(P)H quinone dehydrogenase 1	P15559		DHQU|QR1|DTD|NMOR1|DIA4	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZFTRAF1	HGNC:17806	50626	ENSG00000187954	zinc finger TRAF-type and ring finger containing 1	P0DTL6		CHRP|KIAA0496|MGC13010|CYHR1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PCYOX1L	HGNC:28477	78991	ENSG00000145882	prenylcysteine oxidase 1 like	Q8NBM8		MGC3265	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LAMTOR4	HGNC:33772	389541	ENSG00000188186	late endosomal/lysosomal adaptor, MAPK and MTOR activator 4	Q0VGL1		C7orf59	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KLHL5	HGNC:6356	51088	ENSG00000109790	kelch like family member 5	Q96PQ7			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+XPNPEP1	HGNC:12822	7511	ENSG00000108039	X-prolyl aminopeptidase 1	Q9NQW7		XPNPEP|XPNPEPL1|XPNPEPL	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RAB41	HGNC:18293	347517	ENSG00000147127	RAB41, member RAS oncogene family	Q5JT25			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IFNA6	HGNC:5427	3443	ENSG00000120235	interferon alpha 6	P05013		IFN-alphaK	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ANKHD1	HGNC:24714	54882	ENSG00000131503	ankyrin repeat and KH domain containing 1	Q8IWZ3		MASK|FLJ20288|FLJ11979|FLJ10042|FLJ14127|KIAA1085|MASK1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+C1orf167	HGNC:25262	284498	ENSG00000215910	chromosome 1 open reading frame 167	Q5SNV9		DKFZp434E1410|RP11-56N19.2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KLK8	HGNC:6369	11202	ENSG00000129455	kallikrein related peptidase 8	O60259		HNP|TADG14|neuropsin|ovasin|PRSS19	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NDUFA13	HGNC:17194	51079	ENSG00000186010	NADH:ubiquinone oxidoreductase subunit A13	Q9P0J0		CGI-39|CDA016|GRIM-19|GRIM19|B16.6	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+B3GAT1	HGNC:921	27087	ENSG00000109956	beta-1,3-glucuronyltransferase 1	Q9P2W7		GlcAT-P|CD57|LEU7	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NKX2-5	HGNC:2488	1482	ENSG00000183072	NK2 homeobox 5	P52952		CSX1|NKX2.5|NKX4-1|CSX|NKX2E	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+VTN	HGNC:12724	7448	ENSG00000109072	vitronectin	P04004		VN	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BMP2K	HGNC:18041	55589	ENSG00000138756	BMP2 inducible kinase	Q9NSY1		DKFZp434K0614|BIKe	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC22A10	HGNC:18057	387775	ENSG00000184999	solute carrier family 22 member 10 (gene/pseudogene)	Q63ZE4		OAT5|hOAT5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SEMG2	HGNC:10743	6407	ENSG00000124157	semenogelin 2	Q02383		SGII	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HSPA14	HGNC:29526	51182	ENSG00000187522	heat shock protein family A (Hsp70) member 14	Q0VDF9		HSP70-4|HSP70L1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DIRAS1	HGNC:19127	148252	ENSG00000176490	DIRAS family GTPase 1	O95057		Di-Ras1|GBTS1|RIG	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZC3H7A	HGNC:30959	29066	ENSG00000122299	zinc finger CCCH-type containing 7A	Q8IWR0		HSPC055|FLJ20318|ZC3HDC7|ZC3H7	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GSTM1	HGNC:4632	2944	ENSG00000134184	glutathione S-transferase mu 1	P09488		MU|H-B|GST1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NBPF8	HGNC:31990	728841	ENSG00000270231	NBPF member 8	Q3BBV2		NBPF8P	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CYP39A1	HGNC:17449	51302	ENSG00000146233	cytochrome P450 family 39 subfamily A member 1	Q9NYL5			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF622	HGNC:30958	90441	ENSG00000173545	zinc finger protein 622	Q969S3		MGC2485|MGC17552|ZPR9	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RHOBTB1	HGNC:18738	9886	ENSG00000072422	Rho related BTB domain containing 1	O94844		KIAA0740	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GPRASP3	HGNC:29353	80823	ENSG00000198908	G protein-coupled receptor associated sorting protein family member 3	Q6PI77		p60TRP|KIAA1701|GASP3|BHLHB9	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SPATA13	HGNC:23222	221178	ENSG00000182957	spermatogenesis associated 13	Q96N96		FLJ31208|ARHGEF29|ASEF2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OR8B2	HGNC:8471	26595	ENSG00000284680	olfactory receptor family 8 subfamily B member 2	Q96RD0			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RUNDC3B	HGNC:30286	154661	ENSG00000105784	RUN domain containing 3B	Q96NL0		RPIP9|RPIB9	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+STX4	HGNC:11439	6810	ENSG00000103496	syntaxin 4	Q12846		p35-2|STX4A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DEFB114	HGNC:18095	245928	ENSG00000177684	defensin beta 114	Q30KQ6		DEFB-14	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TMEM101	HGNC:28653	84336	ENSG00000091947	transmembrane protein 101	Q96IK0		MGC4251|FLJ23987	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DDX56	HGNC:18193	54606	ENSG00000136271	DEAD-box helicase 56	Q9NY93		NOH61	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CABS1	HGNC:30710	85438	ENSG00000145309	calcium binding protein, spermatid associated 1	Q96KC9		NYD-SP26|FLJ32897|CLPH|C4orf35	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TUBA3C	HGNC:12408	7278	ENSG00000198033	tubulin alpha 3c	P0DPH7		bA408E5.3|TUBA2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RERE	HGNC:9965	473	ENSG00000142599	arginine-glutamic acid dipeptide repeats	Q9P2R6		KIAA0458|ARP|ARG|DNB1|ATN2|ATN1L	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ETNPPL	HGNC:14404	64850	ENSG00000164089	ethanolamine-phosphate phospho-lyase	Q8TBG4		AGXT2L1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GNL3L	HGNC:25553	54552	ENSG00000130119	G protein nucleolar 3 like	Q9NVN8		FLJ10613|GNL3B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CDK5R1	HGNC:1775	8851	ENSG00000176749	cyclin dependent kinase 5 regulatory subunit 1	Q15078		p35nck5a|Nck5a|p35	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MYO16	HGNC:29822	23026	ENSG00000041515	myosin XVI	Q9Y6X6		MYR8|KIAA0865|Myo16b|NYAP3|PPP1R107	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ANXA1	HGNC:533	301	ENSG00000135046	annexin A1	P04083		ANX1|LPC1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ATP5PD	HGNC:845	10476	ENSG00000167863	ATP synthase peripheral stalk subunit d	O75947		ATPQ|ATP5JD|ATP5H	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CLEC19A	HGNC:34522	728276	ENSG00000261210	C-type lectin domain containing 19A	Q6UXS0			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EDARADD	HGNC:14341	128178	ENSG00000186197	EDAR associated via death domain	Q8WWZ3		CR	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GATA3	HGNC:4172	2625	ENSG00000107485	GATA binding protein 3	P23771		HDR	rheumatoid arthritis	candidate	0	GWAS	T-cell transcription factor	curated (Claude knowledge; unverified)
+LRRC53	HGNC:25255	105378803	ENSG00000162621	leucine rich repeat containing 53	A6NM62			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TEKT3	HGNC:14293	64518	ENSG00000125409	tektin 3	Q9BXF9		FLJ32828	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EIF4H	HGNC:12741	7458	ENSG00000106682	eukaryotic translation initiation factor 4H	Q15056		WSCR1|KIAA0038|WBSCR1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF726	HGNC:32462	730087	ENSG00000213967	zinc finger protein 726	A6NNF4		ZNF92P3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+APOBEC1	HGNC:604	339	ENSG00000111701	apolipoprotein B mRNA editing enzyme catalytic subunit 1	P41238		BEDP|CDAR1|APOBEC-1|HEPR	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRAF1	HGNC:12031	7185	ENSG00000056558	TNF receptor associated factor 1	Q13077		EBI6	rheumatoid arthritis	candidate	0	GWAS	TRAF1-C5 locus	curated (Claude knowledge; unverified)
+SMG9	HGNC:25763	56006	ENSG00000105771	SMG9 nonsense mediated mRNA decay factor	Q9H0W8		FLJ12886|C19orf61	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SDHAF4	HGNC:20957	135154	ENSG00000154079	succinate dehydrogenase complex assembly factor 4	Q5VUM1		Sdh8|C6orf57	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RAB31	HGNC:9771	11031	ENSG00000168461	RAB31, member RAS oncogene family	Q13636		Rab22B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OSGIN2	HGNC:1355	734	ENSG00000164823	oxidative stress induced growth inhibitor family member 2	Q9Y236		hT41|C8orf1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RHOT1	HGNC:21168	55288	ENSG00000126858	ras homolog family member T1	Q8IXI2		MIRO-1|FLJ11040|MIRO1|ARHT1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC16A9	HGNC:23520	220963	ENSG00000165449	solute carrier family 16 member 9	Q7RTY1		FLJ43803|MCT9|C10orf36	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+UBXN2A	HGNC:27265	165324	ENSG00000173960	UBX domain protein 2A	P68543		UBXD4	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SMARCC1	HGNC:11104	6599	ENSG00000173473	SWI/SNF related BAF chromatin remodeling complex subunit C1	Q92922		BAF155|SRG3|Rsc8|CRACC1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PPIAL4H	HGNC:53889	105371242	ENSG00000270339	peptidylprolyl isomerase A like 4H	A0A075B767			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+STAC	HGNC:11353	6769	ENSG00000144681	SH3 and cysteine rich domain	Q99469		STAC1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MMP19	HGNC:7165	4327	ENSG00000123342	matrix metallopeptidase 19	Q99542		RASI-1|MMP18	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EMILIN1	HGNC:19880	11117	ENSG00000138080	elastin microfibril interfacer 1	Q9Y6C2		DKFZp586M121|gp115|EMILIN	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MAP2	HGNC:6839	4133	ENSG00000078018	microtubule associated protein 2	P11137		MAP2A|MAP2B|MAP2C	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GTF2H5	HGNC:21157	404672	ENSG00000272047	general transcription factor IIH subunit 5	Q6ZYL4		FLJ30544|bA120J8.2|TTD-A|TFB5|TFIIH|TTDA|C6orf175|TTD	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TWIST1	HGNC:12428	7291	ENSG00000122691	twist family bHLH transcription factor 1	Q15672		SCS|H-twist|BPES2|bHLHa38|CRS1|ACS3|BPES3|TWIST|CRS	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KIR2DS3	HGNC:6335	3808		killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 3	Q14952		nkat7	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF157	HGNC:12942	7712	ENSG00000147117	zinc finger protein 157	P51786		HZF22	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+REL	HGNC:9954	5966	ENSG00000162924	REL proto-oncogene, NF-kB subunit	Q04864		I-Rel|c-Rel|HIVEN86A	rheumatoid arthritis	candidate	0	GWAS	NF-kB subunit	curated (Claude knowledge; unverified)
+ZNF493	HGNC:23708	284443	ENSG00000196268	zinc finger protein 493	Q6ZR52		FLJ36504	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OSBP	HGNC:8503	5007	ENSG00000110048	oxysterol binding protein	P22059		OSBP1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GRAMD1C	HGNC:25252	54762	ENSG00000178075	GRAM domain containing 1C	Q8IYS0		LAMc|DKFZp434C0328	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FTCD	HGNC:3974	10841	ENSG00000160282	formimidoyltransferase cyclodeaminase	O95954			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SAMD3	HGNC:21574	154075	ENSG00000164483	sterile alpha motif domain containing 3	Q8N6K7		bA73O6.2|FLJ34032	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DYDC2	HGNC:23468	84332	ENSG00000133665	DPY30 domain containing 2	Q96IM9		bA36D19.6|MGC16186	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ACTR1B	HGNC:168	10120	ENSG00000115073	actin related protein 1B	P42025		Arp1B|CTRN2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NFYC	HGNC:7806	4802	ENSG00000066136	nuclear transcription factor Y subunit gamma	Q13952		CBF-C|NF-YC	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GOLGA6D	HGNC:32204	653643	ENSG00000140478	golgin A6 family member D	P0CG33			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EXOSC5	HGNC:24662	56915	ENSG00000077348	exosome component 5	Q9NQT4		hRrp46p|Rrp46p|RRP46|RRP41B|MGC12901|p12B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZSWIM7	HGNC:26993	125150	ENSG00000214941	zinc finger SWIM-type containing 7	Q19AV6		SWS1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF33A	HGNC:13096	7581	ENSG00000189180	zinc finger protein 33A	Q06730		KOX5|KOX31|KIAA0065|FLJ23404|ZZAPK|ZNF33|ZNF11A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IKBKB	HGNC:5960	3551	ENSG00000104365	inhibitor of nuclear factor kappa B kinase subunit beta	O14920		IKK2|NFKBIKB|IKK-beta|IKKB	rheumatoid arthritis	candidate	0	biology	IKK-beta; NF-kB	curated (Claude knowledge; unverified)
+GMNN	HGNC:17493	51053	ENSG00000112312	geminin DNA replication inhibitor	O75496		Gem	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PADI4	HGNC:18368	23569	ENSG00000159339	peptidyl arginine deiminase 4	Q9UM07		PAD|PDI5|PDI4|PADI5	rheumatoid arthritis	candidate	0	GWAS	citrullination; East Asian association	curated (Claude knowledge; unverified)
+MYCN	HGNC:7559	4613	ENSG00000134323	MYCN proto-oncogene, bHLH transcription factor	P04198		bHLHe37|N-myc|MYCNOT|NMYC	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MRPL58	HGNC:5359	3396	ENSG00000167862	mitochondrial ribosomal protein L58	Q14197		DS-1|mL62|ICT1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL6R	HGNC:6019	3570	ENSG00000160712	interleukin 6 receptor	P08887		CD126|IL-6R|IL-1Ra|IL6RA|gp80	rheumatoid arthritis	known	1	approved_drug	tocilizumab; sarilumab — approved for RA	curated (Claude knowledge, 2026-05; unverified)
+DHFR	HGNC:2861	1719	ENSG00000228716	dihydrofolate reductase	P00374		DHFR1	rheumatoid arthritis	known	1	approved_drug	methotrexate — conventional DMARD; enzyme target	curated (Claude knowledge, 2026-05; unverified)
+RBPJ	HGNC:5724	3516	ENSG00000168214	recombination signal binding protein for immunoglobulin kappa J region	Q06330		SUH|IGKJRB|RBPJK|KBF2|RBP-J|CBF1|IGKJRB1|RBPSUH	rheumatoid arthritis	candidate	0	GWAS	Notch signalling	curated (Claude knowledge; unverified)
+SPON2	HGNC:11253	10417	ENSG00000159674	spondin 2	Q9BUD6		DIL1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FSIP1	HGNC:21674	161835	ENSG00000150667	fibrous sheath interacting protein 1	Q8NA03		FLJ35989	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SNX33	HGNC:28468	257364	ENSG00000173548	sorting nexin 33	Q8WV41		MGC32065|SH3PXD3C|SNX30|SH3PX3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RPL22L1	HGNC:27610	200916	ENSG00000163584	ribosomal protein L22 like 1	Q6P5R6			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NRG4	HGNC:29862	145957	ENSG00000169752	neuregulin 4	Q8WWG1		HRG4	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OR2L5	HGNC:15011	81466	ENSG00000197454	olfactory receptor family 2 subfamily L member 5	Q8NG80		OR2L11|OR2L5P	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ACOT8	HGNC:15919	10005	ENSG00000101473	acyl-CoA thioesterase 8	O14734		hACTE-III|hTE|PTE-2|NAP1|PTE1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SPATA33	HGNC:26463	124045	ENSG00000167523	spermatogenesis associated 33	Q96N06		FLJ31606|C16orf55	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TKT	HGNC:11834	7086	ENSG00000163931	transketolase	P29401			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SYT11	HGNC:19239	23208	ENSG00000132718	synaptotagmin 11	Q9BT88		KIAA0080|MGC10881|MGC17226|DKFZp781D015	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NAPEPLD	HGNC:21683	222236	ENSG00000161048	N-acyl phosphatidylethanolamine phospholipase D	Q6IQ20		FMP30|C7orf18|NAPE-PLD	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SPACA7	HGNC:29575	122258	ENSG00000153498	sperm acrosome associated 7	Q96KW9		C13orf28	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+JAML	HGNC:19084	120425	ENSG00000160593	junction adhesion molecule like	Q86YT9		Gm638|AMICA|AMICA1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MYO1G	HGNC:13880	64005	ENSG00000136286	myosin IG	B0I1T2		HA-2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL23A	HGNC:15488	51561	ENSG00000110944	interleukin 23 subunit alpha	Q9NPF7		SGRF|IL23P19|IL-23|IL-23A|P19	rheumatoid arthritis	candidate	0	clinical_trial	IL-23 p19; not approved for RA	curated (Claude knowledge; unverified)
+FBXO38	HGNC:28844	81545	ENSG00000145868	F-box protein 38	Q6PIJ6		MOKA|SP329|FLJ13962|Fbx38	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PROM2	HGNC:20685	150696	ENSG00000155066	prominin 2	Q8N271			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GPR173	HGNC:18186	54328	ENSG00000184194	G protein-coupled receptor 173	Q9NS66		SREB3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GAGE10	HGNC:30968	102724473	ENSG00000215274	G antigen 10	A6NGK3		OTTHUMG00000024136	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZSCAN30	HGNC:33517	100101467	ENSG00000186814	zinc finger and SCAN domain containing 30	Q86W11		ZNF917|ZNF397OS	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZP2	HGNC:13188	7783	ENSG00000103310	zona pellucida glycoprotein 2	Q05996		ZPA	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF654	HGNC:25612	55279	ENSG00000175105	zinc finger protein 654	Q8IZM8		FLJ10997|FLJ21142	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC25A37	HGNC:29786	51312	ENSG00000147454	solute carrier family 25 member 37	Q9NYZ2		MSCP|MFRN|MFRN1|HT015	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PPIG	HGNC:14650	9360	ENSG00000138398	peptidylprolyl isomerase G	Q13427		CARS-Cyp|SRCyp|SCAF10	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TMEM80	HGNC:27453	283232	ENSG00000177042	transmembrane protein 80	Q96HE8		FLJ38216	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CD86	HGNC:1705	942	ENSG00000114013	CD86 molecule	P42081		B7.2|B7-2|CD28LG2	rheumatoid arthritis	known	1	approved_drug	abatacept — approved for RA (CTLA4-Ig binds CD80/CD86)	curated (Claude knowledge, 2026-05; unverified)
+CDK6	HGNC:1777	1021	ENSG00000105810	cyclin dependent kinase 6	Q00534		PLSTIRE	rheumatoid arthritis	candidate	0	GWAS	cell cycle	curated (Claude knowledge; unverified)
+RGPD2	HGNC:32415	729857	ENSG00000185304	RANBP2 like and GRIP domain containing 2	P0DJD1		RGP2|RANBP2L2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+F3	HGNC:3541	2152	ENSG00000117525	coagulation factor III, tissue factor	P13726		CD142|TF	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HSBP1L1	HGNC:37243	440498	ENSG00000226742	heat shock factor binding protein 1 like 1	C9JCN9		FLJ10967|MGC189743	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC6A8	HGNC:11055	6535	ENSG00000130821	solute carrier family 6 member 8	P48029		CRTR|CT1|CRT|CRT-1|CRT1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TLK1	HGNC:11841	9874	ENSG00000198586	tousled like kinase 1	Q9UKI8		KIAA0137|PKU-BETA	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OLR1	HGNC:8133	4973	ENSG00000173391	oxidized low density lipoprotein receptor 1	P78380		LOX-1|SCARE1|CLEC8A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EMX2	HGNC:3341	2018	ENSG00000170370	empty spiracles homeobox 2	Q04743			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+XPR1	HGNC:12827	9213	ENSG00000143324	xenotropic and polytropic retrovirus receptor 1	Q9UBH6		SYG1|X3|SLC53A1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LPCAT1	HGNC:25718	79888	ENSG00000153395	lysophosphatidylcholine acyltransferase 1	Q8NF37		FLJ12443|AGPAT9|AGPAT10|LPLAT8|AYTL2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ETNK2	HGNC:25575	55224	ENSG00000143845	ethanolamine kinase 2	Q9NVF9		FLJ10761|EKI2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SOCS6	HGNC:16833	9306	ENSG00000170677	suppressor of cytokine signaling 6	O14544		CIS4|SSI4|HSPC060|STATI4|STAI4|Cish4|SOCS4	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+STARD10	HGNC:10666	10809	ENSG00000214530	StAR related lipid transfer domain containing 10	Q9Y365		NY-CO-28|CGI-52|PCTP2|SDCCAG28	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SCRT1	HGNC:15950	83482	ENSG00000261678	scratch family transcriptional repressor 1	Q9BWW7		DKFZp547F072|ZNF898	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CA9	HGNC:1383	768	ENSG00000107159	carbonic anhydrase 9	Q16790		MN|CAIX	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CPLX2	HGNC:2310	10814	ENSG00000145920	complexin 2	Q6PUV4		CPX-2|DKFZp547D155	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MEGF10	HGNC:29634	84466	ENSG00000145794	multiple EGF like domains 10	Q96KG7		KIAA1780|SR-F3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CALB1	HGNC:1434	793	ENSG00000104327	calbindin 1	P05937		CALB	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SRPRB	HGNC:24085	58477	ENSG00000144867	SRP receptor subunit beta	Q9Y5M8		APMCF1|SR-beta	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NEUROD1	HGNC:7762	4760	ENSG00000162992	neuronal differentiation 1	Q13562		BETA2|BHF-1|NeuroD|bHLHa3|MODY6|NEUROD	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SOX17	HGNC:18122	64321	ENSG00000164736	SRY-box transcription factor 17	Q9H6I2			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+USP17L28	HGNC:44456	728400	ENSG00000231051	ubiquitin specific peptidase 17 like family member 28	Q0WX57			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+H3C6	HGNC:4769	8353	ENSG00000274750	H3 clustered histone 6	P68431		H3/d|H3.1|H3FD|HIST1H3E	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FGF10	HGNC:3666	2255	ENSG00000070193	fibroblast growth factor 10	O15520			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RFC1	HGNC:9969	5981	ENSG00000035928	replication factor C subunit 1	P35251		A1|PO-GA|RFC140|MHCBFB	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NFXL1	HGNC:18726	152518	ENSG00000170448	nuclear transcription factor, X-box binding like 1	Q6ZNB6		HOZFP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+UBLCP1	HGNC:28110	134510	ENSG00000164332	ubiquitin like domain containing CTD phosphatase 1	Q8WVY7		MGC10067|CPUB1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+COPA	HGNC:2230	1314	ENSG00000122218	coat protein complex I subunit alpha	P53621		HEP-COP|alpha-COP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PINX1	HGNC:30046	54984	ENSG00000254093	PIN2 (TERF1) interacting telomerase inhibitor 1	Q96BK5		LPTL|LPTS|FLJ20565|MGC8850|Gno1|Pxr1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SPATA1	HGNC:14682	100505741	ENSG00000122432	spermatogenesis associated 1	Q5VX52		SP-2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+C10orf143	HGNC:48677	387723	ENSG00000237489	chromosome 10 open reading frame 143	A0A1B0GUT2		LINC00959	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ANGPTL3	HGNC:491	27329	ENSG00000132855	angiopoietin like 3	Q9Y5C1		ANGPT5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PRM1	HGNC:9447	5619	ENSG00000175646	protamine 1	P04553		CT94.1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CDC42EP4	HGNC:17147	23580	ENSG00000179604	CDC42 effector protein 4	Q9H3Q1		CEP4|KAIA1777|BORG4|MGC3740|MGC17125	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RBBP4	HGNC:9887	5928	ENSG00000162521	RB binding protein 4, chromatin remodeling factor	Q09028		RbAp48|NURF55|lin-53	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ANXA4	HGNC:542	307	ENSG00000196975	annexin A4	P09525		ANX4	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC35E2B	HGNC:33941	728661	ENSG00000189339	solute carrier family 35 member E2B	P0CK96			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ASAH2B	HGNC:23456	653308	ENSG00000204147	N-acylsphingosine amidohydrolase 2B	P0C7U1		bA449O16.3|ASAH2L|bA98I6.3|ASAH2C	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RREB1	HGNC:10449	6239	ENSG00000124782	ras responsive element binding protein 1	Q92766		HNT	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HS3ST2	HGNC:5195	9956	ENSG00000122254	heparan sulfate-glucosamine 3-sulfotransferase 2	Q9Y278		3OST2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF516	HGNC:28990	9658	ENSG00000101493	zinc finger protein 516	Q92618		HsT287|KIAA0222	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SUSD1	HGNC:25413	64420	ENSG00000106868	sushi domain containing 1	Q6UWL2		DKFZP761E1824	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PTPN22	HGNC:9652	26191	ENSG00000134242	protein tyrosine phosphatase non-receptor type 22	Q9Y2R2		Lyp|Lyp1|Lyp2|PTPN8	rheumatoid arthritis	candidate	0	GWAS	R620W missense; T-cell signalling	curated (Claude knowledge; unverified)
+SPRR5	HGNC:53428	110806278	ENSG00000283227	small proline rich protein 5	A0A1B0GTR4			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PRMT6	HGNC:18241	55170	ENSG00000198890	protein arginine methyltransferase 6	Q96LA8		FLJ10559|HRMT1L6	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TCEAL2	HGNC:29818	140597	ENSG00000184905	transcription elongation factor A like 2	Q9H3H9		my048|MY0876G05|WEX1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SEPTIN5	HGNC:9164	5413	ENSG00000184702	septin 5	Q99719		HCDCREL-1|H5|Septin-5|CDCREL-1|PNUTL1|SEPT5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ACACA	HGNC:84	31	ENSG00000278540	acetyl-CoA carboxylase alpha	Q13085		ACC1|ACC-alpha|ACCA|ACCalpha|ACACalpha|Acac1|hACC1|ACAC|ACC	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL21	HGNC:6005	59067	ENSG00000138684	interleukin 21	Q9HBE4		Za11|IL-21	rheumatoid arthritis	candidate	0	GWAS	Tfh cytokine	curated (Claude knowledge; unverified)
+LMO3	HGNC:6643	55885	ENSG00000048540	LIM domain only 3	Q8TAP4		Rhom-3|DAT1|RBTNL2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PRAMEF10	HGNC:27997	343071	ENSG00000187545	PRAME family member 10	O60809			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PPM1H	HGNC:18583	57460	ENSG00000111110	protein phosphatase, Mg2+/Mn2+ dependent 1H	Q9ULR3		KIAA1157|FLJ13253|NERPP-2C|ARHCL1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TJP3	HGNC:11829	27134	ENSG00000105289	tight junction protein 3	O95049		ZO-3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TSPY9	HGNC:37472	728132	ENSG00000238074	testis specific protein Y-linked 9	A0A494C1R9		TSPY9P	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL1B	HGNC:5992	3553	ENSG00000125538	interleukin 1 beta	P01584		IL1F2|IL-1B|IL1-BETA	rheumatoid arthritis	candidate	0	biology	IL-1 beta; canakinumab not approved for RA	curated (Claude knowledge; unverified)
+RUNX1	HGNC:10471	861	ENSG00000159216	RUNX family transcription factor 1	Q01196		PEBP2A2|AMLCR1|AML1|CBFA2	rheumatoid arthritis	candidate	0	GWAS	haematopoietic transcription factor	curated (Claude knowledge; unverified)
+RPGR	HGNC:10295	6103	ENSG00000156313	retinitis pigmentosa GTPase regulator	Q92834		CORDX1|CRD|RP3|RP15|COD1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CHKA	HGNC:1937	1119	ENSG00000110721	choline kinase alpha	P35790		CKI|CHK	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LATS1	HGNC:6514	9113	ENSG00000131023	large tumor suppressor kinase 1	O95835		WARTS	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ACE	HGNC:2707	1636	ENSG00000159640	angiotensin I converting enzyme	P12821		ACE1|CD143|DCP1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LRRC25	HGNC:29806	126364	ENSG00000175489	leucine rich repeat containing 25	Q8N386		MAPA|FLJ38116	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HAUS6	HGNC:25948	54801	ENSG00000147874	HAUS augmin like complex subunit 6	Q7Z4H7		FLJ20060|KIAA1574|dgt6|FAM29A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NAPA	HGNC:7641	8775	ENSG00000105402	NSF attachment protein alpha	P54920			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ATP5MC2	HGNC:842	517	ENSG00000135390	ATP synthase membrane subunit c locus 2	Q06055		ATP5G2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RAB40A	HGNC:18283	142684	ENSG00000172476	RAB40A, member RAS oncogene family	Q8WXH6		RAR2A|Rar-2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SECTM1	HGNC:10707	6398	ENSG00000141574	secreted and transmembrane 1	Q8WVN6		K12	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LPCAT4	HGNC:30059	254531	ENSG00000176454	lysophosphatidylcholine acyltransferase 4	Q643R3		FLJ10257|LPAAT-eta|LPEAT2|LPLAT10|AYTL3|AGPAT7	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KRT9	HGNC:6447	3857	ENSG00000171403	keratin 9	P35527		EPPK|K9|CK-9	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KRTAP20-2	HGNC:18944	337976	ENSG00000184032	keratin associated protein 20-2	Q3LI61		KAP20.2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HOXD1	HGNC:5132	3231	ENSG00000128645	homeobox D1	Q9GZZ0		HOX4|HOX4G	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NCOR2	HGNC:7673	9612	ENSG00000196498	nuclear receptor corepressor 2	Q9Y618		SMRT|SMRTE|TRAC-1|CTG26|TNRC14	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MELK	HGNC:16870	9833	ENSG00000165304	maternal embryonic leucine zipper kinase	Q14680		KIAA0175	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FRMPD1	HGNC:29159	22844	ENSG00000070601	FERM and PDZ domain containing 1	Q5SYB0		KIAA0967|FRMD2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ANKRD55	HGNC:25681	79722	ENSG00000164512	ankyrin repeat domain 55	Q3KP44		FLJ11795	rheumatoid arthritis	candidate	0	GWAS	ANKRD55-IL6ST locus	curated (Claude knowledge; unverified)
+MAP7D1	HGNC:25514	55700	ENSG00000116871	MAP7 domain containing 1	Q3KQU3		FLJ10350|FLJ39022|PARCC1|RPRC1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DOLK	HGNC:23406	22845	ENSG00000175283	dolichol kinase	Q9UPQ8		KIAA1094|DK1|TMEM15	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC7A6OS	HGNC:25807	84138	ENSG00000103061	solute carrier family 7 member 6 opposite strand	Q96CW6		FLJ13291|Iwr1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CAPZA1	HGNC:1488	829	ENSG00000116489	capping actin protein of muscle Z-line subunit alpha 1	P52907		CAPPA1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+AMBN	HGNC:452	258	ENSG00000178522	ameloblastin	Q9NP70			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DOCK11	HGNC:23483	139818	ENSG00000147251	dedicator of cytokinesis 11	Q5JSL3		FLJ32122|FLJ43653|ZIZ2|ACG	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PSMD2	HGNC:9559	5708	ENSG00000175166	proteasome 26S subunit ubiquitin receptor, non-ATPase 2	Q13200		S2|P97|TRAP2|MGC14274|Rpn1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BCL2L11	HGNC:994	10018	ENSG00000153094	BCL2 like 11	O43521		BOD|BimL|BimEL|BimS|BIM	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CHIC1	HGNC:1934	53344	ENSG00000204116	cysteine rich hydrophobic domain 1	Q5VXU3		BRX	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TNF	HGNC:11892	7124	ENSG00000232810	tumor necrosis factor	P01375		TNFSF2|DIF|TNF-alpha|TNFA	rheumatoid arthritis	known	1	approved_drug	adalimumab; infliximab; etanercept; golimumab; certolizumab pegol — approved for RA (FDA/EMA/PMDA)	curated (Claude knowledge, 2026-05; unverified)
+NIPAL1	HGNC:27194	152519	ENSG00000163293	NIPA like domain containing 1	Q6NVV3		DKFZp686A06115|SLC57A3|NIPA3|NPAL1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CCDC180	HGNC:29303	100499483	ENSG00000197816	coiled-coil domain containing 180	Q9P1Z9		DKFZp434I2420|BDAG1|FAP76|CFAP76|KIAA1529|C9orf174	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DAGLB	HGNC:28923	221955	ENSG00000164535	diacylglycerol lipase beta	Q8NCG7		KCCR13L|DAGLBETA	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FOXG1	HGNC:3811	2290	ENSG00000176165	forkhead box G1	P55316		HFK2|QIN|BF1|HFK1|HFK3|HBF-3|FKHL2|FOXG1B|FKHL4|FKH2|FKHL1|FOXG1C|FKHL3|FOXG1A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PTK7	HGNC:9618	5754	ENSG00000112655	protein tyrosine kinase 7 (inactive)	Q13308		CCK4	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SRY	HGNC:11311	6736	ENSG00000184895	sex determining region Y	Q05066		TDF	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TXNRD3	HGNC:20667	114112	ENSG00000197763	thioredoxin reductase 3	Q86VQ6		TR2|TRXR3|TGR|TR2IT1|TXNRD3NT1|TXNR3|TXNRD3NB|TXNRD3IT1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MAGEB10	HGNC:25377	139422	ENSG00000177689	MAGE family member B10	Q96LZ2		FLJ32965	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MRPS33	HGNC:16634	51650	ENSG00000090263	mitochondrial ribosomal protein S33	Q9Y291		CGI-139|mS33	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF138	HGNC:12922	7697	ENSG00000197008	zinc finger protein 138	P52744		pHZ-32	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IKZF3	HGNC:13178	22806	ENSG00000161405	IKAROS family zinc finger 3	Q9UKT9		Aiolos|ZNFN1A3	rheumatoid arthritis	candidate	0	GWAS	Aiolos	curated (Claude knowledge; unverified)
+DRAP1	HGNC:3019	10589	ENSG00000175550	DR1 associated protein 1	Q14919		NC2-alpha	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IQCE	HGNC:29171	23288	ENSG00000106012	IQ motif containing E	Q6IPM2		KIAA1023	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FBXO36	HGNC:27020	130888	ENSG00000153832	F-box protein 36	Q8NEA4		Fbx36|FLJ37592	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+STMND1	HGNC:44668	401236	ENSG00000230873	stathmin domain containing 1	H3BQB6		FLJ23152	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRDMT1	HGNC:2977	1787	ENSG00000107614	tRNA aspartic acid methyltransferase 1	O14717		RNMT1|DNMT2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TNFRSF14	HGNC:11912	8764	ENSG00000157873	TNF receptor superfamily member 14	Q92956		HVEM|ATAR|TR2|LIGHTR|HVEA|CD270	rheumatoid arthritis	candidate	0	GWAS	HVEM	curated (Claude knowledge; unverified)
+LRRTM1	HGNC:19408	347730	ENSG00000162951	leucine rich repeat transmembrane neuronal 1	Q86UE6		FLJ32082	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+VSIG4	HGNC:17032	11326	ENSG00000155659	V-set and immunoglobulin domain containing 4	Q9Y279		Z39IG|CRIg	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+WNT8B	HGNC:12789	7479	ENSG00000075290	Wnt family member 8B	Q93098			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MYOC	HGNC:7610	4653	ENSG00000034971	myocilin	Q99972		TIGR|JOAG1|GLC1A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ATP1A1	HGNC:799	476	ENSG00000163399	ATPase Na+/K+ transporting subunit alpha 1	P05023			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TMEM176A	HGNC:24930	55365	ENSG00000002933	transmembrane protein 176A	Q96HP8		HCA112|MS4B1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CAPN14	HGNC:16664	440854	ENSG00000214711	calpain 14	A8MX76			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FAU	HGNC:3597	2197	ENSG00000149806	FAU ubiquitin like and ribosomal protein S30 fusion	P62861		RPS30|FLJ22986|Fub1|Fubi|MNSFbeta|asr1|S30|eS30	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RGL2	HGNC:9769	5863	ENSG00000237441	ral guanine nucleotide dissociation stimulator like 2	O15211		KE1.5|HKE1.5|RAB2L	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RNF2	HGNC:10061	6045	ENSG00000121481	ring finger protein 2	Q99496		BAP-1|BAP1|DING|HIPI3|RING1B|RING2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MEA1	HGNC:6986	4201	ENSG00000124733	male-enhanced antigen 1	Q16626		MEA	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TNFSF13B	HGNC:11929	10673	ENSG00000102524	TNF superfamily member 13b	Q9Y275		BAFF|THANK|BLYS|TALL-1|TALL1|CD257|TNFSF20	rheumatoid arthritis	candidate	0	clinical_trial	BAFF; belimumab phase 2 in RA (approved for SLE)	curated (Claude knowledge; unverified)
+ABCA9	HGNC:39	10350	ENSG00000154258	ATP binding cassette subfamily A member 9	Q8IUA7		EST640918	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DHODH	HGNC:2867	1723	ENSG00000102967	dihydroorotate dehydrogenase (quinone)	Q02127			rheumatoid arthritis	known	1	approved_drug	leflunomide — conventional DMARD; enzyme target	curated (Claude knowledge, 2026-05; unverified)
+DBR1	HGNC:15594	51163	ENSG00000138231	debranching RNA lariats 1	Q9UK59			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+REX1BD	HGNC:26098	55049	ENSG00000006015	required for excision 1-B domain containing	Q96EN9		FLJ20850|FLJ30108|FLJ34606|FLJ37391|C19orf60	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KLHL33	HGNC:31952	123103	ENSG00000185271	kelch like family member 33	A6NCF5			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CHAF1B	HGNC:1911	8208	ENSG00000159259	chromatin assembly factor 1 subunit B	Q13112		CAF1P60|CAF-1|CAF1|CAF1A|MPP7|MPHOSPH7	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+STAT4	HGNC:11365	6775	ENSG00000138378	signal transducer and activator of transcription 4	Q14765			rheumatoid arthritis	candidate	0	GWAS	cytokine signalling	curated (Claude knowledge; unverified)
+DEF6	HGNC:2760	50619	ENSG00000023892	DEF6 guanine nucleotide exchange factor	Q9H4E7		IBP|SLAT|SWAP70L	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PLOD3	HGNC:9083	8985	ENSG00000106397	procollagen-lysine,2-oxoglutarate 5-dioxygenase 3	O60568		LH3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LZTFL1	HGNC:6741	54585	ENSG00000163818	leucine zipper transcription factor like 1	Q9NQ48		BBS17	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HRCT1	HGNC:33872	646962	ENSG00000196196	histidine rich carboxyl terminus 1	Q6UXD1		LGLL338|PRO537|UNQ338	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SCGB2A1	HGNC:7051	4246	ENSG00000124939	secretoglobin family 2A member 1	O75556		UGB3|LPHC|MGC71973|MGB2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NTF4	HGNC:8024	4909	ENSG00000225950	neurotrophin 4	P34130		NT-4/5|GLC1O|NTF5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NDUFA10	HGNC:7684	4705	ENSG00000130414	NADH:ubiquinone oxidoreductase subunit A10	O95299		CI-42k	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ASL	HGNC:746	435	ENSG00000126522	argininosuccinate lyase	P04424		ASAL	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CYP11B2	HGNC:2592	1585	ENSG00000179142	cytochrome P450 family 11 subfamily B member 2	P19099		CYP11BL|CPN2|P-450C18|P450aldo|ALDOS|CYP11B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MVB12B	HGNC:23368	89853	ENSG00000196814	multivesicular body subunit 12B	Q9H7P6		FLJ00001|C9orf28|FAM125B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FIBIN	HGNC:33747	387758	ENSG00000176971	fin bud initiation factor homolog	Q8TAL6		MGC24932	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DSCAM	HGNC:3039	1826	ENSG00000171587	DS cell adhesion molecule	O60469		CHD2-42|CHD2-52	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HCAR3	HGNC:16824	8843	ENSG00000255398	hydroxycarboxylic acid receptor 3	P49019		HCA3|HM74|GPR109B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC34A1	HGNC:11019	6569	ENSG00000131183	solute carrier family 34 member 1	Q06495		NAPI-3|NPTIIa|SLC11|NPT2|SLC17A2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC60A1	HGNC:25433	148808	ENSG00000174514	solute carrier family 60 member 1	Q8N468		DKFZp761N1114|FLJ34577|UNQ3064|FLJ25004|MFSD4|MFSD4A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FASTK	HGNC:24676	10922	ENSG00000164896	Fas activated serine/threonine kinase	Q14296		FASTKD0|FAST	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+REEP4	HGNC:26176	80346	ENSG00000168476	receptor accessory protein 4	Q9H6H4		FLJ22246|FLJ22277|PP432|Yip2c|C8orf20	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+STAB1	HGNC:18628	23166	ENSG00000010327	stabilin 1	Q9NY15		KIAA0246|STAB-1|FEEL-1|CLEVER-1|FELE-1|FEX1|SCARH2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DERL3	HGNC:14236	91319	ENSG00000099958	derlin 3	Q96Q80		FLJ43842|MGC71803|derlin-3|IZP6|C22orf14	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ARHGEF33	HGNC:37252	100271715	ENSG00000214694	Rho guanine nucleotide exchange factor 33	A8MVX0			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SEMA6B	HGNC:10739	10501	ENSG00000167680	semaphorin 6B	Q9H3T3		semaZ|SEMA-VIB|SEM-SEMA-Z|SEMAN	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MCU	HGNC:23526	90550	ENSG00000156026	mitochondrial calcium uniporter	Q8NE86		FLJ46135|C10orf42|CCDC109A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MCM4	HGNC:6947	4173	ENSG00000104738	minichromosome maintenance complex component 4	P33991		CDC54|hCdc21|P1-Cdc21|MGC33310|CDC21	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CD58	HGNC:1688	965	ENSG00000116815	CD58 molecule	P19256		LFA3	rheumatoid arthritis	candidate	0	GWAS	CD2-CD58 locus	curated (Claude knowledge; unverified)
+SWI5	HGNC:31412	375757	ENSG00000175854	SWI5 homologous recombination repair protein	Q1ZZU3		bA395P17.9|SAE3|C9orf119	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DEGS1	HGNC:13709	8560	ENSG00000143753	delta 4-desaturase, sphingolipid 1	O15121		MLD|Des-1|DES1|FADS7|DEGS-1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SULT1C2	HGNC:11456	6819	ENSG00000198203	sulfotransferase family 1C member 2	O00338		ST1C1|SULT1C1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+COL11A1	HGNC:2186	1301	ENSG00000060718	collagen type XI alpha 1 chain	P12107		STL2|CO11A1|COLL6|DFNA37	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PPP1R37	HGNC:27607	284352	ENSG00000104866	protein phosphatase 1 regulatory subunit 37	O75864		LRRC68	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+UMOD	HGNC:12559	7369	ENSG00000169344	uromodulin	P07911			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GNG10	HGNC:4402	2790	ENSG00000242616	G protein subunit gamma 10	P50151			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL6	HGNC:6018	3569	ENSG00000136244	interleukin 6	P05231		IL-6|BSF2|HGF|HSF|IFNB2	rheumatoid arthritis	known	1	approved_drug	olokizumab — approved for RA in Russia only	curated (Claude knowledge, 2026-05; unverified)
+CCL21	HGNC:10620	6366	ENSG00000137077	C-C motif chemokine ligand 21	O00585		SLC|exodus-2|TCA4|CKb9|6Ckine|ECL|SCYA21	rheumatoid arthritis	candidate	0	GWAS	lymphoid chemokine	curated (Claude knowledge; unverified)
+GOLGA6L19	HGNC:49416	101927601		golgin A6 family like 19	H0YKK7			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL6ST	HGNC:6021	3572	ENSG00000134352	interleukin 6 cytokine family signal transducer	P40189		GP130|CD130|sGP130|IL-6RB	rheumatoid arthritis	candidate	0	GWAS	gp130; IL-6 signalling	curated (Claude knowledge; unverified)
+NHS	HGNC:7820	4810	ENSG00000188158	NHS actin remodeling regulator	Q6T4R5			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DEFB109C	HGNC:43844	100286963	ENSG00000205989	defensin beta 109C (gene/pseudogene)	P0DY27			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NFKB1	HGNC:7794	4790	ENSG00000109320	nuclear factor kappa B subunit 1	P19838		KBF1|p105|NFKB-p50|p50|NF-kappaB|NFkappaB|NF-kB1	rheumatoid arthritis	candidate	0	biology	NF-kB p50	curated (Claude knowledge; unverified)
+CRYBG3	HGNC:34427	131544	ENSG00000080200	crystallin beta-gamma domain containing 3	Q68DQ2		DKFZp667G2110	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CSTPP1	HGNC:28720	79096	ENSG00000149179	centriolar satellite-associated tubulin polyglutamylase complex regulator 1	Q9H6J7		FLJ22210|MGC4707|C11orf49	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CCSER2	HGNC:29197	54462	ENSG00000107771	coiled-coil serine rich protein 2	Q9H7U1		KIAA1128|FAM190B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ATP8B1	HGNC:3706	5205	ENSG00000081923	ATPase phospholipid transporting 8B1	O43520		ATPIC|PFIC|FIC1|BRIC|PFIC1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL17C	HGNC:5983	27189	ENSG00000124391	interleukin 17C	Q9P0M4		IL-17C|CX2|IL-21|MGC126884|MGC138401	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PDXP	HGNC:30259	57026	ENSG00000241360	pyridoxal phosphatase	Q96GD0		dJ37E16.5|FLJ32703|CIN	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SSTR5	HGNC:11334	6755	ENSG00000162009	somatostatin receptor 5	P35346			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PHYHIPL	HGNC:29378	84457	ENSG00000165443	phytanoyl-CoA 2-hydroxylase interacting protein like	Q96FC7		KIAA1796|Em:AC025038.1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+INPP5F	HGNC:17054	22876	ENSG00000198825	inositol polyphosphate-5-phosphatase F	Q9Y2H2		SAC2|KIAA0966|hSac2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRMT10B	HGNC:26454	158234	ENSG00000165275	tRNA methyltransferase 10B	Q6PF06		FLJ31455|bA3J10.9|RG9MTD3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ANKS3	HGNC:29422	124401	ENSG00000168096	ankyrin repeat and sterile alpha motif domain containing 3	Q6ZW76		KIAA1977|FLJ32345|FLJ32767	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KRT15	HGNC:6421	3866	ENSG00000171346	keratin 15	P19012		K15|CK15|K1CO	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZBTB45	HGNC:23715	84878	ENSG00000119574	zinc finger and BTB domain containing 45	Q96K62		FLJ14486|ZNF499	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HSH2D	HGNC:24920	84941	ENSG00000196684	hematopoietic SH2 domain containing	Q96JZ2		ALX|HSH2|FLJ14886	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BCL6	HGNC:1001	604	ENSG00000113916	BCL6 transcription repressor	P41182		ZBTB27|LAZ3|BCL5|BCL6A|ZNF51	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+USP17L18	HGNC:44446	100287364	ENSG00000250844	ubiquitin specific peptidase 17 like family member 18	D6R9N7			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HELT	HGNC:33783	391723	ENSG00000187821	helt bHLH transcription factor	A6NFD8		HESL|HCM1228|Mgn|bHLHb44|MEGANE	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MUS81	HGNC:29814	80198	ENSG00000172732	MUS81 structure-specific endonuclease subunit	Q96NY9		FLJ44872|SLX3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PNMA6A	HGNC:28248	84968	ENSG00000235961	PNMA family member 6A	P0CW24		MGC15827|PNMA6C	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FTHL17	HGNC:3987	53940	ENSG00000132446	ferritin heavy chain like 17	Q9BXU8		CT38	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DLK1	HGNC:2907	8788	ENSG00000185559	delta like non-canonical Notch ligand 1	P80370		FA1|pG2|Pref-1|ZOG|Delta1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ARHGDIG	HGNC:680	398	ENSG00000242173	Rho GDP dissociation inhibitor gamma	Q99819		RHOGDI-3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF615	HGNC:24740	284370	ENSG00000197619	zinc finger protein 615	Q8N8J6		FLJ33710	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IGSF9B	HGNC:32326	22997	ENSG00000080854	immunoglobulin superfamily member 9B	Q9UPX0		KIAA1030|LINC00947|LOC283174|MIR4697HG	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TMEM248	HGNC:25476	55069	ENSG00000106609	transmembrane protein 248	Q9NWD8		FLJ10099|FLJ13090|C7orf42	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MED14	HGNC:2370	9282	ENSG00000180182	mediator complex subunit 14	O60244		EXLM1|CRSP150|TRAP170|RGR1|CSRP|CXorf4|CRSP2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ST7	HGNC:11351	7982	ENSG00000004866	suppression of tumorigenicity 7	Q9NRC1		TSG7|SEN4|ETS7q|HELG|RAY1|FAM4A|FAM4A1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ESRRB	HGNC:3473	2103	ENSG00000119715	estrogen related receptor beta	O95718		ERR2|ERRbeta|NR3B2|ERRb|ESRL2|DFNB35	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TYK2	HGNC:12440	7297	ENSG00000105397	tyrosine kinase 2	P29597		JTK1	rheumatoid arthritis	candidate	0	GWAS; clinical_trial	protective P1104A variant; TYK2 inhibitors in trials	curated (Claude knowledge; unverified)
+COLEC11	HGNC:17213	78989	ENSG00000118004	collectin subfamily member 11	Q9BWP8		MGC3279|CL-K1|CL-11	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HMX3	HGNC:5019	340784	ENSG00000188620	H6 family homeobox 3	A6NHT5		NKX5-1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RGMA	HGNC:30308	56963	ENSG00000182175	repulsive guidance molecule BMP co-receptor a	Q96B86		RGM	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GPR141	HGNC:19997	353345	ENSG00000187037	G protein-coupled receptor 141	Q7Z602		PGR13	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FCRL3	HGNC:18506	115352	ENSG00000160856	Fc receptor like 3	Q96P31		FCRH3|IRTA3|IFGP3|SPAP2a|SPAP2|SPAP2b|SPAP2c|SPAP2d|SPAP2e|CD307c|MAIA	rheumatoid arthritis	candidate	0	GWAS	Fc receptor-like; East Asian	curated (Claude knowledge; unverified)
+GAREM1	HGNC:26136	64762	ENSG00000141441	GRB2 associated regulator of MAPK1 subtype 1	Q9H706		FLJ21610|C18orf11|FAM59A|GAREM	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+VGLL2	HGNC:20232	245806	ENSG00000170162	vestigial like family member 2	Q8N8G2			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+AVEN	HGNC:13509	57099	ENSG00000169857	apoptosis and caspase activation inhibitor	Q9NQS1		PDCD12	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SASH1	HGNC:19182	23328	ENSG00000111961	SAM and SH3 domain containing 1	O94885		KIAA0790|dJ323M4.1|SH3D6A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CFAP299	HGNC:28554	255119	ENSG00000197826	cilia and flagella associated protein 299	Q6V702		C4orf22	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CCDC136	HGNC:22225	64753	ENSG00000128596	coiled-coil domain containing 136	Q96JN2		KIAA1793|NAG6|DKFZP434G156	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CXCR5	HGNC:1060	643	ENSG00000160683	C-X-C motif chemokine receptor 5	P32302		MDR15|CD185|BLR1	rheumatoid arthritis	candidate	0	biology	Tfh / B-cell homing	curated (Claude knowledge; unverified)
+AADACL4	HGNC:32038	343066	ENSG00000204518	arylacetamide deacetylase like 4	Q5VUY2		OTTHUMG00000001889	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+POLGARF	HGNC:56246	125316803	ENSG00000291307	POLG alternative reading frame	A0A3B3IS91		ORF-Y	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OR13C2	HGNC:14701	392376	ENSG00000276119	olfactory receptor family 13 subfamily C member 2	Q8NGS9			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NOPCHAP1	HGNC:28628	121053	ENSG00000151131	NOP protein chaperone 1	Q8N5I9		MGC40397|DDSR1|C12orf45	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ADCY1	HGNC:232	107	ENSG00000164742	adenylate cyclase 1	Q08828		AC1|DFNB44	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ABI3BP	HGNC:17265	25890	ENSG00000154175	ABI family member 3 binding protein	Q7Z7G0		NESHBP|DKFZP586L2024|TARSH	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+XRCC1	HGNC:12828	7515	ENSG00000073050	X-ray repair cross complementing 1	P18887		RCC	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NRGN	HGNC:8000	4900	ENSG00000154146	neurogranin	Q92686		RC3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SUN3	HGNC:22429	256979	ENSG00000164744	Sad1 and UNC84 domain containing 3	Q8TAQ9		MGC33329|SUNC1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+INIP	HGNC:24994	58493	ENSG00000148153	INTS3 and NABP interacting protein	Q9NRY2		HSPC043|hSSBIP1|SOSS-C|MISE|C9orf80	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FFAR3	HGNC:4499	2865	ENSG00000185897	free fatty acid receptor 3	O14843		FFA3R|GPR41	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC17A2	HGNC:10930	10246	ENSG00000112337	solute carrier family 17 member 2	O00624		NPT3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CBFA2T3	HGNC:1537	863	ENSG00000129993	CBFA2/RUNX1 partner transcriptional co-repressor 3	O75081		MTGR2|ZMYND4|MTG16|RUNX1T3|ETO2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CTSA	HGNC:9251	5476	ENSG00000064601	cathepsin A	P10619		GSL|PPGB	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EXT2	HGNC:3513	2132	ENSG00000151348	exostosin glycosyltransferase 2	Q93063		SOTV	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BCL9	HGNC:1008	607	ENSG00000116128	BCL9 transcription coactivator	O00512			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+WFDC2	HGNC:15939	10406	ENSG00000101443	WAP four-disulfide core domain 2	Q14508		HE4|WAP5|dJ461P17.6|EDDM4	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CRTAC1	HGNC:14882	55118	ENSG00000095713	cartilage acidic protein 1	Q9NQ79		FLJ10320|CEP-68|ASPIC1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BUB1	HGNC:1148	699	ENSG00000169679	BUB1 mitotic checkpoint serine/threonine kinase	O43683		hBUB1|BUB1A|BUB1L	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EAF2	HGNC:23115	55840	ENSG00000145088	ELL associated factor 2	Q96CJ1		BM040|TRAITS|U19	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SUV39H1	HGNC:11479	6839	ENSG00000101945	SUV39H1 histone lysine methyltransferase	O43463		KMT1A|SUV39H	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RUBCN	HGNC:28991	9711	ENSG00000145016	rubicon autophagy regulator	Q92622		rubicon|rundataxin|KIAA0226	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+F5	HGNC:3542	2153	ENSG00000198734	coagulation factor V	P12259		fV	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SERPINI1	HGNC:8943	5274	ENSG00000163536	serpin family I member 1	Q99574		PI12	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SPAG16	HGNC:23225	79582	ENSG00000144451	sperm associated antigen 16	Q8N0X2		PF20|FLJ22724|DKFZp666P1710|WDR29	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ICAM5	HGNC:5348	7087	ENSG00000105376	intercellular adhesion molecule 5	Q9UMF0		TLN|TLCN	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HSPA6	HGNC:5239	3310	ENSG00000173110	heat shock protein family A (Hsp70) member 6	P17066		HSP70B'	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LGALS1	HGNC:6561	3956	ENSG00000100097	galectin 1	P09382		GBP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+UTP14C	HGNC:20321	9724	ENSG00000253797	UTP14C small subunit processome component	Q5TAP6		2700066J21Rik|KIAA0266	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SCML2	HGNC:10581	10389	ENSG00000102098	Scm polycomb group protein like 2	Q9UQR0			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+XPO1	HGNC:12825	7514	ENSG00000082898	exportin 1	O14980		CRM1|CRM-1|emb	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PPY	HGNC:9327	5539	ENSG00000108849	pancreatic polypeptide	P01298		PNP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PELI2	HGNC:8828	57161	ENSG00000139946	pellino E3 ubiquitin protein ligase family member 2	Q9HAT8			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+S100A11	HGNC:10488	6282	ENSG00000163191	S100 calcium binding protein A11	P31949		S100C	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DSG2	HGNC:3049	1829	ENSG00000046604	desmoglein 2	Q14126		CDHF5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FAM181B	HGNC:28512	220382	ENSG00000182103	family with sequence similarity 181 member B	A6NEQ2		LOC220382|MGC33846	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MYH13	HGNC:7571	8735	ENSG00000006788	myosin heavy chain 13	Q9UKX3		MyHC-eo	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EXT1	HGNC:3512	2131	ENSG00000182197	exostosin glycosyltransferase 1	Q16394		ttv|LGCR|LGS	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NANS	HGNC:19237	54187	ENSG00000095380	N-acetylneuraminate synthase	Q9NR45		SAS	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CFAP107	HGNC:28567	93190	ENSG00000157330	cilia and flagella associated protein 107	Q8N1D5		MGC35194|C1orf158	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CNTNAP3B	HGNC:32035	728577	ENSG00000154529	contactin associated protein family member 3B	Q96NU0			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TMEFF2	HGNC:11867	23671	ENSG00000144339	transmembrane protein with EGF like and two follistatin like domains 2	Q9UIK5		TENB2|HPP1|TR|TPEF|CT120.2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RASGRF2	HGNC:9876	5924	ENSG00000113319	Ras protein specific guanine nucleotide releasing factor 2	O14827		GRF2|Ras-GRF2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OPN1MW2	HGNC:26952	728458	ENSG00000166160	opsin 1, medium wave sensitive 2	P0DN77			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DRG2	HGNC:3030	1819	ENSG00000108591	developmentally regulated GTP binding protein 2	P55039			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CTNNBL1	HGNC:15879	56259	ENSG00000132792	catenin beta like 1	Q8WYA6		FLJ21108|P14L|P14|NAP|NYD-SP19|C20orf33	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NDP	HGNC:7678	4693	ENSG00000124479	norrin cystine knot growth factor NDP	Q00604		norrin|EVR2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NR3C1	HGNC:7978	2908	ENSG00000113580	nuclear receptor subfamily 3 group C member 1	P04150		GR|GRL	rheumatoid arthritis	known	1	approved_drug	prednisolone; methylprednisolone — glucocorticoids used in RA	curated (Claude knowledge, 2026-05; unverified)
+ASGR2	HGNC:743	433	ENSG00000161944	asialoglycoprotein receptor 2	P07307		CLEC4H2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CCDC149	HGNC:25405	91050	ENSG00000181982	coiled-coil domain containing 149	Q6ZUS6		DKFZp761B107	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+WDR45B	HGNC:25072	56270	ENSG00000141580	WD repeat domain 45B	Q5MNZ6		WIPI3|WDR45L	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OR13G1	HGNC:14999	441933	ENSG00000197437	olfactory receptor family 13 subfamily G member 1	Q8NGZ3			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MGP	HGNC:7060	4256	ENSG00000111341	matrix Gla protein	P08493			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MMP17	HGNC:7163	4326	ENSG00000198598	matrix metallopeptidase 17	Q9ULZ9		MT4-MMP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+AKAP12	HGNC:370	9590	ENSG00000131016	A-kinase anchoring protein 12	Q02952		AKAP250|SSeCKS	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TIFA	HGNC:19075	92610	ENSG00000145365	TRAF interacting protein with forkhead associated domain	Q96CG3		MGC20791|T2BP|T6BP|TIFAA	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ANAPC10	HGNC:24077	10393	ENSG00000164162	anaphase promoting complex subunit 10	Q9UM13		APC10|DOC1|DKFZP564L0562	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRPM6	HGNC:17995	140803	ENSG00000119121	transient receptor potential cation channel subfamily M member 6	Q9BX84		CHAK2|FLJ22628|HOMG|HSH	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LEPR	HGNC:6554	3953	ENSG00000116678	leptin receptor	P48357		OBR|CD295|LEP-R|OB-R	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MDGA2	HGNC:19835	161357	ENSG00000139915	MAM domain containing glycosylphosphatidylinositol anchor 2	Q7Z553		MAMDC1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CCDC61	HGNC:33629	729440	ENSG00000104983	coiled-coil domain containing 61	Q9Y6R9		VFL3|hVFL3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LY86	HGNC:16837	9450	ENSG00000112799	lymphocyte antigen 86	O95711		MD-1|dJ80N2.1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KIAA0319	HGNC:21580	9856	ENSG00000137261	KIAA0319	Q5VV43		NMIG	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SEMA6A	HGNC:10738	57556	ENSG00000092421	semaphorin 6A	Q9H2E6		KIAA1368|SEMA6A1|SEMA|HT018|SEMAQ	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SELP	HGNC:10721	6403	ENSG00000174175	selectin P	P16109		CD62|PSEL|PADGEM|GMP140|CD62P|GMP-140|GRMP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RPAP2	HGNC:25791	79871	ENSG00000122484	RNA polymerase II associated protein 2	Q8IXW5		FLJ13150|Rtr1|C1orf82	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HAUS1	HGNC:25174	115106	ENSG00000152240	HAUS augmin like complex subunit 1	Q96CS2		HEI-C|HsT1461|FLJ40084|CCDC5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TP53TG3	HGNC:30759	24150	ENSG00000183632	TP53 target 3	Q9ULZ0		P53TG3|TP53TG3A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MAGEB18	HGNC:28515	286514	ENSG00000176774	MAGE family member B18	Q96M61		MGC33889	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF292	HGNC:18410	23036	ENSG00000188994	zinc finger protein 292	O60281		KIAA0530|ZFP292|bA393I2.3|Zn-15|Zn-16	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LTBP4	HGNC:6717	8425	ENSG00000090006	latent transforming growth factor beta binding protein 4	Q8N2S1		LTBP-4|LTBP-4L|FLJ46318|FLJ90018	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MS4A1	HGNC:7315	931	ENSG00000156738	membrane spanning 4-domains A1	P11836		B1|Bp35|FMC7|CD20	rheumatoid arthritis	known	1	approved_drug	rituximab — approved for RA (after anti-TNF failure)	curated (Claude knowledge, 2026-05; unverified)
+NME7	HGNC:20461	29922	ENSG00000143156	NME/NM23 family member 7	Q9Y5B8		FLJ37194|NM23-H7|CFAP67	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IQCN	HGNC:29350	80726	ENSG00000130518	IQ motif containing N	Q9H0B3		KIAA1683	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+AS3MT	HGNC:17452	57412	ENSG00000214435	arsenite methyltransferase	Q9HBK9		CYT19	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GALNT16	HGNC:23233	57452	ENSG00000100626	polypeptide N-acetylgalactosaminyltransferase 16	Q8N428		KIAA1130|GalNAc-T16|GALNTL1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC45A3	HGNC:8642	85414	ENSG00000158715	solute carrier family 45 member 3	Q96JT2		IPCA-6|prostein|IPCA-2|IPCA-8|PCANAP6|PCANAP2|PCANAP8	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FANCB	HGNC:3583	2187	ENSG00000181544	FA complementation group B	Q8NB91		FAB|FLJ34064|FAAP95	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MZB1	HGNC:30125	51237	ENSG00000170476	marginal zone B and B1 cell specific protein	Q8WU39		PACAP|MGC29506|HSPC190|pERp1|MEDA-7	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LSM14B	HGNC:15887	149986	ENSG00000149657	LSM family member 14B	Q9BX40		FT005|bA11M20.3|FLJ25473|LSM13|RAP55B|C20orf40|FAM61B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SH2D2A	HGNC:10821	9047	ENSG00000027869	SH2 domain containing 2A	Q9NP31		TSAd|F2771	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+P4HA1	HGNC:8546	5033	ENSG00000122884	prolyl 4-hydroxylase subunit alpha 1	P13674		C-P4Halpha(I)|P4HA	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KIR2DL3	HGNC:6331	3804	ENSG00000243772	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3	P43628		cl-6|nkat2|nkat2a|nkat2b|p58|CD158B2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PSMD1	HGNC:9554	5707	ENSG00000173692	proteasome 26S subunit, non-ATPase 1	Q99460		S1|P112|Rpn2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CASP14	HGNC:1502	23581	ENSG00000105141	caspase 14	P31944		MICE|MGC119078|MGC119079|caspase-14	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NSG1	HGNC:18790	27065	ENSG00000168824	neuronal vesicle trafficking associated 1	P42857		P21|D4S234E|NEEP21	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+VN1R5	HGNC:19870	317705	ENSG00000197617	vomeronasal 1 receptor 5 (gene/pseudogene)	Q7Z5H4		V1RL5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PIK3R3	HGNC:8981	8503	ENSG00000117461	phosphoinositide-3-kinase regulatory subunit 3	Q92569		p55	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RMND5B	HGNC:26181	64777	ENSG00000145916	required for meiotic nuclear division 5 homolog B	Q96G75		FLJ22318|GID2|GID2B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IFNA2	HGNC:5423	3440	ENSG00000188379	interferon alpha 2	P01563		IFNA|IFN-alphaA	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PDE4C	HGNC:8782	5143	ENSG00000105650	phosphodiesterase 4C	Q08493		DPDE1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PSORS1C1	HGNC:17202	170679	ENSG00000204540	psoriasis susceptibility 1 candidate 1	Q9UIG5		SEEK1|C6orf16	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FCGR2A	HGNC:3616	2212	ENSG00000143226	Fc gamma receptor IIa	P12318		CD32|CD32A|IGFR2|CDw32|Fc-gamma-RIIa|FcgammaRIIa|FCG2|FCGR2A1|FCGR2	rheumatoid arthritis	candidate	0	GWAS	Fc gamma receptor	curated (Claude knowledge; unverified)
+LRRC75B	HGNC:33155	388886	ENSG00000178026	leucine rich repeat containing 75B	Q2VPJ9		MGC131773|C22orf36|FAM211B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZC3HC1	HGNC:29913	51530	ENSG00000091732	zinc finger C3HC-type containing 1	Q86WB0		NIPA	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+H1-0	HGNC:4714	3005	ENSG00000189060	H1.0 linker histone	P07305		H1.0|H1FV|H1F0	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IFI27L1	HGNC:19754	122509	ENSG00000165948	interferon alpha inducible protein 27 like 1	Q96BM0		FAM14B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TACC1	HGNC:11522	6867	ENSG00000147526	transforming acidic coiled-coil containing protein 1	O75410			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ARLN	HGNC:19225	401152	ENSG00000164096	allregulin	Q8WVX3		HCVFTP1|ALN|C4orf3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TOB2	HGNC:11980	10766	ENSG00000183864	transducer of ERBB2, 2	Q14106		TOBL|TOB4|bK223H9|APRO5|TROB2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TTC16	HGNC:26536	158248	ENSG00000167094	tetratricopeptide repeat domain 16	Q8NEE8		FLJ32780	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF664	HGNC:25406	144348	ENSG00000179195	zinc finger protein 664	Q8N3J9		ZFOC1|DKFZp761B128|ZNF176	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TBX22	HGNC:11600	50945	ENSG00000122145	T-box transcription factor 22	Q9Y458		CPX|CLPA	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ADAMTS14	HGNC:14899	140766	ENSG00000138316	ADAM metallopeptidase with thrombospondin type 1 motif 14	Q8WXS8			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OR8U8	HGNC:27538	504189	ENSG00000262315	olfactory receptor family 8 subfamily U member 8	P0C7N1			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF2	HGNC:12991	7549	ENSG00000275111	zinc finger protein 2	Q9BSG1		A1-5|ZNF661|Zfp661	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ALG12	HGNC:19358	79087	ENSG00000182858	ALG12 alpha-1,6-mannosyltransferase	Q9BV10		ECM39|CDG1G	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+JAK3	HGNC:6193	3718	ENSG00000105639	Janus kinase 3	P52333		L-JAK|JAKL|LJAK|JAK3_HUMAN|JAK-3	rheumatoid arthritis	known	1	approved_drug	tofacitinib; peficitinib — approved for RA (JAK1/JAK3 / pan-JAK inhibitor)	curated (Claude knowledge, 2026-05; unverified)
+CFHR5	HGNC:24668	81494	ENSG00000134389	complement factor H related 5	Q9BXR6		FHR5|FHR-5|CFHL5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+C19orf73	HGNC:25534	55150	ENSG00000221916	chromosome 19 open reading frame 73	Q9NVV2		FLJ10490	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CAVIN3	HGNC:9400	112464	ENSG00000170955	caveolae associated protein 3	Q969G5		SRBC|HSRBC|MGC20400|cavin-3|PRKCDBP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MED19	HGNC:29600	219541	ENSG00000156603	mediator complex subunit 19	A0JLT2		LCMR1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SPNS2	HGNC:26992	124976	ENSG00000183018	SPNS lysolipid transporter 2, sphingosine-1-phosphate	Q8IVW8		SLC63A2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RNF103	HGNC:12859	7844	ENSG00000239305	ring finger protein 103	O00237		hkf-1|KF1|ZFP103	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HEYL	HGNC:4882	26508	ENSG00000163909	hes related family bHLH transcription factor with YRPW motif like	Q9NQ87		bHLHb33|HEY3|HESR3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RIPOR1	HGNC:25836	79567	ENSG00000039523	RHO family interacting cell polarization regulator 1	Q6ZS17		FLJ13725|FAM65A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FOXO6	HGNC:24814	100132074	ENSG00000204060	forkhead box O6	A8MYZ6			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MED21	HGNC:11473	9412	ENSG00000152944	mediator complex subunit 21	Q13503		SRB7|SURB7	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CCT3	HGNC:1616	7203	ENSG00000163468	chaperonin containing TCP1 subunit 3	P49368		Cctg|TRIC5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL17RA	HGNC:5985	23765	ENSG00000177663	interleukin 17 receptor A	Q96F46		hIL-17R|IL-17RA|CDw217|CD217|IL17R	rheumatoid arthritis	candidate	0	biology	IL-17 receptor A (brodalumab not for RA)	curated (Claude knowledge; unverified)
+PVALEF	HGNC:40053	388428	ENSG00000225180	parvalbumin like EF-hand containing	A0A1B0GWK0		AATK-AS1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+XKR8	HGNC:25508	55113	ENSG00000158156	XK related 8	Q9H6D3		FLJ10307	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BZW1	HGNC:18380	9689	ENSG00000082153	basic leucine zipper and W2 domains 1	Q7L1Q6		BZAP45|KIAA0005|5MP2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LYG1	HGNC:27014	129530	ENSG00000144214	lysozyme g1	Q8N1E2		SALW1939|LYGA1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RNASE13	HGNC:25285	440163	ENSG00000206150	ribonuclease A family member 13 (inactive)	Q5GAN3		RAL1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KRTAP24-1	HGNC:33902	643803	ENSG00000188694	keratin associated protein 24-1	Q3LI83		KAP24.1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RET	HGNC:9967	5979	ENSG00000165731	ret proto-oncogene	P07949		PTC|CDHF12|RET51|CDHR16|HSCR1|MEN2A|MTC1|MEN2B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ENDOD1	HGNC:29129	23052	ENSG00000149218	endonuclease domain containing 1	O94919		KIAA0830	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RNF208	HGNC:25420	727800	ENSG00000212864	ring finger protein 208	Q9H0X6		DKFZP761H1710	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CHPT1	HGNC:17852	56994	ENSG00000111666	choline phosphotransferase 1	Q8WUD6		CPT1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RARRES2	HGNC:9868	5919	ENSG00000106538	retinoic acid receptor responder 2	Q99969		TIG2|HP10433	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HIP1	HGNC:4913	3092	ENSG00000127946	huntingtin interacting protein 1	O00291		ILWEQ	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PPP1R15B	HGNC:14951	84919	ENSG00000158615	protein phosphatase 1 regulatory subunit 15B	Q5SWA1		FLJ14744	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLCO1A2	HGNC:10956	6579	ENSG00000084453	solute carrier organic anion transporter family member 1A2	P46721		OATP|OATP1A2|OATP-A|SLC21A3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+UGGT1	HGNC:15663	56886	ENSG00000136731	UDP-glucose glycoprotein glucosyltransferase 1	Q9NYU2		HUGT1|UGCGL1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TEDC1	HGNC:20127	283643	ENSG00000185347	tubulin epsilon and delta complex 1	Q86SX3		C14orf80	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MAZ	HGNC:6914	4150	ENSG00000103495	MYC associated zinc finger protein	P56270		ZF87|Pur-1|Zif87|ZNF801	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GATD3	HGNC:1273	8209	ENSG00000160221	glutamine amidotransferase class 1 domain containing 3	P0DPI2		KNP-Ia|GT335|ES1|HES1|D21S2048E|KNPI|KNPH|KNP-I|C21orf33|GATD3A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CDC5L	HGNC:1743	988	ENSG00000096401	cell division cycle 5 like	Q99459		PCDC5RP|hCDC5|CEF1|CDC5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CCDC18	HGNC:30370	343099	ENSG00000122483	coiled-coil domain containing 18	Q5T9S5		NY-SAR-41	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+COL3A1	HGNC:2201	1281	ENSG00000168542	collagen type III alpha 1 chain	P02461		EDS4A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FREY1	HGNC:37213	143678	ENSG00000234776	Frey regulator of sperm-oocyte fusion 1	C9JXX5		Frey|C11orf94	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TAF11L10	HGNC:53853	112488738	ENSG00000284356	TATA-box binding protein associated factor 11 like 10	P0DW14			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SDF2	HGNC:10675	6388	ENSG00000132581	stromal cell derived factor 2	Q99470			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CD40	HGNC:11919	958	ENSG00000101017	CD40 molecule	P25942		p50|Bp50|TNFRSF5	rheumatoid arthritis	candidate	0	GWAS	B-cell / APC co-stimulation	curated (Claude knowledge; unverified)
+RASGEF1B	HGNC:24881	153020	ENSG00000138670	RasGEF domain family member 1B	Q0VAM2		GPIG4|FLJ31695	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CFAP141	HGNC:32305	388701	ENSG00000163263	cilia and flagella associated protein 141	Q5VU69		C1orf189	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRH	HGNC:12298	7200	ENSG00000170893	thyrotropin releasing hormone	P20396			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KLF4	HGNC:6348	9314	ENSG00000136826	KLF transcription factor 4	O43474		EZF|GKLF	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL10	HGNC:5962	3586	ENSG00000136634	interleukin 10	P22301		CSIF|TGIF|IL10A|IL-10	rheumatoid arthritis	candidate	0	GWAS	anti-inflammatory cytokine (opposite direction for inhibition)	curated (Claude knowledge; unverified)
+ARID5B	HGNC:17362	84159	ENSG00000150347	AT-rich interaction domain 5B	Q14865		FLJ21150|MRF2	rheumatoid arthritis	candidate	0	GWAS	transcription regulator	curated (Claude knowledge; unverified)
+FPGS	HGNC:3824	2356	ENSG00000136877	folylpolyglutamate synthase	Q05932			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TNS3	HGNC:21616	64759	ENSG00000136205	tensin 3	Q68CZ2		TEM6|H_NH0549I23.2|FLJ13732|TENS1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GCK	HGNC:4195	2645	ENSG00000106633	glucokinase	P35557		HK4|HKIV|MODY2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MRPL22	HGNC:14480	29093	ENSG00000082515	mitochondrial ribosomal protein L22	Q9NWU5		MRP-L25|RPML25|HSPC158|uL22m	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KCNE4	HGNC:6244	23704	ENSG00000152049	potassium voltage-gated channel subfamily E regulatory subunit 4	Q8WWG9		MiRP3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF536	HGNC:29025	9745	ENSG00000198597	zinc finger protein 536	O15090		KIAA0390	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OR11A1	HGNC:8176	26531	ENSG00000204694	olfactory receptor family 11 subfamily A member 1	Q9GZK7		hs6M1-18|OR11A2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NDRG4	HGNC:14466	65009	ENSG00000103034	NDRG family member 4	Q9ULP0		KIAA1180|SMAP-8	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MAPK14	HGNC:6876	1432	ENSG00000112062	mitogen-activated protein kinase 14	Q16539		p38alpha|PRKM14|p38|Mxi2|PRKM15|CSPB1|CSBP1|CSBP2	rheumatoid arthritis	candidate	0	clinical_trial	p38 inhibitors failed in RA	curated (Claude knowledge; unverified)
+MOB3A	HGNC:29802	126308	ENSG00000172081	MOB kinase activator 3A	Q96BX8		MOB1C|MOB-LAK|moblak|MOBKL2A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CSF3	HGNC:2438	1440	ENSG00000108342	colony stimulating factor 3	P09919		MGC45931|GCSF|G-CSF|C17orf33	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BCL9L	HGNC:23688	283149	ENSG00000186174	BCL9 like	Q86UU0		DLNB11|B9L|Bcl9-2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+UPB1	HGNC:16297	51733	ENSG00000100024	beta-ureidopropionase 1	Q9UBR1		BUP1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF839	HGNC:20345	55778	ENSG00000022976	zinc finger protein 839	A8K0R7		C14orf131	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RPA4	HGNC:30305	29935	ENSG00000204086	replication protein A4	Q13156		HSU24186	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TECRL	HGNC:27365	253017	ENSG00000205678	trans-2,3-enoyl-CoA reductase like	Q5HYJ1		GPSN2L|SRD5A2L2|DKFZp313D0829|DKFZp313B2333|TERL	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC22A2	HGNC:10966	6582	ENSG00000112499	solute carrier family 22 member 2	O15244		OCT2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CD247	HGNC:1677	919	ENSG00000198821	CD247 molecule	P20963		CD3H|CD3Q|TCRZ|CD3-ZETA|CD3ZETA|CD3Z	rheumatoid arthritis	candidate	0	GWAS	CD3 zeta	curated (Claude knowledge; unverified)
+PPP1R11	HGNC:9285	6992	ENSG00000204619	protein phosphatase 1 regulatory inhibitor subunit 11	O60927		HCGV|Tctex5|HCG-V|CFAP255|TCTE5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HNRNPA2B1	HGNC:5033	3181	ENSG00000122566	heterogeneous nuclear ribonucleoprotein A2/B1	P22626		HNRNPA2|HNRNPB1|HNRPA2B1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRABD2A	HGNC:27013	129293	ENSG00000186854	TraB domain containing 2A	Q86V40		TIKI1|C2orf89	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IRS1	HGNC:6125	3667	ENSG00000169047	insulin receptor substrate 1	P35568		HIRS-1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GSTT1	HGNC:4641	2952	ENSG00000277656	glutathione S-transferase theta 1	P30711			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FCHSD2	HGNC:29114	9873	ENSG00000137478	FCH and double SH3 domains 2	O94868		KIAA0769|SH3MD3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MMP1	HGNC:7155	4312	ENSG00000196611	matrix metallopeptidase 1	P03956		CLG	rheumatoid arthritis	candidate	0	biology	collagenase; joint destruction	curated (Claude knowledge; unverified)
+CD37	HGNC:1666	951	ENSG00000104894	CD37 molecule	P11049		TSPAN26	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+JAK2	HGNC:6192	3717	ENSG00000096968	Janus kinase 2	O60674		JTK10	rheumatoid arthritis	known	1	approved_drug	baricitinib — approved for RA (JAK1/JAK2 inhibitor)	curated (Claude knowledge, 2026-05; unverified)
+SEPTIN10	HGNC:14349	151011	ENSG00000186522	septin 10	Q9P0V9		FLJ11619|Septin-10|SEPT10	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SERPINE2	HGNC:8951	5270	ENSG00000135919	serpin family E member 2	P07093		PN1|GDN|PNI|nexin|PI7	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DAB1	HGNC:2661	1600	ENSG00000173406	DAB adaptor protein 1	O75553			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LAMB1	HGNC:6486	3912	ENSG00000091136	laminin subunit beta 1	P07942		CLM	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TNNT3	HGNC:11950	7140	ENSG00000130595	troponin T3, fast skeletal type	P45378		AMCD2B|DA2B|FSSV|DKFZp779M2348	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ANKRD36C	HGNC:32946	400986	ENSG00000174501	ankyrin repeat domain 36C	Q5JPF3		DKFZp667P0924	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SAMD5	HGNC:21180	389432	ENSG00000203727	sterile alpha motif domain containing 5	Q5TGI4		dJ875H10.1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+STX10	HGNC:11428	8677	ENSG00000104915	syntaxin 10	O60499		hsyn10|SYN10	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NLRP8	HGNC:22940	126205	ENSG00000179709	NLR family pyrin domain containing 8	Q86W28		NOD16|PAN4|CLR19.2|NALP8	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EXD3	HGNC:26023	54932	ENSG00000187609	exonuclease 3'-5' domain containing 3	Q8N9H8		LOC54932|FLJ20433|mut-7|Nbr	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OSBPL5	HGNC:16392	114879	ENSG00000021762	oxysterol binding protein like 5	Q9H0X9		KIAA1534|ORP5|OBPH1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SPEF1	HGNC:15874	25876	ENSG00000101222	sperm flagellar and cilia associated 1	Q9Y4P9		DKFZP434I114|SPEF1A|CLAMP|C20orf28	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ATG4C	HGNC:16040	84938	ENSG00000125703	autophagy related 4C cysteine peptidase	Q96DT6		FLJ14867|AUTL3|AUTL1|APG4C	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CELSR2	HGNC:3231	1952	ENSG00000143126	cadherin EGF LAG seven-pass G-type receptor 2	Q9HCU4		KIAA0279|MEGF3|Flamingo1|CDHF10|ADGRC2|EGFL2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LIME1	HGNC:26016	54923	ENSG00000203896	Lck interacting transmembrane adaptor 1	Q9H400		FLJ20406|dJ583P15.4|LIME	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PRLHR	HGNC:4464	2834	ENSG00000119973	prolactin releasing hormone receptor	P49683		PrRPR|GPR10	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MMP3	HGNC:7173	4314	ENSG00000149968	matrix metallopeptidase 3	P08254		STMY1|STMY	rheumatoid arthritis	candidate	0	biology	stromelysin; RA biomarker	curated (Claude knowledge; unverified)
+SLCO2B1	HGNC:10962	11309	ENSG00000137491	solute carrier organic anion transporter family member 2B1	O94956		OATP-B|OATP2B1|SLC21A9	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HFE	HGNC:4886	3077	ENSG00000010704	homeostatic iron regulator	Q30201		HLA-H|HFE1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SERPINA4	HGNC:8948	5267	ENSG00000100665	serpin family A member 4	P29622		KST|KAL|KLST|PI4	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BIN1	HGNC:1052	274	ENSG00000136717	bridging integrator 1	O00499		SH3P9|AMPH2|AMPHL	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FILIP1	HGNC:21015	27145	ENSG00000118407	filamin A interacting protein 1	Q7Z7B0		FILIP|KIAA1275	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GPR35	HGNC:4492	2859	ENSG00000178623	G protein-coupled receptor 35	Q9HC97			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CCDC125	HGNC:28924	202243	ENSG00000183323	coiled-coil domain containing 125	Q86Z20		KENAE	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RBL2	HGNC:9894	5934	ENSG00000103479	RB transcriptional corepressor like 2	Q08999		Rb2|p130	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+VRK1	HGNC:12718	7443	ENSG00000100749	VRK serine/threonine kinase 1	Q99986			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+JAK1	HGNC:6190	3716	ENSG00000162434	Janus kinase 1	P23458		JAK1A|JTK3|JAK1B	rheumatoid arthritis	known	1	approved_drug	upadacitinib; filgotinib; baricitinib; tofacitinib; peficitinib — approved for RA (JAK inhibitors; some also JAK2/JAK3)	curated (Claude knowledge, 2026-05; unverified)
+C12orf75	HGNC:35164	387882	ENSG00000235162	chromosome 12 open reading frame 75	Q8TAD7		OCC-1|OCC1|AGD3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+USP2	HGNC:12618	9099	ENSG00000036672	ubiquitin specific peptidase 2	O75604		UBP41	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BCAR1	HGNC:971	9564	ENSG00000050820	BCAR1 scaffold protein, Cas family member	P56945		P130Cas|Crkas|CAS|CASS1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HSD17B12	HGNC:18646	51144	ENSG00000149084	hydroxysteroid 17-beta dehydrogenase 12	Q53GQ0		KAR|SDR12C1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TINF2	HGNC:11824	26277	ENSG00000092330	TERF1 interacting nuclear factor 2	Q9BSI4		TIN2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OR2A25	HGNC:19562	392138	ENSG00000221933	olfactory receptor family 2 subfamily A member 25	A4D2G3		OR2A25P|OR2A27	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TAF1C	HGNC:11534	9013	ENSG00000103168	TATA-box binding protein associated factor, RNA polymerase I subunit C	Q15572		TAFI110|TAFI95|SL1|MGC:39976	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TBC1D3F	HGNC:18257	84218	ENSG00000275954	TBC1 domain family member 3F	A6NER0			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TEKT5	HGNC:26554	146279	ENSG00000153060	tektin 5	Q96M29		FLJ32871|CT149	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PUSL1	HGNC:26914	126789	ENSG00000169972	pseudouridine synthase like 1	Q8N0Z8		FLJ90811	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PUS10	HGNC:26505	150962	ENSG00000162927	pseudouridine synthase 10	Q3MIT2		FLJ32312|CCDC139	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CHST3	HGNC:1971	9469	ENSG00000122863	carbohydrate sulfotransferase 3	Q7LGC8		C6ST|C6ST1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ANKRD60	HGNC:16217	140731	ENSG00000124227	ankyrin repeat domain 60	Q9BZ19		bA196N14.3|C20orf86	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IVD	HGNC:6186	3712	ENSG00000128928	isovaleryl-CoA dehydrogenase	P26440		ACAD2|IVDH	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TUBE1	HGNC:20775	51175	ENSG00000074935	tubulin epsilon 1	Q9UJT0		dJ142L7.2|FLJ22589|TUBE	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EPG5	HGNC:29331	57724	ENSG00000152223	ectopic P-granules 5 autophagy tethering factor	Q9HCE0		hEPG5|KIAA1632	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DNAH10	HGNC:2941	196385	ENSG00000197653	dynein axonemal heavy chain 10	Q8IVF4		FLJ43808	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TMEM65	HGNC:25203	157378	ENSG00000164983	transmembrane protein 65	Q6PI78			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OR4C16	HGNC:15172	219428	ENSG00000279514	olfactory receptor family 4 subfamily C member 16	Q8NGL9			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+H2AC4	HGNC:4734	8335	ENSG00000278463	H2A clustered histone 4	P04908		H2A/m|H2AFM|HIST1H2AB	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CLN5	HGNC:2076	1203	ENSG00000102805	CLN5 lysosomal BMP synthase	O75503			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ACOT2	HGNC:18431	10965	ENSG00000119673	acyl-CoA thioesterase 2	P49753		Mte1|ZAP128	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SRRM3	HGNC:26729	222183	ENSG00000177679	serine/arginine repetitive matrix 3	A6NNA2		FLJ37078	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CDC42EP3	HGNC:16943	10602	ENSG00000163171	CDC42 effector protein 3	Q9UKI2		CEP3|UB1|BORG2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GPR68	HGNC:4519	8111	ENSG00000119714	G protein-coupled receptor 68	Q15743		OGR1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ITGAE	HGNC:6147	3682	ENSG00000083457	integrin subunit alpha E	P38570		CD103|HUMINAE	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GPX2	HGNC:4554	2877	ENSG00000176153	glutathione peroxidase 2	P18283		GSHPX-GI	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ITIH3	HGNC:6168	3699	ENSG00000162267	inter-alpha-trypsin inhibitor heavy chain 3	Q06033		H3P	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RSPH4A	HGNC:21558	345895	ENSG00000111834	radial spoke head component 4A	Q5TD94		dJ412I7.1|FLJ37974|RSPH6B|CILD11|RSHL3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SNX24	HGNC:21533	28966	ENSG00000064652	sorting nexin 24	Q9Y343		SBBI31	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HOXC9	HGNC:5130	3225	ENSG00000180806	homeobox C9	P31274		HOX3|HOX3B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TNFRSF9	HGNC:11924	3604	ENSG00000049249	TNF receptor superfamily member 9	Q07011		CD137|4-1BB|ILA	rheumatoid arthritis	candidate	0	GWAS	4-1BB	curated (Claude knowledge; unverified)
+NEDD9	HGNC:7733	4739	ENSG00000111859	neural precursor cell expressed, developmentally down-regulated 9	Q14511		HEF1|CAS-L|CASS2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NLRP11	HGNC:22945	204801	ENSG00000179873	NLR family pyrin domain containing 11	P59045		PYPAF6|NOD17|PAN10|CLR19.6|NALP11	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SRD5A1	HGNC:11284	6715	ENSG00000145545	steroid 5 alpha-reductase 1	P18405			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RAD21	HGNC:9811	5885	ENSG00000164754	RAD21 cohesin complex component	O60216		KIAA0078|hHR21|SCC1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MEI4	HGNC:43638	101928601	ENSG00000269964	meiotic double-stranded break formation protein 4	A8MW99			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC39A13	HGNC:20859	91252	ENSG00000165915	solute carrier family 39 member 13	Q96H72		FLJ25785|LZT-Hs9|ZIP13|ZIP-13	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+C12orf42	HGNC:24729	374470	ENSG00000179088	chromosome 12 open reading frame 42	Q96LP6		FLJ25323	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PCTP	HGNC:8752	58488	ENSG00000141179	phosphatidylcholine transfer protein	Q9UKL6		STARD2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TM4SF20	HGNC:26230	79853	ENSG00000168955	transmembrane 4 L six family member 20	Q53R12		FLJ22800|TCCE518	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SULF2	HGNC:20392	55959	ENSG00000196562	sulfatase 2	Q8IWU5		KIAA1247|HSULF-2|SULF-2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SSBP2	HGNC:15831	23635	ENSG00000145687	single stranded DNA binding protein 2	P81877		HSPC116	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL1R1	HGNC:5993	3554	ENSG00000115594	interleukin 1 receptor type 1	P14778		D2S1473|CD121A|IL1R|IL1RA	rheumatoid arthritis	known	1	approved_drug	anakinra — approved for RA (IL-1 receptor antagonist)	curated (Claude knowledge, 2026-05; unverified)
+TUBGCP3	HGNC:18598	10426	ENSG00000126216	tubulin gamma complex component 3	Q96CW5		GCP3|Spc98p|SPBC98	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CYC1	HGNC:2579	1537	ENSG00000179091	cytochrome c1	P08574		UQCR4	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CCR5	HGNC:1606	1234	ENSG00000160791	C-C motif chemokine receptor 5	P51681		CKR-5|CC-CKR-5|CKR5|CD195|IDDM22|CMKBR5	rheumatoid arthritis	candidate	0	clinical_trial	maraviroc failed in RA	curated (Claude knowledge; unverified)
+GDF5	HGNC:4220	8200	ENSG00000125965	growth differentiation factor 5	P43026		CDMP1|BMP14	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF397	HGNC:18818	84307	ENSG00000186812	zinc finger protein 397	Q8NF99		ZSCAN15|MGC13250|ZNF47	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZDHHC16	HGNC:20714	84287	ENSG00000171307	zDHHC palmitoyltransferase 16	Q969W1		APH2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MS4A6A	HGNC:13375	64231	ENSG00000110077	membrane spanning 4-domains A6A	Q9H2W1		CD20L3|MS4A6	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GPR78	HGNC:4528	27201	ENSG00000155269	G protein-coupled receptor 78	Q96P69			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CTSK	HGNC:2536	1513	ENSG00000143387	cathepsin K	P43235		PKND|CTSO2|CTSO|PYCD	rheumatoid arthritis	candidate	0	biology	cathepsin K; osteoclast bone resorption	curated (Claude knowledge; unverified)
+SGTA	HGNC:10819	6449	ENSG00000104969	small glutamine rich tetratricopeptide repeat co-chaperone alpha	O43765		UBP|SGT1|Vpu|hSGT|alphaSGT|SGT	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GM2A	HGNC:4367	2760	ENSG00000196743	ganglioside GM2 activator	P17900		SAP-3|GM2-AP|GM2AP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+AURKAIP1	HGNC:24114	54998	ENSG00000175756	aurora kinase A interacting protein 1	Q9NWT8		Cox24|AKIP|AIP|FLJ20608|mS38	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GARIN2	HGNC:20101	161142	ENSG00000172717	golgi associated RAB2 interactor family member 2	Q8N9W8		GARI-L2|C14orf54|FAM71D	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RNF169	HGNC:26961	254225	ENSG00000166439	ring finger protein 169	Q8NCN4		KIAA1991	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZMYND11	HGNC:16966	10771	ENSG00000015171	zinc finger MYND-type containing 11	Q15326		BS69|BRAM1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CXCL13	HGNC:10639	10563	ENSG00000156234	C-X-C motif chemokine ligand 13	O43927		BLC|BCA-1|BLR1L|ANGIE|ANGIE2|SCYB13	rheumatoid arthritis	candidate	0	biology	B-cell follicle chemokine in synovium	curated (Claude knowledge; unverified)
+PLXNB1	HGNC:9103	5364	ENSG00000164050	plexin B1	O43157		SEP|KIAA0407|PLXN5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CAPSL	HGNC:28375	133690	ENSG00000152611	calcyphosine like	Q8WWF8		MGC26610	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RAX	HGNC:18662	30062	ENSG00000134438	retina and anterior neural fold homeobox	Q9Y2V3		RX|RAX1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TBC1D10B	HGNC:24510	26000	ENSG00000169221	TBC1 domain family member 10B	Q4KMP7		DKFZP434P1750|Rab27A-GAPbeta|FLJ13130|EPI64B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PYDC5	HGNC:53781	107181291	ENSG00000289721	pyrin domain containing 5	W6CW81		POP3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RASGRP1	HGNC:9878	10125	ENSG00000172575	RAS guanyl releasing protein 1	O95267		CalDAG-GEFII|RASGRP	rheumatoid arthritis	candidate	0	GWAS	T-cell Ras activator	curated (Claude knowledge; unverified)
+GZMK	HGNC:4711	3003	ENSG00000113088	granzyme K	P49863		TRYP2|PRSS	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ATG2A	HGNC:29028	23130	ENSG00000110046	autophagy related 2A	Q2TAZ0		KIAA0404|BLTP4A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ISCA2	HGNC:19857	122961	ENSG00000165898	iron-sulfur cluster assembly 2	Q86U28		ISA2|HBLD1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CHKB	HGNC:1938	1120	ENSG00000100288	choline kinase beta	Q9Y259		CHETK|CHKL	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+YPEL1	HGNC:12845	29799	ENSG00000100027	yippee like 1	O60688			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NUDT1	HGNC:8048	4521	ENSG00000106268	nudix hydrolase 1	P36639		MTH1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CUL4B	HGNC:2555	8450	ENSG00000158290	cullin 4B	Q13620			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+C17orf58	HGNC:27568	284018	ENSG00000186665	chromosome 17 open reading frame 58	Q2M2W7			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LHFPL6	HGNC:6586	10186	ENSG00000183722	LHFPL tetraspan subfamily member 6	Q9Y693		MGC22429|LHFP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HSPD1	HGNC:5261	3329	ENSG00000144381	heat shock protein family D (Hsp60) member 1	P10809		GroEL|HSP60|SPG13	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MT1A	HGNC:7393	4489	ENSG00000205362	metallothionein 1A	P04731		MT1|MT1S	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NOL7	HGNC:21040	51406	ENSG00000225921	nucleolar protein 7	Q9UMY1		NOP27|RARG-1|dJ223E5.2|C6orf90|PQBP3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLTM	HGNC:20709	79811	ENSG00000137776	SAFB like transcription modulator	Q9NWH9		Met|FLJ13213	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PPFIA2	HGNC:9246	8499	ENSG00000139220	PPFI scaffold protein A2	O75334			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ST6GALNAC3	HGNC:19343	256435	ENSG00000184005	ST6 N-acetylgalactosaminide alpha-2,6-sialyltransferase 3	Q8NDV1		SIAT7C	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DPP10	HGNC:20823	57628	ENSG00000175497	dipeptidyl peptidase like 10	Q8N608		DPRP3|DPL2|DPPY	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MBD3L3	HGNC:37205	653657	ENSG00000182315	methyl-CpG binding domain protein 3 like 3	A6NE82			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DPY19L2	HGNC:19414	283417	ENSG00000177990	dpy-19 like 2	Q6NUT2		FLJ32949|SPATA34	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GPR152	HGNC:23622	390212	ENSG00000175514	G protein-coupled receptor 152	Q8TDT2		PGR5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BARD1	HGNC:952	580	ENSG00000138376	BRCA1 associated RING domain 1	Q99728			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CD28	HGNC:1653	940	ENSG00000178562	CD28 molecule	P10747			rheumatoid arthritis	candidate	0	GWAS	T-cell co-stimulation	curated (Claude knowledge; unverified)
+SLC4A8	HGNC:11034	9498	ENSG00000050438	solute carrier family 4 member 8	Q2Y0W8		NBC3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NEK4	HGNC:11399	6787	ENSG00000114904	NIMA related kinase 4	P51957		NRK2|pp12301|STK2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PALD1	HGNC:23530	27143	ENSG00000107719	phosphatase domain containing paladin 1	Q9ULE6		PALD|KIAA1274	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TEX53	HGNC:53655	105376230	ENSG00000230054	testis expressed 53	A0A1B0GU33			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LY9	HGNC:6730	4063	ENSG00000122224	lymphocyte antigen 9	Q9HBG7		CD229|mLY9|SLAMF3|hly9	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MRNIP	HGNC:30817	51149	ENSG00000161010	MRN complex interacting protein	Q6NTE8		MGC65027|MGC78537|DKFZp686L2452|LOC51149|C5orf45	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CDKN2AIP	HGNC:24325	55602	ENSG00000168564	CDKN2A interacting protein	Q9NXV6		XTBD2|FLJ20036|CARF	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IFNE	HGNC:18163	338376	ENSG00000184995	interferon epsilon	Q86WN2		IFNE1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GYPC	HGNC:4704	2995	ENSG00000136732	glycophorin C (Gerbich blood group)	P04921		GPC|GYPD|Ge|CD236|CD236R|GPD	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EHBP1	HGNC:29144	23301	ENSG00000115504	EH domain binding protein 1	Q8NDI1		KIAA0903|NACSIN	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EPCIP	HGNC:1305	56245	ENSG00000205929	exosomal polycystin 1 interacting protein	Q9NYP8		B37|PRED81|CU062|C21orf120|C21orf62	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KCTD15	HGNC:23297	79047	ENSG00000153885	potassium channel tetramerization domain containing 15	Q96SI1		MGC25497	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+XKR9	HGNC:20937	389668	ENSG00000221947	XK related 9	Q5GH70			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+AK1	HGNC:361	203	ENSG00000106992	adenylate kinase 1	P00568		ADK|Adk1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LRRC66	HGNC:34299	339977	ENSG00000188993	leucine rich repeat containing 66	Q68CR7			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+WARS2	HGNC:12730	10352	ENSG00000116874	tryptophanyl tRNA synthetase 2, mitochondrial	Q9UGM6		mtTrpRS	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MCM2	HGNC:6944	4171	ENSG00000073111	minichromosome maintenance complex component 2	P49736		D3S3194|KIAA0030|BM28|cdc19|DFNA70|CCNL1|CDCL1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SIX4	HGNC:10890	51804	ENSG00000100625	SIX homeobox 4	Q9UIU6		AREC3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZSCAN20	HGNC:13093	7579	ENSG00000121903	zinc finger and SCAN domain containing 20	P17040		KOX29|ZNF360|ZNF31	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KCNK10	HGNC:6273	54207	ENSG00000100433	potassium two pore domain channel subfamily K member 10	P57789		K2p10.1|TREK-2|TREK2|PPP1R97	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF98	HGNC:13174	148198	ENSG00000197360	zinc finger protein 98	A6NK75		ZNF739|F7175	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PIGX	HGNC:26046	54965	ENSG00000163964	phosphatidylinositol glycan anchor biosynthesis class X	Q8TBF5		FLJ20522|PIG-X	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+INPP5A	HGNC:6076	3632	ENSG00000068383	inositol polyphosphate-5-phosphatase A	Q14642		5PTASE	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KIZ	HGNC:15865	55857	ENSG00000088970	kizuna centrosomal protein	Q2M2Z5		HT013|NCRNA00153|C20orf19|PLK1S1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DTNBP1	HGNC:17328	84062	ENSG00000047579	dystrobrevin binding protein 1	Q96EV8		Dysbindin|My031|HPS7|DBND|BLOC1S8	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FARSA	HGNC:3592	2193	ENSG00000179115	phenylalanyl-tRNA synthetase subunit alpha	Q9Y285		CML33|FARSL|FARSLA	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SMIM15	HGNC:33861	643155	ENSG00000188725	small integral membrane protein 15	Q7Z3B0		DKFZP686E2158|C5orf43	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CD8B	HGNC:1707	926	ENSG00000172116	CD8 subunit beta	P10966		Ly-3|LYT3|P37|CD8beta|CD8B1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RBMXL1	HGNC:25073	494115	ENSG00000213516	RBMX like 1	Q96E39		KAT3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GALNT5	HGNC:4127	11227	ENSG00000136542	polypeptide N-acetylgalactosaminyltransferase 5	Q7Z7M9		GalNAc-T5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+APOH	HGNC:616	350	ENSG00000091583	apolipoprotein H	P02749		BG|B2G1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RBKS	HGNC:30325	64080	ENSG00000171174	ribokinase	Q9H477		DKFZp686G13268|RBSK	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CRISP1	HGNC:304	167	ENSG00000124812	cysteine rich secretory protein 1	P54107		CRISP-1|ARP|HUMARP|HSCRISP1D|HSCRISP1G|AEGL1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PIP4K2C	HGNC:23786	79837	ENSG00000166908	phosphatidylinositol-5-phosphate 4-kinase type 2 gamma	Q8TBX8		FLJ22055|PIP5K2C	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TICAM2	HGNC:21354	353376	ENSG00000243414	TIR domain containing adaptor molecule 2	Q86XR7		TRAM|TICAM-2|TIRP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CDCP1	HGNC:24357	64866	ENSG00000163814	CUB domain containing protein 1	Q9H5V8		CD318|SIMA135	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF232	HGNC:13026	7775	ENSG00000167840	zinc finger protein 232	Q9UNY5		ZSCAN11	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+YARS2	HGNC:24249	51067	ENSG00000139131	tyrosyl-tRNA synthetase 2	Q9Y2Z4		FLJ13995|CGI-04|mt-TyrRS	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+POLR2H	HGNC:9195	5437	ENSG00000163882	RNA polymerase II, I and III subunit H	P52434		RPB8	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LCE1F	HGNC:29467	353137	ENSG00000240386	late cornified envelope 1F	Q5T754		LEP6	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RELT	HGNC:13764	84957	ENSG00000054967	RELT TNF receptor	Q969Z4		FLJ14993|TNFRSF19L	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KRTAP4-5	HGNC:18899	85289	ENSG00000198271	keratin associated protein 4-5	Q9BYR2		KAP4.5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PCDH11Y	HGNC:15813	83259	ENSG00000099715	protocadherin 11 Y-linked	Q9BZA8		PCDHY|PCDH22	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ETS1	HGNC:3488	2113	ENSG00000134954	ETS proto-oncogene 1, transcription factor	P14921		FLJ10768|ETS-1|EWSR2	rheumatoid arthritis	candidate	0	GWAS	transcription factor	curated (Claude knowledge; unverified)
+FOXO1	HGNC:3819	2308	ENSG00000150907	forkhead box O1	Q12778		FKH1|FKHR|FOXO1A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SECISBP2L	HGNC:28997	9728	ENSG00000138593	SECIS binding protein 2 like	Q93073		KIAA0256	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RHPN1	HGNC:19973	114822	ENSG00000158106	rhophilin Rho GTPase binding protein 1	Q8TCX5		KIAA1929|RHPN|ODF5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FCER1G	HGNC:3611	2207	ENSG00000158869	Fc epsilon receptor Ig	P30273		FcepsilonRIgamma	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNHIT2	HGNC:1177	741	ENSG00000174276	zinc finger HIT-type containing 2	Q9UHR6		FON|C11orf5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PTPRC	HGNC:9666	5788	ENSG00000081237	protein tyrosine phosphatase receptor type C	P08575		LCA|T200|GP180|LY5|B220|CD45R|CD45	rheumatoid arthritis	candidate	0	GWAS	CD45	curated (Claude knowledge; unverified)
+TP53I11	HGNC:16842	9537	ENSG00000175274	tumor protein p53 inducible protein 11	O14683		PIG11	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+UACA	HGNC:15947	55075	ENSG00000137831	uveal autoantigen with coiled-coil domains and ankyrin repeats	Q9BZF9		FLJ10128|KIAA1561	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NTS	HGNC:8038	4922	ENSG00000133636	neurotensin	P30990			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CSF2RB	HGNC:2436	1439	ENSG00000100368	colony stimulating factor 2 receptor subunit beta	P32927		IL5RB|CD131|betaGMR|IL3RB	rheumatoid arthritis	candidate	0	biology	GM-CSF receptor beta	curated (Claude knowledge; unverified)
+SLC23A2	HGNC:10973	9962	ENSG00000089057	solute carrier family 23 member 2	Q9UGH3		SVCT2|KIAA0238|YSPL2|SLC23A1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ILF3	HGNC:6038	3609	ENSG00000129351	interleukin enhancer binding factor 3	Q12906		NF90|MPHOSPH4|MPP4|NFAR-1|NFAR110|NFAR-2|TCP110|NF110|DRBP76|NFAR90|NF110b|NF90a|NF90c|NF90ctv|MPP4110	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HPSE	HGNC:5164	10855	ENSG00000173083	heparanase	Q9Y251		HPA|HSE1|HPSE1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PP2D1	HGNC:28406	151649	ENSG00000183977	protein phosphatase 2C like domain containing 1	A8MPX8		FLJ25449|C3orf48	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ADGRF5	HGNC:19030	221395	ENSG00000069122	adhesion G protein-coupled receptor F5	Q8IZF2		DKFZp564O1923|KIAA0758|GPR116	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZBTB11	HGNC:16740	27107	ENSG00000066422	zinc finger and BTB domain containing 11	O95625		ZNF-U69274|ZNF913	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FOXD1	HGNC:3802	2297	ENSG00000251493	forkhead box D1	Q16676		FREAC4|FKHL8	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EHMT1	HGNC:24650	79813	ENSG00000181090	euchromatic histone lysine methyltransferase 1	Q9H9B1		Eu-HMTase1|FLJ12879|KIAA1876|bA188C12.1|KMT1D|FLJ40292|GLP|EHMT1-IT1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SORCS1	HGNC:16697	114815	ENSG00000108018	sortilin related VPS10 domain containing receptor 1	Q8WY21			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+USP9Y	HGNC:12633	8287	ENSG00000114374	ubiquitin specific peptidase 9 Y-linked	O00507		DFFRY|FAF-Y|AZFA	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SYVN1	HGNC:20738	84447	ENSG00000162298	synoviolin 1	Q86TM6		HRD1|DER3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+AMPH	HGNC:471	273	ENSG00000078053	amphiphysin	P49418			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+C1orf52	HGNC:24871	148423	ENSG00000162642	chromosome 1 open reading frame 52	Q8N6N3		gm117|FLJ44982	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PODNL1	HGNC:26275	79883	ENSG00000132000	podocan like 1	Q6PEZ8		FLJ23447|SLRR5B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ADD1	HGNC:243	118	ENSG00000087274	adducin 1	P35611			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MAN1A1	HGNC:6821	4121	ENSG00000111885	mannosidase alpha class 1A member 1	P33908			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+C5	HGNC:1331	727	ENSG00000106804	complement C5	P01031		CPAMD4|C5a|C5b	rheumatoid arthritis	candidate	0	GWAS	TRAF1-C5 locus; complement	curated (Claude knowledge; unverified)
+DHX38	HGNC:17211	9785	ENSG00000140829	DEAH-box helicase 38	Q92620		Prp16|KIAA0224|hPrp16|PRPF16|DDX38	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SURF4	HGNC:11476	6836	ENSG00000148248	surfeit 4	O15260		ERV29|FLJ22993|MGC102753	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PRKAA1	HGNC:9376	5562	ENSG00000132356	protein kinase AMP-activated catalytic subunit alpha 1	Q13131		AMPKa1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TBP	HGNC:11588	6908	ENSG00000112592	TATA-box binding protein	P20226		TFIID|TBP1|GTF2D1|SCA17	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GLT8D2	HGNC:24890	83468	ENSG00000120820	glycosyltransferase 8 domain containing 2	Q9H1C3		FLJ31494	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TMEM123	HGNC:30138	114908	ENSG00000152558	transmembrane protein 123	Q8N131		PORIMIN|KCT3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+STOML1	HGNC:14560	9399	ENSG00000067221	stomatin like 1	Q9UBI4		hUNC-24|SLP-1|STORP|FLJ36370	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TNFSF15	HGNC:11931	9966	ENSG00000181634	TNF superfamily member 15	O95150		TL1|VEGI|TL1A|VEGI192A|MGC129934|MGC129935	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CD300E	HGNC:28874	342510	ENSG00000186407	CD300e molecule	Q496F6		IREM2|CLM2|CD300LE	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HIGD2B	HGNC:26984	123346	ENSG00000175202	HIG1 hypoxia inducible domain family member 2B	Q4VC39		HIGD2BP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+YIPF5	HGNC:24877	81555	ENSG00000145817	Yip1 domain family member 5	Q969M3		SMAP-5|FinGER5|Yip1a|YIPFalpha1A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PIK3CD	HGNC:8977	5293	ENSG00000171608	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta	O00329		p110D	rheumatoid arthritis	candidate	0	biology	PI3K delta; B/T-cell signalling	curated (Claude knowledge; unverified)
+WDR12	HGNC:14098	55759	ENSG00000138442	WD repeat domain 12	Q9GZL7		YTM1|FLJ10881	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CNFN	HGNC:30183	84518	ENSG00000105427	cornifelin	Q9BYD5		PLAC8L2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MOB4	HGNC:17261	25843	ENSG00000115540	MOB family member 4, phocein	Q9Y3A3		MOB3|DKFZP564M112|CGI-95|2C4D|PHOCN|PREI3|MOBKL3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+AFF3	HGNC:6473	3899	ENSG00000144218	ALF transcription elongation factor 3	P51826		MLLT2-like|LAF4	rheumatoid arthritis	candidate	0	GWAS	lymphoid transcription factor	curated (Claude knowledge; unverified)
+COX6B1	HGNC:2280	1340	ENSG00000126267	cytochrome c oxidase subunit 6B1	P14854		COXG|COX6B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RANBP17	HGNC:14428	64901	ENSG00000204764	RAN binding protein 17	Q9H2T7			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DNAJC3	HGNC:9439	5611	ENSG00000102580	DnaJ heat shock protein family (Hsp40) member C3	Q13217		P58|P58IPK|HP58|ERdj6|p58(IPK)|PRKRI	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HRH3	HGNC:5184	11255	ENSG00000101180	histamine receptor H3	Q9Y5N1		GPCR97	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EYA3	HGNC:3521	2140	ENSG00000158161	EYA transcriptional coactivator and phosphatase 3	Q99504		DKFZp686C132	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GHRL	HGNC:18129	51738	ENSG00000157017	ghrelin and obestatin prepropeptide	Q9UBU3		MTLRP|ghrelin|obestatin	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FAM222A	HGNC:25915	84915	ENSG00000139438	family with sequence similarity 222 member A	Q5U5X8		FLJ14721|C12orf34	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRADD	HGNC:12030	8717	ENSG00000102871	TNFRSF1A associated via death domain	Q15628		Hs.89862	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+WASL	HGNC:12735	8976	ENSG00000106299	WASP like actin nucleation promoting factor	O00401		N-WASP|NWASP|WASPB	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TNFRSF1A	HGNC:11916	7132	ENSG00000067182	TNF receptor superfamily member 1A	P19438		TNF-R|TNFAR|TNFR60|TNF-R-I|CD120a|TNF-R55|TNFR1	rheumatoid arthritis	candidate	0	biology	TNF receptor 1	curated (Claude knowledge; unverified)
+PRAMEF5	HGNC:27995	343068	ENSG00000270601	PRAME family member 5	Q5TYX0		PRAMEF5L|PRAMEF23	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF114	HGNC:12894	163071	ENSG00000178150	zinc finger protein 114	Q8NC26		MGC17986	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KLHL4	HGNC:6355	56062	ENSG00000102271	kelch like family member 4	Q9C0H6		KIAA1687|DKELCHL|KHL4	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GATD1	HGNC:26616	347862	ENSG00000177225	glutamine amidotransferase class 1 domain containing 1	Q8NB37		FLJ34283|Fy-5|FERRY5|PDDC1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MAP3K5	HGNC:6857	4217	ENSG00000197442	mitogen-activated protein kinase kinase kinase 5	Q99683		MAPKKK5|ASK1|MEKK5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BRIX1	HGNC:24170	55299	ENSG00000113460	biogenesis of ribosomes BRX1	Q8TDN6		BRIX|FLJ11100|BXDC2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CMTM7	HGNC:19178	112616	ENSG00000153551	CKLF like MARVEL transmembrane domain containing 7	Q96FZ5		FLJ30992|CKLFSF7	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ASF1B	HGNC:20996	55723	ENSG00000105011	anti-silencing function 1B histone chaperone	Q9NVP2		FLJ10604	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PRDM6	HGNC:9350	93166	ENSG00000061455	PR/SET domain 6	Q9NQX0		PRISM|KMT8C	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RFPL4A	HGNC:16449	342931	ENSG00000223638	ret finger protein like 4A	A6NLU0		RNF210|RFPL4	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LIPJ	HGNC:21773	142910	ENSG00000204022	lipase family member J	Q5W064		bA425M17.2|LIPL1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DNAJC21	HGNC:27030	134218	ENSG00000168724	DnaJ heat shock protein family (Hsp40) member C21	Q5F1R6		GS3|DNAJA5|JJJ1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+AKTIP	HGNC:16710	64400	ENSG00000166971	AKT interacting protein	Q9H8T0		FLJ13258|FTS	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+C1QTNF3	HGNC:14326	114899	ENSG00000082196	C1q and TNF related 3	Q9BXJ4		CTRP3|Cors|Corcs|2310005P21Rik|Cors-26	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+APMAP	HGNC:13238	57136	ENSG00000101474	adipocyte plasma membrane associated protein	Q9HDC9		BSCv|C20orf3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+AK2	HGNC:362	204	ENSG00000004455	adenylate kinase 2	P54819			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LGI1	HGNC:6572	9211	ENSG00000108231	leucine rich glioma inactivated 1	O95970		IB1099|ETL1|EPITEMPIN|EPT	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BCLAF3	HGNC:27413	256643	ENSG00000173681	BCLAF1 and THRAP3 family member 3	A2AJT9		CXorf23	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PSMG3	HGNC:22420	84262	ENSG00000157778	proteasome assembly chaperone 3	Q9BT73		MGC10911|PAC3|C7orf48	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CTLA4	HGNC:2505	1493	ENSG00000163599	cytotoxic T-lymphocyte associated protein 4	P16410		CD152|CD|GSE|CTLA-4|CELIAC3|IDDM12	rheumatoid arthritis	candidate	0	GWAS	T-cell co-stimulation; abatacept is CTLA4-Ig	curated (Claude knowledge; unverified)
+SLU7	HGNC:16939	10569	ENSG00000164609	spliceosome associated SLU7	O95391		9G8	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF284	HGNC:13078	342909	ENSG00000186026	zinc finger protein 284	Q2VY69		DKFZp781F1775	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CDK14	HGNC:8883	5218	ENSG00000058091	cyclin dependent kinase 14	O94921		PFTAIRE1|PFTK1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GPR179	HGNC:31371	440435	ENSG00000277399	G protein-coupled receptor 179	Q6PRD1		CSNB1E|GPR158L1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CILP2	HGNC:24213	148113	ENSG00000160161	cartilage intermediate layer protein 2	Q8IUL8		MGC45771	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ACLY	HGNC:115	47	ENSG00000131473	ATP citrate lyase	P53396		ATPCL|CLATP|ACL	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ICOSLG	HGNC:17087	23308	ENSG00000160223	inducible T cell costimulator ligand	O75144		KIAA0653|GL50|B7-H2|B7RP-1|B7H2|B7RP1|ICOS-L|CD275|B7h|ICOSL	rheumatoid arthritis	candidate	0	biology	co-stimulation	curated (Claude knowledge; unverified)
+ZNF33B	HGNC:13097	7582	ENSG00000196693	zinc finger protein 33B	Q06732		KOX31|KOX2|ZNF11B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GADD45G	HGNC:4097	10912	ENSG00000130222	growth arrest and DNA damage inducible gamma	O95257		DDIT2|GADD45gamma|GRP17|CR6	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GGTLC3	HGNC:33426	728226	ENSG00000274252	gamma-glutamyltransferase light chain family member 3	B5MD39			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DDR1	HGNC:2730	780	ENSG00000204580	discoidin domain receptor tyrosine kinase 1	Q08345		RTK6|CD167|NTRK4|PTK3A|NEP|CAK|EDDR1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PREB	HGNC:9356	10113	ENSG00000138073	prolactin regulatory element binding	Q9HCU5		SEC12	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HAMP	HGNC:15598	57817	ENSG00000105697	hepcidin antimicrobial peptide	P81172		LEAP-1|HEPC|HFE2B|LEAP1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NFIL3	HGNC:7787	4783	ENSG00000165030	nuclear factor, interleukin 3 regulated	Q16649		E4BP4|NFIL3A|NF-IL3A|IL3BP1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TNFSF11	HGNC:11926	8600	ENSG00000120659	TNF superfamily member 11	O14788		TRANCE|RANKL|OPGL|ODF|CD254	rheumatoid arthritis	known	1	approved_drug	denosumab — approved in Japan for inhibition of bone-erosion progression in RA	curated (Claude knowledge, 2026-05; unverified)
+ESRRG	HGNC:3474	2104	ENSG00000196482	estrogen related receptor gamma	P62508		NR3B3|ERRg|ERR-gamma	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+VEGFC	HGNC:12682	7424	ENSG00000150630	vascular endothelial growth factor C	P49767		VRP|VEGF-C	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RAET1G	HGNC:16795	353091	ENSG00000203722	retinoic acid early transcript 1G	Q6H3X3		ULBP5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FYTTD1	HGNC:25407	84248	ENSG00000122068	forty-two-three domain containing 1	Q96QD9		DKFZp761B1514|UIF	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RFPL3	HGNC:9980	10738	ENSG00000128276	ret finger protein like 3	O75679		RNF120	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL2RB	HGNC:6009	3560	ENSG00000100385	interleukin 2 receptor subunit beta	P14784		CD122|IL15RB	rheumatoid arthritis	candidate	0	GWAS	T-cell	curated (Claude knowledge; unverified)
+JUND	HGNC:6206	3727	ENSG00000130522	JunD proto-oncogene, AP-1 transcription factor subunit	P17535		AP-1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GLIPR1	HGNC:17001	11010	ENSG00000139278	GLI pathogenesis related 1	P48060		RTVP1|GliPR	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PPM1L	HGNC:16381	151742	ENSG00000163590	protein phosphatase, Mg2+/Mn2+ dependent 1L	Q5SGD2		PP2CE	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CADM4	HGNC:30825	199731	ENSG00000105767	cell adhesion molecule 4	Q8NFZ8		TSLL2|Necl-4|SynCAM4|IGSF4C	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DIPK2A	HGNC:28490	205428	ENSG00000181744	divergent protein kinase domain 2A	Q8NDZ4		MGC33365|DIA1|HASF|C3orf58	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BCAN	HGNC:23059	63827	ENSG00000132692	brevican	Q96GW7		BEHAB|MGC13038|CSPG7	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRMT6	HGNC:20900	51605	ENSG00000089195	tRNA methyltransferase 6 non-catalytic subunit	Q9UJA5		GCD10|MGC5029|Gcd10p|CGI-09	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GLMN	HGNC:14373	11146	ENSG00000174842	glomulin, FKBP associated protein	Q92990		FAP48|FAP68|GLML|GVM|FKBPAP|VMGLOM	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SP140L	HGNC:25105	93349	ENSG00000185404	SP140 like nuclear body protein	Q9H930			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SIRT1	HGNC:14929	23411	ENSG00000096717	sirtuin 1	Q96EB6		SIR2L1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MYC	HGNC:7553	4609	ENSG00000136997	MYC proto-oncogene, bHLH transcription factor	P01106		c-Myc|bHLHe39|MYCC	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CCR6	HGNC:1607	1235	ENSG00000112486	C-C motif chemokine receptor 6	P51684		CKR-L3|GPR-CY4|CMKBR6|GPR29|DRY-6|DCR2|BN-1|CD196|STRL22	rheumatoid arthritis	candidate	0	GWAS	Th17 chemokine receptor	curated (Claude knowledge; unverified)
+FAM171B	HGNC:29412	165215	ENSG00000144369	family with sequence similarity 171 member B	Q6P995		FLJ34104|KIAA1946	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+QRICH2	HGNC:25326	84074	ENSG00000129646	glutamine rich 2	Q9H0J4		DKFZP434P0316	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ACSL1	HGNC:3569	2180	ENSG00000151726	acyl-CoA synthetase long chain family member 1	P33121		LACS2|LACS|ACS1|LACS1|FACL1|FACL2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZDHHC3	HGNC:18470	51304	ENSG00000163812	zDHHC palmitoyltransferase 3	Q9NYG2		ZNF373|GODZ|DHHC3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TMEM247	HGNC:42967	388946	ENSG00000284701	transmembrane protein 247	A6NEH6			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CPN1	HGNC:2312	1369	ENSG00000120054	carboxypeptidase N subunit 1	P15169			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PFKM	HGNC:8877	5213	ENSG00000152556	phosphofructokinase, muscle	P08237		PFK-1|PPP1R122|PFKX	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+C22orf15	HGNC:15558	150248	ENSG00000169314	chromosome 22 open reading frame 15	Q8WYQ4		FLJ36561|N27C7-3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LLPH	HGNC:28229	84298	ENSG00000139233	LLP homolog, long-term synaptic facilitation factor	Q9BRT6		MGC14817|hLLP|C12orf31	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EMG1	HGNC:16912	10436	ENSG00000126749	EMG1 N1-specific pseudouridine methyltransferase	Q92979		C2F|NEP1|Grcc2f	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NR2C1	HGNC:7971	7181	ENSG00000120798	nuclear receptor subfamily 2 group C member 1	P13056		TR2-11|TR2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KCNQ2	HGNC:6296	3785	ENSG00000075043	potassium voltage-gated channel subfamily Q member 2	O43526		Kv7.2|ENB1|BFNC|KCNA11|HNSPC|EBN|EBN1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CC2D1A	HGNC:30237	54862	ENSG00000132024	coiled-coil and C2 domain containing 1A	Q6P1N0		FLJ20241|MRT3|Freud-1|Lgd2|TAPE|Aki-1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ESM1	HGNC:3466	11082	ENSG00000164283	endothelial cell specific molecule 1	Q9NQ30			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CCDC9B	HGNC:33488	388115	ENSG00000188549	coiled-coil domain containing 9B	Q6ZUT6		FLJ43339|C15orf52	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+WNT5A	HGNC:12784	7474	ENSG00000114251	Wnt family member 5A	P41221		hWNT5A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OR4F29	HGNC:31275	729759	ENSG00000284733	olfactory receptor family 4 subfamily F member 29	Q6IEY1			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ASIC1	HGNC:100	41	ENSG00000110881	acid sensing ion channel subunit 1	P78348		BNaC2|hBNaC2|ACCN2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PIK3C3	HGNC:8974	5289	ENSG00000078142	phosphatidylinositol 3-kinase catalytic subunit type 3	Q8NEB9		Vps34|hVps34	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZRANB3	HGNC:25249	84083	ENSG00000121988	zinc finger RANBP2-type containing 3	Q5FWF4		DKFZP434B1727|AH2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DCAF12L1	HGNC:29395	139170	ENSG00000198889	DDB1 and CUL4 associated factor 12 like 1	Q5VU92		KIAA1892L|WDR40B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IGSF23	HGNC:40040	147710	ENSG00000216588	immunoglobulin superfamily member 23	A1L1A6			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LRRC8C	HGNC:25075	84230	ENSG00000171488	leucine rich repeat containing 8 VRAC subunit C	Q8TDW0		AD158	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRMT1L	HGNC:16782	81627	ENSG00000121486	tRNA methyltransferase 1L	Q7Z2T5		C1orf25	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TM9SF1	HGNC:11864	10548	ENSG00000100926	transmembrane 9 superfamily member 1	O15321		MP70|HMP70	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FNBP1L	HGNC:20851	54874	ENSG00000137942	formin binding protein 1 like	Q5T0N5		TOCA1|FLJ20275|C1orf39	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+USP40	HGNC:20069	55230	ENSG00000085982	ubiquitin specific peptidase 40	Q9NVE5		FLJ10785	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRAPPC13	HGNC:25828	80006	ENSG00000113597	trafficking protein particle complex subunit 13	A5PLN9		FLJ13611|MGC48585|C5orf44	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PPP1R15A	HGNC:14375	23645	ENSG00000087074	protein phosphatase 1 regulatory subunit 15A	O75807		GADD34	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CDC20B	HGNC:24222	166979	ENSG00000164287	cell division cycle 20B	Q86Y33		FLJ37927	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EHMT2	HGNC:14129	10919	ENSG00000204371	euchromatic histone lysine methyltransferase 2	Q96KQ7		G9A|Em:AF134726.3|NG36/G9a|KMT1C|C6orf30|BAT8	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRIM9	HGNC:16288	114088	ENSG00000100505	tripartite motif containing 9	Q9C026		SPRING|RNF91	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CPSF6	HGNC:13871	11052	ENSG00000111605	cleavage and polyadenylation specific factor 6	Q16630		CFIM|HPBRII-4|HPBRII-7|CFIM68|CFIM72	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CYP11A1	HGNC:2590	1583	ENSG00000140459	cytochrome P450 family 11 subfamily A member 1	P05108		P450SCC|CYP11A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IPP	HGNC:6108	3652	ENSG00000197429	intracisternal A particle-promoted polypeptide	Q9Y573		KLHL27	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF587B	HGNC:37142	100293516	ENSG00000269343	zinc finger protein 587B	E7ETH6			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FAM90A20	HGNC:32268	728430	ENSG00000233295	family with sequence similarity 90 member A20	A6NIJ5		FAM90A20P	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SSX4B	HGNC:16880	548313	ENSG00000269791	SSX family member 4B	O60224		OTTHUMT00000056510	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PPP1CB	HGNC:9282	5500	ENSG00000213639	protein phosphatase 1 catalytic subunit beta	P62140		PP1Cbeta|PPP1CD|PP1Cdelta|PP1B|PP-1B|PP1beta|PP1c|MP|PPP1beta	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CSPG4	HGNC:2466	1464	ENSG00000173546	chondroitin sulfate proteoglycan 4	Q6UVK1		MCSPG|MEL-CSPG|MSK16|NG2|MCSP|HMW-MAA|CSPG4A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF513	HGNC:26498	130557	ENSG00000163795	zinc finger protein 513	Q8N8E2		FLJ32203|RP58|Zfp513	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CBLN4	HGNC:16231	140689	ENSG00000054803	cerebellin 4 precursor	Q9NTU7		dJ885A10.1|CBLNL1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ATP11A	HGNC:13552	23250	ENSG00000068650	ATPase phospholipid transporting 11A	P98196		ATPIH|ATPIS|KIAA1021	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+B4GALT4	HGNC:927	8702	ENSG00000121578	beta-1,4-galactosyltransferase 4	O60513		beta4Gal-T4	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PEAK1	HGNC:29431	79834	ENSG00000173517	pseudopodium enriched atypical kinase 1	Q9H792		KIAA2002|sgk269	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CCDC54	HGNC:30703	84692	ENSG00000138483	coiled-coil domain containing 54	Q8NEL0		NYD-SP17|FLJ25362|SP17	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TTC24	HGNC:32348	164118	ENSG00000187862	tetratricopeptide repeat domain 24	A2A3L6			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MYOT	HGNC:12399	9499	ENSG00000120729	myotilin	Q9UBF9		TTID|LGMD1A|LGMD1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MMP2	HGNC:7166	4313	ENSG00000087245	matrix metallopeptidase 2	P08253		MMP-2|TBE-1|CLG4|CLG4A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PRF1	HGNC:9360	5551	ENSG00000180644	perforin 1	P14222		PFP|P1|HPLH2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RBMXL2	HGNC:17886	27288	ENSG00000170748	RBMX like 2	O75526		HNRNPG-T|HNRPGT	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SIN3A	HGNC:19353	25942	ENSG00000169375	SIN3 transcription regulator family member A	Q96ST3		KIAA0700|DKFZP434K2235	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EYA1	HGNC:3519	2138	ENSG00000104313	EYA transcriptional coactivator and phosphatase 1	Q99502		BOR	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ARC	HGNC:648	23237	ENSG00000198576	activity regulated cytoskeleton associated protein	Q7LC44		KIAA0278|Arg3.1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ANKRD10	HGNC:20265	55608	ENSG00000088448	ankyrin repeat domain 10	Q9NXR5		FLJ20093	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EP400	HGNC:11958	57634	ENSG00000183495	E1A binding protein p400	Q96L91		CAGH32|KIAA1498|P400|KIAA1818|DKFZP434I225|TNRC12	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+G6PC3	HGNC:24861	92579	ENSG00000141349	glucose-6-phosphatase catalytic subunit 3	Q9BUM1		UGRP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+C10orf53	HGNC:27421	282966	ENSG00000178645	chromosome 10 open reading frame 53	Q8N6V4		Em:AC069546.1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RPN1	HGNC:10381	6184	ENSG00000163902	ribophorin I	P04843		OST1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL15	HGNC:5977	3600	ENSG00000164136	interleukin 15	P40933		IL-15|MGC9721	rheumatoid arthritis	candidate	0	clinical_trial	IL-15 antibody phase 2	curated (Claude knowledge; unverified)
+ZNF846	HGNC:27260	162993	ENSG00000196605	zinc finger protein 846	Q147U1			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ANXA11	HGNC:535	311	ENSG00000122359	annexin A11	P50995		ANX11	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NAPSA	HGNC:13395	9476	ENSG00000131400	napsin A aspartic peptidase	O96009		NAP1|NAPA|Kdap|KAP|NR1H2-AS1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ATAD2	HGNC:30123	29028	ENSG00000156802	ATPase family AAA domain containing 2	Q6PL18		PRO2000|DKFZp667N1320|MGC5254|MGC29843|CT137|ANCCA	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+COX7A2L	HGNC:2289	9167	ENSG00000115944	cytochrome c oxidase subunit 7A2 like	O14548		EB1|COX7RP|COX7AR|SIG81|SCAF1|SCAFI	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PLEKHG1	HGNC:20884	57480	ENSG00000120278	pleckstrin homology and RhoGEF domain containing G1	Q9ULL1		KIAA1209|ARHGEF41	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PPIAL4A	HGNC:24369	653505	ENSG00000263353	peptidylprolyl isomerase A like 4A	Q9Y536		COAS2|PPIAL4|PPIAL4B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PUS7L	HGNC:25276	83448	ENSG00000129317	pseudouridine synthase 7 like	Q9H0K6		DKFZP434G1415	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LRIF1	HGNC:30299	55791	ENSG00000121931	ligand dependent nuclear receptor interacting factor 1	Q5T3J3		RIF1|FLJ11269|C1orf103	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRIM47	HGNC:19020	91107	ENSG00000132481	tripartite motif containing 47	Q96LD4		GOA|RNF100	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NECAP2	HGNC:25528	55707	ENSG00000157191	NECAP endocytosis associated 2	Q9NVZ3		FLJ10420	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+VAMP4	HGNC:12645	8674	ENSG00000117533	vesicle associated membrane protein 4	O75379			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NPR2	HGNC:7944	4882	ENSG00000159899	natriuretic peptide receptor 2	P20594		GUCY2B|ANPb|GC-B|ANPRB|NPRB|AMDM	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LIG1	HGNC:6598	3978	ENSG00000105486	DNA ligase 1	P18858		LIGI|hLig1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TSSK2	HGNC:11401	23617	ENSG00000206203	testis specific serine kinase 2	Q96PF2		SPOGA2|FLJ38613|STK22B	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IRAK4	HGNC:17967	51135	ENSG00000198001	interleukin 1 receptor associated kinase 4	Q9NWZ3		NY-REN-64	rheumatoid arthritis	candidate	0	clinical_trial	IRAK4 inhibitors phase 2 in RA	curated (Claude knowledge; unverified)
+HMHB1	HGNC:29677	57824	ENSG00000158497	histocompatibility minor HB-1	O97980		HB-1|HB-1Y	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GPR75	HGNC:4526	10936	ENSG00000119737	G protein-coupled receptor 75	O95800		WI-31133	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SMURF1	HGNC:16807	57154	ENSG00000198742	SMAD specific E3 ubiquitin protein ligase 1	Q9HCE7		KIAA1625	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RNF151	HGNC:23235	146310	ENSG00000179580	ring finger protein 151	Q2KHN1			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PRKCQ	HGNC:9410	5588	ENSG00000065675	protein kinase C theta	Q04759			rheumatoid arthritis	candidate	0	GWAS	T-cell PKC-theta	curated (Claude knowledge; unverified)
+RIOK1	HGNC:18656	83732	ENSG00000124784	RIO kinase 1	Q9BRS2		AD034|FLJ30006|bA288G3.1|RRP10	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SHOX	HGNC:10853	6473	ENSG00000185960	SHOX homeobox	O15266		PHOG|GCFX|SS|SHOXY|SHOX1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF169	HGNC:12957	169841	ENSG00000175787	zinc finger protein 169	Q14929		MGC51961	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PTGS2	HGNC:9605	5743	ENSG00000073756	prostaglandin-endoperoxide synthase 2	P35354		COX2	rheumatoid arthritis	known	1	approved_drug	celecoxib; etoricoxib; NSAIDs — symptomatic treatment of RA	curated (Claude knowledge, 2026-05; unverified)
+NBPF9	HGNC:31991	400818	ENSG00000269713	NBPF member 9	P0DPF3		AE01	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KRT19	HGNC:6436	3880	ENSG00000171345	keratin 19	P08727		K19|CK19|K1CS|MGC15366	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRPC5OS	HGNC:40593	100329135	ENSG00000204025	TRPC5 opposite strand	A6NMA1		TRPC5-AS1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SMIM10L3	HGNC:56768	122526779	ENSG00000286075	small integral membrane protein 10 like 3	A0A0C4DGP1		SAGSIN1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RFX2	HGNC:9983	5990	ENSG00000087903	regulatory factor X2	P48378		FLJ14226	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SPRED2	HGNC:17722	200734	ENSG00000198369	sprouty related EVH1 domain containing 2	Q7Z698		Spred-2|FLJ21897|FLJ31917	rheumatoid arthritis	candidate	0	GWAS	MAPK regulator	curated (Claude knowledge; unverified)
+SEMA4B	HGNC:10730	10509	ENSG00000185033	semaphorin 4B	Q9NPR2		SemC|KIAA1745|MGC131831|SEMAC	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DZIP1L	HGNC:26551	199221	ENSG00000158163	DAZ interacting zinc finger protein 1 like	Q8IYY4		FLJ32844|DZIP2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRIM48	HGNC:19021	79097	ENSG00000150244	tripartite motif containing 48	Q8IWZ4		RNF101	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CCDC39	HGNC:25244	339829	ENSG00000284862	coiled-coil domain 39 molecular ruler complex subunit	Q9UFE4		DKFZp434A128|CILD14|FAP59|CFAP59	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+USP12	HGNC:20485	219333	ENSG00000152484	ubiquitin specific peptidase 12	O75317		USP12L1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ANKRD18B	HGNC:23644	441459	ENSG00000230453	ankyrin repeat domain 18B	A2A2Z9		bA255A11.3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF37A	HGNC:13102	7587	ENSG00000075407	zinc finger protein 37A	P17032		KOX21|ZNF37	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CSRNP3	HGNC:30729	80034	ENSG00000178662	cysteine and serine rich nuclear protein 3	Q8WYN3		FLJ32093|TAIP-2|PPP1R73|FAM130A2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FAM3C	HGNC:18664	10447	ENSG00000196937	FAM3 metabolism regulating signaling molecule C	Q92520		GS3876|ILEI	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TLE2	HGNC:11838	7089	ENSG00000065717	TLE family member 2, transcriptional corepressor	Q04725		ESG2|GRG2|ESG|FLJ41188	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ESPNL	HGNC:27937	339768	ENSG00000144488	espin like	Q6ZVH7		FLJ42568	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RDH11	HGNC:17964	51109	ENSG00000072042	retinol dehydrogenase 11	Q8TC12		MDT1|SDR7C1|ARSDR1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL12B	HGNC:5970	3593	ENSG00000113302	interleukin 12B	P29460		CLMF|IL-12B|NKSF|CLMF2|NKSF2	rheumatoid arthritis	candidate	0	clinical_trial	IL-12/23 p40; ustekinumab phase 2 in RA	curated (Claude knowledge; unverified)
+SLC8A3	HGNC:11070	6547	ENSG00000100678	solute carrier family 8 member A3	P57103		NCX3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SERPINA9	HGNC:15995	327657	ENSG00000170054	serpin family A member 9	Q86WD7		SERPINA11b|GCET1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SPI1	HGNC:11241	6688	ENSG00000066336	Spi-1 proto-oncogene	P17947		PU.1|SPI-A|OF|SFPI1|SPI-1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+AXL	HGNC:905	558	ENSG00000167601	AXL receptor tyrosine kinase	P30530		UFO|JTK11|Tyro7|ARK	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CNTRL	HGNC:1858	11064	ENSG00000119397	centriolin	Q7Z7A1		CEP1|CEP110	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+HLA-DRB1	HGNC:4948	3123	ENSG00000196126	major histocompatibility complex, class II, DR beta 1	P01911		HLA-DR1B	rheumatoid arthritis	candidate	0	GWAS	shared-epitope alleles; strongest RA locus	curated (Claude knowledge; unverified)
+ZDHHC8	HGNC:18474	29801	ENSG00000099904	zDHHC palmitoyltransferase 8	Q9ULC8		ZNF378|KIAA1292|DHHC8	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PON1	HGNC:9204	5444	ENSG00000005421	paraoxonase 1	P27169		ESA|PON	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SEMA3A	HGNC:10723	10371	ENSG00000075213	semaphorin 3A	Q14563		SEMA1|SemD|coll-1|Hsema-I|SEMAD	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF695	HGNC:30954	57116	ENSG00000197472	zinc finger protein 695	Q8IW36		SBZF3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NDST3	HGNC:7682	9348	ENSG00000164100	N-deacetylase and N-sulfotransferase 3	O95803		HSST3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DBP	HGNC:2697	1628	ENSG00000105516	D-box binding PAR bZIP transcription factor	Q10586		DABP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RBMX	HGNC:9910	27316	ENSG00000147274	RNA binding motif protein X-linked	P38159		RNMX|hnRNP-G|HNRNPG	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EIF1AX	HGNC:3250	1964	ENSG00000173674	eukaryotic translation initiation factor 1A X-linked	P47813		eIF-1A|eIF-4C|EIF4C|EIF1A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IRF5	HGNC:6120	3663	ENSG00000128604	interferon regulatory factor 5	Q13568		IRF-5	rheumatoid arthritis	candidate	0	GWAS	interferon regulatory factor	curated (Claude knowledge; unverified)
+APBA3	HGNC:580	9546	ENSG00000011132	amyloid beta precursor protein binding family A member 3	O96018		X11L2|mint3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KCTD12	HGNC:14678	115207	ENSG00000178695	potassium channel tetramerization domain containing 12	Q96CX2		KIAA1778|PFET1|C13orf2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC25A17	HGNC:10987	10478	ENSG00000100372	solute carrier family 25 member 17	O43808		PMP34	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TAF1	HGNC:11535	6872	ENSG00000147133	TATA-box binding protein associated factor 1	P21675		NSCL2|TAFII250|KAT4|DYT3/TAF1|TAF2A|BA2R|CCG1|CCGS|DYT3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CTXN1	HGNC:31108	404217	ENSG00000178531	cortexin 1	P60606		FLJ25968	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ESPN	HGNC:13281	83715	ENSG00000187017	espin	B1AK53		DFNB36	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MOAP1	HGNC:16658	64112	ENSG00000165943	modulator of apoptosis 1	Q96BY2		MAP-1|PNMA4	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CST11	HGNC:15959	140880	ENSG00000125831	cystatin 11	Q9H112		dJ322G13.6|CTES2|CST8L	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CD40LG	HGNC:11935	959	ENSG00000102245	CD40 ligand	P29965		CD40L|TRAP|gp39|hCD40L|CD154|CD40-L|HIGM1|T-BAM|HIGM1|IMD3|TNFSF5	rheumatoid arthritis	candidate	0	clinical_trial	CD40L blockade in trials for autoimmunity	curated (Claude knowledge; unverified)
+EMC4	HGNC:28032	51234	ENSG00000128463	ER membrane protein complex subunit 4	Q5J8M3		FLJ90746|MGC24415|PIG17|TMEM85	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DBI	HGNC:2690	1622	ENSG00000155368	diazepam binding inhibitor, acyl-CoA binding protein	P07108		ACBP|ACBD1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL7R	HGNC:6024	3575	ENSG00000168685	interleukin 7 receptor	P16871		CD127|IL7RA|lnc-IL7R|IL-7Ralpha|IL7Ralpha|sIL-7R|CDw127	rheumatoid arthritis	candidate	0	GWAS	IL-7 receptor	curated (Claude knowledge; unverified)
+OR5A1	HGNC:8319	219982	ENSG00000172320	olfactory receptor family 5 subfamily A member 1	Q8NGJ0		OST181|OR5A1P	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ANKRD61	HGNC:22467	100310846	ENSG00000157999	ankyrin repeat domain 61	A6NGH8			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NSMCE2	HGNC:26513	286053	ENSG00000156831	NSE2 SUMO ligase component of SMC5/6 complex	Q96MF7		FLJ32440|MMS21|NSE2|ZMIZ7|C8orf36	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TMED1	HGNC:17291	11018	ENSG00000099203	transmembrane p24 trafficking protein 1	Q13445		ST2L|MGC1270|IL1RL1LG|Il1rl1l|p24gamma1|p24g1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FBXO48	HGNC:33857	554251	ENSG00000204923	F-box protein 48	Q5FWF7			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SRCAP	HGNC:16974	10847	ENSG00000080603	Snf2 related CREBBP activator protein	Q6ZRS2		KIAA0309|SWR1|DOMO1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OR2T3	HGNC:14727	343173	ENSG00000196539	olfactory receptor family 2 subfamily T member 3	Q8NH03			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SPINT1	HGNC:11246	6692	ENSG00000166145	serine peptidase inhibitor, Kunitz type 1	O43278		HAI|HAI-1|MANSC2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+C20orf96	HGNC:16227	140680	ENSG00000196476	chromosome 20 open reading frame 96	Q9NUD7		dJ1103G7.2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TGOLN2	HGNC:15450	10618	ENSG00000152291	trans-golgi network protein 2	O43493		TGN51|TGN46|TGN48|TGN38|TTGN2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DLX3	HGNC:2916	1747	ENSG00000064195	distal-less homeobox 3	O60479			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CENPO	HGNC:28152	79172	ENSG00000138092	centromere protein O	Q9BU64		MGC11266|CENP-O	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SYK	HGNC:11491	6850	ENSG00000165025	spleen associated tyrosine kinase	P43405			rheumatoid arthritis	candidate	0	clinical_trial	fostamatinib phase 3 in RA (not approved)	curated (Claude knowledge; unverified)
+MBD6	HGNC:20445	114785	ENSG00000166987	methyl-CpG binding domain protein 6	Q96DN6		KIAA1887	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FBXO39	HGNC:28565	162517	ENSG00000177294	F-box protein 39	Q8N4B4		MGC35179|Fbx39|CT144	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OPN1LW	HGNC:9936	5956	ENSG00000102076	opsin 1, long wave sensitive	P04000		COD5|CBBM|RCP|CBP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+UPK2	HGNC:12579	7379	ENSG00000110375	uroplakin 2	O00526		UP2|UPII|MGC138598	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ATXN10	HGNC:10549	25814	ENSG00000130638	ataxin 10	Q9UBB4		E46L|FLJ37990|ATX10|SCA10	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SPINK14	HGNC:33825	408187	ENSG00000196800	serine peptidase inhibitor Kazal type 14 (putative)	Q6IE38		SPINK5L2	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SGPP2	HGNC:19953	130367	ENSG00000163082	sphingosine-1-phosphate phosphatase 2	Q8IWX5		SPP2|FLJ39004	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TSHZ1	HGNC:10669	10194	ENSG00000179981	teashirt zinc finger homeobox 1	Q6ZSZ6		NY-CO-33|TSH1|SDCCAG33	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ERI3	HGNC:17276	79033	ENSG00000117419	ERI1 exoribonuclease family member 3	O43414		FLJ22943|PINT1|PRNPIP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+REC8	HGNC:16879	9985	ENSG00000100918	REC8 meiotic recombination protein	O95072		Rec8p|kleisin-alpha|REC8L1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ADAMTS1	HGNC:217	9510	ENSG00000154734	ADAM metallopeptidase with thrombospondin type 1 motif 1	Q9UHI8		C3-C5|METH1|KIAA1346	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FAAH2	HGNC:26440	158584	ENSG00000165591	fatty acid amide hydrolase 2	Q6GMR7		RP11-479E16.1|FLJ31204|FAAH-2|AMDD	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TMEM106A	HGNC:28288	113277	ENSG00000184988	transmembrane protein 106A	Q96A25		MGC20235	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL17A	HGNC:5981	3605	ENSG00000112115	interleukin 17A	Q16552		IL-17A|IL-17|CTLA8|IL17	rheumatoid arthritis	candidate	0	clinical_trial	secukinumab/ixekizumab not approved for RA	curated (Claude knowledge; unverified)
+TOR3A	HGNC:11997	64222	ENSG00000186283	torsin family 3 member A	Q9H497		FLJ22345|ADIR2|ADIR	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZFAND2A	HGNC:28073	90637	ENSG00000178381	zinc finger AN1-type containing 2A	Q8N6M9		AIRAP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LRRC8B	HGNC:30692	23507	ENSG00000197147	leucine rich repeat containing 8 VRAC subunit B	Q6P9F7		TA-LRRP|KIAA0231	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+OTX1	HGNC:8521	5013	ENSG00000115507	orthodenticle homeobox 1	P32242			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RIIAD1	HGNC:26686	284485	ENSG00000178796	regulatory subunit of type II PKA R-subunit domain containing 1	A6NNX1		FLJ36032|NCRNA00166|C1orf230	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SUCNR1	HGNC:4542	56670	ENSG00000198829	succinate receptor 1	Q9BXA5		GPR91	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CCDC116	HGNC:26688	164592	ENSG00000161180	coiled-coil domain containing 116	Q8IYX3		FLJ36046	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TTYH3	HGNC:22222	80727	ENSG00000136295	tweety family member 3	Q9C0H2		KIAA1691	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MTA1	HGNC:7410	9112	ENSG00000182979	metastasis associated 1	Q13330			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TRNT1	HGNC:17341	51095	ENSG00000072756	tRNA nucleotidyl transferase 1	Q96Q11		MtCCA|CGI-47|CCA1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TMEM165	HGNC:30760	55858	ENSG00000134851	transmembrane protein 165	Q9HC07		TMPT27|TPARL|GDT1|SLC64A1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC17A9	HGNC:16192	63910	ENSG00000101194	solute carrier family 17 member 9	Q9BYT1		FLJ23412|VNUT|C20orf59	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ADARB2	HGNC:227	105	ENSG00000185736	adenosine deaminase RNA specific B2 (inactive)	Q9NS39		RED2|hRED2|ADAR3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RANGRF	HGNC:17679	29098	ENSG00000108961	RAN guanine nucleotide release factor	Q9HD47		MOG1|HSPC165|HSPC236|RANGNRF	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZP1	HGNC:13187	22917	ENSG00000149506	zona pellucida glycoprotein 1	P60852		ZPB1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CBR4	HGNC:25891	84869	ENSG00000145439	carbonyl reductase 4	Q8N4T8		FLJ14431|SDR45C1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LGR4	HGNC:13299	55366	ENSG00000205213	leucine rich repeat containing G protein-coupled receptor 4	Q9BXB1		GPR48	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+TUB	HGNC:12406	7275	ENSG00000166402	TUB bipartite transcription factor	P50607		rd5	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DDX60L	HGNC:26429	91351	ENSG00000181381	DExD/H-box 60 like	Q5H9U9		FLJ31033	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BLOC1S6	HGNC:8549	26258	ENSG00000104164	biogenesis of lysosomal organelles complex 1 subunit 6	Q9UL45		HPS9|PA|PLDN	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+VCAM1	HGNC:12663	7412	ENSG00000162692	vascular cell adhesion molecule 1	P19320		CD106	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SPACA1	HGNC:14967	81833	ENSG00000118434	sperm acrosome associated 1	Q9HBV2		SAMP32	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ADCY9	HGNC:240	115	ENSG00000162104	adenylate cyclase 9	O60503		AC9	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MATN1	HGNC:6907	4146	ENSG00000162510	matrilin 1	P21941		CRTM|CMP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BEX3	HGNC:13388	27018	ENSG00000166681	brain expressed X-linked 3	Q00994		Bex|NADE|HGR74|Hero20|DXS6984E|NGFRAP1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CD80	HGNC:1700	941	ENSG00000121594	CD80 molecule	P33681		B7.1|B7-1|CD28LG|CD28LG1	rheumatoid arthritis	known	1	approved_drug	abatacept — approved for RA (CTLA4-Ig binds CD80/CD86)	curated (Claude knowledge, 2026-05; unverified)
+HAUS3	HGNC:28719	79441	ENSG00000214367	HAUS augmin like complex subunit 3	Q68CZ6		MGC4701|IT1|dgt3|C4orf15	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DDRGK1	HGNC:16110	65992	ENSG00000198171	DDRGK domain containing 1	Q96HY6		dJ1187M17.3|UFBP1|C20orf116	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF611	HGNC:28766	81856	ENSG00000213020	zinc finger protein 611	Q8N823		MGC5384	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+NUSAP1	HGNC:18538	51203	ENSG00000137804	nucleolar and spindle associated protein 1	Q9BXS6		FLJ13421|LNP|ANKT|SAPL|BM037|PRO0310p1|Q0310	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SLC35G1	HGNC:26607	159371	ENSG00000176273	solute carrier family 35 member G1	Q2M3R5		FLJ33990|C10orf60|POST|TMEM20	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BLK	HGNC:1057	640	ENSG00000136573	BLK proto-oncogene, Src family tyrosine kinase	P51451		MGC10442	rheumatoid arthritis	candidate	0	GWAS	B-cell kinase	curated (Claude knowledge; unverified)
+SIGLEC11	HGNC:15622	114132	ENSG00000161640	sialic acid binding Ig like lectin 11	Q96RL6			rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GJB3	HGNC:4285	2707	ENSG00000188910	gap junction protein beta 3	O75712		CX31|DFNA2|EKV	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FAM114A2	HGNC:1333	10827	ENSG00000055147	family with sequence similarity 114 member A2	Q9NRY5		133K02|C5orf3	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ANKRD34A	HGNC:27639	284615	ENSG00000272031	ankyrin repeat domain 34A	Q69YU3		ANKRD34	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+BTK	HGNC:1133	695	ENSG00000010671	Bruton tyrosine kinase	Q06187		ATK|XLA|PSCTK1|AGMX1|IMD1	rheumatoid arthritis	candidate	0	clinical_trial	BTK inhibitors phase 2 in RA	curated (Claude knowledge; unverified)
+TLR4	HGNC:11850	7099	ENSG00000136869	toll like receptor 4	O00206		hToll|CD284|TLR-4|ARMD10	rheumatoid arthritis	candidate	0	biology	innate immune receptor	curated (Claude knowledge; unverified)
+CLCNKB	HGNC:2027	1188	ENSG00000184908	chloride voltage-gated channel Kb	P51801		hClC-Kb|CLCKB|ClC-K2|ClC-Kb	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+SHISA8	HGNC:18351	440829	ENSG00000234965	shisa family member 8	B8ZZ34		Orf26|C22orf17	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MBNL3	HGNC:20564	55796	ENSG00000076770	muscleblind like splicing regulator 3	Q9NUK0		CHCR|FLJ11316|MBLX39|MBXL	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RPL18	HGNC:10310	6141	ENSG00000063177	ribosomal protein L18	Q07020		L18|eL18	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CSF2	HGNC:2434	1437	ENSG00000164400	colony stimulating factor 2	P04141		GM-CSF|GMCSF	rheumatoid arthritis	candidate	0	clinical_trial	GM-CSF; otilimab failed phase 3	curated (Claude knowledge; unverified)
+REG1B	HGNC:9952	5968	ENSG00000172023	regenerating family member 1 beta	P48304		REGL|PSPS2|REGH|REGI-BETA	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+THSD1	HGNC:17754	55901	ENSG00000136114	thrombospondin type 1 domain containing 1	Q9NS62		TMTSP	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ITPRID1	HGNC:27363	223075	ENSG00000180347	ITPR interacting domain containing 1	Q6ZRS4		FLJ38344|CCDC129	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+U2SURP	HGNC:30855	23350	ENSG00000163714	U2 snRNP associated SURP domain containing	O15042		fSAPa|SR140	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+FOXD4L6	HGNC:31986	653404	ENSG00000273514	forkhead box D4 like 6	Q3SYB3		OTTHUMG00000066822	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+MROH5	HGNC:42976	389690	ENSG00000226807	maestro heat like repeat family member 5 (gene/pseudogene)	Q6ZUA9		FLJ43860	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+CD2	HGNC:1639	914	ENSG00000116824	CD2 molecule	P06729		SRBC	rheumatoid arthritis	candidate	0	GWAS	CD2-CD58 locus	curated (Claude knowledge; unverified)
+FOXL2NB	HGNC:34428	401089	ENSG00000206262	FOXL2 neighbor	Q6ZUU3		FLJ43329|C3orf72	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PRDM11	HGNC:13996	56981	ENSG00000019485	PR/SET domain 11	Q9NQV5		PFM8	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+IL2RA	HGNC:6008	3559	ENSG00000134460	interleukin 2 receptor subunit alpha	P01589		CD25|IL2R|IDDM10	rheumatoid arthritis	candidate	0	GWAS	Treg / T-cell	curated (Claude knowledge; unverified)
+C14orf180	HGNC:33795	400258	ENSG00000184601	chromosome 14 open reading frame 180	Q8N912		NRAC|C14orf77	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KIR2DL1	HGNC:6329	3802	ENSG00000125498	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 1	P43626		cl-42|nkat1|47.11|p58.1|CD158A	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+GRK7	HGNC:17031	131890	ENSG00000114124	G protein-coupled receptor kinase 7	Q8WTQ7		GPRK7	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+PAPLN	HGNC:19262	89932	ENSG00000100767	papilin, proteoglycan like sulfated glycoprotein	O95428		MGC50452	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+DNAJC12	HGNC:28908	56521	ENSG00000108176	DnaJ heat shock protein family (Hsp40) member C12	Q9UKB3		JDP1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+EIF4A3	HGNC:18683	9775	ENSG00000141543	eukaryotic translation initiation factor 4A3	P38919		KIAA0111|EIF4AIII|Fal1|DDX48	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+KCNT2	HGNC:18866	343450	ENSG00000162687	potassium sodium-activated channel subfamily T member 2	Q6UVM3		KCa4.2|SLICK|SLO2.1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+LMTK1	HGNC:21	9625	ENSG00000181409	lemur tail kinase 1	Q6ZMQ8		AATYK|KIAA0641|LMR1|AATYK1|PPP1R77|AATK	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+ZNF708	HGNC:12945	7562	ENSG00000182141	zinc finger protein 708	P17019		KOX8|ZNF15|ZNF15L1	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
+RCCD1	HGNC:30457	91433	ENSG00000166965	RCC1 domain containing 1	A6NED2		MGC14386	rheumatoid arthritis	random	0			HGNC protein-coding, random seed 20260921
