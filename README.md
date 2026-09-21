@@ -51,8 +51,10 @@ python scripts/sensitivity.py   # ルール定数を変えると順位がどう�
 
 ```bash
 pip install llama-cpp-python guidance              # macOS では Metal 対応版が入ります
-python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf --mode compare            # 既定: guidance 方式
-python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf --mode compare --engine llama_cpp   # logits 直読み
+python scripts/run_txgemma.py --list-models        # ~/llm/models にある GGUF を表示
+python scripts/run_txgemma.py --mode compare       # ~/llm/models の txgemma*.gguf を自動選択（既定: guidance 方式）
+python scripts/run_txgemma.py --mode compare --engine llama_cpp                  # logits 直読み
+python scripts/run_txgemma.py --model ~/llm/models/<別のモデル>.gguf --mode compare
 python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf --mode loop   # 拡張もLLMに任せる
 ```
 
@@ -74,7 +76,7 @@ python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf --mode 
 
 ```bash
 python scripts/build_gene_sets.py                  # data/raw/hgnc_complete_set.txt から再生成
-python scripts/run_txgemma.py --model <GGUF> --gene-set data/genes/ra_set100.tsv   # set100 を Q1〜Q5 で採点
+python scripts/run_txgemma.py --gene-set data/genes/ra_set100.tsv   # set100 を Q1〜Q5 で採点
 ```
 
 ## ファイル構成

@@ -8,15 +8,26 @@ and compare its yes-probabilities with the Claude-judged confidences.
 
 Usage (Mac, Apple Silicon):
     pip install llama-cpp-python guidance   # Metal build is the default on macOS
-    python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf \
-        --mode compare            # 18 genes x 6 questions, ~5 min on M-series
-    python scripts/run_txgemma.py --model ... --mode loop        # full loop, LLM does expansion too
+    python scripts/run_txgemma.py --list-models                 # ~/llm/models にある GGUF を表示
+    python scripts/run_txgemma.py --mode compare                # txgemma*.gguf を自動選択。18 genes x 6 questions
+    python scripts/run_txgemma.py --mode loop                   # full loop, LLM does expansion too
+    python scripts/run_txgemma.py --gene-set data/genes/ra_set100.tsv
+    python scripts/run_txgemma.py --model ~/llm/models/other.gguf --mode compare   # 明示指定
 
 Output: outputs/txgemma_compare.csv  (gene, qid, claude_conf, model_p_yes, |diff|)
         outputs/txgemma_loop_report.md (mode loop)
 Nothing leaves the machine: no network call is made.
 """
-import argparse, csv, os, sys, time
+import argparse, csv, glob, os, sys, time
+
+MODEL_DIR = os.path.expanduser("~/llm/models")     # GGUF モデルの置き場所
+
+
+def find_model(pattern="txgemma"):
+    """MODEL_DIR から pattern を含む .gguf を探す（複数あれば名前順で最初）。無ければ None。"""
+    hits = sorted(glob.glob(os.path.join(MODEL_DIR, "**", "*.gguf"), recursive=True))
+    pref = [h for h in hits if pattern.lower() in os.path.basename(h).lower()]
+    return (pref or hits or [None])[0]
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from target_loop.backends import LlamaCppBackend, GuidanceBackend
 from target_loop.config import QUESTIONS, ScoringRules
@@ -36,7 +47,8 @@ def pearson(x, y):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", required=True, help="path to a GGUF file")
+    ap.add_argument("--model", default=None, help=f"GGUF のパス。省略時は {MODEL_DIR} 内の txgemma*.gguf を自動で使う")
+    ap.add_argument("--list-models", action="store_true", help=f"{MODEL_DIR} にある GGUF を表示して終了")
     ap.add_argument("--mode", choices=["compare", "loop"], default="compare")
     ap.add_argument("--engine", choices=["guidance", "llama_cpp"], default="guidance",
                     help="guidance: select+top_k トレース方式（既定） / llama_cpp: logits 直読み")
@@ -51,6 +63,15 @@ def main():
                     help="AI の答えの記号照合に使う HGNC 一覧（known_symbols）")
     args = ap.parse_args()
 
+    if args.list_models:
+        for h in sorted(glob.glob(os.path.join(MODEL_DIR, "**", "*.gguf"), recursive=True)):
+            print(f"{os.path.getsize(h)/1e9:6.2f} GB  {h}")
+        return
+    if args.model is None:
+        args.model = find_model()
+        if args.model is None:
+            sys.exit(f"GGUF が見つかりません: {MODEL_DIR}（--model で指定するか、--list-models で確認）")
+        print("model:", args.model)
     os.makedirs("outputs", exist_ok=True)
     if args.engine == "guidance":
         b = GuidanceBackend(args.model, top_k=args.top_k, n_ctx=args.n_ctx, n_gpu_layers=args.n_gpu_layers)
