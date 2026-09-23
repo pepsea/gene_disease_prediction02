@@ -119,3 +119,29 @@ def test_ollama_backend_normalises_value_conventions(monkeypatch):
     assert abs(ref - 0.9) < 1e-9
     assert abs(make([0.9, 0.1]).yes_probability("q") - 0.9) < 1e-9             # 確率
     assert abs(make([-math.log(0.9), -math.log(0.1)]).yes_probability("q") - 0.9) < 1e-9   # −log p
+
+
+def test_ollama_backend_wraps_answer_prefix_into_model_turn():
+    from target_loop.backends import OllamaBackend
+    b = OllamaBackend("txgemma-9b-chat")
+    w = b.wrap("Answer with Yes or No.\nIs TNF a target?\nAnswer:")
+    assert b.template == "gemma"
+    assert w.endswith("<start_of_turn>model\nAnswer:")
+    assert "Is TNF a target?<end_of_turn>" in w and w.count("Answer:") == 1
+    assert OllamaBackend("llama3:8b").template == "llama3" and OllamaBackend("mystery").template == "none"
+
+
+def test_option_logprob_sum_merges_spellings_and_ignores_exact_match_priority():
+    """実機で見た形: 本命 'Yes' -0.002、末端 ' Yes' -12.45、' No' -16.3。合算すれば Yes が勝つ。"""
+    from target_loop.backends import option_logprob_sum, OllamaBackend
+    top = {"Yes": -0.002, "Answer": -6.38, "TNF": -9.88, " Yes": -12.45, "No": -14.455, " No": -16.265}
+    y, n = option_logprob_sum(top, " Yes"), option_logprob_sum(top, " No")
+    assert y > n and abs(y - math.log(math.exp(-0.002) + math.exp(-12.45))) < 1e-9
+    assert option_logprob_sum(top, " Maybe") is None
+    b = OllamaBackend("txgemma")
+    def fake_post(path, body):
+        return {"response": "Yes", "logprobs": [{"token": "Yes", "logprob": -0.002,
+                "top_logprobs": [{"token": t, "logprob": v} for t, v in top.items()]}]}
+    import types
+    b._post = fake_post
+    assert b.yes_probability("Is TNF a target?") > 0.99

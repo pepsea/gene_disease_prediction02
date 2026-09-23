@@ -246,12 +246,15 @@ class GuidanceBackend(LLMBackend):
                      if type(o).__name__ == "TokenOutput" and not o.is_input]
         candidates = generated[0].top_k or []
         floor = min((c.prob for c in candidates if c.prob and c.prob > 0), default=1e-6)
+        top: Dict[str, float] = {}
+        for c in candidates:                              # 綴り違いを合算するため {token: logprob} にまとめる
+            if c.prob and c.prob > 0:
+                top[c.token] = max(top.get(c.token, -1e9), math.log(c.prob))
         result: Dict[str, float] = {}
         for option in options:
-            probs = ([c.prob for c in candidates if c.token == option]
-                     or [c.prob for c in candidates if c.token.strip() == option.strip()])
-            if probs and probs[0] > 0:
-                result[option.strip()] = math.log(probs[0])
+            v = option_logprob_sum(top, option)
+            if v is not None:
+                result[option.strip()] = v
             else:
                 self.missing.append({"prompt": prompt[:80], "option": option, "floor": floor})
                 result[option.strip()] = math.log(floor)     # 上限値（top_k の最小確率）で代用
@@ -282,10 +285,31 @@ class OllamaBackend(LLMBackend):
     """
     name = "ollama"
 
+    TEMPLATES = {
+        "gemma": "<start_of_turn>user\n{body}<end_of_turn>\n<start_of_turn>model\n",
+        "llama3": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n{body}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "chatml": "<|im_start|>user\n{body}<|im_end|>\n<|im_start|>assistant\n",
+        "none": "{body}\n",
+    }
+
     def __init__(self, model: str, url: str = "http://localhost:11434", top_k: int = 20, n_fallback: int = 8,
-                 timeout: int = 300):
+                 timeout: int = 300, template: str = "auto"):
         self.model, self.url, self.top_k, self.n_fallback, self.timeout = model, url.rstrip("/"), top_k, n_fallback, timeout
         self.missing: List[dict] = []
+        n = model.lower()
+        self.template = (("gemma" if "gemma" in n else "llama3" if "llama" in n else
+                          "chatml" if any(k in n for k in ("qwen", "deepseek", "phi")) else "none")
+                         if template == "auto" else template)
+
+    def wrap(self, prompt: str) -> str:
+        """会話テンプレートを自分で組み、末尾の「Answer:」をモデル側の発話の先頭に置く（raw モード用）。
+
+        Ollama にテンプレートを任せると「Answer:」がユーザー側に入り、モデルは「Answer: Yes」と書き始めるため、
+        Yes/No を読む位置が答えの位置にならない（実機で確認）。"""
+        body, prefix = prompt, ""
+        if prompt.rstrip().endswith("Answer:"):
+            body, prefix = prompt.rstrip()[: -len("Answer:")].rstrip(), "Answer:"
+        return self.TEMPLATES[self.template].format(body=body) + prefix
 
     @staticmethod
     def list_models(url: str = "http://localhost:11434", timeout: int = 3) -> List[dict]:
@@ -305,7 +329,7 @@ class OllamaBackend(LLMBackend):
             return json.load(r)
 
     def generate(self, prompt: str, max_tokens: int = 128, temperature: float = 0.0) -> str:
-        out = self._post("/api/generate", {"model": self.model, "prompt": prompt, "stream": False,
+        out = self._post("/api/generate", {"model": self.model, "prompt": self.wrap(prompt), "raw": True, "stream": False,
                                            "options": {"temperature": temperature, "num_predict": max_tokens}})
         return out.get("response", "").strip()
 
@@ -319,14 +343,14 @@ class OllamaBackend(LLMBackend):
         for ep in tries:
             try:
                 if ep == "/api/generate":
-                    out = self._post(ep, {"model": self.model, "prompt": prompt, "stream": False, "logprobs": True,
-                                          "top_logprobs": k, "options": {"temperature": 0, "num_predict": 1}})
+                    out = self._post(ep, {"model": self.model, "prompt": self.wrap(prompt), "raw": True, "stream": False,
+                                          "logprobs": True, "top_logprobs": k, "options": {"temperature": 0, "num_predict": 1}})
                     lps = out.get("logprobs") or []
                     top = {t["token"]: t["logprob"] for t in (lps[0].get("top_logprobs", []) if lps else [])}
                     if lps and not top:
                         top = {lps[0]["token"]: lps[0]["logprob"]}
                 else:
-                    ch = self._post(ep, {"model": self.model, "prompt": prompt, "max_tokens": 1, "temperature": 0,
+                    ch = self._post(ep, {"model": self.model, "prompt": self.wrap(prompt), "max_tokens": 1, "temperature": 0,
                                          "logprobs": k})["choices"][0]
                     lp = ch.get("logprobs") or {}
                     if lp.get("content"):
@@ -368,13 +392,25 @@ class OllamaBackend(LLMBackend):
         floor = min([math.exp(v) for v in top.values()] or [1e-6])
         lp = {}
         for option in (" Yes", " No"):
-            hit = [v for t, v in top.items() if t == option] or [v for t, v in top.items() if t.strip().lower() == option.strip().lower()]
-            if hit:
-                lp[option.strip()] = hit[0]
+            v = option_logprob_sum(top, option)
+            if v is not None:
+                lp[option.strip()] = v
             else:
                 self.missing.append({"prompt": full[-80:], "option": option}); lp[option.strip()] = math.log(floor)
         py, pn = math.exp(lp["Yes"]), math.exp(lp["No"])
         return py / (py + pn)
+
+
+def option_logprob_sum(top: Dict[str, float], option: str) -> Optional[float]:
+    """{token: log確率} から、選択肢と綴り違い（空白・大小文字）のトークンを全部集めて確率を合算し log で返す。無ければ None。
+
+    完全一致を優先すると本命 'Yes'(-0.002) ではなく末端の ' Yes'(-12) を拾い、順位が逆転する（Ollama 実機で確認）。"""
+    key = option.strip().lower()
+    vals = [v for t, v in top.items() if t.strip().lower() == key]
+    if not vals:
+        return None
+    m = max(vals)
+    return m + math.log(sum(math.exp(v - m) for v in vals))
 
 
 def cosine(a: Sequence[float], b: Sequence[float]) -> float:
