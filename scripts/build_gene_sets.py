@@ -179,13 +179,27 @@ def main():
         rng = random.Random(SEED)
         n_random = args.random_size or max(1000 - len(known) - len(cands), 0)
         if decoy == "slc":
-            # SLC トランスポーターをダミーに（シスチン尿症では原因遺伝子と同じファミリーなので厳しい陰性対照になる）
-            slc = sorted(s for s in genes if re.match(r"^SLCO?\d", s) and s not in used)
-            rng.shuffle(slc)
-            rest = sorted(s for s in genes if s not in used and s not in slc)
-            picked = slc[:n_random] + rng.sample(rest, max(0, n_random - len(slc)))
+            # SLC トランスポーターをダミーに（シスチン尿症では原因遺伝子と同じファミリーなので厳しい陰性対照になる）。
+            # 「ファミリーの後光効果」を検証できるよう、正解と同じファミリー（記号の文字+数字部分。例 SLC7A9 -> SLC7）
+            # の他のメンバーを、運任せにせず優先的に一定数（最大10件）ダミーに含める。
+            fam = lambda sym: (m.group(1) if (m := re.match(r"^([A-Za-z]+\d+)", sym)) else sym)
+            known_fams = {fam(k["symbol"]) for k in known}
+            slc_pool = sorted(s for s in genes if re.match(r"^SLCO?\d", s) and s not in used)
+            same_fam = [s for s in slc_pool if fam(s) in known_fams]
+            other_slc = [s for s in slc_pool if fam(s) not in known_fams]
+            rng.shuffle(same_fam); rng.shuffle(other_slc)
+            n_same = min(len(same_fam), 10)
+            picked_same = same_fam[:n_same]
+            picked_other = other_slc[:max(0, n_random - n_same)]
+            rest = sorted(s for s in genes if s not in used and s not in slc_pool)
+            picked = picked_same + picked_other
+            if len(picked) < n_random:
+                picked += rng.sample(rest, n_random - len(picked))
+            if picked_same:
+                print(f"  [info] {key}: {len(picked_same)} same-family SLC decoy(s) guaranteed for family-halo check: {picked_same}")
             rand = [dict(genes[s], disease=disease, category="random", label=0, evidence="",
-                         source=f"{'SLC decoy' if s in slc else 'HGNC protein-coding random'}, seed {SEED}", note="SLC decoy" if s in slc else "")
+                         source=("SLC decoy (same family as known)" if s in picked_same else "SLC decoy" if s in picked_other else "HGNC protein-coding random") + f", seed {SEED}",
+                         note="SLC decoy (same family)" if s in picked_same else ("SLC decoy" if s in picked_other else ""))
                     for s in picked]
         else:
             pool = sorted(s for s in genes if s not in used)
