@@ -105,3 +105,17 @@ def test_ollama_backend_caps_top_logprobs_at_20(monkeypatch):
     monkeypatch.setattr(b, "_post", fake_post)
     assert b.yes_probability("q") > 0.9
     assert seen[0][0] == "/api/generate" and seen[0][1]["top_logprobs"] == 20
+
+
+def test_ollama_backend_normalises_value_conventions(monkeypatch):
+    """値が確率（0〜1）や −log p（正）で返っても、対数確率に揃えて同じ p_yes になること。"""
+    from target_loop.backends import OllamaBackend
+    def make(vals):
+        b = OllamaBackend("fake")
+        monkeypatch.setattr(b, "_post", lambda path, body: {"response": " Yes", "logprobs": [{"token": " Yes", "logprob": vals[0],
+                            "top_logprobs": [{"token": " Yes", "logprob": vals[0]}, {"token": " No", "logprob": vals[1]}]}]})
+        return b
+    ref = make([math.log(0.9), math.log(0.1)]).yes_probability("q")            # 対数確率
+    assert abs(ref - 0.9) < 1e-9
+    assert abs(make([0.9, 0.1]).yes_probability("q") - 0.9) < 1e-9             # 確率
+    assert abs(make([-math.log(0.9), -math.log(0.1)]).yes_probability("q") - 0.9) < 1e-9   # −log p

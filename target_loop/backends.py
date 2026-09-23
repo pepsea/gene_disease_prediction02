@@ -337,10 +337,22 @@ class OllamaBackend(LLMBackend):
                         top = {}
                 if top:
                     self.lp_endpoint = ep
-                    return top
+                    return self._to_logprobs(top)
             except Exception:
                 continue
         return None
+
+    def _to_logprobs(self, top: Dict[str, float]) -> Dict[str, float]:
+        """返ってきた値の規約（対数確率 / 確率 / −log p）を判定して対数確率に揃える。判定は self.convention に残す。"""
+        vals = list(top.values())
+        if all(v <= 0 for v in vals):
+            conv, out = "logprob", dict(top)
+        elif all(0 <= v <= 1 for v in vals) and sum(vals) <= 1.0001:
+            conv, out = "prob", {t: math.log(max(v, 1e-12)) for t, v in top.items()}
+        else:
+            conv, out = "neg_logprob", {t: -v for t, v in top.items()}
+        self.convention = getattr(self, "convention", None) or conv
+        return out
 
     def yes_probability(self, prompt: str, option_order: str = "yes_first") -> float:
         options = "Answer with Yes or No." if option_order == "yes_first" else "Answer with No or Yes."
