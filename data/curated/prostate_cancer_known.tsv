@@ -1,0 +1,8 @@
+symbol	drug_examples	approval_note	source
+AR	enzalutamide; apalutamide; darolutamide; bicalutamide	approved (androgen receptor antagonists)	curated (Claude knowledge, 2026-05; unverified)
+CYP17A1	abiraterone	approved (androgen synthesis inhibitor)	curated (Claude knowledge, 2026-05; unverified)
+PARP1	olaparib; rucaparib; niraparib; talazoparib	approved for HRR-mutated mCRPC	curated (Claude knowledge, 2026-05; unverified)
+PARP2	olaparib; talazoparib	approved (PARP inhibitors also inhibit PARP2)	curated (Claude knowledge, 2026-05; unverified)
+FOLH1	lutetium-177 PSMA-617	approved 2022 (PSMA-targeted radioligand)	curated (Claude knowledge, 2026-05; unverified)
+GNRHR	leuprolide; goserelin; degarelix; relugolix	approved (androgen deprivation)	curated (Claude knowledge, 2026-05; unverified)
+TNFSF11	denosumab	approved for skeletal events in bone metastases	curated (Claude knowledge, 2026-05; unverified)

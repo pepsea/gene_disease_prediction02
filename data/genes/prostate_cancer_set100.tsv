@@ -1,0 +1,101 @@
+symbol	hgnc_id	entrez_id	ensembl_gene_id	gene_name	uniprot_ids	protein_name_uniprot	alias_symbols	disease	category	label	evidence	note	source
+MSH2	HGNC:7325	4436	ENSG00000095002	mutS homolog 2	P43246		HNPCC|HNPCC1|MSH-2|COCA1	prostate cancer	candidate	0	germline	mismatch repair; immunotherapy sensitivity	curated (Claude knowledge; unverified)
+TACSTD2	HGNC:11530	4070	ENSG00000184292	tumor associated calcium signal transducer 2	P09758		TROP2|GA733-1|EGP-1|M1S1	prostate cancer	candidate	0	clinical_trial	TROP2 antibody-drug conjugates	curated (Claude knowledge; unverified)
+CHEK2	HGNC:16627	11200	ENSG00000183765	checkpoint kinase 2	O96017		CDS1|CHK2|HuCds1|PP1425|bA444G7|RAD53	prostate cancer	candidate	0	germline	DNA damage checkpoint	curated (Claude knowledge; unverified)
+SLC2A13	HGNC:15956	114134	ENSG00000151229	solute carrier family 2 member 13	Q96QE2		HMIT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+EZH2	HGNC:3527	2146	ENSG00000106462	enhancer of zeste 2 polycomb repressive complex 2 subunit	Q15910		EZH1|ENX-1|KMT6|KMT6A	prostate cancer	candidate	0	clinical_trial	EZH2 inhibitors combined with AR blockade	curated (Claude knowledge; unverified)
+SLC35G5	HGNC:15546	83650	ENSG00000177710	solute carrier family 35 member G5	Q96KT7		AMAC|AMAC1L2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A6	HGNC:10970	9356	ENSG00000197901	solute carrier family 22 member 6	Q4U2R8		ROAT1|PAHT|OAT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MTOR	HGNC:3942	2475	ENSG00000198793	mechanistic target of rapamycin kinase	P42345		mTOR|RAFT1|RAPT1|FLJ44809|FRAP|FRAP2|FRAP1	prostate cancer	candidate	0	clinical_trial	PI3K/AKT/mTOR pathway	curated (Claude knowledge; unverified)
+GNRHR	HGNC:4421	2798	ENSG00000109163	gonadotropin releasing hormone receptor	P30968		LHRHR|GRHR	prostate cancer	known	1	approved_drug	leuprolide; goserelin; degarelix; relugolix — approved (androgen deprivation)	curated (Claude knowledge, 2026-05; unverified)
+SLC29A2	HGNC:11004	3177	ENSG00000174669	solute carrier family 29 member 2	Q14542		DER12|ENT2|HNP36	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A7	HGNC:10945	6512	ENSG00000162383	solute carrier family 1 member 7	O00341		EAAT5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A10	HGNC:11058	56301	ENSG00000130876	solute carrier family 7 member 10	Q9NS82		asc-1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NKX3-1	HGNC:7838	4824	ENSG00000167034	NK3 homeobox 1	Q99801		NKX3.1|BAPX2|NKX3A	prostate cancer	candidate	0	biology	prostate lineage; haploinsufficient tumour suppressor	curated (Claude knowledge; unverified)
+SLC15A5	HGNC:33455	729025	ENSG00000188991	solute carrier family 15 member 5	A6NIM6			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A6	HGNC:14472	65010	ENSG00000225697	solute carrier family 26 member 6	Q9BXS9		DKFZp586E1422	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC67A2	HGNC:28158	84804	ENSG00000135953	solute carrier family 67 member 2	Q8NBP5		MGC11332|MFSD9	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A9	HGNC:23520	220963	ENSG00000165449	solute carrier family 16 member 9	Q7RTY1		FLJ43803|MCT9|C10orf36	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+HOXB13	HGNC:5112	10481	ENSG00000159184	homeobox B13	Q92826			prostate cancer	candidate	0	germline	G84E risk allele	curated (Claude knowledge; unverified)
+TMPRSS2	HGNC:11876	7113	ENSG00000184012	transmembrane serine protease 2	O15393		PRSS10	prostate cancer	candidate	0	somatic	fusion partner; androgen-regulated protease	curated (Claude knowledge; unverified)
+SLC13A5	HGNC:23089	284111	ENSG00000141485	solute carrier family 13 member 5	Q86YT5		NACT|INDY|mINDY	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A14	HGNC:8495	9389	ENSG00000144671	solute carrier family 22 member 14	Q9Y267		OCTL2|ORCTL4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CDH1	HGNC:1748	999	ENSG00000039068	cadherin 1	P12830		uvomorulin|CD324|UVO	prostate cancer	candidate	0	biology	epithelial adhesion; invasion	curated (Claude knowledge; unverified)
+SLCO2B1	HGNC:10962	11309	ENSG00000137491	solute carrier organic anion transporter family member 2B1	O94956		OATP-B|OATP2B1|SLC21A9	prostate cancer	candidate	0	biology	steroid uptake transporter; abiraterone response	curated (Claude knowledge; unverified)
+SLC7A6OS	HGNC:25807	84138	ENSG00000103061	solute carrier family 7 member 6 opposite strand	Q96CW6		FLJ13291|Iwr1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+STEAP1	HGNC:11378	26872	ENSG00000164647	STEAP family member 1	Q9UHE8		PRSS24|STEAP	prostate cancer	candidate	0	clinical_trial	xaluritamig (T-cell engager)	curated (Claude knowledge; unverified)
+SLC22A5	HGNC:10969	6584	ENSG00000197375	solute carrier family 22 member 5	O76082		OCTN2|SCD|CDSP	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+RB1	HGNC:9884	5925	ENSG00000139687	RB transcriptional corepressor 1	P06400		RB|PPP1R130|OSRC	prostate cancer	candidate	0	somatic	loss associated with neuroendocrine transformation	curated (Claude knowledge; unverified)
+SLC1A3	HGNC:10941	6507	ENSG00000079215	solute carrier family 1 member 3	P43003		EAAT1|GLAST|EA6|GLAST1|GLAST-1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PARP1	HGNC:270	142	ENSG00000143799	poly(ADP-ribose) polymerase 1	P09874		PARP|ARTD1|Poly-PARP|PARS|PPOL|ADPRT	prostate cancer	known	1	approved_drug	olaparib; rucaparib; niraparib; talazoparib — approved for HRR-mutated mCRPC	curated (Claude knowledge, 2026-05; unverified)
+SLC26A4	HGNC:8818	5172	ENSG00000091137	solute carrier family 26 member 4	O43511		PDS|DFNB4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC28A1	HGNC:11001	9154	ENSG00000156222	solute carrier family 28 member 1	O00337		CNT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CDK4	HGNC:1773	1019	ENSG00000135446	cyclin dependent kinase 4	P11802		PSK-J3	prostate cancer	candidate	0	clinical_trial	cell-cycle	curated (Claude knowledge; unverified)
+TNFSF11	HGNC:11926	8600	ENSG00000120659	TNF superfamily member 11	O14788		TRANCE|RANKL|OPGL|ODF|CD254	prostate cancer	known	1	approved_drug	denosumab — approved for skeletal events in bone metastases	curated (Claude knowledge, 2026-05; unverified)
+FOXA1	HGNC:5021	3169	ENSG00000129514	forkhead box A1	P55317		HNF3A	prostate cancer	candidate	0	somatic	pioneer factor for AR	curated (Claude knowledge; unverified)
+SLC11A2	HGNC:10908	4891	ENSG00000110911	solute carrier family 11 member 2	P49281		DCT1|DMT1|DMT-1|FLJ37416|NRAMP2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A23	HGNC:19375	79085	ENSG00000125648	solute carrier family 25 member 23	Q9BV35		FLJ30339|MGC2615|APC2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CD276	HGNC:19137	80381	ENSG00000103855	CD276 molecule	Q5ZPR3		B7-H3|B7H3|B7RP-2	prostate cancer	candidate	0	clinical_trial	B7-H3 antibody-drug conjugates	curated (Claude knowledge; unverified)
+SLC22A15	HGNC:20301	55356	ENSG00000163393	solute carrier family 22 member 15	Q8IZD6		FLIPT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A4	HGNC:11009	6517	ENSG00000181856	solute carrier family 2 member 4	P14672		GLUT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC68A1	HGNC:26196	79847	ENSG00000138111	solute carrier family 68 member 1	Q14CX5		FLJ22529|bA18I14.8|C10orf77|TMEM180|MFSD13A	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F2	HGNC:23615	54733	ENSG00000110660	solute carrier family 35 member F2	Q8IXU6		FLJ13018	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PARP2	HGNC:272	10038	ENSG00000129484	poly(ADP-ribose) polymerase 2	Q9UGN5		ARTD2|ADPRTL2	prostate cancer	known	1	approved_drug	olaparib; talazoparib — approved (PARP inhibitors also inhibit PARP2)	curated (Claude knowledge, 2026-05; unverified)
+SLC23A2	HGNC:10973	9962	ENSG00000089057	solute carrier family 23 member 2	Q9UGH3		SVCT2|KIAA0238|YSPL2|SLC23A1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A3	HGNC:10924	9123	ENSG00000141526	solute carrier family 16 member 3	O15427		MCT3|MCT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35D3	HGNC:15621	340146	ENSG00000182747	solute carrier family 35 member D3	Q5M8T2		FRCL1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PSCA	HGNC:9500	8000	ENSG00000167653	prostate stem cell antigen	O43653		lncPSCA	prostate cancer	candidate	0	clinical_trial	CAR-T / antibody target	curated (Claude knowledge; unverified)
+HSD3B1	HGNC:5217	3283	ENSG00000203857	hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 1	P14060		SDR11E1|HSDB3|HSD3B	prostate cancer	candidate	0	germline	1245C variant; extragonadal androgen synthesis	curated (Claude knowledge; unverified)
+SLC52A2	HGNC:30224	79581	ENSG00000185803	solute carrier family 52 member 2	Q9HAB3		FLJ11856|PAR1|GPCR41|D15Ertd747e|RFVT2|hRFT3|RFT3|HuPAR-1|GPR172A	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A9	HGNC:22146	200010	ENSG00000117834	solute carrier family 5 member 9	Q2M3M2		SGLT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+BRCA2	HGNC:1101	675	ENSG00000139618	BRCA2 DNA repair associated	P51587		FAD|FAD1|BRCC2|XRCC11|FANCD1|FACD|FANCD	prostate cancer	candidate	0	germline	homologous recombination; PARP-inhibitor sensitivity	curated (Claude knowledge; unverified)
+CYP17A1	HGNC:2593	1586	ENSG00000148795	cytochrome P450 family 17 subfamily A member 1	P05093		P450C17|CPT7|S17AH|CYP17	prostate cancer	known	1	approved_drug	abiraterone — approved (androgen synthesis inhibitor)	curated (Claude knowledge, 2026-05; unverified)
+SLC30A8	HGNC:20303	169026	ENSG00000164756	solute carrier family 30 member 8	Q8IWU4		ZnT-8|ZNT8	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+BCL2	HGNC:990	596	ENSG00000171791	BCL2 apoptosis regulator	P10415		Bcl-2|PPP1R50	prostate cancer	candidate	0	biology	anti-apoptotic	curated (Claude knowledge; unverified)
+ERG	HGNC:3446	2078	ENSG00000157554	ETS transcription factor ERG	P11308		erg-3|p55	prostate cancer	candidate	0	somatic	TMPRSS2-ERG fusion	curated (Claude knowledge; unverified)
+KLK3	HGNC:6364	354	ENSG00000142515	kallikrein related peptidase 3	P07288		PSA|APS	prostate cancer	candidate	0	biology	PSA; androgen-regulated biomarker	curated (Claude knowledge; unverified)
+SLCO4C1	HGNC:23612	353189	ENSG00000173930	solute carrier organic anion transporter family member 4C1	Q6ZQN7		SLC21A20|OATP4C1|OATPX|OATP-H	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A1	HGNC:11057	6541	ENSG00000139514	solute carrier family 7 member 1	P30825		CAT-1|HCAT1|REC1L|ERR|ATRC1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SPOP	HGNC:11254	8405	ENSG00000121067	speckle type BTB/POZ protein	O43791		TEF2|BTBD32	prostate cancer	candidate	0	somatic	recurrent point mutations	curated (Claude knowledge; unverified)
+SLC30A4	HGNC:11015	7782	ENSG00000104154	solute carrier family 30 member 4	O14863		ZNT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+AURKA	HGNC:11393	6790	ENSG00000087586	aurora kinase A	O14965		BTAK|AurA|STK7|ARK1|PPP1R47|AIK|STK15|STK6	prostate cancer	candidate	0	biology	neuroendocrine prostate cancer	curated (Claude knowledge; unverified)
+SLC30A3	HGNC:11014	7781	ENSG00000115194	solute carrier family 30 member 3	Q99726		ZNT3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A7	HGNC:10928	9194	ENSG00000118596	solute carrier family 16 member 7	O60669		MCT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC36A2	HGNC:18762	153201	ENSG00000186335	solute carrier family 36 member 2	Q495M3		PAT2|tramdorin|TRAMD1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CDK12	HGNC:24224	51755	ENSG00000167258	cyclin dependent kinase 12	Q9NYV4		CRK7|CRKR|KIAA0904|CRKRS	prostate cancer	candidate	0	somatic	tandem duplications; immunotherapy sensitivity	curated (Claude knowledge; unverified)
+SLC45A2	HGNC:16472	51151	ENSG00000164175	solute carrier family 45 member 2	Q9UMX9		AIM-1|OCA4|MATP	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC45A1	HGNC:17939	50651	ENSG00000162426	solute carrier family 45 member 1	Q9Y2W3		DNB5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35C1	HGNC:20197	55343	ENSG00000181830	solute carrier family 35 member C1	Q96A29		FUCT1|FLJ11320	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+BRCA1	HGNC:1100	672	ENSG00000012048	BRCA1 DNA repair associated	P38398		RNF53|BRCC1|PPP1R53|FANCS	prostate cancer	candidate	0	germline	homologous recombination	curated (Claude knowledge; unverified)
+NR3C1	HGNC:7978	2908	ENSG00000113580	nuclear receptor subfamily 3 group C member 1	P04150		GR|GRL	prostate cancer	candidate	0	biology	glucocorticoid receptor; AR-blockade resistance	curated (Claude knowledge; unverified)
+DLL3	HGNC:2909	10683	ENSG00000090932	delta like canonical Notch ligand 3	Q9NYJ7		SCDO1	prostate cancer	candidate	0	clinical_trial	neuroendocrine prostate cancer; T-cell engagers	curated (Claude knowledge; unverified)
+SRD5A2	HGNC:11285	6716	ENSG00000277893	steroid 5 alpha-reductase 2	P31213			prostate cancer	candidate	0	biology	5-alpha-reductase; androgen activation	curated (Claude knowledge; unverified)
+KLK2	HGNC:6363	3817	ENSG00000167751	kallikrein related peptidase 2	P20151			prostate cancer	candidate	0	clinical_trial	radioligand / T-cell engager targets	curated (Claude knowledge; unverified)
+SLC38A2	HGNC:13448	54407	ENSG00000134294	solute carrier family 38 member 2	Q96QD8		SAT2|ATA2|KIAA1382|SNAT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MSH6	HGNC:7329	2956	ENSG00000116062	mutS homolog 6	P52701		MSH-6|GTBP	prostate cancer	candidate	0	germline	mismatch repair	curated (Claude knowledge; unverified)
+SLC30A9	HGNC:1329	10463	ENSG00000014824	solute carrier family 30 member 9	Q6PML9		HUEL|ZNT9|GAC63|C4orf1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A31	HGNC:25319	83447	ENSG00000151475	solute carrier family 25 member 31	Q9H0C2		DKFZP434N1235|ANT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G4	HGNC:31043	646000	ENSG00000236396	solute carrier family 35 member G4	P0C7Q5		AMAC1L1|SLC35G4P	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A33	HGNC:29681	84275	ENSG00000171612	solute carrier family 25 member 33	Q9BSK2		MGC4399|BMSC-MCP|PNC1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MYC	HGNC:7553	4609	ENSG00000136997	MYC proto-oncogene, bHLH transcription factor	P01106		c-Myc|bHLHe39|MYCC	prostate cancer	candidate	0	somatic	amplification	curated (Claude knowledge; unverified)
+PIK3CB	HGNC:8976	5291	ENSG00000051382	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta	P42338		PIK3C1	prostate cancer	candidate	0	biology	PI3K beta, dominant isoform in PTEN-null cells	curated (Claude knowledge; unverified)
+SLC4A4	HGNC:11030	8671	ENSG00000080493	solute carrier family 4 member 4	Q9Y6R1		NBC1|HNBC1|NBC2|pNBC|hhNMC|kNBC1|KNBC|NBCe1|SLC4A5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A3	HGNC:11023	23443	ENSG00000117620	solute carrier family 35 member A3	Q9Y2D2			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+AKT1	HGNC:391	207	ENSG00000142208	AKT serine/threonine kinase 1	P31749		RAC|PKB|PRKBA|AKT|RAC-alpha	prostate cancer	candidate	0	clinical_trial	capivasertib; phase 3 positive in PTEN-deficient disease	curated (Claude knowledge; unverified)
+SLC5A5	HGNC:11040	6528	ENSG00000105641	solute carrier family 5 member 5	Q92911		NIS	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A4	HGNC:14679	55089	ENSG00000139209	solute carrier family 38 member 4	Q969I6		PAAT|NAT3|ATA3|SNAT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35D1	HGNC:20800	23169	ENSG00000116704	solute carrier family 35 member D1	Q9NTN3		UGTREL7|KIAA0260	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PTEN	HGNC:9588	5728	ENSG00000171862	phosphatase and tensin homolog	P60484		MMAC1|TEP1|PTEN1|BZS|MHAM	prostate cancer	candidate	0	somatic	frequently lost; PI3K pathway activation	curated (Claude knowledge; unverified)
+FOLH1	HGNC:3788	2346	ENSG00000086205	folate hydrolase 1	Q04609		PSM|PSMA|NAALAD1|NAALAdase|GCP2|GCPII|FOLH	prostate cancer	known	1	approved_drug	lutetium-177 PSMA-617 — approved 2022 (PSMA-targeted radioligand)	curated (Claude knowledge, 2026-05; unverified)
+SLC30A10	HGNC:25355	55532	ENSG00000196660	solute carrier family 30 member 10	Q6XR72		DKFZp547M236|ZnT-10|ZRC1|ZNT8|ZNT10	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A5	HGNC:10933	26503	ENSG00000119899	solute carrier family 17 member 5	Q9NRA2		AST|SD|ISSD|NSD|SIALIN|SLD|SIASD	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A4	HGNC:11077	389015	ENSG00000180251	solute carrier family 9 member A4	Q6AI14		NHE4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TP53	HGNC:11998	7157	ENSG00000141510	tumor protein p53	P04637		p53|LFS1	prostate cancer	candidate	0	somatic	frequent in advanced disease	curated (Claude knowledge; unverified)
+SLC4A8	HGNC:11034	9498	ENSG00000050438	solute carrier family 4 member 8	Q2Y0W8		NBC3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+AR	HGNC:644	367	ENSG00000169083	androgen receptor	P10275		AIS|NR3C4|SMAX1|HUMARA|DHTR|SBMA	prostate cancer	known	1	approved_drug	enzalutamide; apalutamide; darolutamide; bicalutamide — approved (androgen receptor antagonists)	curated (Claude knowledge, 2026-05; unverified)
+SLC6A2	HGNC:11048	6530	ENSG00000103546	solute carrier family 6 member 2	P23975		NET|NET1|NAT1|SLC6A5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ATM	HGNC:795	472	ENSG00000149311	ATM serine/threonine kinase	Q13315		TEL1|TELO1|ATA|ATDC|ATC|ATD	prostate cancer	candidate	0	germline	DNA damage response	curated (Claude knowledge; unverified)
+SLC25A47	HGNC:20115	283600	ENSG00000140107	solute carrier family 25 member 47	Q6Q0C1		HDCMP|C14orf68	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A11	HGNC:11044	6538	ENSG00000132164	solute carrier family 6 member 11	P48066		GAT3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC41A1	HGNC:19429	254428	ENSG00000133065	solute carrier family 41 member 1	Q8IVJ1		MgtE	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A20	HGNC:1421	788	ENSG00000178537	solute carrier family 25 member 20	O43772		CAC|CACT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921

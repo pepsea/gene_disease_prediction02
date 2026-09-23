@@ -1,0 +1,101 @@
+symbol	hgnc_id	entrez_id	ensembl_gene_id	gene_name	uniprot_ids	protein_name_uniprot	alias_symbols	disease	category	label	evidence	note	source
+IGF1	HGNC:5464	3479	ENSG00000017427	insulin like growth factor 1	P05019		IGF1A|IGFI|IGF-I|IGF	achondroplasia	candidate	0	clinical_trial	growth axis	curated (Claude knowledge; unverified)
+SLC35F2	HGNC:23615	54733	ENSG00000110660	solute carrier family 35 member F2	Q8IXU6		FLJ13018	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SNAI1	HGNC:11128	6615	ENSG00000124216	snail family transcriptional repressor 1	O95863		SNA|SLUGH2|SNAH|SNAIL1|SNAIL	achondroplasia	candidate	0	biology	proposed effector of the causal receptor in chondrocytes	curated (Claude knowledge; unverified)
+SLC18A2	HGNC:10935	6571	ENSG00000165646	solute carrier family 18 member A2	Q05940		SVMT|SVAT|VAT2|VMAT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A47	HGNC:20115	283600	ENSG00000140107	solute carrier family 25 member 47	Q6Q0C1		HDCMP|C14orf68	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC29A2	HGNC:11004	3177	ENSG00000174669	solute carrier family 29 member 2	Q14542		DER12|ENT2|HNP36	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A14	HGNC:8495	9389	ENSG00000144671	solute carrier family 22 member 14	Q9Y267		OCTL2|ORCTL4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC52A2	HGNC:30224	79581	ENSG00000185803	solute carrier family 52 member 2	Q9HAB3		FLJ11856|PAR1|GPCR41|D15Ertd747e|RFVT2|hRFT3|RFT3|HuPAR-1|GPR172A	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+NPR3	HGNC:7945	4883	ENSG00000113389	natriuretic peptide receptor 3	P17342		GUCY2B|FLJ14054|NPRC|ANPRC|C5orf23	achondroplasia	candidate	0	biology	clearance receptor for the ligand	curated (Claude knowledge; unverified)
+SLC26A6	HGNC:14472	65010	ENSG00000225697	solute carrier family 26 member 6	Q9BXS9		DKFZp586E1422	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G4	HGNC:31043	646000	ENSG00000236396	solute carrier family 35 member G4	P0C7Q5		AMAC1L1|SLC35G4P	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35D3	HGNC:15621	340146	ENSG00000182747	solute carrier family 35 member D3	Q5M8T2		FRCL1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+COL10A1	HGNC:2185	1300	ENSG00000123500	collagen type X alpha 1 chain	Q03692			achondroplasia	candidate	0	biology	hypertrophic chondrocyte marker	curated (Claude knowledge; unverified)
+SLC22A31	HGNC:27091	146429	ENSG00000259803	solute carrier family 22 member 31	A6NKX4			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A14	HGNC:18301	144195	ENSG00000173262	solute carrier family 2 member 14	Q8TDB8		GLUT14|SLC2A3P3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A7	HGNC:10928	9194	ENSG00000118596	solute carrier family 16 member 7	O60669		MCT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC45A3	HGNC:8642	85414	ENSG00000158715	solute carrier family 45 member 3	Q96JT2		IPCA-6|prostein|IPCA-2|IPCA-8|PCANAP6|PCANAP2|PCANAP8	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+MMP13	HGNC:7159	4322	ENSG00000137745	matrix metallopeptidase 13	P45452		CLG3	achondroplasia	candidate	0	biology	cartilage remodelling	curated (Claude knowledge; unverified)
+PTH1R	HGNC:9608	5745	ENSG00000160801	parathyroid hormone 1 receptor	Q03431		PTHR|PTHR1	achondroplasia	candidate	0	biology	growth-plate differentiation control	curated (Claude knowledge; unverified)
+SLC35D1	HGNC:20800	23169	ENSG00000116704	solute carrier family 35 member D1	Q9NTN3		UGTREL7|KIAA0260	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A9	HGNC:22146	200010	ENSG00000117834	solute carrier family 5 member 9	Q2M3M2		SGLT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A4	HGNC:14679	55089	ENSG00000139209	solute carrier family 38 member 4	Q969I6		PAAT|NAT3|ATA3|SNAT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A4	HGNC:8818	5172	ENSG00000091137	solute carrier family 26 member 4	O43511		PDS|DFNB4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A3	HGNC:11014	7781	ENSG00000115194	solute carrier family 30 member 3	Q99726		ZNT3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35C1	HGNC:20197	55343	ENSG00000181830	solute carrier family 35 member C1	Q96A29		FUCT1|FLJ11320	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A7	HGNC:10945	6512	ENSG00000162383	solute carrier family 1 member 7	O00341		EAAT5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+STAT1	HGNC:11362	6772	ENSG00000115415	signal transducer and activator of transcription 1	P42224		STAT91|ISGF-3	achondroplasia	candidate	0	biology	proposed mediator of reduced chondrocyte proliferation	curated (Claude knowledge; unverified)
+SLC45A2	HGNC:16472	51151	ENSG00000164175	solute carrier family 45 member 2	Q9UMX9		AIM-1|OCA4|MATP	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+GH1	HGNC:4261	2688	ENSG00000259384	growth hormone 1	P01241		hGH|GH-N|GHN|GH|hGH-N	achondroplasia	known	1	approved_drug	somatropin — approved in Japan for short stature in achondroplasia	curated (Claude knowledge, 2026-05; unverified)
+SLC4A4	HGNC:11030	8671	ENSG00000080493	solute carrier family 4 member 4	Q9Y6R1		NBC1|HNBC1|NBC2|pNBC|hhNMC|kNBC1|KNBC|NBCe1|SLC4A5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC13A5	HGNC:23089	284111	ENSG00000141485	solute carrier family 13 member 5	Q86YT5		NACT|INDY|mINDY	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC45A1	HGNC:17939	50651	ENSG00000162426	solute carrier family 45 member 1	Q9Y2W3		DNB5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+MAPK1	HGNC:6871	5594	ENSG00000100030	mitogen-activated protein kinase 1	P28482		ERK|ERK2|p41mapk|MAPK2|PRKM2|PRKM1	achondroplasia	candidate	0	biology	ERK2; downstream signalling in growth-plate chondrocytes	curated (Claude knowledge; unverified)
+FGF18	HGNC:3674	8817	ENSG00000156427	fibroblast growth factor 18	O76093		FGF-18|ZFGF5	achondroplasia	candidate	0	biology	ligand	curated (Claude knowledge; unverified)
+SLC7A7	HGNC:11065	9056	ENSG00000155465	solute carrier family 7 member 7	Q9UM01		y+LAT-1|Y+LAT1|LPI	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A10	HGNC:13811	57282	ENSG00000144290	solute carrier family 4 member 10	Q6U841		NBCn2|NCBE	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A5	HGNC:11040	6528	ENSG00000105641	solute carrier family 5 member 5	Q92911		NIS	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A23	HGNC:19375	79085	ENSG00000125648	solute carrier family 25 member 23	Q9BV35		FLJ30339|MGC2615|APC2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A17	HGNC:10987	10478	ENSG00000100372	solute carrier family 25 member 17	O43808		PMP34	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A8	HGNC:20303	169026	ENSG00000164756	solute carrier family 30 member 8	Q8IWU4		ZnT-8|ZNT8	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A9	HGNC:1329	10463	ENSG00000014824	solute carrier family 30 member 9	Q6PML9		HUEL|ZNT9|GAC63|C4orf1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+GHR	HGNC:4263	2690	ENSG00000112964	growth hormone receptor	P10912		GHBP	achondroplasia	known	1	approved_drug	somatropin — approved in Japan (receptor of growth hormone)	curated (Claude knowledge, 2026-05; unverified)
+SLC22A9	HGNC:16261	114571	ENSG00000149742	solute carrier family 22 member 9	Q8IVM8		OAT4|FLJ23666|UST3|OAT7	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A33	HGNC:29681	84275	ENSG00000171612	solute carrier family 25 member 33	Q9BSK2		MGC4399|BMSC-MCP|PNC1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A9	HGNC:23520	220963	ENSG00000165449	solute carrier family 16 member 9	Q7RTY1		FLJ43803|MCT9|C10orf36	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A3	HGNC:10924	9123	ENSG00000141526	solute carrier family 16 member 3	O15427		MCT3|MCT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC68A1	HGNC:26196	79847	ENSG00000138111	solute carrier family 68 member 1	Q14CX5		FLJ22529|bA18I14.8|C10orf77|TMEM180|MFSD13A	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G5	HGNC:15546	83650	ENSG00000177710	solute carrier family 35 member G5	Q96KT7		AMAC|AMAC1L2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC19A3	HGNC:16266	80704	ENSG00000135917	solute carrier family 19 member 3	Q9BZV2		THTR2|thTr-2|hTHTR2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+PTPN11	HGNC:9644	5781	ENSG00000179295	protein tyrosine phosphatase non-receptor type 11	Q06124		BPTP3|SH-PTP2|SHP-2|PTP2C|SHP2|NS1	achondroplasia	candidate	0	biology	SHP2; RAS-MAPK adaptor	curated (Claude knowledge; unverified)
+NPR2	HGNC:7944	4882	ENSG00000159899	natriuretic peptide receptor 2	P20594		GUCY2B|ANPb|GC-B|ANPRB|NPRB|AMDM	achondroplasia	known	1	approved_drug	vosoritide; navepegritide (TransCon CNP) — approved (C-type natriuretic peptide analogues acting on natriuretic peptide receptor B)	curated (Claude knowledge, 2026-05; unverified)
+SLC36A2	HGNC:18762	153201	ENSG00000186335	solute carrier family 36 member 2	Q495M3		PAT2|tramdorin|TRAMD1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A6	HGNC:10970	9356	ENSG00000197901	solute carrier family 22 member 6	Q4U2R8		ROAT1|PAHT|OAT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+IHH	HGNC:5956	3549	ENSG00000163501	Indian hedgehog signaling molecule	Q14623		HHG2|BDA1	achondroplasia	candidate	0	biology	growth-plate proliferation signal	curated (Claude knowledge; unverified)
+SOX9	HGNC:11204	6662	ENSG00000125398	SRY-box transcription factor 9	P48436		SRA1|CMD1|CMPD1	achondroplasia	candidate	0	biology	chondrocyte master regulator	curated (Claude knowledge; unverified)
+SLC4A8	HGNC:11034	9498	ENSG00000050438	solute carrier family 4 member 8	Q2Y0W8		NBC3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A1	HGNC:11036	6523	ENSG00000100170	solute carrier family 5 member 1	P13866		D22S675|NAGT|SGLT-1|SGLT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+FGF9	HGNC:3687	2254	ENSG00000102678	fibroblast growth factor 9	P31371			achondroplasia	candidate	0	biology	ligand	curated (Claude knowledge; unverified)
+SLC25A20	HGNC:1421	788	ENSG00000178537	solute carrier family 25 member 20	O43772		CAC|CACT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO4C1	HGNC:23612	353189	ENSG00000173930	solute carrier organic anion transporter family member 4C1	Q6ZQN7		SLC21A20|OATP4C1|OATPX|OATP-H	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A31	HGNC:25319	83447	ENSG00000151475	solute carrier family 25 member 31	Q9H0C2		DKFZP434N1235|ANT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A5	HGNC:33455	729025	ENSG00000188991	solute carrier family 15 member 5	A6NIM6			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC36A1	HGNC:18761	206358	ENSG00000123643	solute carrier family 36 member 1	Q7Z2H8		LYAAT-1|PAT1|TRAMD3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+FRS2	HGNC:16971	10818	ENSG00000166225	fibroblast growth factor receptor substrate 2	Q8WU20		SNT-1|FRS2alpha|SNT1|FRS2A	achondroplasia	candidate	0	biology	receptor substrate	curated (Claude knowledge; unverified)
+SLC16A13	HGNC:31037	201232	ENSG00000174327	solute carrier family 16 member 13	Q7RTY0		MCT13	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A2	HGNC:11048	6530	ENSG00000103546	solute carrier family 6 member 2	P23975		NET|NET1|NAT1|SLC6A5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A15	HGNC:20301	55356	ENSG00000163393	solute carrier family 22 member 15	Q8IZD6		FLIPT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SOS1	HGNC:11187	6654	ENSG00000115904	SOS Ras/Rac guanine nucleotide exchange factor 1	Q07889		HGF|GF1|GINGF	achondroplasia	candidate	0	biology	RAS activator	curated (Claude knowledge; unverified)
+SLC67A2	HGNC:28158	84804	ENSG00000135953	solute carrier family 67 member 2	Q8NBP5		MGC11332|MFSD9	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A2	HGNC:13448	54407	ENSG00000134294	solute carrier family 38 member 2	Q96QD8		SAT2|ATA2|KIAA1382|SNAT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A5	HGNC:10969	6584	ENSG00000197375	solute carrier family 22 member 5	O76082		OCTN2|SCD|CDSP	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+COL2A1	HGNC:2200	1280	ENSG00000139219	collagen type II alpha 1 chain	P02458		STL1|SEDC|AOM	achondroplasia	candidate	0	biology	cartilage matrix; other skeletal dysplasias	curated (Claude knowledge; unverified)
+SLC30A10	HGNC:25355	55532	ENSG00000196660	solute carrier family 30 member 10	Q6XR72		DKFZp547M236|ZnT-10|ZRC1|ZNT8|ZNT10	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC28A1	HGNC:11001	9154	ENSG00000156222	solute carrier family 28 member 1	O00337		CNT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC41A1	HGNC:19429	254428	ENSG00000133065	solute carrier family 41 member 1	Q8IVJ1		MgtE	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A2	HGNC:11060	6542	ENSG00000003989	solute carrier family 7 member 2	P52569		CAT-2|HCAT2|SLC7A2A|SLC7A2B|CAT-2A|CAT-2B|ATRC2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A11	HGNC:18120	55867	ENSG00000168065	solute carrier family 22 member 11	Q9NSA0		OAT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A4	HGNC:11009	6517	ENSG00000181856	solute carrier family 2 member 4	P14672		GLUT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+PTHLH	HGNC:9607	5744	ENSG00000087494	parathyroid hormone like hormone	P12272		PTHRP|HHM|PLP|PTHR	achondroplasia	candidate	0	biology	PTHrP; delays hypertrophy	curated (Claude knowledge; unverified)
+SLC11A2	HGNC:10908	4891	ENSG00000110911	solute carrier family 11 member 2	P49281		DCT1|DMT1|DMT-1|FLJ37416|NRAMP2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A11	HGNC:11044	6538	ENSG00000132164	solute carrier family 6 member 11	P48066		GAT3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9C1	HGNC:31401	285335	ENSG00000172139	solute carrier family 9 member C1	Q4G0N8		NHE|SLC9A10	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+MAPK3	HGNC:6877	5595	ENSG00000102882	mitogen-activated protein kinase 3	P27361		ERK1|p44mapk|p44erk1|ERK-1|PRKM3	achondroplasia	candidate	0	biology	ERK1	curated (Claude knowledge; unverified)
+SLC9A5	HGNC:11078	6553	ENSG00000135740	solute carrier family 9 member A5	Q14940		NHE5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A4	HGNC:11015	7782	ENSG00000104154	solute carrier family 30 member 4	O14863		ZNT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC23A2	HGNC:10973	9962	ENSG00000089057	solute carrier family 23 member 2	Q9UGH3		SVCT2|KIAA0238|YSPL2|SLC23A1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+MAP2K1	HGNC:6840	5604	ENSG00000169032	mitogen-activated protein kinase kinase 1	Q02750		MEK1|MAPKK1|MKK1|PRKMK1	achondroplasia	candidate	0	biology	MEK1; MEK inhibitors rescue growth in models	curated (Claude knowledge; unverified)
+NPPC	HGNC:7941	4880	ENSG00000163273	natriuretic peptide C	P23582		CNP	achondroplasia	candidate	0	biology	ligand of NPR2; endogenous counter-regulator of the causal pathway	curated (Claude knowledge; unverified)
+SLC2A13	HGNC:15956	114134	ENSG00000151229	solute carrier family 2 member 13	Q96QE2		HMIT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A3	HGNC:11023	23443	ENSG00000117620	solute carrier family 35 member A3	Q9Y2D2			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A10	HGNC:11058	56301	ENSG00000130876	solute carrier family 7 member 10	Q9NS82		asc-1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+RAF1	HGNC:9829	5894	ENSG00000132155	Raf-1 proto-oncogene, serine/threonine kinase	P04049		Raf-1|c-Raf|CRAF	achondroplasia	candidate	0	biology	MAPK cascade	curated (Claude knowledge; unverified)
+SLC17A5	HGNC:10933	26503	ENSG00000119899	solute carrier family 17 member 5	Q9NRA2		AST|SD|ISSD|NSD|SIALIN|SLD|SIASD	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+FGFR3	HGNC:3690	2261	ENSG00000068078	fibroblast growth factor receptor 3	P22607		CEK2|JTK4|CD333|ACH	achondroplasia	known	1	approved_drug	infigratinib (phase 3); vosoritide acts downstream — causal gene (gain-of-function G380R); direct inhibitors in late-stage trials	curated (Claude knowledge, 2026-05; unverified)
+SLC1A3	HGNC:10941	6507	ENSG00000079215	solute carrier family 1 member 3	P43003		EAAT1|GLAST|EA6|GLAST1|GLAST-1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+GRB2	HGNC:4566	2885	ENSG00000177885	growth factor receptor bound protein 2	P62993		NCKAP2	achondroplasia	candidate	0	biology	adaptor	curated (Claude knowledge; unverified)
+SLC7A11	HGNC:11059	23657	ENSG00000151012	solute carrier family 7 member 11	Q9UPY5		xCT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A7	HGNC:4927	7922	ENSG00000112473	solute carrier family 39 member 7	Q92504		H2-KE4|D6S2244E|KE4|RING5|ZIP7|HKE4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A40	HGNC:29680	55972	ENSG00000075303	solute carrier family 25 member 40	Q8TBP6		MCFP	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A1	HGNC:10920	6564	ENSG00000088386	solute carrier family 15 member 1	P46059		PEPT1|HPECT1|HPEPT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921

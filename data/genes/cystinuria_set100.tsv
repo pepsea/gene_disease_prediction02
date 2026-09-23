@@ -1,0 +1,101 @@
+symbol	hgnc_id	entrez_id	ensembl_gene_id	gene_name	uniprot_ids	protein_name_uniprot	alias_symbols	disease	category	label	evidence	note	source
+SLC27A3	HGNC:10997	11000	ENSG00000143554	solute carrier family 27 member 3	Q5K4L6		FATP3|MGC4365|ACSVL3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A2	HGNC:11006	6514	ENSG00000163581	solute carrier family 2 member 2	P11168		GLUT-2|GLUT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A1	HGNC:11021	10559	ENSG00000164414	solute carrier family 35 member A1	P78382		CMPST|hCST|CMP-Sia-Tr	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO4A1	HGNC:10953	28231	ENSG00000101187	solute carrier organic anion transporter family member 4A1	Q96BD0		OATP-E|OATP4A1|SLC21A12	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A2	HGNC:13448	54407	ENSG00000134294	solute carrier family 38 member 2	Q96QD8		SAT2|ATA2|KIAA1382|SNAT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35B3	HGNC:21601	51000	ENSG00000124786	solute carrier family 35 member B3	Q9H1N7		CGI-19|dJ453H5.1|PAPST2|C6orf196	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A22	HGNC:19954	79751	ENSG00000177542	solute carrier family 25 member 22	Q9H936		GC1|FLJ13044|NET44|EIEE3|GC-1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F3	HGNC:23616	148641	ENSG00000183780	solute carrier family 35 member F3	Q8IY50		FLJ37712	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A10	HGNC:11058	56301	ENSG00000130876	solute carrier family 7 member 10	Q9NS82		asc-1	cystinuria	candidate	0	biology	asc-1; related light subunit	curated (Claude knowledge; unverified)
+SLC4A10	HGNC:13811	57282	ENSG00000144290	solute carrier family 4 member 10	Q6U841		NBCn2|NCBE	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC46A3	HGNC:27501	283537	ENSG00000139508	solute carrier family 46 member 3	Q7Z3Q1		DKFZp686A1775|FLJ42613	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A5	HGNC:19089	64924	ENSG00000145740	solute carrier family 30 member 5	Q8TAD4		ZTL1|ZnT-5|FLJ12496|FLJ12756|ZNT5|MGC5499|ZNTL1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A7	HGNC:14467	115111	ENSG00000147606	solute carrier family 26 member 7	Q8TE54		SUT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A1	HGNC:10929	6568	ENSG00000124568	solute carrier family 17 member 1	Q14916		NAPI-1|NPT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC18A1	HGNC:10934	6570	ENSG00000036565	solute carrier family 18 member A1	P54219		CGAT|VMAT1|VAT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC29A3	HGNC:23096	55315	ENSG00000198246	solute carrier family 29 member 3	Q9BZD2		ENT3|FLJ11160|hENT3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A31	HGNC:27091	146429	ENSG00000259803	solute carrier family 22 member 31	A6NKX4			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A9	HGNC:11056	6536	ENSG00000196517	solute carrier family 6 member 9	P48067		GLYT1|GlyT-1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A32	HGNC:29683	81034	ENSG00000164933	solute carrier family 25 member 32	Q9H2D1		MFTC	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A5	HGNC:10933	26503	ENSG00000119899	solute carrier family 17 member 5	Q9NRA2		AST|SD|ISSD|NSD|SIALIN|SLD|SIASD	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A2	HGNC:10996	11001	ENSG00000140284	solute carrier family 27 member 2	O14975		FATP2|hFACVL1|VLACS|VLCS|HsT17226|ACSVL1|FACVL1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A14	HGNC:20858	23516	ENSG00000104635	solute carrier family 39 member 14	Q15043		KIAA0062|NET34|ZIP14|ZIP-14	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC34A2	HGNC:11020	10568	ENSG00000157765	solute carrier family 34 member 2	O95436		NAPI-3B|NaPi-2b|NPTIIb|NaPi2b|NAPI-IIb	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A1	HGNC:11005	6513	ENSG00000117394	solute carrier family 2 member 1	P11166		DYT18|DYT9|GLUT-1|GLUT1|GLUT|HTLVR|CSE	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A2	HGNC:22921	83884	ENSG00000120329	solute carrier family 25 member 2	Q9BXI2		ORNT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A5	HGNC:9359	375611	ENSG00000170615	solute carrier family 26 member 5	P58743		DFNB61|PRESTIN|PRES	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+CTNS	HGNC:2518	1497	ENSG00000040531	cystinosin, lysosomal cystine transporter	O60931		CTNS-LSB|PQLC4|SLC66A4	cystinuria	candidate	0	biology	lysosomal cystine transporter (cystinosis, a different disease; often confused)	curated (Claude knowledge; unverified)
+SLC9C1	HGNC:31401	285335	ENSG00000172139	solute carrier family 9 member C1	Q4G0N8		NHE|SLC9A10	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A13	HGNC:23092	157724	ENSG00000164893	solute carrier family 7 member 13	Q8TCU3		AGT-1|XAT2	cystinuria	candidate	0	biology	AGT1; proposed additional renal cystine transporter, candidate for unexplained cases	curated (Claude knowledge; unverified)
+SLC23A1	HGNC:10974	9963	ENSG00000170482	solute carrier family 23 member 1	Q9UHI7		YSPL3|SVCT1|SLC23A2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC11A2	HGNC:10908	4891	ENSG00000110911	solute carrier family 11 member 2	P49281		DCT1|DMT1|DMT-1|FLJ37416|NRAMP2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A47	HGNC:20115	283600	ENSG00000140107	solute carrier family 25 member 47	Q6Q0C1		HDCMP|C14orf68	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A7	HGNC:11065	9056	ENSG00000155465	solute carrier family 7 member 7	Q9UM01		y+LAT-1|Y+LAT1|LPI	cystinuria	candidate	0	biology	y+LAT1; dibasic amino-acid basolateral transporter (lysinuric protein intolerance)	curated (Claude knowledge; unverified)
+SLC51A	HGNC:29955	200931	ENSG00000163959	solute carrier family 51 member A	Q86UW1		OSTalpha|SLC51A1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC24A4	HGNC:10978	123041	ENSG00000140090	solute carrier family 24 member 4	Q8NFF2		NCKX4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A6	HGNC:16703	57084	ENSG00000091664	solute carrier family 17 member 6	Q9P2U8		DNPI|VGLUT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC47A1	HGNC:25588	55244	ENSG00000142494	solute carrier family 47 member 1	Q96FL8		FLJ10847|MATE1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC41A1	HGNC:19429	254428	ENSG00000133065	solute carrier family 41 member 1	Q8IVJ1		MgtE	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A15	HGNC:13621	55117	ENSG00000072041	solute carrier family 6 member 15	Q9H2J7		hv7-3|NTT73|FLJ10316|V7-3|SBAT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC46A1	HGNC:30521	113235	ENSG00000076351	solute carrier family 46 member 1	Q96NT5		HCP1|MGC9564|PCFT|HsPCFT|hPCFT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A11	HGNC:14463	201266	ENSG00000133195	solute carrier family 39 member 11	Q8N1S5		ZIP11|C17orf26	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC3A2	HGNC:11026	6520	ENSG00000168003	solute carrier family 3 member 2	P08195		4T2HC|4F2|NACAE|CD98|CD98HC|4F2HC|MDU1	cystinuria	candidate	0	biology	4F2hc; heavy-chain partner of related amino-acid transporters	curated (Claude knowledge; unverified)
+SLC23A3	HGNC:20601	151295	ENSG00000213901	solute carrier family 23 member 3	Q6PIS1		SVCT3|FLJ31168|Yspl1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC52A1	HGNC:30225	55065	ENSG00000132517	solute carrier family 52 member 1	Q9NWF4		FLJ10060|GPCR42|PAR2|hRFT1|RFVT1|GPR172B	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35E2B	HGNC:33941	728661	ENSG00000189339	solute carrier family 35 member E2B	P0CK96			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A48	HGNC:30451	153328	ENSG00000145832	solute carrier family 25 member 48	Q6ZT89		FLJ44862	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A52	HGNC:23324	147407	ENSG00000141437	solute carrier family 25 member 52	Q3SY17		MCART2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC20A1	HGNC:10946	6574	ENSG00000144136	solute carrier family 20 member 1	Q8WUM9		PiT-1|Glvr-1|PiT1|GLVR1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35D2	HGNC:20799	11046	ENSG00000130958	solute carrier family 35 member D2	Q76EJ3		UGTrel8|SQV7L	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A1	HGNC:10939	6505	ENSG00000106688	solute carrier family 1 member 1	P43005		EAAC1|EAAT3|hEAAC1	cystinuria	candidate	0	biology	EAAT3; renal dicarboxylic amino-acid transporter	curated (Claude knowledge; unverified)
+SLC7A9	HGNC:11067	11136	ENSG00000021488	solute carrier family 7 member 9	P82251		BAT1|CSNU3	cystinuria	known	1	approved_drug	(no gene-targeted drug; tiopronin, penicillamine, urinary alkalinisation) — causal gene (type B cystinuria; b0,+AT light subunit)	curated (Claude knowledge, 2026-05; unverified)
+SLC4A1AP	HGNC:13813	22950	ENSG00000163798	solute carrier family 4 member 1 adaptor protein	Q9BWU0		kanadaptin|HLC3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A7	HGNC:10928	9194	ENSG00000118596	solute carrier family 16 member 7	O60669		MCT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A9	HGNC:11035	83697	ENSG00000113073	solute carrier family 4 member 9	Q96Q91		AE4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A15	HGNC:20301	55356	ENSG00000163393	solute carrier family 22 member 15	Q8IZD6		FLIPT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A5	HGNC:11051	9152	ENSG00000165970	solute carrier family 6 member 5	Q9Y345		GLYT2|GlyT-2|NET1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F6	HGNC:26055	54978	ENSG00000213699	solute carrier family 35 member F6	Q8N357		FLJ20555|ANT2BP|TANGO9|C2orf18	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A12	HGNC:25984	54868	ENSG00000109066	solute carrier family 38 member 12	Q8NE00		FLJ20255|FLJ00021|TMEM104	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A5	HGNC:11078	6553	ENSG00000135740	solute carrier family 9 member A5	Q14940		NHE5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A11	HGNC:23091	115584	ENSG00000158865	solute carrier family 5 member 11	Q8WWX8		KST1|SMIT2|SGLT6	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A13	HGNC:31037	201232	ENSG00000174327	solute carrier family 16 member 13	Q7RTY0		MCT13	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A5	HGNC:33455	729025	ENSG00000188991	solute carrier family 15 member 5	A6NIM6			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A8	HGNC:19119	160728	ENSG00000256870	solute carrier family 5 member 8	Q8N695		AIT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC8A1	HGNC:11068	6546	ENSG00000183023	solute carrier family 8 member A1	P32418		NCX1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A5	HGNC:18070	92745	ENSG00000017483	solute carrier family 38 member 5	Q8WUX1		SN2|JM24|SNAT5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A14	HGNC:11047	11254	ENSG00000268104	solute carrier family 6 member 14	Q9UN76			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A3	HGNC:11029	6508	ENSG00000114923	solute carrier family 4 member 3	P48751		AE3|SLC2C	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+CLTRN	HGNC:29437	57393	ENSG00000147003	collectrin, amino acid transport regulator	Q9HBJ8		NX17|TMEM27	cystinuria	candidate	0	biology	collectrin; required for renal amino-acid transporter expression	curated (Claude knowledge; unverified)
+SLC25A34	HGNC:27653	284723	ENSG00000162461	solute carrier family 25 member 34	Q6PIV7		DKFZp781A10161	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A6	HGNC:10970	9356	ENSG00000197901	solute carrier family 22 member 6	Q4U2R8		ROAT1|PAHT|OAT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A7	HGNC:11054	6534	ENSG00000011083	solute carrier family 6 member 7	Q99884		PROT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A2	HGNC:10994	1836	ENSG00000155850	solute carrier family 26 member 2	P50443		DTDST|DTD	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A8	HGNC:13812	29988	ENSG00000136856	solute carrier family 2 member 8	Q9NY64		GLUTX1|GLUT8	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC14A2	HGNC:10919	8170	ENSG00000132874	solute carrier family 14 member 2	Q15849		HUT2|UT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC19A3	HGNC:16266	80704	ENSG00000135917	solute carrier family 19 member 3	Q9BZV2		THTR2|thTr-2|hTHTR2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A7	HGNC:10945	6512	ENSG00000162383	solute carrier family 1 member 7	O00341		EAAT5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A4	HGNC:11039	6527	ENSG00000100191	solute carrier family 5 member 4	Q9NY91		SAAT1|SGLT3|DJ90G24.4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A4	HGNC:10968	6583	ENSG00000197208	solute carrier family 22 member 4	Q9H015		OCTN1|MGC34546|DFNB60	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G6	HGNC:31351	643664	ENSG00000259224	solute carrier family 35 member G6	P0C7Q6		TMEM21B|AMAC1L3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A41	HGNC:28533	284427	ENSG00000181240	solute carrier family 25 member 41	Q8N5S1		FLJ40442|MGC34725|APC4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC34A3	HGNC:20305	142680	ENSG00000198569	solute carrier family 34 member 3	Q8N130		NPTIIc|FLJ38680|NaPi-2c|NPT2C	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A4	HGNC:10998	10999	ENSG00000167114	solute carrier family 27 member 4	Q6P1M0		FATP4|ACSVL4|FATP-4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A19	HGNC:27960	340024	ENSG00000174358	solute carrier family 6 member 19	Q695T7		B0AT1	cystinuria	candidate	0	biology	B0AT1; neutral amino-acid reabsorption (Hartnup)	curated (Claude knowledge; unverified)
+SLC1A4	HGNC:10942	6509	ENSG00000115902	solute carrier family 1 member 4	P43007		SATT|ASCT1|ASCT-1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A9	HGNC:23520	220963	ENSG00000165449	solute carrier family 16 member 9	Q7RTY1		FLJ43803|MCT9|C10orf36	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A4	HGNC:13941	80736	ENSG00000204385	solute carrier family 44 member 4	Q53GD3		NG22|CTL4|FLJ14491|TPPT|DFNA72|C6orf29	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A20	HGNC:30927	54716	ENSG00000163817	solute carrier family 6 member 20	Q9NP91		XT3|Xtrp3|SIT1|IMINO	cystinuria	candidate	0	biology	SIT1; proline/glycine reabsorption (iminoglycinuria)	curated (Claude knowledge; unverified)
+SLC7A11	HGNC:11059	23657	ENSG00000151012	solute carrier family 7 member 11	Q9UPY5		xCT	cystinuria	candidate	0	biology	xCT; cystine/glutamate antiporter (not renal reabsorption)	curated (Claude knowledge; unverified)
+SLC16A3	HGNC:10924	9123	ENSG00000141526	solute carrier family 16 member 3	O15427		MCT3|MCT4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9C2	HGNC:28664	284525	ENSG00000162753	solute carrier family 9 member C2 (putative)	Q5TAH2		MGC43026|SLC9A11	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A4	HGNC:14679	55089	ENSG00000139209	solute carrier family 38 member 4	Q969I6		PAAT|NAT3|ATA3|SNAT4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC36A2	HGNC:18762	153201	ENSG00000186335	solute carrier family 36 member 2	Q495M3		PAT2|tramdorin|TRAMD1	cystinuria	candidate	0	biology	PAT2; iminoglycinuria	curated (Claude knowledge; unverified)
+SLC22A9	HGNC:16261	114571	ENSG00000149742	solute carrier family 22 member 9	Q8IVM8		OAT4|FLJ23666|UST3|OAT7	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC3A1	HGNC:11025	6519	ENSG00000138079	solute carrier family 3 member 1	Q07837		CSNU1|D2H|RBAT|ATR1|NBAT	cystinuria	known	1	approved_drug	(no gene-targeted drug; tiopronin, penicillamine, urinary alkalinisation) — causal gene (type A cystinuria; rBAT heavy subunit of the renal dibasic amino acid transporter)	curated (Claude knowledge, 2026-05; unverified)
+SLC66A1	HGNC:26001	54896	ENSG00000040487	solute carrier family 66 member 1	Q6ZP29		FLJ20320|LAAT-1|LAAT1|PQLC2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+ACE2	HGNC:13557	59272	ENSG00000130234	angiotensin converting enzyme 2	Q9BYF1		ACEH	cystinuria	candidate	0	biology	chaperone for intestinal B0AT1	curated (Claude knowledge; unverified)
+SLC25A18	HGNC:10988	83733	ENSG00000182902	solute carrier family 25 member 18	Q9H1K4			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A21	HGNC:14411	89874	ENSG00000183032	solute carrier family 25 member 21	Q9BQT8		ODC1|ODC	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35E1	HGNC:20803	79939	ENSG00000127526	solute carrier family 35 member E1	Q96K37		FLJ14251	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A6	HGNC:11041	8884	ENSG00000138074	solute carrier family 5 member 6	Q9Y289		SMVT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921

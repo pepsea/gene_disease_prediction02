@@ -1,0 +1,3 @@
+symbol	drug_examples	approval_note	source
+SLC3A1	(no gene-targeted drug; tiopronin, penicillamine, urinary alkalinisation)	causal gene (type A cystinuria; rBAT heavy subunit of the renal dibasic amino acid transporter)	curated (Claude knowledge, 2026-05; unverified)
+SLC7A9	(no gene-targeted drug; tiopronin, penicillamine, urinary alkalinisation)	causal gene (type B cystinuria; b0,+AT light subunit)	curated (Claude knowledge, 2026-05; unverified)

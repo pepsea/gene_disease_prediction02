@@ -5,7 +5,8 @@
                                ループの known_symbols（記号の照合）にも使う。
   <disease>_known.tsv          正解遺伝子（承認薬の標的）
   <disease>_candidates.tsv     可能性遺伝子（GWAS・エクソーム・CNV・臨床試験・生物学）
-  <disease>_random.tsv         ランダム遺伝子（固定シードで抽出。正解・可能性を除く）
+  <disease>_random.tsv         ダミー遺伝子（固定シードで抽出。正解・可能性を除く）。scz / cystinuria / prostate_cancer /
+                               achondroplasia は SLC トランスポーター（SLC*, SLCO*）を優先して埋める（note 列 "SLC decoy"）
   <disease>_set100.tsv         正解 + 可能性 + ランダム = 100 遺伝子（順序はシャッフル）
   <disease>_set1000.tsv        正解 + 可能性 + ランダム = 1000 遺伝子（順序はシャッフル、set100 を含む）
 
@@ -29,13 +30,19 @@
                   curated の代わりに使う（この開発環境からは API に届かず未テスト）
   --uniprot       UniProt REST から protein_name_uniprot を埋める（同じく未テスト）
 """
-import argparse, csv, json, os, random, sys, urllib.request, urllib.parse
+import argparse, csv, json, os, random, re, sys, urllib.request, urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HGNC = os.path.join(ROOT, "data", "raw", "hgnc_complete_set.txt")
 CURATED = os.path.join(ROOT, "data", "curated")
 OUT = os.path.join(ROOT, "data", "genes")
-DISEASES = {"ra": ("rheumatoid arthritis", "EFO_0000685"), "scz": ("schizophrenia", "MONDO_0005090")}
+# key: (病名, Open Targets の ID, ダミー遺伝子の取り方)
+#   decoy "generic" = 全タンパク質コード遺伝子から無作為, "slc" = SLC トランスポーター（SLC*/SLCO*）を優先して埋め、足りなければ無作為
+DISEASES = {"ra": ("rheumatoid arthritis", "EFO_0000685", "generic"),
+            "scz": ("schizophrenia", "MONDO_0005090", "slc"),
+            "cystinuria": ("cystinuria", "Orphanet_214", "slc"),
+            "prostate_cancer": ("prostate cancer", "MONDO_0008315", "slc"),
+            "achondroplasia": ("achondroplasia", "Orphanet_15", "slc")}
 SEED = 20260921
 COLUMNS = ["symbol", "hgnc_id", "entrez_id", "ensembl_gene_id", "gene_name", "uniprot_ids", "protein_name_uniprot",
            "alias_symbols", "disease", "category", "label", "evidence", "note", "source"]
@@ -143,7 +150,7 @@ def main():
     write_tsv(os.path.join(OUT, "hgnc_protein_coding.tsv"), [dict(g, disease="", category="", label="") for g in genes.values()])
     print(f"hgnc_protein_coding.tsv: {len(genes)} genes")
 
-    for key, (disease, efo) in DISEASES.items():
+    for key, (disease, efo, decoy) in DISEASES.items():
         if args.opentargets:
             known_rows, cand_rows = fetch_opentargets(efo)
         else:
@@ -169,11 +176,21 @@ def main():
         known = build(known_rows, "known", 1)
         cands = [c for c in build(cand_rows, "candidate", 0) if c["symbol"] not in {k["symbol"] for k in known}]
         used = {g["symbol"] for g in known + cands}
-        pool = sorted(s for s in genes if s not in used)
         rng = random.Random(SEED)
         n_random = args.random_size or max(1000 - len(known) - len(cands), 0)
-        rand = [dict(genes[s], disease=disease, category="random", label=0, evidence="", source=f"HGNC protein-coding, random seed {SEED}", note="")
-                for s in rng.sample(pool, n_random)]
+        if decoy == "slc":
+            # SLC トランスポーターをダミーに（シスチン尿症では原因遺伝子と同じファミリーなので厳しい陰性対照になる）
+            slc = sorted(s for s in genes if re.match(r"^SLCO?\d", s) and s not in used)
+            rng.shuffle(slc)
+            rest = sorted(s for s in genes if s not in used and s not in slc)
+            picked = slc[:n_random] + rng.sample(rest, max(0, n_random - len(slc)))
+            rand = [dict(genes[s], disease=disease, category="random", label=0, evidence="",
+                         source=f"{'SLC decoy' if s in slc else 'HGNC protein-coding random'}, seed {SEED}", note="SLC decoy" if s in slc else "")
+                    for s in picked]
+        else:
+            pool = sorted(s for s in genes if s not in used)
+            rand = [dict(genes[s], disease=disease, category="random", label=0, evidence="", source=f"HGNC protein-coding, random seed {SEED}", note="")
+                    for s in rng.sample(pool, n_random)]
 
         n_rand100 = 100 - len(known) - len(cands)
         if n_rand100 < 0:      # 可能性遺伝子が多すぎる場合は先頭から削って 100 に収める

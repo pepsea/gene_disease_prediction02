@@ -1,0 +1,975 @@
+symbol	hgnc_id	entrez_id	ensembl_gene_id	gene_name	uniprot_ids	protein_name_uniprot	alias_symbols	disease	category	label	evidence	note	source
+SLC28A1	HGNC:11001	9154	ENSG00000156222	solute carrier family 28 member 1	O00337		CNT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC11A2	HGNC:10908	4891	ENSG00000110911	solute carrier family 11 member 2	P49281		DCT1|DMT1|DMT-1|FLJ37416|NRAMP2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC52A2	HGNC:30224	79581	ENSG00000185803	solute carrier family 52 member 2	Q9HAB3		FLJ11856|PAR1|GPCR41|D15Ertd747e|RFVT2|hRFT3|RFT3|HuPAR-1|GPR172A	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A47	HGNC:20115	283600	ENSG00000140107	solute carrier family 25 member 47	Q6Q0C1		HDCMP|C14orf68	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC45A1	HGNC:17939	50651	ENSG00000162426	solute carrier family 45 member 1	Q9Y2W3		DNB5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO4C1	HGNC:23612	353189	ENSG00000173930	solute carrier organic anion transporter family member 4C1	Q6ZQN7		SLC21A20|OATP4C1|OATPX|OATP-H	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A2	HGNC:13448	54407	ENSG00000134294	solute carrier family 38 member 2	Q96QD8		SAT2|ATA2|KIAA1382|SNAT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35C1	HGNC:20197	55343	ENSG00000181830	solute carrier family 35 member C1	Q96A29		FUCT1|FLJ11320	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A3	HGNC:10924	9123	ENSG00000141526	solute carrier family 16 member 3	O15427		MCT3|MCT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F2	HGNC:23615	54733	ENSG00000110660	solute carrier family 35 member F2	Q8IXU6		FLJ13018	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A5	HGNC:11040	6528	ENSG00000105641	solute carrier family 5 member 5	Q92911		NIS	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A5	HGNC:10969	6584	ENSG00000197375	solute carrier family 22 member 5	O76082		OCTN2|SCD|CDSP	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC68A1	HGNC:26196	79847	ENSG00000138111	solute carrier family 68 member 1	Q14CX5		FLJ22529|bA18I14.8|C10orf77|TMEM180|MFSD13A	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC67A2	HGNC:28158	84804	ENSG00000135953	solute carrier family 67 member 2	Q8NBP5		MGC11332|MFSD9	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A6	HGNC:10970	9356	ENSG00000197901	solute carrier family 22 member 6	Q4U2R8		ROAT1|PAHT|OAT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A4	HGNC:14679	55089	ENSG00000139209	solute carrier family 38 member 4	Q969I6		PAAT|NAT3|ATA3|SNAT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A4	HGNC:8818	5172	ENSG00000091137	solute carrier family 26 member 4	O43511		PDS|DFNB4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC13A5	HGNC:23089	284111	ENSG00000141485	solute carrier family 13 member 5	Q86YT5		NACT|INDY|mINDY	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A7	HGNC:11065	9056	ENSG00000155465	solute carrier family 7 member 7	Q9UM01		y+LAT-1|Y+LAT1|LPI	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G5	HGNC:15546	83650	ENSG00000177710	solute carrier family 35 member G5	Q96KT7		AMAC|AMAC1L2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A11	HGNC:11059	23657	ENSG00000151012	solute carrier family 7 member 11	Q9UPY5		xCT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A2	HGNC:11048	6530	ENSG00000103546	solute carrier family 6 member 2	P23975		NET|NET1|NAT1|SLC6A5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A8	HGNC:11034	9498	ENSG00000050438	solute carrier family 4 member 8	Q2Y0W8		NBC3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A10	HGNC:25355	55532	ENSG00000196660	solute carrier family 30 member 10	Q6XR72		DKFZp547M236|ZnT-10|ZRC1|ZNT8|ZNT10	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A15	HGNC:20301	55356	ENSG00000163393	solute carrier family 22 member 15	Q8IZD6		FLIPT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A33	HGNC:29681	84275	ENSG00000171612	solute carrier family 25 member 33	Q9BSK2		MGC4399|BMSC-MCP|PNC1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A9	HGNC:1329	10463	ENSG00000014824	solute carrier family 30 member 9	Q6PML9		HUEL|ZNT9|GAC63|C4orf1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A5	HGNC:11078	6553	ENSG00000135740	solute carrier family 9 member A5	Q14940		NHE5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A7	HGNC:10945	6512	ENSG00000162383	solute carrier family 1 member 7	O00341		EAAT5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A8	HGNC:20303	169026	ENSG00000164756	solute carrier family 30 member 8	Q8IWU4		ZnT-8|ZNT8	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A7	HGNC:10928	9194	ENSG00000118596	solute carrier family 16 member 7	O60669		MCT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A14	HGNC:8495	9389	ENSG00000144671	solute carrier family 22 member 14	Q9Y267		OCTL2|ORCTL4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A4	HGNC:11015	7782	ENSG00000104154	solute carrier family 30 member 4	O14863		ZNT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A4	HGNC:11030	8671	ENSG00000080493	solute carrier family 4 member 4	Q9Y6R1		NBC1|HNBC1|NBC2|pNBC|hhNMC|kNBC1|KNBC|NBCe1|SLC4A5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35D1	HGNC:20800	23169	ENSG00000116704	solute carrier family 35 member D1	Q9NTN3		UGTREL7|KIAA0260	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A3	HGNC:11014	7781	ENSG00000115194	solute carrier family 30 member 3	Q99726		ZNT3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC29A2	HGNC:11004	3177	ENSG00000174669	solute carrier family 29 member 2	Q14542		DER12|ENT2|HNP36	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35D3	HGNC:15621	340146	ENSG00000182747	solute carrier family 35 member D3	Q5M8T2		FRCL1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A3	HGNC:10941	6507	ENSG00000079215	solute carrier family 1 member 3	P43003		EAAT1|GLAST|EA6|GLAST1|GLAST-1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A5	HGNC:10933	26503	ENSG00000119899	solute carrier family 17 member 5	Q9NRA2		AST|SD|ISSD|NSD|SIALIN|SLD|SIASD	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A13	HGNC:15956	114134	ENSG00000151229	solute carrier family 2 member 13	Q96QE2		HMIT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A23	HGNC:19375	79085	ENSG00000125648	solute carrier family 25 member 23	Q9BV35		FLJ30339|MGC2615|APC2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A4	HGNC:11009	6517	ENSG00000181856	solute carrier family 2 member 4	P14672		GLUT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC41A1	HGNC:19429	254428	ENSG00000133065	solute carrier family 41 member 1	Q8IVJ1		MgtE	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A10	HGNC:11058	56301	ENSG00000130876	solute carrier family 7 member 10	Q9NS82		asc-1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G4	HGNC:31043	646000	ENSG00000236396	solute carrier family 35 member G4	P0C7Q5		AMAC1L1|SLC35G4P	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC36A2	HGNC:18762	153201	ENSG00000186335	solute carrier family 36 member 2	Q495M3		PAT2|tramdorin|TRAMD1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A5	HGNC:33455	729025	ENSG00000188991	solute carrier family 15 member 5	A6NIM6			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A9	HGNC:22146	200010	ENSG00000117834	solute carrier family 5 member 9	Q2M3M2		SGLT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A20	HGNC:1421	788	ENSG00000178537	solute carrier family 25 member 20	O43772		CAC|CACT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A11	HGNC:11044	6538	ENSG00000132164	solute carrier family 6 member 11	P48066		GAT3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC23A2	HGNC:10973	9962	ENSG00000089057	solute carrier family 23 member 2	Q9UGH3		SVCT2|KIAA0238|YSPL2|SLC23A1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A31	HGNC:25319	83447	ENSG00000151475	solute carrier family 25 member 31	Q9H0C2		DKFZP434N1235|ANT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A6	HGNC:14472	65010	ENSG00000225697	solute carrier family 26 member 6	Q9BXS9		DKFZp586E1422	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A9	HGNC:23520	220963	ENSG00000165449	solute carrier family 16 member 9	Q7RTY1		FLJ43803|MCT9|C10orf36	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC45A2	HGNC:16472	51151	ENSG00000164175	solute carrier family 45 member 2	Q9UMX9		AIM-1|OCA4|MATP	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A3	HGNC:11023	23443	ENSG00000117620	solute carrier family 35 member A3	Q9Y2D2			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC18A2	HGNC:10935	6571	ENSG00000165646	solute carrier family 18 member A2	Q05940		SVMT|SVAT|VAT2|VMAT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A10	HGNC:13811	57282	ENSG00000144290	solute carrier family 4 member 10	Q6U841		NBCn2|NCBE	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A17	HGNC:10987	10478	ENSG00000100372	solute carrier family 25 member 17	O43808		PMP34	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A40	HGNC:29680	55972	ENSG00000075303	solute carrier family 25 member 40	Q8TBP6		MCFP	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A1	HGNC:11036	6523	ENSG00000100170	solute carrier family 5 member 1	P13866		D22S675|NAGT|SGLT-1|SGLT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A11	HGNC:18120	55867	ENSG00000168065	solute carrier family 22 member 11	Q9NSA0		OAT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC36A1	HGNC:18761	206358	ENSG00000123643	solute carrier family 36 member 1	Q7Z2H8		LYAAT-1|PAT1|TRAMD3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A31	HGNC:27091	146429	ENSG00000259803	solute carrier family 22 member 31	A6NKX4			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC19A3	HGNC:16266	80704	ENSG00000135917	solute carrier family 19 member 3	Q9BZV2		THTR2|thTr-2|hTHTR2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A1	HGNC:10920	6564	ENSG00000088386	solute carrier family 15 member 1	P46059		PEPT1|HPECT1|HPEPT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A7	HGNC:4927	7922	ENSG00000112473	solute carrier family 39 member 7	Q92504		H2-KE4|D6S2244E|KE4|RING5|ZIP7|HKE4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A9	HGNC:16261	114571	ENSG00000149742	solute carrier family 22 member 9	Q8IVM8		OAT4|FLJ23666|UST3|OAT7	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A2	HGNC:11060	6542	ENSG00000003989	solute carrier family 7 member 2	P52569		CAT-2|HCAT2|SLC7A2A|SLC7A2B|CAT-2A|CAT-2B|ATRC2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A14	HGNC:18301	144195	ENSG00000173262	solute carrier family 2 member 14	Q8TDB8		GLUT14|SLC2A3P3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC45A3	HGNC:8642	85414	ENSG00000158715	solute carrier family 45 member 3	Q96JT2		IPCA-6|prostein|IPCA-2|IPCA-8|PCANAP6|PCANAP2|PCANAP8	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A13	HGNC:31037	201232	ENSG00000174327	solute carrier family 16 member 13	Q7RTY0		MCT13	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9C1	HGNC:31401	285335	ENSG00000172139	solute carrier family 9 member C1	Q4G0N8		NHE|SLC9A10	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC71A2	HGNC:23376	84641	ENSG00000148110	solute carrier family 71 member 2	Q5SR56		FLJ14753|HIATL1|MFSD14B	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC66A1	HGNC:26001	54896	ENSG00000040487	solute carrier family 66 member 1	Q6ZP29		FLJ20320|LAAT-1|LAAT1|PQLC2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9C2	HGNC:28664	284525	ENSG00000162753	solute carrier family 9 member C2 (putative)	Q5TAH2		MGC43026|SLC9A11	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO4A1	HGNC:10953	28231	ENSG00000101187	solute carrier organic anion transporter family member 4A1	Q96BD0		OATP-E|OATP4A1|SLC21A12	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A6	HGNC:16703	57084	ENSG00000091664	solute carrier family 17 member 6	Q9P2U8		DNPI|VGLUT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A4	HGNC:13941	80736	ENSG00000204385	solute carrier family 44 member 4	Q53GD3		NG22|CTL4|FLJ14491|TPPT|DFNA72|C6orf29	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A11	HGNC:14463	201266	ENSG00000133195	solute carrier family 39 member 11	Q8N1S5		ZIP11|C17orf26	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC47A1	HGNC:25588	55244	ENSG00000142494	solute carrier family 47 member 1	Q96FL8		FLJ10847|MATE1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A8	HGNC:10972	9376	ENSG00000149452	solute carrier family 22 member 8	Q8TCC7		OAT3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A6OS	HGNC:25807	84138	ENSG00000103061	solute carrier family 7 member 6 opposite strand	Q96CW6		FLJ13291|Iwr1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A42	HGNC:28380	284439	ENSG00000181035	solute carrier family 25 member 42	Q86VD7		MGC26694	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A4	HGNC:10913	6560	ENSG00000124067	solute carrier family 12 member 4	Q9UP95		KCC1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A1	HGNC:11042	6529	ENSG00000157103	solute carrier family 6 member 1	P30531		GAT1|GABATR|GABATHG|GAT-1|hGAT-1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A2	HGNC:11013	7780	ENSG00000158014	solute carrier family 30 member 2	Q9BRI3		ZNT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A11	HGNC:14471	284129	ENSG00000181045	solute carrier family 26 member 11	Q86WA9			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A6	HGNC:10944	6511	ENSG00000105143	solute carrier family 1 member 6	P48664		EAAT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F5	HGNC:23617	80255	ENSG00000115084	solute carrier family 35 member F5	Q8WV83		FLJ22004	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A3	HGNC:10967	6581	ENSG00000146477	solute carrier family 22 member 3	O75751		OCT3|EMT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A1	HGNC:10939	6505	ENSG00000106688	solute carrier family 1 member 1	P43005		EAAC1|EAAT3|hEAAC1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC29A4	HGNC:23097	222962	ENSG00000164638	solute carrier family 29 member 4	Q7RTT9		FLJ34923|ENT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A5	HGNC:13818	57468	ENSG00000124140	solute carrier family 12 member 5	Q9H2X9		KIAA1176|KCC2|hKCC2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A11	HGNC:23093	162515	ENSG00000174326	solute carrier family 16 member 11	Q8NCK7		FLJ90193|MCT11	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35B2	HGNC:16872	347734	ENSG00000157593	solute carrier family 35 member B2	Q8TB61		UGTrel4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC24A3	HGNC:10977	57419	ENSG00000185052	solute carrier family 24 member 3	Q9HC58			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A11	HGNC:10981	8402	ENSG00000108528	solute carrier family 25 member 11	Q02978		OGC|SLC20A4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC11A1	HGNC:10907	6556	ENSG00000018280	solute carrier family 11 member 1	P49279		LSH|NRAMP|NRAMP1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A29	HGNC:20116	123096	ENSG00000197119	solute carrier family 25 member 29	Q8N8R3		FLJ38975|C14orf69	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A9	HGNC:20182	55334	ENSG00000029364	solute carrier family 39 member 9	Q9NUM3		FLJ11274|ZIP9	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A14	HGNC:11047	11254	ENSG00000268104	solute carrier family 6 member 14	Q9UN76			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A46	HGNC:25198	91137	ENSG00000164209	solute carrier family 25 member 46	Q96AG3			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A4	HGNC:17129	55630	ENSG00000147804	solute carrier family 39 member 4	Q6P5W5		ZIP4|ZIP-4|AWMS2|AEZ	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC3A2	HGNC:11026	6520	ENSG00000168003	solute carrier family 3 member 2	P08195		4T2HC|4F2|NACAE|CD98|CD98HC|4F2HC|MDU1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A8	HGNC:13812	29988	ENSG00000136856	solute carrier family 2 member 8	Q9NY64		GLUTX1|GLUT8	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A19	HGNC:27960	340024	ENSG00000174358	solute carrier family 6 member 19	Q695T7		B0AT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A51	HGNC:23323	92014	ENSG00000122696	solute carrier family 25 member 51	Q9H1U9		MGC14836|CG7943|MCART1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO6A1	HGNC:23613	133482	ENSG00000205359	solute carrier organic anion transporter family member 6A1	Q86UG4		OATP6A1|OATPY|MGC26949|CT48	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A5	HGNC:11051	9152	ENSG00000165970	solute carrier family 6 member 5	Q9Y345		GLYT2|GlyT-2|NET1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A2	HGNC:10996	11001	ENSG00000140284	solute carrier family 27 member 2	O14975		FATP2|hFACVL1|VLACS|VLCS|HsT17226|ACSVL1|FACVL1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC37A4	HGNC:4061	2542	ENSG00000137700	solute carrier family 37 member 4	O43826		GSD1b|GSD1c|GSD1d|G6PT|SPX4|G6PT1|G6PT2|G6PT3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A13	HGNC:8494	9390	ENSG00000172940	solute carrier family 22 member 13	Q9Y226		OCTL1|OCTL3|OAT10|ORCTL3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC37A3	HGNC:20651	84255	ENSG00000157800	solute carrier family 37 member 3	Q8NCC5		DKFZp761N0624|SPX3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC37A2	HGNC:20644	219855	ENSG00000134955	solute carrier family 37 member 2	Q8TED4		FLJ00171|SPX2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A4	HGNC:10968	6583	ENSG00000197208	solute carrier family 22 member 4	Q9H015		OCTN1|MGC34546|DFNB60	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G6	HGNC:31351	643664	ENSG00000259224	solute carrier family 35 member G6	P0C7Q6		TMEM21B|AMAC1L3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC51B	HGNC:29956	123264	ENSG00000186198	SLC51 subunit beta	Q86UW2		OSTbeta|SLC51A1BP	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A4	HGNC:20753	113829	ENSG00000176087	solute carrier family 35 member A4	L0R6Q1|Q96G79			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A4	HGNC:10998	10999	ENSG00000167114	solute carrier family 27 member 4	Q6P1M0		FATP4|ACSVL4|FATP-4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A14	HGNC:20858	23516	ENSG00000104635	solute carrier family 39 member 14	Q15043		KIAA0062|NET34|ZIP14|ZIP-14	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A25	HGNC:32935	387601	ENSG00000196600	solute carrier family 22 member 25	Q6T423		UST6|HIMTP|MGC120420	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A8	HGNC:20728	23315	ENSG00000197818	solute carrier family 9 member A8	Q9Y2E8		KIAA0939|NHE8	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A21	HGNC:14411	89874	ENSG00000183032	solute carrier family 25 member 21	Q9BQT8		ODC1|ODC	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A3	HGNC:10931	10786	ENSG00000124564	solute carrier family 17 member 3	O00476		NPT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A3	HGNC:10997	11000	ENSG00000143554	solute carrier family 27 member 3	Q5K4L6		FATP3|MGC4365|ACSVL3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC18A1	HGNC:10934	6570	ENSG00000036565	solute carrier family 18 member A1	P54219		CGAT|VMAT1|VAT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC40A1	HGNC:10909	30061	ENSG00000138449	solute carrier family 40 member 1	Q9NP59		MTP1|IREG1|FPN1|HFE4|FPN|SLC11A3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC43A3	HGNC:17466	29015	ENSG00000134802	solute carrier family 43 member 3	Q8NBI5		SEEEG-1|Eeg1|DKFZp762A227|FOAP-13|PRO1659	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC14A2	HGNC:10919	8170	ENSG00000132874	solute carrier family 14 member 2	Q15849		HUT2|UT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A9	HGNC:11056	6536	ENSG00000196517	solute carrier family 6 member 9	P48067		GLYT1|GlyT-1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A48	HGNC:30451	153328	ENSG00000145832	solute carrier family 25 member 48	Q6ZT89		FLJ44862	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A1	HGNC:10995	376497	ENSG00000130304	solute carrier family 27 member 1	Q6PCB7		FATP1|FATP|MGC71751|FLJ00336|ACSVL5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A1	HGNC:10929	6568	ENSG00000124568	solute carrier family 17 member 1	Q14916		NAPI-1|NPT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A6	HGNC:18607	25800	ENSG00000141424	solute carrier family 39 member 6	Q13433		LIV-1|ZIP6	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO2B1	HGNC:10962	11309	ENSG00000137491	solute carrier organic anion transporter family member 2B1	O94956		OATP-B|OATP2B1|SLC21A9	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A7	HGNC:17123	84679	ENSG00000065923	solute carrier family 9 member A7	Q96T83		NHE7|NHE-7	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC60A1	HGNC:25433	148808	ENSG00000174514	solute carrier family 60 member 1	Q8N468		DKFZp761N1114|FLJ34577|UNQ3064|FLJ25004|MFSD4|MFSD4A	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A3	HGNC:10989	5250	ENSG00000075415	solute carrier family 25 member 3	Q00325		PiC|PTP|PHC	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC18B1	HGNC:21573	116843	ENSG00000146409	solute carrier family 18 member B1	Q6NT16		dJ55C23.6|C6orf192	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC75A1	HGNC:16894	10227	ENSG00000109736	solute carrier family 75 member 1	Q14728		IT10C3|TETRAN|SLC75A1|MFSD10	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A7	HGNC:14025	60482	ENSG00000115665	solute carrier family 5 member 7	Q9GZV3		hCHT|CHT1|ChT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A8	HGNC:20151	246213	ENSG00000179520	solute carrier family 17 member 8	Q8NDX2		VGLUT3|DFNA25	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A7	HGNC:13445	155184	ENSG00000197241	solute carrier family 2 member 7	Q6PXP3		GLUT7	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC45A4	HGNC:29196	57210	ENSG00000022567	solute carrier family 45 member 4	Q5BKX6		KIAA1126	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35D4	HGNC:31723	85019	ENSG00000134490	solute carrier family 35 member D4	Q24JQ0		MGC11386|FLJ44259|C18orf45|TMEM241	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9B1	HGNC:24244	150159	ENSG00000164037	solute carrier family 9 member B1	Q4ZJI4		NHA1|NHEDC1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC61A1	HGNC:28156	84975	ENSG00000182544	solute carrier family 61 member 1	Q6N075		MGC11308|HsMOT2|MFSD5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC36A3	HGNC:19659	285641	ENSG00000186334	solute carrier family 36 member 3	Q495N2		PAT3|TRAMD2|tramdorin2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A2	HGNC:11022	7355	ENSG00000102100	solute carrier family 35 member A2	P78381		UGAT|UGT|UGT1|UGT2|UGTL|UDP-Gal-Tr|UGALT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A1AP	HGNC:13813	22950	ENSG00000163798	solute carrier family 4 member 1 adaptor protein	Q9BWU0		kanadaptin|HLC3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A52	HGNC:23324	147407	ENSG00000141437	solute carrier family 25 member 52	Q3SY17		MCART2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A2	HGNC:11037	6524	ENSG00000140675	solute carrier family 5 member 2	P31639		SGLT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC34A1	HGNC:11019	6569	ENSG00000131183	solute carrier family 34 member 1	Q06495		NAPI-3|NPTIIa|SLC11|NPT2|SLC17A2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A27	HGNC:21065	9481	ENSG00000153291	solute carrier family 25 member 27	O95847		UCP4|FLJ33552	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A3	HGNC:3018	1811	ENSG00000091138	solute carrier family 26 member 3	P40879		DRA|CLD	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A8	HGNC:14468	116369	ENSG00000112053	solute carrier family 26 member 8	Q96RN1		TAT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A6	HGNC:11000	28965	ENSG00000113396	solute carrier family 27 member 6	Q9Y2P4		FATP6|VLCS-H1|FACVL2|ACSVL2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A13	HGNC:10983	10165	ENSG00000004864	solute carrier family 25 member 13	Q9UJS0		CITRIN|ARALAR2|CTLN2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35B3	HGNC:21601	51000	ENSG00000124786	solute carrier family 35 member B3	Q9H1N7		CGI-19|dJ453H5.1|PAPST2|C6orf196	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC52A1	HGNC:30225	55065	ENSG00000132517	solute carrier family 52 member 1	Q9NWF4		FLJ10060|GPCR42|PAR2|hRFT1|RFVT1|GPR172B	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A2	HGNC:10966	6582	ENSG00000112499	solute carrier family 22 member 2	O15244		OCT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A3	HGNC:22979	8273	ENSG00000126903	solute carrier family 10 member 3	P09131		P3|DXS253E	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A11	HGNC:14239	66035	ENSG00000133460	solute carrier family 2 member 11	Q9BYW1		GLUT11	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A1	HGNC:10910	6557	ENSG00000074803	solute carrier family 12 member 1	Q13621		NKCC2|CCC2|BSC1|BSC|BSC-1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A8	HGNC:19119	160728	ENSG00000256870	solute carrier family 5 member 8	Q8N695		AIT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F4	HGNC:19845	341880	ENSG00000151812	solute carrier family 35 member F4	A4IF30		FLJ37712|C14orf36	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A5	HGNC:20502	283375	ENSG00000139540	solute carrier family 39 member 5	Q6ZMH5		ZIP5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A6	HGNC:10927	9120	ENSG00000108932	solute carrier family 16 member 6	O15403		MCT6|MCT7	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A2	HGNC:11028	6522	ENSG00000164889	solute carrier family 4 member 2	P04920		HKB3|BND3L|NBND3|EPB3L1|AE2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A2	HGNC:10930	10246	ENSG00000112337	solute carrier family 17 member 2	O00624		NPT3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A9	HGNC:14469	115019	ENSG00000174502	solute carrier family 26 member 9	Q7LBE3			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A4	HGNC:10990	291	ENSG00000151729	solute carrier family 25 member 4	P12235		T1|AAC1|PEO3|PEO2|ANT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A35	HGNC:31921	399512	ENSG00000125434	solute carrier family 25 member 35	Q3KQZ1		FLJ40217	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC46A1	HGNC:30521	113235	ENSG00000076351	solute carrier family 46 member 1	Q96NT5		HCP1|MGC9564|PCFT|HsPCFT|hPCFT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A16	HGNC:20302	85413	ENSG00000004809	solute carrier family 22 member 16	Q86VW1		FLIPT2|CT2|OKB1|OAT6	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A7	HGNC:11054	6534	ENSG00000011083	solute carrier family 6 member 7	Q99884		PROT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A2	HGNC:11072	6549	ENSG00000115616	solute carrier family 9 member A2	Q9UBY0		NHE2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A11	HGNC:23091	115584	ENSG00000158865	solute carrier family 5 member 11	Q8WWX8		KST1|SMIT2|SGLT6	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A4	HGNC:22980	201780	ENSG00000145248	solute carrier family 10 member 4	Q96EP9		MGC29802	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A5	HGNC:11063	8140	ENSG00000103257	solute carrier family 7 member 5	Q01650		LAT1|E16|D16S469E|MPE16|CD98	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A3	HGNC:10912	6559	ENSG00000070915	solute carrier family 12 member 3	P55017		NCCT|NCC|TSC	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A37	HGNC:29786	51312	ENSG00000147454	solute carrier family 25 member 37	Q9NYZ2		MSCP|MFRN|MFRN1|HT015	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC34A2	HGNC:11020	10568	ENSG00000157765	solute carrier family 34 member 2	O95436		NAPI-3B|NaPi-2b|NPTIIb|NaPi2b|NAPI-IIb	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F6	HGNC:26055	54978	ENSG00000213699	solute carrier family 35 member F6	Q8N357		FLJ20555|ANT2BP|TANGO9|C2orf18	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A12	HGNC:20860	221074	ENSG00000148482	solute carrier family 39 member 12	Q504Y0		FLJ30499|ZIP12	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A39	HGNC:24279	51629	ENSG00000013306	solute carrier family 25 member 39	Q9BZJ4		FLJ22407|CGI-69	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A34	HGNC:27653	284723	ENSG00000162461	solute carrier family 25 member 34	Q6PIV7		DKFZp781A10161	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A3	HGNC:18044	10991	ENSG00000188338	solute carrier family 38 member 3	Q99624		G17|SN1|SNAT3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A7	HGNC:11033	9497	ENSG00000033867	solute carrier family 4 member 7	Q9Y6M7		NBC3|SBC2|SLC4A6	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A1	HGNC:11057	6541	ENSG00000139514	solute carrier family 7 member 1	P30825		CAT-1|HCAT1|REC1L|ERR|ATRC1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC52A3	HGNC:16187	113278	ENSG00000101276	solute carrier family 52 member 3	Q9NQ40		bA371L19.1|hRFT2|RFVT3|RFT2|C20orf54	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A1	HGNC:11027	6521	ENSG00000004939	solute carrier family 4 member 1 (Diego blood group)	P02730		RTA1A|CD233|FR|SW|WR|EMPB3|EPB3|AE1|DI|WD	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A7	HGNC:19306	148867	ENSG00000162695	solute carrier family 30 member 7	Q8NEW0		ZnTL2|ZNT7	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F1	HGNC:21483	222553	ENSG00000196376	solute carrier family 35 member F1	Q5T1Q4		dJ230I3.1|C6orf169	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A26	HGNC:20661	115286	ENSG00000144741	solute carrier family 25 member 26	Q70HW3		SAMC	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC71A1	HGNC:23363	64645	ENSG00000156875	solute carrier family 71 member 1	Q96MC6		DKFZP564L0864|HIAT1|MFSD14A	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A10	HGNC:13444	81031	ENSG00000197496	solute carrier family 2 member 10	O95528		GLUT10|GLUT-10	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A18	HGNC:10988	83733	ENSG00000182902	solute carrier family 25 member 18	Q9H1K4			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A1	HGNC:10922	6566	ENSG00000155380	solute carrier family 16 member 1	P53985		MCT|MCT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A5	HGNC:19089	64924	ENSG00000145740	solute carrier family 30 member 5	Q8TAD4		ZTL1|ZnT-5|FLJ12496|FLJ12756|ZNT5|MGC5499|ZNTL1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A6	HGNC:11011	11182	ENSG00000160326	solute carrier family 2 member 6	Q9UGQ3		GLUT9|GLUT6|HSA011372	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A12	HGNC:17989	116085	ENSG00000197891	solute carrier family 22 member 12	Q96S37		OAT4L|RST|URAT1|hURAT1|UAT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A2	HGNC:10994	1836	ENSG00000155850	solute carrier family 26 member 2	P50443		DTDST|DTD	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC23A1	HGNC:10974	9963	ENSG00000170482	solute carrier family 23 member 1	Q9UHI7		YSPL3|SVCT1|SLC23A2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC34A3	HGNC:20305	142680	ENSG00000198569	solute carrier family 34 member 3	Q8N130		NPTIIc|FLJ38680|NaPi-2c|NPT2C	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO5A1	HGNC:19046	81796	ENSG00000137571	solute carrier organic anion transporter family member 5A1	Q9H2Y9		OATPRP4|OATP-J|OATP5A1|SLC21A15	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A38	HGNC:26054	54977	ENSG00000144659	solute carrier family 25 member 38	Q96DW6		FLJ20551	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A8	HGNC:32434	146167	ENSG00000166558	solute carrier family 38 member 8	A6NNN8		SNAT8	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A14	HGNC:10984	9016	ENSG00000102078	solute carrier family 25 member 14	O95258		BMCP1|UCP5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A8	HGNC:16270	23539	ENSG00000100156	solute carrier family 16 member 8	O95907		MCT3|REMP	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC66A3	HGNC:28503	130814	ENSG00000162976	solute carrier family 66 member 3	Q8N755		MGC33602|C2orf22|PQLC3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC13A4	HGNC:15827	26266	ENSG00000164707	solute carrier family 13 member 4	Q9UKG4		SUT-1|SUT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A12	HGNC:18067	154091	ENSG00000146411	solute carrier family 2 member 12	Q8TD20		GLUT12|GLUT8	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC49A4	HGNC:16628	84925	ENSG00000138463	solute carrier family 49 member 4	Q96SL1		FLJ14784|RCC4|DIRC2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC48A1	HGNC:26035	55652	ENSG00000211584	solute carrier family 48 member 1	Q6P1K1		FLJ20489|hHRG-1|HRG1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35E1	HGNC:20803	79939	ENSG00000127526	solute carrier family 35 member E1	Q96K37		FLJ14251	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A2	HGNC:22921	83884	ENSG00000120329	solute carrier family 25 member 2	Q9BXI2		ORNT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC46A3	HGNC:27501	283537	ENSG00000139508	solute carrier family 46 member 3	Q7Z3Q1		DKFZp686A1775|FLJ42613	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A20	HGNC:30927	54716	ENSG00000163817	solute carrier family 6 member 20	Q9NP91		XT3|Xtrp3|SIT1|IMINO	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35E3	HGNC:20864	55508	ENSG00000175782	solute carrier family 35 member E3	Q7Z769		BLOV1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A1	HGNC:11071	6548	ENSG00000090020	solute carrier family 9 member A1	P19634		PPP1R143|APNH|NHE1|NHE-1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO1A2	HGNC:10956	6579	ENSG00000084453	solute carrier organic anion transporter family member 1A2	P46721		OATP|OATP1A2|OATP-A|SLC21A3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A36	HGNC:25554	55186	ENSG00000114120	solute carrier family 25 member 36	Q96CQ1		FLJ10618|PNC2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A4	HGNC:11077	389015	ENSG00000180251	solute carrier family 9 member A4	Q6AI14		NHE4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A1	HGNC:12876	27173	ENSG00000143570	solute carrier family 39 member 1	Q9NY26		ZIP1|ZIRTL	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A4	HGNC:10932	10050	ENSG00000146039	solute carrier family 17 member 4	Q9Y2C5		KIAA2138	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A15	HGNC:13621	55117	ENSG00000072041	solute carrier family 6 member 15	Q9H2J7		hv7-3|NTT73|FLJ10316|V7-3|SBAT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A5	HGNC:10999	10998	ENSG00000083807	solute carrier family 27 member 5	Q9Y2P5		FATP5|VLACSR|VLCS-H2|VLCSH2|FACVL3|FLJ22987|ACSVL6|ACSB	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A10	HGNC:20861	57181	ENSG00000196950	solute carrier family 39 member 10	Q9ULF5		KIAA1265|FLJ90515|DKFZp564L2123|ZIP10	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A22	HGNC:19954	79751	ENSG00000177542	solute carrier family 25 member 22	Q9H936		GC1|FLJ13044|NET44|EIEE3|GC-1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A3	HGNC:28689	126969	ENSG00000143036	solute carrier family 44 member 3	Q8N4M1		MGC45474|CTL3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A10	HGNC:23155	125206	ENSG00000154025	solute carrier family 5 member 10	A0PJK1		SGLT5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35D2	HGNC:20799	11046	ENSG00000130958	solute carrier family 35 member D2	Q76EJ3		UGTrel8|SQV7L	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A7	HGNC:16704	57030	ENSG00000104888	solute carrier family 17 member 7	Q9P2U7		BNPI|VGLUT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35E4	HGNC:17058	339665	ENSG00000100036	solute carrier family 35 member E4	Q6ICL7			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A11	HGNC:26836	151258	ENSG00000169507	solute carrier family 38 member 11	Q08AI6		FLJ39822|AVT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A7	HGNC:25582	55238	ENSG00000103042	solute carrier family 38 member 7	Q9NVC3		FLJ10815|SNAT7	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A5	HGNC:11010	6518	ENSG00000142583	solute carrier family 2 member 5	P22732		GLUT5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A8	HGNC:15595	84561	ENSG00000221955	solute carrier family 12 member 8	A0AV02		CCC9	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A7	HGNC:10915	10723	ENSG00000113504	solute carrier family 12 member 7	Q9Y666		KCC4|DKFZP434F076	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC66A2	HGNC:26188	80148	ENSG00000122490	solute carrier family 66 member 2	Q8N2U9		FLJ22378|PQLC1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC33A1	HGNC:95	9197	ENSG00000169359	solute carrier family 33 member 1	O00400		AT-1|AT1|ACATN|SPG42	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A7	HGNC:23088	84068	ENSG00000120519	solute carrier family 10 member 7	Q0GE19		MGC25043|DKFZp566M114|DKFZp313H0531|DKFZp779O2438|C4orf13	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A3	HGNC:11073	6550	ENSG00000066230	solute carrier family 9 member A3	P48764		NHE-3|NHE3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A6	HGNC:19305	55676	ENSG00000152683	solute carrier family 30 member 6	Q6NXT4		FLJ31101|ZNT6	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A1	HGNC:10905	6554	ENSG00000100652	solute carrier family 10 member 1	Q14973		NTCP|NTCP1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A2	HGNC:11006	6514	ENSG00000163581	solute carrier family 2 member 2	P11168		GLUT-2|GLUT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A9	HGNC:20653	285195	ENSG00000181804	solute carrier family 9 member A9	Q8IVB4		FLJ35613|NHE9	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A25	HGNC:20663	114789	ENSG00000148339	solute carrier family 25 member 25	Q6KCM7		KIAA1896|PCSCL|MCSC	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC36A4	HGNC:19660	120103	ENSG00000180773	solute carrier family 36 member 4	Q6YBV0		PAT4|FLJ38932	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A7	HGNC:14467	115111	ENSG00000147606	solute carrier family 26 member 7	Q8TE54		SUT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A1	HGNC:11012	7779	ENSG00000170385	solute carrier family 30 member 1	Q9Y6M5		ZRC1|ZNT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A8	HGNC:11066	23428	ENSG00000092068	solute carrier family 7 member 8	Q9UHI5		LPI-PC1|LAT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A5	HGNC:9359	375611	ENSG00000170615	solute carrier family 26 member 5	P58743		DFNB61|PRESTIN|PRES	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO1C1	HGNC:13819	53919	ENSG00000139155	solute carrier organic anion transporter family member 1C1	Q9NYB5		OATP-F|OATP1C1|OATP1|SLC21A14	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A8	HGNC:20862	64116	ENSG00000138821	solute carrier family 39 member 8	Q9C0K1		BIGM103|ZIP8|ZIP-8	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A10	HGNC:28237	124565	ENSG00000157637	solute carrier family 38 member 10	Q9HBR0		MGC15523|PP1744|SNAT10	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A45	HGNC:27442	283130	ENSG00000162241	solute carrier family 25 member 45	Q8N413			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A19	HGNC:14409	60386	ENSG00000125454	solute carrier family 25 member 19	Q9HC21		DNC|MUP1|TPC|MCPHA	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A30	HGNC:27371	253512	ENSG00000174032	solute carrier family 25 member 30	Q5SVS4			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A3	HGNC:11049	6531	ENSG00000142319	solute carrier family 6 member 3	Q01959		DAT|DAT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A2	HGNC:10921	6565	ENSG00000163406	solute carrier family 15 member 2	Q16348		PEPT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC19A2	HGNC:10938	10560	ENSG00000117479	solute carrier family 19 member 2	O60779		THTR1|ThT1|TRMA	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC43A1	HGNC:9225	8501	ENSG00000149150	solute carrier family 43 member 1	O75387		R00504|PB39|POV1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A9	HGNC:16192	63910	ENSG00000101194	solute carrier family 17 member 9	Q9BYT1		FLJ23412|VNUT|C20orf59	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC29A1	HGNC:11003	2030	ENSG00000112759	solute carrier family 29 member 1 (Augustine blood group)	Q99808		ENT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A12	HGNC:25984	54868	ENSG00000109066	solute carrier family 38 member 12	Q8NE00		FLJ20255|FLJ00021|TMEM104	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A2	HGNC:17292	57153	ENSG00000129353	solute carrier family 44 member 2 (CTL2 blood group)	Q8IWA5		HNA-3|CTL2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A2	HGNC:17127	29986	ENSG00000165794	solute carrier family 39 member 2	Q9NP94		ZIP2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A6	HGNC:11052	6533	ENSG00000131389	solute carrier family 6 member 6	P31641		TAUT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G1	HGNC:26607	159371	ENSG00000176273	solute carrier family 35 member G1	Q2M3R5		FLJ33990|C10orf60|POST|TMEM20	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A3	HGNC:18068	51296	ENSG00000110446	solute carrier family 15 member 3	Q8IY34		PHT2|hPTR3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A41	HGNC:28533	284427	ENSG00000181240	solute carrier family 25 member 41	Q8N5S1		FLJ40442|MGC34725|APC4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A12	HGNC:23094	387700	ENSG00000152779	solute carrier family 16 member 12	Q6ZSM3		MCT12|CRT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A16	HGNC:13622	28968	ENSG00000063127	solute carrier family 6 member 16	Q9GZN6		NTT5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A6	HGNC:10992	293	ENSG00000169100	solute carrier family 25 member 6	P12236		ANT3Y|MGC17525|ANT3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A53	HGNC:31894	401612	ENSG00000269743	solute carrier family 25 member 53	Q5H9E4		MCART6	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC20A1	HGNC:10946	6574	ENSG00000144136	solute carrier family 20 member 1	Q8WUM9		PiT-1|Glvr-1|PiT1|GLVR1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A5	HGNC:18070	92745	ENSG00000017483	solute carrier family 38 member 5	Q8WUX1		SN2|JM24|SNAT5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A5	HGNC:20792	55032	ENSG00000138459	solute carrier family 35 member A5	Q9BS91		FLJ20730	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G3	HGNC:26848	146861	ENSG00000164729	solute carrier family 35 member G3	Q8N808		FLJ40154|TMEM21A|AMAC1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC18A3	HGNC:10936	6572	ENSG00000187714	solute carrier family 18 member A3	Q16572		VACHT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A16	HGNC:10986	8034	ENSG00000122912	solute carrier family 25 member 16	P16260		GDA|D10S105E|HGT.1|ML7	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A4	HGNC:10925	9122	ENSG00000168679	solute carrier family 16 member 4	O15374		MCT4|MCT5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A4	HGNC:11062	6545	ENSG00000099960	solute carrier family 7 member 4	O43246		HCAT3|CAT-4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A1	HGNC:18798	23446	ENSG00000070214	solute carrier family 44 member 1	Q8WWI5		CTL1|CHTL1|CD92|CDW92	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC8B1	HGNC:26175	80024	ENSG00000089060	solute carrier family 8 member B1	Q6J4K2		FLJ22233|NCKX6|NCLX|SLC24A6	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A4	HGNC:11039	6527	ENSG00000100191	solute carrier family 5 member 4	Q9NY91		SAAT1|SGLT3|DJ90G24.4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A5	HGNC:10991	292	ENSG00000005022	solute carrier family 25 member 5	P05141		T2|2F1|T3|ANT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC28A3	HGNC:16484	64078	ENSG00000197506	solute carrier family 28 member 3	Q9HAS3		CNT3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC41A3	HGNC:31046	54946	ENSG00000114544	solute carrier family 41 member 3	Q96GZ6		FLJ20473	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC19A1	HGNC:10937	6573	ENSG00000173638	solute carrier family 19 member 1	P41440		FOLT|RFC1|IFC-1|RFC|hRFC|RFT-1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO1B7	HGNC:32934	338821	ENSG00000205754	solute carrier organic anion transporter family member 1B7 (putative)	G3V0H7		LST3|SLC21A21	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A23	HGNC:21106	63027	ENSG00000137266	solute carrier family 22 member 23	A1A5C7		FLJ22174|C6orf85	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A6	HGNC:30603	345274	ENSG00000145283	solute carrier family 10 member 6	Q3KNW5		SOAT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A24	HGNC:20662	29957	ENSG00000085491	solute carrier family 25 member 24	Q6NUK1		DKFZp586G0123|APC1|SCAMC1|SCAMC-1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A8	HGNC:11055	6535	ENSG00000130821	solute carrier family 6 member 8	P48029		CRTR|CT1|CRT|CRT-1|CRT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A2	HGNC:10911	6558	ENSG00000064651	solute carrier family 12 member 2	P55011		NKCC1|BSC2|BSC-2|PPP1R141|CCC1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A17	HGNC:23095	51310	ENSG00000092096	solute carrier family 22 member 17	Q8WUG5		BOCT|BOIT|NGALR	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A14	HGNC:29326	57709	ENSG00000013293	solute carrier family 7 member 14	Q8TBB6		KIAA1613|PPP1R142	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC51A	HGNC:29955	200931	ENSG00000163959	solute carrier family 51 member A	Q86UW1		OSTalpha|SLC51A1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A43	HGNC:30557	203427	ENSG00000077713	solute carrier family 25 member 43	Q8WUT9			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A9	HGNC:11035	83697	ENSG00000113073	solute carrier family 4 member 9	Q96Q91		AE4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC32A1	HGNC:11018	140679	ENSG00000101438	solute carrier family 32 member 1	Q9H598		VGAT|bA122O1.1|VIAAT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC3A1	HGNC:11025	6519	ENSG00000138079	solute carrier family 3 member 1	Q07837		CSNU1|D2H|RBAT|ATR1|NBAT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A12	HGNC:28750	159963	ENSG00000148942	solute carrier family 5 member 12	Q1EHB4		MGC52019|SMCT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A3	HGNC:11007	6515	ENSG00000059804	solute carrier family 2 member 3	P11169		GLUT3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A2	HGNC:10940	6506	ENSG00000110436	solute carrier family 1 member 2	P43004		GLT-1|GLT1|EAAT2|HBGT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC23A3	HGNC:20601	151295	ENSG00000213901	solute carrier family 23 member 3	Q6PIS1		SVCT3|FLJ31168|Yspl1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A1	HGNC:10963	6580	ENSG00000175003	solute carrier family 22 member 1	O15245		OCT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC33A2	HGNC:25157	113655	ENSG00000167700	solute carrier family 33 member 2	Q96ES6		MFSD3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO2A1	HGNC:10955	6578	ENSG00000174640	solute carrier organic anion transporter family member 2A1	Q92959		PGT|OATP2A1|SLC21A2|MATR1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A28	HGNC:23472	81894	ENSG00000155287	solute carrier family 25 member 28	Q96A46		MRS3/4|MRS4L	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A9	HGNC:11067	11136	ENSG00000021488	solute carrier family 7 member 9	P82251		BAT1|CSNU3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35H1	HGNC:17117	51006	ENSG00000080189	solute carrier family 35 member H1	Q9NQQ7		CGI-15|bA394O2.1|C20orf5|OVCOV1|SLC35C2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A6	HGNC:11064	9057	ENSG00000103064	solute carrier family 7 member 6	Q92536		y+LAT-2|KIAA0245|LAT3|LAT-2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A2	HGNC:10906	6555	ENSG00000125255	solute carrier family 10 member 2	Q12908		NTCP2|IBAT|ASBT|ISBT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A5	HGNC:22981	347051	ENSG00000253598	solute carrier family 10 member 5	Q5PT55			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A18	HGNC:26441	348932	ENSG00000164363	solute carrier family 6 member 18	Q96N87		FLJ31236|Xtrp2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC28A2	HGNC:11002	9153	ENSG00000137860	solute carrier family 28 member 2	O43868		CNT2|SPNT1|HCNT2|HsT17153	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC24A2	HGNC:10976	25769	ENSG00000155886	solute carrier family 24 member 2	Q9UI40		NCKX2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC13A2	HGNC:10917	9058	ENSG00000007216	solute carrier family 13 member 2	Q13183		NaDC-1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC20A2	HGNC:10947	6575	ENSG00000168575	solute carrier family 20 member 2	Q08357		PiT-2|Glvr-2|Ram-1|PIT2|MLVAR|GLVR2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35B4	HGNC:20584	84912	ENSG00000205060	solute carrier family 35 member B4	Q969S0		FLJ14697|YEA4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A13	HGNC:23092	157724	ENSG00000164893	solute carrier family 7 member 13	Q8TCU3		AGT-1|XAT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO1B1	HGNC:10959	10599	ENSG00000134538	solute carrier organic anion transporter family member 1B1	Q9Y6L6		OATP-C|LST-1|OATP1B1|SLC21A6	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A1	HGNC:13447	81539	ENSG00000111371	solute carrier family 38 member 1	Q9H2H9		ATA1|NAT2|SAT1|SNAT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A3	HGNC:11038	6526	ENSG00000198743	solute carrier family 5 member 3	P53794		SMIT|SMIT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A17	HGNC:31399	388662	ENSG00000197106	solute carrier family 6 member 17	Q9H1V8		NTT4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC60A2	HGNC:21053	91749	ENSG00000173214	solute carrier family 60 member 2	Q5TF39		MGC33953|KIAA1919|MFSD4B	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A6	HGNC:19863	145389	ENSG00000139974	solute carrier family 38 member 6	Q8IZM9		NAT-1|SNAT6	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A4	HGNC:10942	6509	ENSG00000115902	solute carrier family 1 member 4	P43007		SATT|ASCT1|ASCT-1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G2	HGNC:28480	80723	ENSG00000168917	solute carrier family 35 member G2	Q8TBE7		MGC3295|DKFZp564K2464|TMEM22	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC13A3	HGNC:14430	64849	ENSG00000158296	solute carrier family 13 member 3	Q8WWT9		NADC3|SDCT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A10	HGNC:10980	1468	ENSG00000183048	solute carrier family 25 member 10	Q9UBX3		DIC	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A1	HGNC:10979	6576	ENSG00000100075	solute carrier family 25 member 1	P53007		CTP|CIC|SLC20A3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO3A1	HGNC:10952	28232	ENSG00000176463	solute carrier organic anion transporter family member 3A1	Q9UIG8		OATP-D|OATP3A1|SLC21A11	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC31A2	HGNC:11017	1318	ENSG00000136867	solute carrier family 31 member 2	O15432		hCTR2|CTR2|COPT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A1	HGNC:11021	10559	ENSG00000164414	solute carrier family 35 member A1	P78382		CMPST|hCST|CMP-Sia-Tr	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9D1	HGNC:20329	55002	ENSG00000150403	solute carrier family 9 member D1	Q6UWJ1		FLJ20623|C13orf11|TMCO3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC41A2	HGNC:31045	84102	ENSG00000136052	solute carrier family 41 member 2	Q96JW4		DKFZP434K0427	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A10	HGNC:18057	387775	ENSG00000184999	solute carrier family 22 member 10 (gene/pseudogene)	Q63ZE4		OAT5|hOAT5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A4	HGNC:11050	6532	ENSG00000108576	solute carrier family 6 member 4	P31645		5-HTT|SERT1|HTT|OCD1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A10	HGNC:17027	117247	ENSG00000112394	solute carrier family 16 member 10	Q8TF71		TAT1|MCT10	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A7	HGNC:10971	10864	ENSG00000137204	solute carrier family 22 member 7	Q9Y694		NLT|OAT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A6	HGNC:11041	8884	ENSG00000138074	solute carrier family 5 member 6	Q9Y289		SMVT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC24A1	HGNC:10975	9187	ENSG00000074621	solute carrier family 24 member 1	O60721		NCKX1|NCKX|RODX|KIAA0702|HsT17412|CSNB1D	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A15	HGNC:10985	10166	ENSG00000102743	solute carrier family 25 member 15	Q9Y619		ORC1|lnc-HC|D13S327|ORNT1|HHH	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A9	HGNC:26907	153129	ENSG00000177058	solute carrier family 38 member 9	Q8NBW4		FLJ90709|SNAT9	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A5	HGNC:18168	57835	ENSG00000188687	solute carrier family 4 member 5	Q9BY07		NBC4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC49A3	HGNC:26177	84179	ENSG00000169026	solute carrier family 49 member 3	Q6UXD7		FLJ22269|LP2561|MFSD7	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC46A2	HGNC:16055	57864	ENSG00000119457	solute carrier family 46 member 2	Q9BY10		Ly110|TSCOT	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC8A3	HGNC:11070	6547	ENSG00000100678	solute carrier family 8 member A3	P57103		NCX3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A3	HGNC:11029	6508	ENSG00000114923	solute carrier family 4 member 3	P48751		AE3|SLC2C	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO1B3	HGNC:10961	28234	ENSG00000111700	solute carrier organic anion transporter family member 1B3	Q9NPD5		OATP8|OATP1B3|SLC21A8	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A44	HGNC:29036	9673	ENSG00000160785	solute carrier family 25 member 44	Q96H78		FLJ90431|KIAA0446	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A4	HGNC:23090	121260	ENSG00000139370	solute carrier family 15 member 4	Q8N697		PHT1|PTR4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F3	HGNC:23616	148641	ENSG00000183780	solute carrier family 35 member F3	Q8IY50		FLJ37712	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC50A1	HGNC:30657	55974	ENSG00000169241	solute carrier family 50 member 1	Q9BRV3		SCP|RP11-540D14.5|slv|RZPDo834D038D|HsSWEET1|SWEET1|RAG1AP1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A9	HGNC:17435	56996	ENSG00000146828	solute carrier family 12 member 9	Q9BXP2		CIP1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A5	HGNC:10943	6510	ENSG00000105281	solute carrier family 1 member 5	Q15758		AAAT|ASCT2|RDRC|M7V1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A13	HGNC:11046	6540	ENSG00000010379	solute carrier family 6 member 13	Q9NSD5		GAT2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A3	HGNC:17128	29985	ENSG00000141873	solute carrier family 39 member 3	Q9BRY0		ZIP3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A11	HGNC:16438	83959	ENSG00000088836	solute carrier family 4 member 11	Q8NBS3		dJ794I6.2|BTR1|NaBC1|FECD4|CHED2|CDPD1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC43A2	HGNC:23087	124935	ENSG00000167703	solute carrier family 43 member 2	Q8N370		MGC34680	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC37A1	HGNC:11024	54020	ENSG00000160190	solute carrier family 37 member 1	P57057		SPX1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9B2	HGNC:25143	133308	ENSG00000164038	solute carrier family 9 member B2	Q86UD5		FLJ23984|NHA2|NHEDC2	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35E2B	HGNC:33941	728661	ENSG00000189339	solute carrier family 35 member E2B	P0CK96			achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC67A1	HGNC:10964	5002	ENSG00000110628	solute carrier family 67 member 1	Q96BI1		BWR1A|TSSC5|ITM|IMPT1|ORCTL2|BWSCR1A|SLC22A18|SLC22A1L	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A6	HGNC:11079	10479	ENSG00000198689	solute carrier family 9 member A6	Q92581		NHE6|KIAA0267|NHE-6	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A13	HGNC:20859	91252	ENSG00000165915	solute carrier family 39 member 13	Q96H72		FLJ25785|LZT-Hs9|ZIP13|ZIP-13	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A12	HGNC:11045	6539	ENSG00000111181	solute carrier family 6 member 12	P48065		BGT-1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A5	HGNC:28524	204962	ENSG00000137968	solute carrier family 44 member 5	Q8NCS7		MGC34032|CTL5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A6	HGNC:10914	9990	ENSG00000140199	solute carrier family 12 member 6	Q9UHW9		KCC3A|KCC3B|KCC3|ACCPN	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A12	HGNC:10982	8604	ENSG00000115840	solute carrier family 25 member 12	O75746		Aralar|aralar1|AGC1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC47A2	HGNC:26439	146802	ENSG00000180638	solute carrier family 47 member 2	Q86VL8		FLJ31196|MATE2|MATE2-K	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35B1	HGNC:20798	10237	ENSG00000121073	solute carrier family 35 member B1	P78383		UGTREL1|AXER	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A14	HGNC:26417	151473	ENSG00000163053	solute carrier family 16 member 14	Q7RTX9		FLJ30794|MCT14	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A3	HGNC:11061	84889	ENSG00000165349	solute carrier family 7 member 3	Q8WY07		CAT-3|ATRC3|FLJ14541	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A1	HGNC:10993	10861	ENSG00000145217	solute carrier family 26 member 1	Q9H2B4		SAT-1|EDM4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A9	HGNC:13446	56606	ENSG00000109667	solute carrier family 2 member 9	Q9NRM0		Glut9|GLUTX|URATv1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A2	HGNC:10923	6567	ENSG00000147100	solute carrier family 16 member 2	P36021		XPCT|MCT8|MCT7|DXS128E|DXS128|AHDS|MRX22	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC29A3	HGNC:23096	55315	ENSG00000198246	solute carrier family 29 member 3	Q9BZD2		ENT3|FLJ11160|hENT3	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A1	HGNC:11005	6513	ENSG00000117394	solute carrier family 2 member 1	P11166		DYT18|DYT9|GLUT-1|GLUT1|GLUT|HTLVR|CSE	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC8A2	HGNC:11069	6543	ENSG00000118160	solute carrier family 8 member A2	Q9UPR5		NCX2|KIAA1087	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC24A4	HGNC:10978	123041	ENSG00000140090	solute carrier family 24 member 4	Q8NFF2		NCKX4	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A4RG	HGNC:15930	56731	ENSG00000125520	SLC2A4 regulator	Q9NR83		GLUT4EF|GEF|HDBP1|Si-1-2|Si-1-2-19	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC31A1	HGNC:11016	1317	ENSG00000136868	solute carrier family 31 member 1	O15431		hCTR1|CTR1|COPT1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A24	HGNC:28542	283238	ENSG00000197658	solute carrier family 22 member 24	Q8N4F4		MGC34821|NET46	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC8A1	HGNC:11068	6546	ENSG00000183023	solute carrier family 8 member A1	P32418		NCX1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC14A1	HGNC:10918	6563	ENSG00000141469	solute carrier family 14 member 1 (Kidd blood group)	Q13336		HsT1341|RACH1|RACH2|JK	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A5	HGNC:10926	9121	ENSG00000170190	solute carrier family 16 member 5	O15375		MCT5|MCT6	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC24A5	HGNC:20611	283652	ENSG00000188467	solute carrier family 24 member 5	Q71RS6		JSX|OCA6|NCKX5	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC13A1	HGNC:10916	6561	ENSG00000081800	solute carrier family 13 member 1	Q9BZW2		NaSi-1|NAS1	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A32	HGNC:29683	81034	ENSG00000164933	solute carrier family 25 member 32	Q9H2D1		MFTC	achondroplasia	random	0		SLC decoy	SLC decoy, seed 20260921
+PTPN6	HGNC:9658	5777	ENSG00000111679	protein tyrosine phosphatase non-receptor type 6	P29350		HCP|HCPH|PTP-1C|SHP-1|SHP1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ST18	HGNC:18695	9705	ENSG00000147488	ST18 C2H2C-type zinc finger transcription factor	O60284		KIAA0535|ZC2HC10|NZF3|NZF-3|ZC2H2C3|ZNF387	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KLF15	HGNC:14536	28999	ENSG00000163884	KLF transcription factor 15	Q9UIH9		KKLF	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PTS	HGNC:9689	5805	ENSG00000150787	6-pyruvoyltetrahydropterin synthase	Q03393		PTPS	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GRIK1	HGNC:4579	2897	ENSG00000171189	glutamate ionotropic receptor kainate type subunit 1	P39086		GluK1|GLUR5	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GNLY	HGNC:4414	10578	ENSG00000115523	granulysin	P22749		NKG5|LAG-2|D2S69E|TLA519|LAG2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ARV1	HGNC:29561	64801	ENSG00000173409	ARV1 fatty acid homeostasis modulator	Q9H2C2			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF850	HGNC:27994	342892	ENSG00000267041	zinc finger protein 850	A8MQ14		ZNF850P	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CCDC117	HGNC:26599	150275	ENSG00000159873	coiled-coil domain containing 117	Q8IWD4		FLJ33814	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ARHGEF28	HGNC:30322	64283	ENSG00000214944	Rho guanine nucleotide exchange factor 28	Q8N1W1		RGNEF|p190RhoGEF|RIP2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF260	HGNC:13499	339324	ENSG00000254004	zinc finger protein 260	Q3ZCT1		ozrf1|Zfp260	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CPNE4	HGNC:2317	131034	ENSG00000196353	copine 4	Q96A23		COPN4|CPN4	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MKS1	HGNC:7121	54903	ENSG00000011143	MKS transition zone complex subunit 1	Q9NXB0		FLJ20345|POC12|BBS13|MKS	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PLSCR5	HGNC:19952	389158	ENSG00000231213	phospholipid scramblase family member 5	A0PG75			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+WDR83OS	HGNC:30203	51398	ENSG00000105583	WD repeat domain 83 opposite strand	Q9Y284		PTD008|PAT10|C19orf56	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SUSD1	HGNC:25413	64420	ENSG00000106868	sushi domain containing 1	Q6UWL2		DKFZP761E1824	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CCDC174	HGNC:28033	51244	ENSG00000154781	coiled-coil domain containing 174	Q6PII3		FLJ33839|ctr1|C3orf19	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NIPSNAP3B	HGNC:23641	55335	ENSG00000165028	nipsnap homolog 3B	Q9BS92		FLJ11275|NIPSNAP3|SNAP1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LSP1	HGNC:6707	4046	ENSG00000130592	lymphocyte specific protein 1	P33241		WP34	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KLRK1	HGNC:18788	22914	ENSG00000213809	killer cell lectin like receptor K1	P26718		NKG2D|KLR|NKG2-D|CD314|D12S2489E	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+STARD9	HGNC:19162	57519	ENSG00000159433	StAR related lipid transfer domain containing 9	Q9P2P6		KIAA1300|KIF16A	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HMGN2	HGNC:4986	3151	ENSG00000198830	high mobility group nucleosomal binding domain 2	P05204		HMG17	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CD300C	HGNC:19320	10871	ENSG00000167850	CD300c molecule	Q08708		CMRF35|LIR|CMRF-35A|CMRF35A|IGSF16	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TEX54	HGNC:53729	111216277	ENSG00000283268	testis expressed 54	A0A1B0GVG6			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RECQL4	HGNC:9949	9401	ENSG00000160957	RecQ like helicase 4	O94761		RecQ4	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RAPH1	HGNC:14436	65059	ENSG00000173166	Ras association (RalGDS/AF-6) and pleckstrin homology domains 1	Q70E73		Lpd|KIAA1681|ALS2CR9|ALS2CR18	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MBD3L3	HGNC:37205	653657	ENSG00000182315	methyl-CpG binding domain protein 3 like 3	A6NE82			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+REELD1	HGNC:53638	345051	ENSG00000250673	reeler domain containing 1	A0A1B0GV85			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CTC1	HGNC:26169	80169	ENSG00000178971	CST telomere replication complex component 1	Q2NKJ3		FLJ22170|AAF132|C17orf68	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+EFR3A	HGNC:28970	23167	ENSG00000132294	EFR3 homolog A	Q14156		KIAA0143	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TSNARE1	HGNC:26437	203062	ENSG00000171045	t-SNARE domain containing 1	Q96NA8		FLJ31164	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FBXL3	HGNC:13599	26224	ENSG00000005812	F-box and leucine rich repeat protein 3	Q9UKT7		FBL3|FBL3A|FBXL3A	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FGL2	HGNC:3696	10875	ENSG00000127951	fibrinogen like 2	Q14314		pT49|T49	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ANAPC1	HGNC:19988	64682	ENSG00000153107	anaphase promoting complex subunit 1	Q9H1A4		MCPR|TSG24|APC1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+STXBP1	HGNC:11444	6812	ENSG00000136854	syntaxin binding protein 1	P61764		hUNC18|MUNC18-1|UNC18|rbSec1|nSec1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PTPN23	HGNC:14406	25930	ENSG00000076201	protein tyrosine phosphatase non-receptor type 23	Q9H3S7		DKFZP564F0923|KIAA1471|HD-PTP	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TLCD2	HGNC:33522	727910	ENSG00000185561	TLC domain containing 2	A6NGC4			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TBC1D14	HGNC:29246	57533	ENSG00000132405	TBC1 domain family member 14	Q9P2M4		KIAA1322	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MMD2	HGNC:30133	221938	ENSG00000136297	monocyte to macrophage differentiation associated 2	Q8IY49		PAQR10	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+S100A2	HGNC:10492	6273	ENSG00000196754	S100 calcium binding protein A2	P29034		CAN19|S100L	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TSTD1	HGNC:35410	100131187	ENSG00000215845	thiosulfate sulfurtransferase like domain containing 1	Q8NFU3		KAT	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FANCI	HGNC:25568	55215	ENSG00000140525	FA complementation group I	Q9NVI1		FLJ10719|KIAA1794	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TAGLN2	HGNC:11554	8407	ENSG00000158710	transgelin 2	P37802		KIAA0120|HA1756	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CYSTM1	HGNC:30239	84418	ENSG00000120306	cysteine rich transmembrane module containing 1	Q9H1C7		ORF1-FL49|C5orf32	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NPBWR1	HGNC:4522	2831	ENSG00000288611	neuropeptides B and W receptor 1	P48145		GPR7	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MKRN3	HGNC:7114	7681	ENSG00000179455	makorin ring finger protein 3	Q13064		RNF63|ZFP127|MGC88288|ZNF127|D15S9	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SYS1	HGNC:16162	90196	ENSG00000204070	SYS1 golgi trafficking protein	Q8N2H4		dJ453C12.4|C20orf169	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RNASE12	HGNC:24211	493901	ENSG00000258436	ribonuclease A family member 12 (inactive)	Q5GAN4		RAI1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+WNT6	HGNC:12785	7475	ENSG00000115596	Wnt family member 6	Q9Y6F9			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+WFDC8	HGNC:16163	90199	ENSG00000158901	WAP four-disulfide core domain 8	Q8IUA0		dJ461P17.1|WAP8|C20orf170	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MRPS10	HGNC:14502	55173	ENSG00000048544	mitochondrial ribosomal protein S10	P82664		FLJ10567|uS10m	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GPR25	HGNC:4480	2848	ENSG00000170128	G protein-coupled receptor 25	O00155			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CDK11A	HGNC:1730	728642	ENSG00000008128	cyclin dependent kinase 11A	Q9UQ88		PITSLRE|CDK11-p110|CDK11-p58|CDK11-p46|p58GTA|CDC2L3|CDC2L2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SPATA12	HGNC:23221	353324	ENSG00000186451	spermatogenesis associated 12	Q7Z6I5			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FPGT	HGNC:3825	8790	ENSG00000254685	fucose-1-phosphate guanylyltransferase	O14772		GFPP	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NR4A3	HGNC:7982	8013	ENSG00000119508	nuclear receptor subfamily 4 group A member 3	Q92570		CSMF|CHN|NOR1|MINOR	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SCGB1C2	HGNC:51242	653486	ENSG00000268320	secretoglobin family 1C member 2	P0DMR2			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SPAG4	HGNC:11214	6676	ENSG00000061656	sperm associated antigen 4	Q9NPE6		SUN4|CT127	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PTPN5	HGNC:9657	84867	ENSG00000110786	protein tyrosine phosphatase non-receptor type 5	P54829		STEP|PTPSTEP|STEP61	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NCF2	HGNC:7661	4688	ENSG00000116701	neutrophil cytosolic factor 2	P19878		p67phox|NOXA2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FAIM2	HGNC:17067	23017	ENSG00000135472	Fas apoptotic inhibitory molecule 2	Q9BWQ8		KIAA0950|LFG|NMP35|LIFEGUARD|TMBIM2|LFG2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ASF1A	HGNC:20995	25842	ENSG00000111875	anti-silencing function 1A histone chaperone	Q9Y294		DKFZP547E2110|CIA	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CDH7	HGNC:1766	1005	ENSG00000081138	cadherin 7	Q9ULB5			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZC3HC1	HGNC:29913	51530	ENSG00000091732	zinc finger C3HC-type containing 1	Q86WB0		NIPA	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PPP3CC	HGNC:9316	5533	ENSG00000120910	protein phosphatase 3 catalytic subunit gamma	P48454		CALNA3|PP2Bgamma	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LCE1C	HGNC:29464	353133	ENSG00000197084	late cornified envelope 1C	Q5T751		LEP3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SCN5A	HGNC:10593	6331	ENSG00000183873	sodium voltage-gated channel alpha subunit 5	Q14524		Nav1.5|LQT3|HB1|HBBD|PFHB1|IVF|HB2|HH1|SSS1|CDCD2|CMPD2|ICCD|CMD1E	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CAPG	HGNC:1474	822	ENSG00000042493	capping actin protein, gelsolin like	P40121		MCP|AFCP	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ROBO3	HGNC:13433	64221	ENSG00000154134	roundabout guidance receptor 3	Q96MS0		RBIG1|FLJ21044|HGPS|HGPPS	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MSANTD5	HGNC:55184	102724657	ENSG00000285891	Myb/SANT DNA binding domain containing 5	A0A3B3IT52			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KRTAP12-4	HGNC:20532	386684	ENSG00000212933	keratin associated protein 12-4	P60329		KRTAP12.4	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HRCT1	HGNC:33872	646962	ENSG00000196196	histidine rich carboxyl terminus 1	Q6UXD1		LGLL338|PRO537|UNQ338	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SEMA6A	HGNC:10738	57556	ENSG00000092421	semaphorin 6A	Q9H2E6		KIAA1368|SEMA6A1|SEMA|HT018|SEMAQ	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RNF111	HGNC:17384	54778	ENSG00000157450	ring finger protein 111	Q6ZNA4		ARK|Arkadia|FLJ38008|DKFZP761D081	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZMYM1	HGNC:26253	79830	ENSG00000197056	zinc finger MYM-type containing 1	Q5SVZ6		FLJ23151|MYM	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CXorf49C	HGNC:53552	101059915	ENSG00000283599	chromosome X open reading frame 49C	A0A1B0GWI6			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ACMSD	HGNC:19288	130013	ENSG00000153086	aminocarboxymuconate semialdehyde decarboxylase	Q8TDX5			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KIF11	HGNC:6388	3832	ENSG00000138160	kinesin family member 11	P52732		Eg5|HKSP|TRIP5|KNSL1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF782	HGNC:33110	158431	ENSG00000196597	zinc finger protein 782	Q6ZMW2		FLJ16636	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SCNN1D	HGNC:10601	6339	ENSG00000162572	sodium channel epithelial 1 subunit delta	P51172		ENaCdelta|dNaCh	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CDC37	HGNC:1735	11140	ENSG00000105401	cell division cycle 37, HSP90 cochaperone	Q16543		P50CDC37	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ANKS1A	HGNC:20961	23294	ENSG00000064999	ankyrin repeat and sterile alpha motif domain containing 1A	Q92625		KIAA0229|ANKS1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TRIM41	HGNC:19013	90933	ENSG00000146063	tripartite motif containing 41	Q8WV44		MGC1127|RINCK	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+BCL9	HGNC:1008	607	ENSG00000116128	BCL9 transcription coactivator	O00512			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KRTAP10-10	HGNC:22972	353333	ENSG00000221859	keratin associated protein 10-10	P60014		KAP10.10|KAP18.10|KRTAP18-10	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+COX16	HGNC:20213	51241	ENSG00000133983	cytochrome c oxidase assembly factor COX16	Q9P0S2		HSPC203|C14orf112	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PRIMPOL	HGNC:26575	201973	ENSG00000164306	primase and DNA directed polymerase	Q96LW4		FLJ33167|CCDC111	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TMEM71	HGNC:26572	137835	ENSG00000165071	transmembrane protein 71	Q6P5X7		FLJ33069	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CD6	HGNC:1691	923	ENSG00000013725	CD6 molecule	P30203		Tp120	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+UBE2F	HGNC:12480	140739	ENSG00000184182	ubiquitin conjugating enzyme E2 F (putative)	Q969M7		NCE2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ITGAM	HGNC:6149	3684	ENSG00000169896	integrin subunit alpha M	P11215		HNA-4|MAC-1|CD11b|CR3A|CD11B	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SSU72L3	HGNC:43622	143506	ENSG00000284546	SSU72 like 3	A0A1W2PQJ5		SSU72P3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TBX21	HGNC:11599	30009	ENSG00000073861	T-box transcription factor 21	Q9UL17		TBLYM|T-bet	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RHAG	HGNC:10006	6005	ENSG00000112077	Rh associated glycoprotein	Q02094		RH50A|CD241|SLC42A1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CPD	HGNC:2301	1362	ENSG00000108582	carboxypeptidase D	O75976		GP180	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+WDR17	HGNC:16661	116966	ENSG00000150627	WD repeat domain 17	Q8IZU2			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TNFSF13B	HGNC:11929	10673	ENSG00000102524	TNF superfamily member 13b	Q9Y275		BAFF|THANK|BLYS|TALL-1|TALL1|CD257|TNFSF20	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FAM90A10	HGNC:32258	441328	ENSG00000285950	family with sequence similarity 90 member A10	A6NDY2		FAM90A10P	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FBXW10	HGNC:1211	10517	ENSG00000171931	F-box and WD repeat domain containing 10	Q5XX13		SM2SH2|HREP|Fbw10|C17orf1|C17orf1A	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CDK5R2	HGNC:1776	8941	ENSG00000171450	cyclin dependent kinase 5 regulatory subunit 2	Q13319		p39nck5ai|P39|NCK5AI	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ISM2	HGNC:23176	145501	ENSG00000100593	isthmin 2	Q6H9L7		FLJ32147|TAIL1|THSD3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TMEM51	HGNC:25488	55092	ENSG00000171729	transmembrane protein 51	Q9NW97		FLJ10199|C1orf72	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+OR13G1	HGNC:14999	441933	ENSG00000197437	olfactory receptor family 13 subfamily G member 1	Q8NGZ3			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DAPK2	HGNC:2675	23604	ENSG00000035664	death associated protein kinase 2	Q9UIK4		DRP-1|MGC119312	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MPP4	HGNC:13680	58538	ENSG00000082126	MAGUK p55 scaffold protein 4	Q96JB8		DLG6	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TRAPPC3L	HGNC:21090	100128327	ENSG00000173626	trafficking protein particle complex subunit 3L	Q5T215		bA259P20.2|FLJ11180|BET3L	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZSWIM7	HGNC:26993	125150	ENSG00000214941	zinc finger SWIM-type containing 7	Q19AV6		SWS1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RESP18	HGNC:33762	389075	ENSG00000182698	regulated endocrine specific protein 18	Q5W5W9			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KTI12	HGNC:25160	112970	ENSG00000198841	KTI12 chromatin associated homolog	Q96EK9		TOT4|MGC20419|SBBI81	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+USP17L22	HGNC:44450	100287513	ENSG00000248933	ubiquitin specific peptidase 17 like family member 22	D6RA61			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TIMM9	HGNC:11819	26520	ENSG00000100575	translocase of inner mitochondrial membrane 9	Q9Y5J7		TIM9A	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SYVN1	HGNC:20738	84447	ENSG00000162298	synoviolin 1	Q86TM6		HRD1|DER3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TAF1	HGNC:11535	6872	ENSG00000147133	TATA-box binding protein associated factor 1	P21675		NSCL2|TAFII250|KAT4|DYT3/TAF1|TAF2A|BA2R|CCG1|CCGS|DYT3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+BCL2A1	HGNC:991	597	ENSG00000140379	BCL2 related protein A1	Q16548		GRS|BFL1|BCL2L5|ACC-1|ACC-2|ACC2|ACC1|HBPA1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SPIN1	HGNC:11243	10927	ENSG00000106723	spindlin 1	Q9Y657		TDRD24|SPIN	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RBFOX3	HGNC:27097	146713	ENSG00000167281	RNA binding fox-1 homolog 3	A6NFN3		FOX-3|NeuN|HRNBP3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SNCA	HGNC:11138	6622	ENSG00000145335	synuclein alpha	P37840		NACP|PD1|PARK1|PARK4	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CABLES2	HGNC:16143	81928	ENSG00000149679	Cdk5 and Abl enzyme substrate 2	Q9BTV7		dJ908M14.2|ik3-2|C20orf150	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NAP1L5	HGNC:19968	266812	ENSG00000177432	nucleosome assembly protein 1 like 5	Q96NT1		DRLM	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NKX2-3	HGNC:7836	159296	ENSG00000119919	NK2 homeobox 3	Q8TAU0		NKX2.3|CSX3|NKX4-3|NKX2C	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MYDGF	HGNC:16948	56005	ENSG00000074842	myeloid derived growth factor	Q969H8		R33729_1|IL25|SF20|IL-25|IL-27|IL27|IL27w|C19orf10	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DISP1	HGNC:19711	84976	ENSG00000154309	dispatched RND transporter family member 1	Q96F81		DISPA|MGC13130|DKFZP434I0428|MGC16796	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CTRL	HGNC:2524	1506	ENSG00000141086	chymotrypsin like	P40313		CTRL1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TCP1	HGNC:11655	6950	ENSG00000120438	t-complex 1	P17987		D6S230E|CCT1|Ccta	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CCDC124	HGNC:25171	115098	ENSG00000007080	coiled-coil domain containing 124	Q96CT7		Lso2|oxs1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RAB8A	HGNC:7007	4218	ENSG00000167461	RAB8A, member RAS oncogene family	P61006		RAB8|MEL	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RAD21L1	HGNC:16271	642636	ENSG00000244588	RAD21 cohesin complex component like 1	Q9H4I0		dJ545L17.2|RAD21L	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MRC2	HGNC:16875	9902	ENSG00000011028	mannose receptor C-type 2	Q9UBG0		KIAA0709|ENDO180|CLEC13E|CD280	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PPP1R3E	HGNC:14943	90673	ENSG00000235194	protein phosphatase 1 regulatory subunit 3E	Q9H7J1		FLJ00089	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MMAB	HGNC:19331	326625	ENSG00000139428	metabolism of cobalamin associated B	Q96EY8		cblB|CFAP23	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+IRS2	HGNC:6126	8660	ENSG00000185950	insulin receptor substrate 2	Q9Y4H2			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+AUNIP	HGNC:28363	79000	ENSG00000127423	aurora kinase A and ninein interacting protein	Q9H7T9		MGC2603|AIBp|C1orf135	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CIAO2A	HGNC:26235	84191	ENSG00000166797	cytosolic iron-sulfur assembly component 2A	Q9H5X1		FLJ22875|CIA2A|FAM96A	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DYNC1LI1	HGNC:18745	51143	ENSG00000144635	dynein cytoplasmic 1 light intermediate chain 1	Q9Y6G9		DNCLI1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TENT5D	HGNC:28399	169966	ENSG00000174016	terminal nucleotidyltransferase 5D	Q8NEK8		MGC26999|CT1.26|CT112|FAM46D	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+IMMP2L	HGNC:14598	83943	ENSG00000184903	inner mitochondrial membrane peptidase subunit 2	Q96T52		IMP2|IMMP2L-IT1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GUCY2F	HGNC:4691	2986	ENSG00000101890	guanylate cyclase 2F, retinal	P51841		GUC2DL|GC-F|RetGC-2|ROS-GC2|CYGF	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+AMACR	HGNC:451	23600	ENSG00000242110	alpha-methylacyl-CoA racemase	Q9UHK6		RACE|P504S	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NBPF26	HGNC:49571	101060684	ENSG00000273136	NBPF member 26	B4DH59			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TAF11L9	HGNC:53852	112488745	ENSG00000283988	TATA-box binding protein associated factor 11 like 9	A0A1W2PR64			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DDX24	HGNC:13266	57062	ENSG00000089737	DEAD-box helicase 24	Q9GZR7			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HSPA12A	HGNC:19022	259217	ENSG00000165868	heat shock protein family A (Hsp70) member 12A	O43301		FLJ13874|KIAA0417	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CDC42EP5	HGNC:17408	148170	ENSG00000167617	CDC42 effector protein 5	Q6NZY7		CEP5|Borg3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ASGR2	HGNC:743	433	ENSG00000161944	asialoglycoprotein receptor 2	P07307		CLEC4H2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZCCHC4	HGNC:22917	29063	ENSG00000168228	zinc finger CCHC-type containing 4	Q9H5U6		HSPC052|FLJ23024|ZGRF4	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ADCY9	HGNC:240	115	ENSG00000162104	adenylate cyclase 9	O60503		AC9	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KRTAP8-1	HGNC:18935	337879	ENSG00000183640	keratin associated protein 8-1	Q8IUC2		KAP8.1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NUDT2	HGNC:8049	318	ENSG00000164978	nudix hydrolase 2	P50583		APAH1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF891	HGNC:38709	101060200	ENSG00000214029	zinc finger protein 891	A8MT65			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NPY4R2	HGNC:52383	100996758	ENSG00000264717	neuropeptide Y receptor Y4-2	P0DQD5		CH17-360D5.1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NAP1L4	HGNC:7640	4676	ENSG00000205531	nucleosome assembly protein 1 like 4	Q99733		NAP2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PI4KB	HGNC:8984	5298	ENSG00000143393	phosphatidylinositol 4-kinase beta	Q9UBF8		PI4K-BETA|pi4K92|PIK4CB	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+EGFR	HGNC:3236	1956	ENSG00000146648	epidermal growth factor receptor	P00533		ERBB1|ERRP|ERBB	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CBLN1	HGNC:1543	869	ENSG00000102924	cerebellin 1 precursor	P23435			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+XKR8	HGNC:25508	55113	ENSG00000158156	XK related 8	Q9H6D3		FLJ10307	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PSMA2	HGNC:9531	5683	ENSG00000106588	proteasome 20S subunit alpha 2	P25787		MU|HC3|PMSA2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LIG4	HGNC:6601	3981	ENSG00000174405	DNA ligase 4	P49917			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ATP13A3	HGNC:24113	79572	ENSG00000133657	ATPase 13A3	Q9H7F0		AFURS1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NAA80	HGNC:30252	24142	ENSG00000243477	N-alpha-acetyltransferase 80, NatH catalytic subunit	Q93015		FUS2|NAT6	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GCLC	HGNC:4311	2729	ENSG00000001084	glutamate-cysteine ligase catalytic subunit	P48506		GCS|GLCLC|GLCL	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PSMA4	HGNC:9533	5685	ENSG00000041357	proteasome 20S subunit alpha 4	P25789		HC9|HsT17706	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CHRNA6	HGNC:15963	8973	ENSG00000147434	cholinergic receptor nicotinic alpha 6 subunit	Q15825			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+WEE2	HGNC:19684	494551	ENSG00000214102	WEE2 oocyte meiosis inhibiting kinase	P0C1S8		FLJ16107|WEE1B	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TMPRSS6	HGNC:16517	164656	ENSG00000187045	transmembrane serine protease 6	Q8IU80		FLJ30744|MT2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SEC11C	HGNC:23400	90701	ENSG00000166562	SEC11 homolog C, signal peptidase complex subunit	Q9BY50		SPC21|SPCS4C|SEC11L3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TSGA10	HGNC:14927	80705	ENSG00000135951	testis specific 10	Q9BZW7		CEP4L|CT79	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CADM2	HGNC:29849	253559	ENSG00000175161	cell adhesion molecule 2	Q8N3J6		NECL3|Necl-3|SynCAM2|SynCAM-2|IGSF4D	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ACACA	HGNC:84	31	ENSG00000278540	acetyl-CoA carboxylase alpha	Q13085		ACC1|ACC-alpha|ACCA|ACCalpha|ACACalpha|Acac1|hACC1|ACAC|ACC	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FAM156B	HGNC:31962	727866	ENSG00000179304	family with sequence similarity 156 member B	Q8NDB6		TMEM29B	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RC3H2	HGNC:21461	54542	ENSG00000056586	ring finger and CCCH-type domains 2	Q9HBD1		FLJ20301|FLJ20713|RNF164|MNAB	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TVP23A	HGNC:20398	780776	ENSG00000166676	trans-golgi network vesicle protein 23 homolog A	A6NH52		YDR084C|FAM18A	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+B4GALT1	HGNC:924	2683	ENSG00000086062	beta-1,4-galactosyltransferase 1	P15291		beta4Gal-T1|GGTB2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PPIAL4F	HGNC:33999	728945	ENSG00000279782	peptidylprolyl isomerase A like 4F	P0DN26			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ANKRD18A	HGNC:23643	253650	ENSG00000180071	ankyrin repeat domain 18A	Q8IVF6		KIAA2015|FLJ35740	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LST1	HGNC:14189	7940	ENSG00000204482	leukocyte specific transcript 1	O00453		LST-1|B144|D6S49E	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PCDH8	HGNC:8660	5100	ENSG00000136099	protocadherin 8	O95206		PAPC|ARCADLIN	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GPRC5C	HGNC:13309	55890	ENSG00000170412	G protein-coupled receptor class C group 5 member C	Q9NQ84		RAIG-3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RARRES1	HGNC:9867	5918	ENSG00000118849	retinoic acid receptor responder 1	P49788		TIG1|LXNL	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZMYND10	HGNC:19412	51364	ENSG00000004838	zinc finger MYND-type containing 10	O75800		BLU|CILD22|DNAAF7	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RHOT1	HGNC:21168	55288	ENSG00000126858	ras homolog family member T1	Q8IXI2		MIRO-1|FLJ11040|MIRO1|ARHT1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HGS	HGNC:4897	9146	ENSG00000185359	hepatocyte growth factor-regulated tyrosine kinase substrate	O14964		Hrs|ZFYVE8|Vps27	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+STYX	HGNC:11447	6815	ENSG00000198252	serine/threonine/tyrosine interacting protein	Q8WUJ0			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TNFRSF6B	HGNC:11921	8771	ENSG00000243509	TNF receptor superfamily member 6b	O95407		DcR3|DCR3|TR6|M68	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TBCK	HGNC:28261	93627	ENSG00000145348	TBC1 domain containing kinase	Q8TEA7		MGC16169|HSPC302|Fy-1|FERRY1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DMRT3	HGNC:13909	58524	ENSG00000064218	doublesex and mab-3 related transcription factor 3	Q9NQL9		DMRTA3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ADARB2	HGNC:227	105	ENSG00000185736	adenosine deaminase RNA specific B2 (inactive)	Q9NS39		RED2|hRED2|ADAR3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF57	HGNC:13125	126295	ENSG00000171970	zinc finger protein 57	Q68EA5		ZNF424	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ERO1B	HGNC:14355	56605	ENSG00000086619	endoplasmic reticulum oxidoreductase 1 beta	Q86YB8		ERO1-L(beta)|Ero1beta|ERO1LB	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SELENBP1	HGNC:10719	8991	ENSG00000143416	selenium binding protein 1	Q13228		hSP56|hSBP|LPSB	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+POFUT2	HGNC:14683	23275	ENSG00000186866	protein O-fucosyltransferase 2	Q9Y2G5		KIAA0958|FUT13|C21orf80	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TCHP	HGNC:28135	84260	ENSG00000139437	trichoplein keratin filament binding	Q9BT92		MGC10854|TpMs	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+AMPD3	HGNC:470	272	ENSG00000133805	adenosine monophosphate deaminase 3	Q01432			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CCR7	HGNC:1608	1236	ENSG00000126353	C-C motif chemokine receptor 7	P32248		BLR2|CDw197|CD197|CMKBR7|EBI1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+IMPA1	HGNC:6050	3612	ENSG00000133731	inositol monophosphatase 1	P29218		IMPA	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CRTC1	HGNC:16062	23373	ENSG00000105662	CREB regulated transcription coactivator 1	Q6UUV9		KIAA0616|FLJ14027|TORC1|MECT1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GSK3B	HGNC:4617	2932	ENSG00000082701	glycogen synthase kinase 3 beta	P49841			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RIPOR2	HGNC:13872	9750	ENSG00000111913	RHO family interacting cell polarization regulator 2	Q9Y4F9		KIAA0386|DIFF48|MYONAP|C6orf32|FAM65B	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RPS6KL1	HGNC:20222	83694	ENSG00000198208	ribosomal protein S6 kinase like 1	Q9Y6S9		MGC11287|RSKL2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LDLRAD2	HGNC:32071	401944	ENSG00000187942	low density lipoprotein receptor class A domain containing 2	Q5SZI1			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+C20orf144	HGNC:16137	128864	ENSG00000149609	chromosome 20 open reading frame 144	Q9BQM9		dJ63M2.6|bclt	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KIF13A	HGNC:14566	63971	ENSG00000137177	kinesin family member 13A	Q9H1H9		bA500C11.2|RBKIN	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+COLGALT2	HGNC:16790	23127	ENSG00000198756	collagen beta(1-O)galactosyltransferase 2	Q8IYK4		KIAA0584|C1orf17|GLT25D2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TDP1	HGNC:18884	55775	ENSG00000042088	tyrosyl-DNA phosphodiesterase 1	Q9NUW8		FLJ11090|SCAN1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+C1QL3	HGNC:19359	389941	ENSG00000165985	complement C1q like 3	Q5VWW1		K100|C1ql|C1QTNF13|CTRP13	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+EFR3B	HGNC:29155	22979	ENSG00000084710	EFR3 homolog B	Q9Y2G0		FLJ37871|KIAA0953	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LCN2	HGNC:6526	3934	ENSG00000148346	lipocalin 2	P80188		NGAL|24p3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TNP2	HGNC:11952	7142	ENSG00000178279	transition protein 2	Q05952		TP2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TMEM121B	HGNC:1844	27439	ENSG00000183307	transmembrane protein 121B	Q9BXQ6		CECR6	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RSPH10B	HGNC:27362	222967	ENSG00000155026	radial spoke head 10 homolog B	P0C881			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MAGEB16	HGNC:21188	139604	ENSG00000189023	MAGE family member B16	A2A368			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HHIPL2	HGNC:25842	79802	ENSG00000143512	HHIP like 2	Q6UWX4		FLJ13840|KIAA1822L	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+AKAP11	HGNC:369	11215	ENSG00000023516	A-kinase anchoring protein 11	Q9UKA4		KIAA0629|AKAP220|PRKA11|FLJ11304|DKFZp781I12161|PPP1R44	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PIGN	HGNC:8967	23556	ENSG00000197563	phosphatidylinositol glycan anchor biosynthesis class N	O95427		MCD4|PIG-N	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LRRC70	HGNC:35155	100130733	ENSG00000186105	leucine rich repeat containing 70	Q7Z2Q7		SLRN|LOC100130733	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ATG14	HGNC:19962	22863	ENSG00000126775	autophagy related 14	Q6ZNE5		ATG14L|KIAA0831	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PRH2	HGNC:9367	5555	ENSG00000134551	proline rich protein HaeIII subfamily 2	P02810		Pr	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NCBP2L	HGNC:31795	392517	ENSG00000170935	nuclear cap binding protein subunit 2 like	A6PVI3			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ST6GALNAC3	HGNC:19343	256435	ENSG00000184005	ST6 N-acetylgalactosaminide alpha-2,6-sialyltransferase 3	Q8NDV1		SIAT7C	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RBPMS2	HGNC:19098	348093	ENSG00000166831	RNA binding protein, mRNA processing factor 2	Q6ZRY4			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SF3A2	HGNC:10766	8175	ENSG00000104897	splicing factor 3a subunit 2	Q15428		SF3a66|SAP62|PRPF11|Prp11	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+OPRK1	HGNC:8154	4986	ENSG00000082556	opioid receptor kappa 1	P41145		KOR|OPRK	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DEDD	HGNC:2755	9191	ENSG00000158796	death effector domain containing	O75618		DEFT|FLDED1|CASP8IP1|KE05|DEDD1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+COA5	HGNC:33848	493753	ENSG00000183513	cytochrome c oxidase assembly factor 5	Q86WW8		MGC52110|FLJ27524|Pet191|C2orf64	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ACTR1B	HGNC:168	10120	ENSG00000115073	actin related protein 1B	P42025		Arp1B|CTRN2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+UQCC6	HGNC:34450	728568	ENSG00000204954	ubiquinol-cytochrome c reductase complex assembly factor 6	Q69YU5		FLJ13975|DKFZp547P055|BR|C12orf73	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NELL2	HGNC:7751	4753	ENSG00000184613	neural EGFL like 2	Q99435		NRP2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DHPS	HGNC:2869	1725	ENSG00000095059	deoxyhypusine synthase	P49366		MIG13	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+XRN1	HGNC:30654	54464	ENSG00000114127	5'-3' exoribonuclease 1	Q8IZH2		SEP1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PLIN1	HGNC:9076	5346	ENSG00000166819	perilipin 1	O60240		PLIN	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FAM13A	HGNC:19367	10144	ENSG00000138640	family with sequence similarity 13 member A	O94988		KIAA0914|ARHGAP48|FAM13A1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF699	HGNC:24750	374879	ENSG00000196110	zinc finger protein 699	Q32M78		FLJ38144	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+STRC	HGNC:16035	161497	ENSG00000242866	stereocilin	Q7RTU9		DFNB16	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HSF4	HGNC:5227	3299	ENSG00000102878	heat shock transcription factor 4	Q9ULV5		CTM	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FOXD1	HGNC:3802	2297	ENSG00000251493	forkhead box D1	Q16676		FREAC4|FKHL8	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NRARP	HGNC:33843	441478	ENSG00000198435	NOTCH regulated ankyrin repeat protein	Q7Z6K4		MGC61598	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RPL12	HGNC:10302	6136	ENSG00000197958	ribosomal protein L12	P30050		L12|uL11	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FRY	HGNC:20367	10129	ENSG00000073910	FRY microtubule binding protein	Q5TBA9		bA37E23.1|13CDNA73|CG003|C13orf14	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TPGS1	HGNC:25058	91978	ENSG00000141933	tubulin polyglutamylase complex subunit 1	Q6ZTW0		GTRGEO22|PGs1|C19orf20	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MYL10	HGNC:29825	93408	ENSG00000106436	myosin light chain 10	Q9BUA6		MGC3479|MYLC2PL|PLRLC	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+AXDND1	HGNC:26564	126859	ENSG00000162779	axonemal dynein light chain domain containing 1	Q5T1B0		FLJ32940|C1orf125	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TEX30	HGNC:25188	93081	ENSG00000151287	testis expressed 30	Q5JUR7		C13orf27	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF646	HGNC:29004	9726	ENSG00000167395	zinc finger protein 646	O15015		KIAA0296	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CLDN4	HGNC:2046	1364	ENSG00000189143	claudin 4	O14493		CPE-R|WBSCR8|hCPE-R|CPETR|CPETR1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DUSP21	HGNC:20476	63904	ENSG00000189037	dual specificity phosphatase 21	Q9H596			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+VPS37C	HGNC:26097	55048	ENSG00000167987	VPS37C subunit of ESCRT-I	A5D8V6		FLJ20847	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RETSAT	HGNC:25991	54884	ENSG00000042445	retinol saturase	Q6NUM9		FLJ20296	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+POTEJ	HGNC:37094	653781	ENSG00000222038	POTE ankyrin domain family member J	P0CG39		POTE2beta	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ATRNL1	HGNC:29063	26033	ENSG00000107518	attractin like 1	Q5VV63		KIAA0534|FLJ45344|ALP	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FOXK2	HGNC:6036	3607	ENSG00000141568	forkhead box K2	Q01167		ILF|ILF1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MAS1L	HGNC:13961	116511	ENSG00000204687	MAS1 proto-oncogene like, G protein-coupled receptor	P35410		MAS-L|MRG|dJ994E9.2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CHMP1B	HGNC:24287	57132	ENSG00000255112	charged multivesicular body protein 1B	Q7LBR1		CHMP1.5|C18orf2|Vps46B	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+BTNL2	HGNC:1142	56244	ENSG00000204290	butyrophilin like 2	Q9UIR0		HSBLMHC1|BTL-II|BTN7	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TRPV1	HGNC:12716	7442	ENSG00000196689	transient receptor potential cation channel subfamily V member 1	Q8NER1		VR1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RIMBP3	HGNC:29344	85376	ENSG00000275793	RIMS binding protein 3	Q9UFD9		KIAA1666|RIMBP3.1|RIMBP3A	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KRT19	HGNC:6436	3880	ENSG00000171345	keratin 19	P08727		K19|CK19|K1CS|MGC15366	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TAAR6	HGNC:20978	319100	ENSG00000146383	trace amine associated receptor 6	Q96RI8		TA4|TRAR4	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ROM1	HGNC:10254	6094	ENSG00000149489	retinal outer segment membrane protein 1	Q03395		TSPAN23|ROM	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+METTL8	HGNC:25856	79828	ENSG00000123600	methyltransferase 8, tRNA N3-cytidine	Q9H825		FLJ13984|TIP	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PABPC4	HGNC:8557	8761	ENSG00000090621	poly(A) binding protein cytoplasmic 4	Q13310		iPABP|APP-1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+IFIT2	HGNC:5409	3433	ENSG00000119922	interferon induced protein with tetratricopeptide repeats 2	P09913		IFI-54|ISG-54K|ISG-54|cig42|GARG-39|IFI54|G10P2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF821	HGNC:28043	55565	ENSG00000102984	zinc finger protein 821	O75541			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+BANK1	HGNC:18233	55024	ENSG00000153064	B cell scaffold protein with ankyrin repeats 1	Q8NDB2		BANK|FLJ20706	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LRRC30	HGNC:30219	339291	ENSG00000206422	leucine rich repeat containing 30	A6NM36			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ELOVL6	HGNC:15829	79071	ENSG00000170522	ELOVL fatty acid elongase 6	Q9H5J4		FLJ23378|MGC5487|LCE	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NAA50	HGNC:29533	80218	ENSG00000121579	N-alpha-acetyltransferase 50, NatE catalytic subunit	Q9GZZ1		FLJ13194|NAT5|San|MAK3|NAT13	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ERMARD	HGNC:21056	55780	ENSG00000130023	ER membrane associated RNA degradation	Q5T6L9		FLJ11152|dJ266L20.3|C6orf70	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SRRM3	HGNC:26729	222183	ENSG00000177679	serine/arginine repetitive matrix 3	A6NNA2		FLJ37078	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RDH13	HGNC:19978	112724	ENSG00000160439	retinol dehydrogenase 13	Q8NBN7		SDR7C3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SAXO5	HGNC:24745	374877	ENSG00000198723	stabilizer of axonemal microtubules 5	Q8NA69		FLJ35784|C19orf45|TEX45	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PHYHIP	HGNC:16865	9796	ENSG00000168490	phytanoyl-CoA 2-hydroxylase interacting protein	Q92561		KIAA0273|PAHX-AP|DYRK1AP3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ERBB4	HGNC:3432	2066	ENSG00000178568	erb-b2 receptor tyrosine kinase 4	Q15303		ALS19|HER4	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GLTP	HGNC:24867	51228	ENSG00000139433	glycolipid transfer protein	Q9NZD2			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TAF9	HGNC:11542	6880	ENSG00000273841	TATA-box binding protein associated factor 9	Q16594		TAFII31|TAFII32|TAFIID32|MGC5067|CGI-137|MGC1603|MGC3647|AD-004|TAF2G	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LMF1	HGNC:14154	64788	ENSG00000103227	lipase maturation factor 1	Q96S06		FLJ12681|JFP11|FLJ22302|TMEM112A|C16orf26|TMEM112	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CSKMT	HGNC:33113	751071	ENSG00000214756	citrate synthase lysine methyltransferase	A8MUP2		U99HG|CS-KMT|METTL12	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MYL7	HGNC:21719	58498	ENSG00000106631	myosin light chain 7	Q01449		MYLC2A|MYL2A	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LHFPL2	HGNC:6588	10184	ENSG00000145685	LHFPL tetraspan subfamily member 2	Q6ZUX7		KIAA0206	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CLASP1	HGNC:17088	23332	ENSG00000074054	cytoplasmic linker associated protein 1	Q7Z460		KIAA0622|MAST1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+UNC5B	HGNC:12568	219699	ENSG00000107731	unc-5 netrin receptor B	Q8IZJ1		UNC5H2|p53RDL1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TC2N	HGNC:19859	123036	ENSG00000165929	tandem C2 domains, nuclear	Q8N9U0		FLJ36557|Tac2-N|C2CD1|C14orf47|MTAC2D1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SYF2	HGNC:19824	25949	ENSG00000117614	SYF2 pre-mRNA splicing factor	O95926		p29|DKFZp564O2082|NTC31|fSAP29|CBPIN	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FXYD6	HGNC:4030	53826	ENSG00000137726	FXYD domain containing ion transport regulator 6	Q9H0Q3			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TMPRSS11B	HGNC:25398	132724	ENSG00000185873	transmembrane serine protease 11B	Q86T26		HATL5	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF277	HGNC:13070	11179	ENSG00000198839	zinc finger protein 277	Q9NRM2		NRIF4|ZNF277P	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RASGEF1A	HGNC:24246	221002	ENSG00000198915	RasGEF domain family member 1A	Q8N9B8		CG4853|FLJ37817	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+UBR3	HGNC:30467	130507	ENSG00000144357	ubiquitin protein ligase E3 component n-recognin 3	Q6ZT12		KIAA2024|DKFZp434P117|FLJ37422|ZNF650	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RECK	HGNC:11345	8434	ENSG00000122707	reversion inducing cysteine rich protein with kazal motifs	O95980		hRECK|ST15	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MAOB	HGNC:6834	4129	ENSG00000069535	monoamine oxidase B	P27338			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FAM90A7	HGNC:32255	441317	ENSG00000285975	family with sequence similarity 90 member A7	A6NKC0		FAM90A7P	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KCNC2	HGNC:6234	3747	ENSG00000166006	potassium voltage-gated channel subfamily C member 2	Q96PR1		Kv3.2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+C19orf38	HGNC:34073	255809	ENSG00000214212	chromosome 19 open reading frame 38	A8MVS5		HIDE1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CFAP100	HGNC:26842	348807	ENSG00000163885	cilia and flagella associated protein 100	Q494V2		FLJ40083|MIA1|CCDC37	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ACE	HGNC:2707	1636	ENSG00000159640	angiotensin I converting enzyme	P12821		ACE1|CD143|DCP1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SEC24D	HGNC:10706	9871	ENSG00000150961	SEC24 homolog D, COPII component	O94855		KIAA0755	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PRAF2	HGNC:28911	11230	ENSG00000243279	PRA1 domain family member 2	O60831		JM4|Yip6a	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+UBP1	HGNC:12507	7342	ENSG00000153560	upstream binding protein 1	Q9NZI7		TFCP2L5|LBP-1a	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CNPY4	HGNC:28631	245812	ENSG00000166997	canopy FGF signaling regulator 4	Q8N129		MGC40499|PRAT4B	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+BZW2	HGNC:18808	28969	ENSG00000136261	basic leucine zipper and W2 domains 2	Q9Y6E2		HSPC028|MST017|MSTP017|5MP1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PSCA	HGNC:9500	8000	ENSG00000167653	prostate stem cell antigen	O43653		lncPSCA	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NSL1	HGNC:24548	25936	ENSG00000117697	NSL1 component of MIS12 kinetochore complex	Q96IY1		DC8|DKFZP566O1646|MIS14|C1orf48	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ATP10A	HGNC:13542	57194	ENSG00000206190	ATPase phospholipid transporting 10A (putative)	O60312		ATPVA|ATPVC|KIAA0566|ATP10C	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+WDFY4	HGNC:29323	57705	ENSG00000128815	WDFY family member 4	Q6ZS81		KIAA1607|Em:AC060234.3|FLJ45748|C10orf64	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PCDH20	HGNC:14257	64881	ENSG00000280165	protocadherin 20	Q8N6Y1		PCDH13|FLJ22218	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PDE8A	HGNC:8793	5151	ENSG00000073417	phosphodiesterase 8A	O60658		HsT19550	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DDX41	HGNC:18674	51428	ENSG00000183258	DEAD-box helicase 41	Q9UJV9		ABS|MGC8828	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CASK	HGNC:1497	8573	ENSG00000147044	calcium/calmodulin dependent serine protein kinase	O14936		LIN2|CAGH39|FGS4|TNRC8	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DPYSL5	HGNC:20637	56896	ENSG00000157851	dihydropyrimidinase like 5	Q9BPU6		CRMP5|Ulip6|CRMP-5|CRAM|CV2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SPI1	HGNC:11241	6688	ENSG00000066336	Spi-1 proto-oncogene	P17947		PU.1|SPI-A|OF|SFPI1|SPI-1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SLMAP	HGNC:16643	7871	ENSG00000163681	sarcolemma associated protein	Q14BN4		SLAP|KIAA1601	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RGPD4	HGNC:32417	285190	ENSG00000196862	RANBP2 like and GRIP domain containing 4	Q7Z3J3		RGP4|DKFZp686P0288	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CHD7	HGNC:20626	55636	ENSG00000171316	chromodomain helicase DNA binding protein 7	Q9P2D1		KIAA1416|FLJ20357|FLJ20361|CRG	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+WIPF2	HGNC:30923	147179	ENSG00000171475	WAS/WASL interacting protein family member 2	Q8TF74		WICH|WIRE	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SEC14L2	HGNC:10699	23541	ENSG00000100003	SEC14 like lipid binding 2	O76054		TAP|SPF|KIAA1186|KIAA1658|TAP1|C22orf6	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ACSL1	HGNC:3569	2180	ENSG00000151726	acyl-CoA synthetase long chain family member 1	P33121		LACS2|LACS|ACS1|LACS1|FACL1|FACL2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+USP17L26	HGNC:44454	728379	ENSG00000229579	ubiquitin specific peptidase 17 like family member 26	Q0WX57			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RBMX2	HGNC:24282	51634	ENSG00000134597	RNA binding motif protein X-linked 2	Q9Y388		CGI-79|Snu17	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+BUB3	HGNC:1151	9184	ENSG00000154473	BUB3 mitotic checkpoint protein	O43684		BUB3L	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CTSS	HGNC:2545	1520	ENSG00000163131	cathepsin S	P25774			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+IQCC	HGNC:25545	55721	ENSG00000160051	IQ motif containing C	Q4KMZ1		FLJ10547	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+IQCM	HGNC:53443	285423	ENSG00000234828	IQ motif containing M	A0A1B0GVH7			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+BET1L	HGNC:19348	51272	ENSG00000177951	Bet1 golgi vesicular membrane trafficking protein like	Q9NYM9		GS15|GOLIM3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RGS21	HGNC:26839	431704	ENSG00000253148	regulator of G protein signaling 21	Q2M5E4			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LRRK2	HGNC:18618	120892	ENSG00000188906	leucine rich repeat kinase 2	Q5S007		ROCO2|DKFZp434H2111|FLJ45829|RIPK7|PARK8	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SHISAL2A	HGNC:28757	348378	ENSG00000182183	shisa like 2A	Q6UWV7		MGC52498|FAM159A	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ANTXR2	HGNC:21732	118429	ENSG00000163297	ANTXR cell adhesion molecule 2	P58335		CMG2|CMG-2|FLJ31074	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FAM50B	HGNC:18789	26240	ENSG00000145945	family with sequence similarity 50 member B	Q9Y247		D6S2654E|X5L	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MKRN2OS	HGNC:40375	100129480	ENSG00000225526	MKRN2 opposite strand	H3BPM6		MKRN2-AS1|C3orf83	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PRAMEF15	HGNC:26764	653619	ENSG00000204501	PRAME family member 15	P0DUQ1		OTTHUMG00000007921	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TP53TG5	HGNC:15856	27296	ENSG00000124251	TP53 target 5	Q9Y2B4		CLG01|dJ453C12.5|C20orf10	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TMEM130	HGNC:25429	222865	ENSG00000166448	transmembrane protein 130	Q8N3G9		DKFZp761L1417|FLJ42643	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZBTB39	HGNC:29014	9880	ENSG00000166860	zinc finger and BTB domain containing 39	O15060		KIAA0352|ZNF922	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ELOVL4	HGNC:14415	6785	ENSG00000118402	ELOVL fatty acid elongase 4	Q9GZR5		CT118|STGD2|STGD3|SCA34	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GPR27	HGNC:4482	2850	ENSG00000170837	G protein-coupled receptor 27	Q9NS67		SREB1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NFATC3	HGNC:7777	4775	ENSG00000072736	nuclear factor of activated T cells 3	Q12968		NFAT4|NFATX|n339260	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NPY4R	HGNC:9329	5540	ENSG00000204174	neuropeptide Y receptor Y4	P50391		Y4|PP1|PPYR1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LENG1	HGNC:15502	79165	ENSG00000105617	leukocyte receptor cluster member 1	Q96BZ8			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CATSPERZ	HGNC:19231	25858	ENSG00000219435	catsper channel auxiliary subunit zeta	Q9NTU4		DKFZP566E164|C11orf20|TEX40	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF777	HGNC:22213	27153	ENSG00000196453	zinc finger protein 777	Q9ULD5		KIAA1285	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ERMAP	HGNC:15743	114625	ENSG00000164010	erythroblast membrane associated protein (Scianna blood group)	Q96PL5		BTN5|RD|SC	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TSPY9	HGNC:37472	728132	ENSG00000238074	testis specific protein Y-linked 9	A0A494C1R9		TSPY9P	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PHF10	HGNC:18250	55274	ENSG00000130024	PHD finger protein 10	Q8WUB8		FLJ10975|XAP135|BAF45a|SMARCG4	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FRRS1	HGNC:27622	391059	ENSG00000156869	ferric chelate reductase 1	Q6ZNA5		SDR2|SDFR2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SIDT2	HGNC:24272	51092	ENSG00000149577	SID1 transmembrane family member 2	Q8NBJ9		CGI-40	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ETS2	HGNC:3489	2114	ENSG00000157557	ETS proto-oncogene 2, transcription factor	P15036			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF449	HGNC:21039	203523	ENSG00000173275	zinc finger protein 449	Q6P9G9		ZSCAN19|FLJ23614	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RBMY1J	HGNC:23917	378951	ENSG00000226941	RNA binding motif protein Y-linked family 1 member J	Q15415			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ELN	HGNC:3327	2006	ENSG00000049540	elastin	P15502		WBS|WS|SVAS	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+APLP1	HGNC:597	333	ENSG00000105290	amyloid beta precursor like protein 1	P51693		APLP	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CD24	HGNC:1645	100133941	ENSG00000272398	CD24 molecule	P25063		CD24A	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PRCP	HGNC:9344	5547	ENSG00000137509	prolylcarboxypeptidase	P42785		PCP|HUMPCP	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NDUFA3	HGNC:7686	4696	ENSG00000170906	NADH:ubiquinone oxidoreductase subunit A3	O95167		B9	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+VOPP1	HGNC:34518	81552	ENSG00000154978	VOPP1 WW domain binding protein	Q96AW1		ECop|GASP|FLJ20532|DKFZp564K0822|WBP1L2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HOXD13	HGNC:5136	3239	ENSG00000128714	homeobox D13	P35453		HOX4I|SPD	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+OCLN	HGNC:8104	100506658	ENSG00000197822	occludin	Q16625		PPP1R115	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SEPTIN7	HGNC:1717	989	ENSG00000122545	septin 7	Q16181		CDC3|SEPT7A|Septin-7|CDC10|SEPT7	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF514	HGNC:25894	84874	ENSG00000144026	zinc finger protein 514	Q96K75		FLJ14457	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CDC20B	HGNC:24222	166979	ENSG00000164287	cell division cycle 20B	Q86Y33		FLJ37927	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+H4C5	HGNC:4790	8367	ENSG00000276966	H4 clustered histone 5	P62805		H4/j|H4FJ|HIST1H4E	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SPDYE13	HGNC:51509	105180390	ENSG00000286038	speedy/RINGO cell cycle regulator family member E13	A0A494C0Z2		SPDYE13P	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MCOLN2	HGNC:13357	255231	ENSG00000153898	mucolipin TRP cation channel 2	Q8IZK6		TRPML2|FLJ36691|TRP-ML2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+H2BC7	HGNC:4752	8343	ENSG00000277224	H2B clustered histone 7	P62807		H2B/g|H2BFG|HIST1H2BF	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HERC2	HGNC:4868	8924	ENSG00000128731	HECT and RLD domain containing E3 ubiquitin protein ligase 2	O95714		jdf2|p528|D15F37S1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SACK1H	HGNC:24797	286077	ENSG00000180921	scaffolding CK1 anchoring protein H	Q6ZRV2		FLJ46072|FAM83H	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HMGB1	HGNC:4983	3146	ENSG00000189403	high mobility group box 1	P09429		HMG3|SBP-1|DKFZp686A04236|HMG1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SRPRA	HGNC:11307	6734	ENSG00000182934	SRP receptor subunit alpha	P08240		SRP-alpha|Sralpha|SR-alpha|SRPR	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+EXPH5	HGNC:30578	23086	ENSG00000110723	exophilin 5	Q8NEV8		SLAC2-B	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF521	HGNC:24605	25925	ENSG00000198795	zinc finger protein 521	Q96K83		EHZF|Evi3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KLF3	HGNC:16516	51274	ENSG00000109787	KLF transcription factor 3	P57682		BKLF	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+OR8I2	HGNC:15310	120586	ENSG00000172154	olfactory receptor family 8 subfamily I member 2	Q8N0Y5			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ANXA1	HGNC:533	301	ENSG00000135046	annexin A1	P04083		ANX1|LPC1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MTURN	HGNC:25457	222166	ENSG00000180354	maturin, neural progenitor differentiation regulator homolog	Q8N3F0		FLJ25903|Ells1|C7orf41	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RETN	HGNC:20389	56729	ENSG00000104918	resistin	Q9HD89		FIZZ3|ADSF|RETN1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NDUFB6	HGNC:7701	4712	ENSG00000165264	NADH:ubiquinone oxidoreductase subunit B6	O95139		B17|CI	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CEBPE	HGNC:1836	1053	ENSG00000092067	CCAAT enhancer binding protein epsilon	Q15744		CRP1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TRAPPC3	HGNC:19942	27095	ENSG00000054116	trafficking protein particle complex subunit 3	O43617		BET3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TBC1D19	HGNC:25624	55296	ENSG00000109680	TBC1 domain family member 19	Q8N5T2		FLJ11082	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HAGHL	HGNC:14177	84264	ENSG00000103253	hydroxyacylglutathione hydrolase like	Q6PII5		MGC2605	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF195	HGNC:12986	7748	ENSG00000005801	zinc finger protein 195	O14628			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TTN	HGNC:12403	7273	ENSG00000155657	titin	Q8WZ42		CMPD4|FLJ32040|TMD|CMH9|LGMD2J|MYLK5|CMD1G	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LRRC32	HGNC:4161	2615	ENSG00000137507	leucine rich repeat containing 32	Q14392		D11S833E|GARP	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+EIF2B2	HGNC:3258	8892	ENSG00000119718	eukaryotic translation initiation factor 2B subunit beta	P49770		EIF2B|EIF-2Bbeta|EIF2Bbeta	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NEDD4L	HGNC:7728	23327	ENSG00000049759	NEDD4 like E3 ubiquitin protein ligase	Q96PU5		KIAA0439|RSP5|NEDD4-2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GALNT7	HGNC:4129	51809	ENSG00000109586	polypeptide N-acetylgalactosaminyltransferase 7	Q86SF2		GALNAC-T7	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ASCL5	HGNC:33169	647219	ENSG00000232237	achaete-scute family bHLH transcription factor 5	Q7RTU5		bHLHa47|ASH-5|AmeloD	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PRKCD	HGNC:9399	5580	ENSG00000163932	protein kinase C delta	Q05655			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+EXT1	HGNC:3512	2131	ENSG00000182197	exostosin glycosyltransferase 1	Q16394		ttv|LGCR|LGS	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FLT3	HGNC:3765	2322	ENSG00000122025	fms related receptor tyrosine kinase 3	P36888		STK1|FLK2|CD135	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KCNIP1	HGNC:15521	30820	ENSG00000182132	potassium voltage-gated channel interacting protein 1	Q9NZI2		KCHIP1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HAO1	HGNC:4809	54363	ENSG00000101323	hydroxyacid oxidase 1	Q9UJM8		GOX|GOX1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SEC22B	HGNC:10700	9554	ENSG00000265808	SEC22 homolog B, vesicle trafficking protein	O75396		ERS-24|SEC22L1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+OR8U9	HGNC:29166	504190	ENSG00000281038	olfactory receptor family 8 subfamily U member 9	P0C7N5			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SNORC	HGNC:33763	389084	ENSG00000182600	secondary ossification center associated regulator of chondrocyte maturation	Q6UX34		UNQ830|ASCL830|C2orf82	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+STAB2	HGNC:18629	55576	ENSG00000136011	stabilin 2	Q8WWQ8		DKFZP434E0321|FELL|STAB-2|HARE|FEEL-2|SCARH1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SFPQ	HGNC:10774	6421	ENSG00000116560	splicing factor proline and glutamine rich	P23246		PSF|PPP1R140	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HROB	HGNC:28460	78995	ENSG00000125319	homologous recombination factor with OB-fold	Q8N3J3		MGC3130|MCM8IP|C17orf53	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DRC4	HGNC:4166	2622	ENSG00000141013	dynein regulatory complex subunit 4	O95995		GAS11|GAS8	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KLF7	HGNC:6350	8609	ENSG00000118263	KLF transcription factor 7	O75840		UKLF	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MTNAP1	HGNC:29601	55028	ENSG00000141219	mitochondrial nucleoid associated protein 1	Q9BSJ5		HLC-8|MIG3|FLJ20721|SPEP1|C17orf80	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PPT1	HGNC:9325	5538	ENSG00000131238	palmitoyl-protein thioesterase 1	P50897		CLN1|INCL|PPT	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NICOL1	HGNC:34437	401115	ENSG00000243449	NELL2 interacting cell ontogeny regulator 1	Q5BLP8		NICOL|C4orf48	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CSN2	HGNC:2447	1447	ENSG00000135222	casein beta	P05814		CASB	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TMEM191B	HGNC:33600	728229	ENSG00000278558	transmembrane protein 191B	P0C7N4			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FBXL22	HGNC:27537	283807	ENSG00000197361	F-box and leucine rich repeat protein 22	Q6P050		Fbl22|FLJ39626	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TSSK1B	HGNC:14968	83942	ENSG00000212122	testis specific serine kinase 1B	Q9BXA7		SPOGA4|FKSG81|STK22D|TSSK1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RNF39	HGNC:18064	80352	ENSG00000204618	ring finger protein 39	Q9H2S5		HZFw1|LIRF|FAP216	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GARNL3	HGNC:25425	84253	ENSG00000136895	GTPase activating Rap/RanGAP domain like 3	Q5VVW2		DKFZp761J1523|bA356B19.1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+IGFBP5	HGNC:5474	3488	ENSG00000115461	insulin like growth factor binding protein 5	P24593			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+EXO5	HGNC:26115	64789	ENSG00000164002	exonuclease 5	Q9H790		FLJ21144|C1orf176|DEM1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KRT84	HGNC:6461	3890	ENSG00000161849	keratin 84	Q9NSB2		Hb-4|KRTHB4	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+C20orf204	HGNC:27655	284739	ENSG00000196421	chromosome 20 open reading frame 204	A0A1B0GTL2		DKFZp434G015|FLJ27267|PRR17|NCRNA00176|LINC00176	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LMNA	HGNC:6636	4000	ENSG00000160789	lamin A/C	P02545		HGPS|MADA|LMN1|CMD1A|LGMD1B|PRO1|LMNL1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FGFR1	HGNC:3688	2260	ENSG00000077782	fibroblast growth factor receptor 1	P11362		H2|H3|H4|H5|CEK|FLG|BFGFR|N-SAM|CD331|FLT2|KAL2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+POU3F4	HGNC:9217	5456	ENSG00000196767	POU class 3 homeobox 4	P49335		BRN4|OTF9|DFNX2|DFN3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CSNK1E	HGNC:2453	1454	ENSG00000213923	casein kinase 1 epsilon	P49674		HCKIE|CKIE|CKIepsilon	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+OTULINL	HGNC:25629	54491	ENSG00000145569	OTU deubiquitinase with linear linkage specificity like	Q9NUU6		FLJ11127|NET20|FAM105A	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KIF26A	HGNC:20226	26153	ENSG00000066735	kinesin family member 26A	Q9ULI4		KIAA1236|DKFZP434N178	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MMGT1	HGNC:28100	93380	ENSG00000169446	membrane magnesium transporter 1	Q8N4V1		EMC5|TMEM32	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ALG11	HGNC:32456	440138	ENSG00000253710	ALG11 alpha-1,2-mannosyltransferase	Q2TAA5		KIAA0266|CDG1P	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SEMA7A	HGNC:10741	8482	ENSG00000138623	semaphorin 7A (JohnMiltonHagen blood group)	O75326		H-Sema-L|CD108|SEMAL	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ANKRD1	HGNC:15819	27063	ENSG00000148677	ankyrin repeat domain 1	Q15327		C-193|ALRP|CARP|CVARP|MCARP	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+VSTM1	HGNC:29455	284415	ENSG00000189068	V-set and transmembrane domain containing 1	Q6UX27		UNQ3033	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+EMD	HGNC:3331	2010	ENSG00000102119	emerin	P50402		STA|LEMD5	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SEC24C	HGNC:10705	9632	ENSG00000176986	SEC24 homolog C, COPII component	P53992		KIAA0079	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TCF15	HGNC:11627	6939	ENSG00000125878	transcription factor 15	Q12870		EC2|PARAXIS|bHLHa40	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+H3C1	HGNC:4766	8350	ENSG00000275714	H3 clustered histone 1	P68431		H3/A|H3FA|HIST1H3A	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RELA	HGNC:9955	5970	ENSG00000173039	RELA proto-oncogene, NF-kB subunit	Q04206		p65|NFKB3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+EBNA1BP2	HGNC:15531	10969	ENSG00000117395	EBNA1 binding protein 2	Q99848		NOBP|EBP2|P40	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LRRC49	HGNC:25965	54839	ENSG00000137821	leucine rich repeat containing 49	Q8IUZ0		FLJ20156|CSTPP2|PGs4	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TLX1	HGNC:5056	3195	ENSG00000107807	T cell leukemia homeobox 1	P31314		TCL3|HOX11	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+APBA1	HGNC:578	320	ENSG00000107282	amyloid beta precursor protein binding family A member 1	Q02410		D9S411E|X11|MINT1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CFAP91	HGNC:24010	89876	ENSG00000183833	cilia and flagella associated protein 91	Q7Z4T9		AAT1|AAT1alpha|SPATA26|CaM-IP2|AAT-1|C3orf15|MAATS1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+IL23R	HGNC:19100	149233	ENSG00000162594	interleukin 23 receptor	Q5VWK5		IL-23R	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SPRING1	HGNC:26128	79794	ENSG00000111412	SREBF pathway regulator in golgi 1	Q9H741		FLJ21415|SPRING|POST1|LUR1|C12orf49	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RCE1	HGNC:13721	9986	ENSG00000173653	Ras converting CAAX endopeptidase 1	Q9Y256		hRCE1|FACE-2|FACE2|RCE1A|RCE1B	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF662	HGNC:31930	389114	ENSG00000182983	zinc finger protein 662	Q6ZS27		FLJ45880	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TCEA2	HGNC:11614	6919	ENSG00000171703	transcription elongation factor A2	Q15560		TFIIS	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TRPC4AP	HGNC:16181	26133	ENSG00000100991	transient receptor potential cation channel subfamily C member 4 associated protein	Q8TEL6		DKFZP727M231|DKFZp586C1223|dJ756N5.2|TRRP4AP|PPP1R158|C20orf188	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ADAMTS14	HGNC:14899	140766	ENSG00000138316	ADAM metallopeptidase with thrombospondin type 1 motif 14	Q8WXS8			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+POU2F1	HGNC:9212	5451	ENSG00000143190	POU class 2 homeobox 1	P14859		OCT1|OTF1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LAIR2	HGNC:6478	3904	ENSG00000167618	leukocyte associated immunoglobulin like receptor 2	Q6ISS4		CD306|LAIR-2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF395	HGNC:18737	55893	ENSG00000186918	zinc finger protein 395	Q9H8N7		PRF-1|HDBP2|PBF|DKFZp434K1210	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SUMF1	HGNC:20376	285362	ENSG00000144455	sulfatase modifying factor 1	Q8NBK3		FGE|UNQ3037	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ARL8A	HGNC:25192	127829	ENSG00000143862	ARF like GTPase 8A	Q96BM9		FLJ45195|Gie2|ARL10B	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+OGDHL	HGNC:25590	55753	ENSG00000197444	oxoglutarate dehydrogenase L	Q9ULD0		FLJ10851	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ABCA9	HGNC:39	10350	ENSG00000154258	ATP binding cassette subfamily A member 9	Q8IUA7		EST640918	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CNST	HGNC:26486	163882	ENSG00000162852	consortin, connexin sorting protein	Q6PJW8		FLJ32001|PPP1R64|C1orf71	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LRR1	HGNC:19742	122769	ENSG00000165501	leucine rich repeat protein 1	Q96L50		4-1BBLRR|MGC20689|LRR-1|PPIL5	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DYNLT2B	HGNC:28482	255758	ENSG00000213123	dynein light chain Tctex-type 2B	Q8WW35		MGC33212|TCTEX1D2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FUT1	HGNC:4012	2523	ENSG00000174951	fucosyltransferase 1 (H blood group)	P19526		H|HSC	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MRPL12	HGNC:10378	6182	ENSG00000262814	mitochondrial ribosomal protein L12	P52815		MRPL7/L12|MRPL7|bL12m|RPML12	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SRSF9	HGNC:10791	8683	ENSG00000111786	serine and arginine rich splicing factor 9	Q13242		SRp30c|SFRS9	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FAM229A	HGNC:44652	100128071	ENSG00000225828	family with sequence similarity 229 member A	H3BQW9			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FNTB	HGNC:3785	2342	ENSG00000257365	farnesyltransferase, CAAX box, subunit beta	P49356		FPTB	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NFS1	HGNC:15910	9054	ENSG00000244005	NFS1 cysteine desulfurase	Q9Y697		NifS|IscS	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+IFI44	HGNC:16938	10561	ENSG00000137965	interferon induced protein 44	Q8TCB0		MTAP44|p44|TLDC5	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KCNK1	HGNC:6272	3775	ENSG00000135750	potassium two pore domain channel subfamily K member 1	O00180		K2p1.1|DPK|TWIK-1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SELENOO	HGNC:30395	83642	ENSG00000073169	selenoprotein O	Q9BVL4		SELO	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PSTPIP2	HGNC:9581	9050	ENSG00000152229	proline-serine-threonine phosphatase interacting protein 2	Q9H939			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MAN1B1	HGNC:6823	11253	ENSG00000177239	mannosidase alpha class 1B member 1	Q9UKM7		MANA-ER|MRT15|ERManI|ERMan1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+UBE3B	HGNC:13478	89910	ENSG00000151148	ubiquitin protein ligase E3B	Q7Z3V4			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+BICRAL	HGNC:21111	23506	ENSG00000112624	BICRA like chromatin remodeling complex associated protein	Q6AI39		SMARCK2|KIAA0240|GLTSCR1L	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GNB1L	HGNC:4397	54584	ENSG00000185838	G protein subunit beta 1 like	Q9BYB4		GY2|WDR14	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TOB2	HGNC:11980	10766	ENSG00000183864	transducer of ERBB2, 2	Q14106		TOBL|TOB4|bK223H9|APRO5|TROB2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PELO	HGNC:8829	53918	ENSG00000152684	pelota mRNA surveillance and ribosome rescue factor	Q9BRX2			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF233	HGNC:30946	353355	ENSG00000159915	zinc finger protein 233	A6NK53		FLJ38032	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+OR10AD1	HGNC:14819	121275	ENSG00000172640	olfactory receptor family 10 subfamily AD member 1	Q8NGE0		OR10AD1P	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CA4	HGNC:1375	762	ENSG00000167434	carbonic anhydrase 4	P22748		CAIV|Car4|RP17	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+REN	HGNC:9958	5972	ENSG00000143839	renin	P00797			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+UBE2V1	HGNC:12494	7335	ENSG00000244687	ubiquitin conjugating enzyme E2 V1	Q13404		UEV-1|CROC-1|UEV1A|CROC1|UBE2V	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PDHB	HGNC:8808	5162	ENSG00000168291	pyruvate dehydrogenase E1 subunit beta	P11177		PDHE1B|E1beta	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HOXA4	HGNC:5105	3201	ENSG00000197576	homeobox A4	Q00056		HOX1D|HOX1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ENPP3	HGNC:3358	5169	ENSG00000154269	ectonucleotide pyrophosphatase/phosphodiesterase 3	O14638		PD-IBETA|gp130RB13-6|B10|CD203c|PDNP3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+OR8D4	HGNC:14840	338662	ENSG00000181518	olfactory receptor family 8 subfamily D member 4	Q8NGM9			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KCNJ6	HGNC:6267	3763	ENSG00000157542	potassium inwardly rectifying channel subfamily J member 6	P48051		Kir3.2|GIRK2|KATP2|BIR1|hiGIRK2|KCNJ7	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MCM10	HGNC:18043	55388	ENSG00000065328	minichromosome maintenance 10 replication initiation factor	Q7L590		PRO2249|CNA43|DNA43	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PPL	HGNC:9273	5493	ENSG00000118898	periplakin	O60437			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CYB5A	HGNC:2570	1528	ENSG00000166347	cytochrome b5 type A	P00167		MCB5|CYB5	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DENND2A	HGNC:22212	27147	ENSG00000146966	DENN domain containing 2A	Q9ULE3		FAM31D|KIAA1277	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+IZUMO2	HGNC:28518	126123	ENSG00000161652	IZUMO family member 2	Q6UXV1		MGC33947|SCRL|C19orf41	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZDHHC17	HGNC:18412	23390	ENSG00000186908	zDHHC palmitoyltransferase 17	Q8IUH5		HIP14|HYPH|KIAA0946	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CYB561D1	HGNC:26804	284613	ENSG00000174151	cytochrome b561 family member D1	Q8N8Q1		FLJ39035|FLJ44753	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GABPB2	HGNC:28441	126626	ENSG00000143458	GA binding protein transcription factor subunit beta 2	Q8TAK5		MGC29891	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+BLOC1S2	HGNC:20984	282991	ENSG00000196072	biogenesis of lysosomal organelles complex 1 subunit 2	Q6QNY1		MGC10120|FLJ30135|BLOS2|BORCS2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GSDMC	HGNC:7151	56169	ENSG00000147697	gasdermin C	Q9BYG8		MLZE	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LRRC18	HGNC:23199	474354	ENSG00000165383	leucine rich repeat containing 18	Q8N456		UNQ933|MGC34773|UNQ9338|VKGE9338	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+INSL4	HGNC:6087	3641	ENSG00000120211	insulin like 4	Q14641		EPIL	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FBXO41	HGNC:29409	150726	ENSG00000163013	F-box protein 41	Q8TF61		KIAA1940|Fbx41	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZFAND3	HGNC:18019	60685	ENSG00000156639	zinc finger AN1-type containing 3	Q9H8U3		FLJ13222|TEX27	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CERKL	HGNC:21699	375298	ENSG00000188452	CERK like autophagy regulator	Q49MI3		RP26	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+STX16	HGNC:11431	8675	ENSG00000124222	syntaxin 16	O14662		hsyn16|SYN16|SYN-16	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+INTS14	HGNC:25372	81556	ENSG00000138614	integrator complex subunit 14	Q96SY0		DKFZP564O1664|C15orf44|VWA9	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+STK17B	HGNC:11396	9262	ENSG00000081320	serine/threonine kinase 17b	O94768		DRAK2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SNW1	HGNC:16696	22938	ENSG00000100603	SNW domain containing 1	Q13573		NCoA-62|SKIP|Prp45|PRPF45|Bx42|SKIP1|FUN20|SKIIP	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GKN2	HGNC:24588	200504	ENSG00000183607	gastrokine 2	Q86XP6		TFIZ1|PRO813|VLTI465|blottin|GDDR|BRICD1B	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+KMT2C	HGNC:13726	58508	ENSG00000055609	lysine methyltransferase 2C	Q8NEZ4		KIAA1506|HALR|MLL3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+U2AF1	HGNC:12453	7307	ENSG00000160201	U2 small nuclear RNA auxiliary factor 1	Q01081		U2AF35|RNU2AF1|RN|U2AFBP	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DNASE1L3	HGNC:2959	1776	ENSG00000163687	deoxyribonuclease 1L3	Q13609		DNAS1L3|LSD|D3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ASXL3	HGNC:29357	80816	ENSG00000141431	ASXL transcriptional regulator 3	Q9C0F0		KIAA1713	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RELB	HGNC:9956	5971	ENSG00000104856	RELB proto-oncogene, NF-kB subunit	Q01201		REL-B	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CHD8	HGNC:20153	57680	ENSG00000100888	chromodomain helicase DNA binding protein 8	Q9HCK8		KIAA1564|DUPLIN|HELSNF1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+COL4A6	HGNC:2208	1288	ENSG00000197565	collagen type IV alpha 6 chain	Q14031			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SHPK	HGNC:1492	23729	ENSG00000197417	sedoheptulokinase	Q9UHJ6		SHK|CARKL	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PVR	HGNC:9705	5817	ENSG00000073008	PVR cell adhesion molecule	P15151		CD155|HVED|Necl-5|NECL5|Tage4|PVS	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MSL2	HGNC:25544	55167	ENSG00000174579	MSL complex subunit 2	Q9HCI7		FLJ10546|KIAA1585|msl-2|RNF184|MSL2L1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HPS3	HGNC:15597	84343	ENSG00000163755	HPS3 biogenesis of lysosomal organelles complex 2 subunit 1	Q969F9		SUTAL|BLOC2S1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ANKRD33B	HGNC:35240	651746	ENSG00000164236	ankyrin repeat domain 33B	A6NCL7			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TNS3	HGNC:21616	64759	ENSG00000136205	tensin 3	Q68CZ2		TEM6|H_NH0549I23.2|FLJ13732|TENS1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NMRK2	HGNC:17871	27231	ENSG00000077009	nicotinamide riboside kinase 2	Q9NPI5		MIBP|NRK2|ITGB1BP3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ACOT8	HGNC:15919	10005	ENSG00000101473	acyl-CoA thioesterase 8	O14734		hACTE-III|hTE|PTE-2|NAP1|PTE1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PRAMEF4	HGNC:31971	400735	ENSG00000243073	PRAME family member 4	O60810		RP5-845O24.6	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SDHA	HGNC:10680	6389	ENSG00000073578	succinate dehydrogenase complex flavoprotein subunit A	P31040		FP|SDHF|SDH2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GIMD1	HGNC:44141	100507096	ENSG00000250298	GIMAP family P-loop NTPase domain containing 1	P0DJR0			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DOLK	HGNC:23406	22845	ENSG00000175283	dolichol kinase	Q9UPQ8		KIAA1094|DK1|TMEM15	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MUC19	HGNC:14362	283463	ENSG00000205592	mucin 19, oligomeric (gene/pseudogene)	Q7Z5P9		FLJ35746	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GUCA1B	HGNC:4679	2979	ENSG00000112599	guanylate cyclase activator 1B	Q9UMX6		GCAP2|RP48|GCAP-2|GCAP-II	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NDUFAF3	HGNC:29918	25915	ENSG00000178057	NADH:ubiquinone oxidoreductase complex assembly factor 3	Q9BU61		MGC10527|DKFZP564J0123|E3-3|2P1|C3orf60	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PDK4	HGNC:8812	5166	ENSG00000004799	pyruvate dehydrogenase kinase 4	Q16654			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+YIPF6	HGNC:28304	286451	ENSG00000181704	Yip1 domain family member 6	Q96EC8		MGC21416|FinGER6|Yip4|YIPFalpha3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SP6	HGNC:14530	80320	ENSG00000189120	Sp6 transcription factor	Q3SY56		KLF14|Epfn	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TFF1	HGNC:11755	7031	ENSG00000160182	trefoil factor 1	P04155		D21S21|HPS2|pS2|pNR-2|HP1.A|BCEI	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GUCY2C	HGNC:4688	2984	ENSG00000070019	guanylate cyclase 2C	P25092		STAR|HSER|GC-C|GCC|GUC2C	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+IFI27L1	HGNC:19754	122509	ENSG00000165948	interferon alpha inducible protein 27 like 1	Q96BM0		FAM14B	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DRP2	HGNC:3032	1821	ENSG00000102385	dystrophin related protein 2	Q13474			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ADCY1	HGNC:232	107	ENSG00000164742	adenylate cyclase 1	Q08828		AC1|DFNB44	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+OGFOD2	HGNC:25823	79676	ENSG00000111325	2-oxoglutarate and iron dependent oxygenase domain containing 2	Q6N063		FLJ13491|FLJ37501	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+USP3	HGNC:12626	9960	ENSG00000140455	ubiquitin specific peptidase 3	Q9Y6I4			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GLIS1	HGNC:29525	148979	ENSG00000174332	GLIS family zinc finger 1	Q8NBF1		FLJ36155	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SH2D5	HGNC:28819	400745	ENSG00000189410	SH2 domain containing 5	Q6ZV89			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+BMP1	HGNC:1067	649	ENSG00000168487	bone morphogenetic protein 1	P13497		BMP-1|PCOLC	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ESPNL	HGNC:27937	339768	ENSG00000144488	espin like	Q6ZVH7		FLJ42568	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ARHGDIA	HGNC:678	396	ENSG00000141522	Rho GDP dissociation inhibitor alpha	P52565		RHOGDI|GDIA1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZBTB47	HGNC:26955	92999	ENSG00000114853	zinc finger and BTB domain containing 47	Q9UFB7		KIAA1190|DKFZp434N0615|ZNF651	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CCDC14	HGNC:25766	64770	ENSG00000175455	coiled-coil domain containing 14	Q49A88		FLJ12892|DKFZp434L1050	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MUC3A	HGNC:7513	4584	ENSG00000169894	mucin 3A, cell surface associated	Q02505		MUC3	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+LSMEM2	HGNC:26781	132228	ENSG00000179564	leucine rich single-pass membrane protein 2	Q8N112		FLJ38608|C3orf45	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MARK4	HGNC:13538	57787	ENSG00000007047	microtubule affinity regulating kinase 4	Q96L34		Nbla00650|FLJ90097|KIAA1860|PAR-1D|MARKL1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SOX10	HGNC:11190	6663	ENSG00000100146	SRY-box transcription factor 10	P56693		DOM|WS4|WS2E|SOX-10	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MAGOHB	HGNC:25504	55110	ENSG00000111196	mago homolog B, exon junction complex subunit	Q96A72		FLJ10292|MGN2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+BRINP1	HGNC:2687	1620	ENSG00000078725	BMP/retinoic acid inducible neural specific 1	O60477		FAM5A|DBCCR1|DBC1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ERP27	HGNC:26495	121506	ENSG00000139055	endoplasmic reticulum protein 27	Q96DN0		FLJ32115|PDIA8|C12orf46	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CRYGN	HGNC:20458	155051	ENSG00000127377	crystallin gamma N	Q8WXF5			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TUG1	HGNC:26066	55000	ENSG00000253352	taurine up-regulated 1	A0A6I8PU40		FLJ20618|NCRNA00080|LINC00080	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CMSS1	HGNC:28666	84319	ENSG00000184220	cms1 ribosomal small subunit homolog	Q9BQ75		MGC4308|C3orf26	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+OR10G8	HGNC:14845	219869	ENSG00000234560	olfactory receptor family 10 subfamily G member 8	Q8NGN5			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CDC23	HGNC:1724	8697	ENSG00000094880	cell division cycle 23	Q9UJX2		APC8|ANAPC8|CUT23	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FAM9B	HGNC:18404	171483	ENSG00000177138	family with sequence similarity 9 member B	Q8IZU0		TEX39B	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF212	HGNC:13004	7988	ENSG00000170260	zinc finger protein 212	Q9UDV6		C2H2-150	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+HERC3	HGNC:4876	8916	ENSG00000138641	HECT and RLD domain containing E3 ubiquitin protein ligase 3	Q15034		KIAA0032	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RASD2	HGNC:18229	23551	ENSG00000100302	RASD family member 2	Q96D21		TEM2|Rhes|MGC:4834	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PCOLCE2	HGNC:8739	26577	ENSG00000163710	procollagen C-endopeptidase enhancer 2	Q9UKZ9		PCPE2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+NEURL1	HGNC:7761	9148	ENSG00000107954	neuralized E3 ubiquitin protein ligase 1	O76050		h-neu|RNF67|neu-1|NEURL	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TLK1	HGNC:11841	9874	ENSG00000198586	tousled like kinase 1	Q9UKI8		KIAA0137|PKU-BETA	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RAB11FIP1	HGNC:30265	80223	ENSG00000156675	RAB11 family interacting protein 1	Q6WKZ4		RCP|FLJ22622|FLJ22524|Rab11-FIP1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CGAS	HGNC:21367	115004	ENSG00000164430	cyclic GMP-AMP synthase	Q8N884		h-cGAS|D4|C6orf150|MB21D1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+AJUBA	HGNC:20250	84962	ENSG00000129474	ajuba LIM protein	Q96IF1		MGC15563|JUB	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CCDC40	HGNC:26090	55036	ENSG00000141519	coiled-coil domain 40 molecular ruler complex subunit	Q4G0X9		FLJ20753|KIAA1640|FLJ32021|CILD15|FAP172|CFAP172	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MYH14	HGNC:23212	79784	ENSG00000105357	myosin heavy chain 14	Q7Z406		FLJ13881|KIAA2034|MHC16|MYH17|DFNA4	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+DNAH9	HGNC:2953	1770	ENSG00000007174	dynein axonemal heavy chain 9	Q9NYC9		Dnahc9|KIAA0357|HL20|HL-20|DNAL1|DYH9|DNAH17L	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+CBLIF	HGNC:4268	2694	ENSG00000134812	cobalamin binding intrinsic factor	P27352		TCN3|IF|IFMH|INF|GIF	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MED1	HGNC:9234	5469	ENSG00000125686	mediator complex subunit 1	Q15648		PBP|TRAP220|RB18A|DRIP230|CRSP200|CRSP1|TRIP2|PPARGBP|PPARBP	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SPATA33	HGNC:26463	124045	ENSG00000167523	spermatogenesis associated 33	Q96N06		FLJ31606|C16orf55	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+FNDC4	HGNC:20239	64838	ENSG00000115226	fibronectin type III domain containing 4	Q9H6D8		FLJ22362|FRCP1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GAL	HGNC:4114	51083	ENSG00000069482	galanin and GMAP prepropeptide	P22466		GMAP|GAL-GMAP|GLNN|GALN	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+IGFL3	HGNC:32930	388555	ENSG00000188624	IGF like family member 3	Q6UXB1		UNQ483	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+VAPA	HGNC:12648	9218	ENSG00000101558	VAMP associated protein A	Q9P0L0		hVAP-33|VAP-A	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+SEC61B	HGNC:16993	10952	ENSG00000106803	SEC61 translocon subunit beta	P60468			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ACOT2	HGNC:18431	10965	ENSG00000119673	acyl-CoA thioesterase 2	P49753		Mte1|ZAP128	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ZNF211	HGNC:13003	10520	ENSG00000121417	zinc finger protein 211	Q13398		ZNF-25|CH2H2-25	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TAF6L	HGNC:17305	10629	ENSG00000162227	TATA-box binding protein associated factor 6 like	Q9Y6J9		PAF65A	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+RGS14	HGNC:9996	10636	ENSG00000169220	regulator of G protein signaling 14	O43566			achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+ANXA2R	HGNC:33463	389289	ENSG00000177721	annexin A2 receptor	Q3ZCQ2		AXIIR|C5orf39	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GTF2A1	HGNC:4646	2957	ENSG00000165417	general transcription factor IIA subunit 1	P52655		TFIIA	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+TOR1A	HGNC:3098	1861	ENSG00000136827	torsin family 1 member A	O14656		DQ2|DYT1	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MAGEB10	HGNC:25377	139422	ENSG00000177689	MAGE family member B10	Q96LZ2		FLJ32965	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+MNAT1	HGNC:7181	4331	ENSG00000020426	MNAT1 component of CDK activating kinase	P51948		MAT1|RNF66	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+PCBP2	HGNC:8648	5094	ENSG00000197111	poly(rC) binding protein 2	Q15366		HNRPE2|hnRNP-E2|HNRNPE2	achondroplasia	random	0			HGNC protein-coding random, seed 20260921
+GPR135	HGNC:19991	64582	ENSG00000181619	G protein-coupled receptor 135	Q8IZ08		HUMNPIIY20|PAFR	achondroplasia	random	0			HGNC protein-coding random, seed 20260921

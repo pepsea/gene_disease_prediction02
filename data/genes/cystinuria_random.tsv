@@ -1,0 +1,987 @@
+symbol	hgnc_id	entrez_id	ensembl_gene_id	gene_name	uniprot_ids	protein_name_uniprot	alias_symbols	disease	category	label	evidence	note	source
+SLC8A1	HGNC:11068	6546	ENSG00000183023	solute carrier family 8 member A1	P32418		NCX1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A12	HGNC:25984	54868	ENSG00000109066	solute carrier family 38 member 12	Q8NE00		FLJ20255|FLJ00021|TMEM104	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC51A	HGNC:29955	200931	ENSG00000163959	solute carrier family 51 member A	Q86UW1		OSTalpha|SLC51A1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A9	HGNC:11035	83697	ENSG00000113073	solute carrier family 4 member 9	Q96Q91		AE4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A32	HGNC:29683	81034	ENSG00000164933	solute carrier family 25 member 32	Q9H2D1		MFTC	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G6	HGNC:31351	643664	ENSG00000259224	solute carrier family 35 member G6	P0C7Q6		TMEM21B|AMAC1L3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A15	HGNC:20301	55356	ENSG00000163393	solute carrier family 22 member 15	Q8IZD6		FLIPT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A2	HGNC:10994	1836	ENSG00000155850	solute carrier family 26 member 2	P50443		DTDST|DTD	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A7	HGNC:14467	115111	ENSG00000147606	solute carrier family 26 member 7	Q8TE54		SUT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A9	HGNC:11056	6536	ENSG00000196517	solute carrier family 6 member 9	P48067		GLYT1|GlyT-1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A1	HGNC:11021	10559	ENSG00000164414	solute carrier family 35 member A1	P78382		CMPST|hCST|CMP-Sia-Tr	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A3	HGNC:10997	11000	ENSG00000143554	solute carrier family 27 member 3	Q5K4L6		FATP3|MGC4365|ACSVL3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC14A2	HGNC:10919	8170	ENSG00000132874	solute carrier family 14 member 2	Q15849		HUT2|UT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A41	HGNC:28533	284427	ENSG00000181240	solute carrier family 25 member 41	Q8N5S1		FLJ40442|MGC34725|APC4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F3	HGNC:23616	148641	ENSG00000183780	solute carrier family 35 member F3	Q8IY50		FLJ37712	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A2	HGNC:13448	54407	ENSG00000134294	solute carrier family 38 member 2	Q96QD8		SAT2|ATA2|KIAA1382|SNAT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A47	HGNC:20115	283600	ENSG00000140107	solute carrier family 25 member 47	Q6Q0C1		HDCMP|C14orf68	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A11	HGNC:23091	115584	ENSG00000158865	solute carrier family 5 member 11	Q8WWX8		KST1|SMIT2|SGLT6	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A6	HGNC:10970	9356	ENSG00000197901	solute carrier family 22 member 6	Q4U2R8		ROAT1|PAHT|OAT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A2	HGNC:22921	83884	ENSG00000120329	solute carrier family 25 member 2	Q9BXI2		ORNT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A48	HGNC:30451	153328	ENSG00000145832	solute carrier family 25 member 48	Q6ZT89		FLJ44862	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A2	HGNC:11006	6514	ENSG00000163581	solute carrier family 2 member 2	P11168		GLUT-2|GLUT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC47A1	HGNC:25588	55244	ENSG00000142494	solute carrier family 47 member 1	Q96FL8		FLJ10847|MATE1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A7	HGNC:11054	6534	ENSG00000011083	solute carrier family 6 member 7	Q99884		PROT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A52	HGNC:23324	147407	ENSG00000141437	solute carrier family 25 member 52	Q3SY17		MCART2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A34	HGNC:27653	284723	ENSG00000162461	solute carrier family 25 member 34	Q6PIV7		DKFZp781A10161	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A7	HGNC:10928	9194	ENSG00000118596	solute carrier family 16 member 7	O60669		MCT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A14	HGNC:20858	23516	ENSG00000104635	solute carrier family 39 member 14	Q15043		KIAA0062|NET34|ZIP14|ZIP-14	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC34A2	HGNC:11020	10568	ENSG00000157765	solute carrier family 34 member 2	O95436		NAPI-3B|NaPi-2b|NPTIIb|NaPi2b|NAPI-IIb	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC11A2	HGNC:10908	4891	ENSG00000110911	solute carrier family 11 member 2	P49281		DCT1|DMT1|DMT-1|FLJ37416|NRAMP2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC24A4	HGNC:10978	123041	ENSG00000140090	solute carrier family 24 member 4	Q8NFF2		NCKX4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC20A1	HGNC:10946	6574	ENSG00000144136	solute carrier family 20 member 1	Q8WUM9		PiT-1|Glvr-1|PiT1|GLVR1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A18	HGNC:10988	83733	ENSG00000182902	solute carrier family 25 member 18	Q9H1K4			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A14	HGNC:11047	11254	ENSG00000268104	solute carrier family 6 member 14	Q9UN76			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A5	HGNC:11051	9152	ENSG00000165970	solute carrier family 6 member 5	Q9Y345		GLYT2|GlyT-2|NET1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A8	HGNC:13812	29988	ENSG00000136856	solute carrier family 2 member 8	Q9NY64		GLUTX1|GLUT8	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A3	HGNC:11029	6508	ENSG00000114923	solute carrier family 4 member 3	P48751		AE3|SLC2C	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC52A1	HGNC:30225	55065	ENSG00000132517	solute carrier family 52 member 1	Q9NWF4		FLJ10060|GPCR42|PAR2|hRFT1|RFVT1|GPR172B	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A11	HGNC:14463	201266	ENSG00000133195	solute carrier family 39 member 11	Q8N1S5		ZIP11|C17orf26	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A4	HGNC:10942	6509	ENSG00000115902	solute carrier family 1 member 4	P43007		SATT|ASCT1|ASCT-1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A5	HGNC:9359	375611	ENSG00000170615	solute carrier family 26 member 5	P58743		DFNB61|PRESTIN|PRES	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC46A1	HGNC:30521	113235	ENSG00000076351	solute carrier family 46 member 1	Q96NT5		HCP1|MGC9564|PCFT|HsPCFT|hPCFT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC29A3	HGNC:23096	55315	ENSG00000198246	solute carrier family 29 member 3	Q9BZD2		ENT3|FLJ11160|hENT3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A22	HGNC:19954	79751	ENSG00000177542	solute carrier family 25 member 22	Q9H936		GC1|FLJ13044|NET44|EIEE3|GC-1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A9	HGNC:23520	220963	ENSG00000165449	solute carrier family 16 member 9	Q7RTY1		FLJ43803|MCT9|C10orf36	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC23A1	HGNC:10974	9963	ENSG00000170482	solute carrier family 23 member 1	Q9UHI7		YSPL3|SVCT1|SLC23A2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A5	HGNC:10933	26503	ENSG00000119899	solute carrier family 17 member 5	Q9NRA2		AST|SD|ISSD|NSD|SIALIN|SLD|SIASD	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A1	HGNC:11005	6513	ENSG00000117394	solute carrier family 2 member 1	P11166		DYT18|DYT9|GLUT-1|GLUT1|GLUT|HTLVR|CSE	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35B3	HGNC:21601	51000	ENSG00000124786	solute carrier family 35 member B3	Q9H1N7		CGI-19|dJ453H5.1|PAPST2|C6orf196	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A5	HGNC:19089	64924	ENSG00000145740	solute carrier family 30 member 5	Q8TAD4		ZTL1|ZnT-5|FLJ12496|FLJ12756|ZNT5|MGC5499|ZNTL1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC66A1	HGNC:26001	54896	ENSG00000040487	solute carrier family 66 member 1	Q6ZP29		FLJ20320|LAAT-1|LAAT1|PQLC2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A9	HGNC:16261	114571	ENSG00000149742	solute carrier family 22 member 9	Q8IVM8		OAT4|FLJ23666|UST3|OAT7	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A3	HGNC:10924	9123	ENSG00000141526	solute carrier family 16 member 3	O15427		MCT3|MCT4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC41A1	HGNC:19429	254428	ENSG00000133065	solute carrier family 41 member 1	Q8IVJ1		MgtE	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A4	HGNC:10968	6583	ENSG00000197208	solute carrier family 22 member 4	Q9H015		OCTN1|MGC34546|DFNB60	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC19A3	HGNC:16266	80704	ENSG00000135917	solute carrier family 19 member 3	Q9BZV2		THTR2|thTr-2|hTHTR2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A4	HGNC:14679	55089	ENSG00000139209	solute carrier family 38 member 4	Q969I6		PAAT|NAT3|ATA3|SNAT4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC46A3	HGNC:27501	283537	ENSG00000139508	solute carrier family 46 member 3	Q7Z3Q1		DKFZp686A1775|FLJ42613	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A1AP	HGNC:13813	22950	ENSG00000163798	solute carrier family 4 member 1 adaptor protein	Q9BWU0		kanadaptin|HLC3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A5	HGNC:33455	729025	ENSG00000188991	solute carrier family 15 member 5	A6NIM6			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A2	HGNC:10996	11001	ENSG00000140284	solute carrier family 27 member 2	O14975		FATP2|hFACVL1|VLACS|VLCS|HsT17226|ACSVL1|FACVL1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A5	HGNC:11078	6553	ENSG00000135740	solute carrier family 9 member A5	Q14940		NHE5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC34A3	HGNC:20305	142680	ENSG00000198569	solute carrier family 34 member 3	Q8N130		NPTIIc|FLJ38680|NaPi-2c|NPT2C	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A4	HGNC:13941	80736	ENSG00000204385	solute carrier family 44 member 4	Q53GD3		NG22|CTL4|FLJ14491|TPPT|DFNA72|C6orf29	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A13	HGNC:31037	201232	ENSG00000174327	solute carrier family 16 member 13	Q7RTY0		MCT13	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A10	HGNC:13811	57282	ENSG00000144290	solute carrier family 4 member 10	Q6U841		NBCn2|NCBE	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35E2B	HGNC:33941	728661	ENSG00000189339	solute carrier family 35 member E2B	P0CK96			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9C1	HGNC:31401	285335	ENSG00000172139	solute carrier family 9 member C1	Q4G0N8		NHE|SLC9A10	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9C2	HGNC:28664	284525	ENSG00000162753	solute carrier family 9 member C2 (putative)	Q5TAH2		MGC43026|SLC9A11	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO4A1	HGNC:10953	28231	ENSG00000101187	solute carrier organic anion transporter family member 4A1	Q96BD0		OATP-E|OATP4A1|SLC21A12	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A6	HGNC:16703	57084	ENSG00000091664	solute carrier family 17 member 6	Q9P2U8		DNPI|VGLUT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A15	HGNC:13621	55117	ENSG00000072041	solute carrier family 6 member 15	Q9H2J7		hv7-3|NTT73|FLJ10316|V7-3|SBAT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35E1	HGNC:20803	79939	ENSG00000127526	solute carrier family 35 member E1	Q96K37		FLJ14251	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F6	HGNC:26055	54978	ENSG00000213699	solute carrier family 35 member F6	Q8N357		FLJ20555|ANT2BP|TANGO9|C2orf18	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A4	HGNC:11039	6527	ENSG00000100191	solute carrier family 5 member 4	Q9NY91		SAAT1|SGLT3|DJ90G24.4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A8	HGNC:19119	160728	ENSG00000256870	solute carrier family 5 member 8	Q8N695		AIT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A1	HGNC:10929	6568	ENSG00000124568	solute carrier family 17 member 1	Q14916		NAPI-1|NPT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35D2	HGNC:20799	11046	ENSG00000130958	solute carrier family 35 member D2	Q76EJ3		UGTrel8|SQV7L	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A6	HGNC:11041	8884	ENSG00000138074	solute carrier family 5 member 6	Q9Y289		SMVT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A21	HGNC:14411	89874	ENSG00000183032	solute carrier family 25 member 21	Q9BQT8		ODC1|ODC	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC23A3	HGNC:20601	151295	ENSG00000213901	solute carrier family 23 member 3	Q6PIS1		SVCT3|FLJ31168|Yspl1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A7	HGNC:10945	6512	ENSG00000162383	solute carrier family 1 member 7	O00341		EAAT5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC18A1	HGNC:10934	6570	ENSG00000036565	solute carrier family 18 member A1	P54219		CGAT|VMAT1|VAT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A31	HGNC:27091	146429	ENSG00000259803	solute carrier family 22 member 31	A6NKX4			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A5	HGNC:18070	92745	ENSG00000017483	solute carrier family 38 member 5	Q8WUX1		SN2|JM24|SNAT5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A4	HGNC:10998	10999	ENSG00000167114	solute carrier family 27 member 4	Q6P1M0		FATP4|ACSVL4|FATP-4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A1	HGNC:13447	81539	ENSG00000111371	solute carrier family 38 member 1	Q9H2H9		ATA1|NAT2|SAT1|SNAT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A11	HGNC:23093	162515	ENSG00000174326	solute carrier family 16 member 11	Q8NCK7		FLJ90193|MCT11	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A7	HGNC:11033	9497	ENSG00000033867	solute carrier family 4 member 7	Q9Y6M7		NBC3|SBC2|SLC4A6	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC11A1	HGNC:10907	6556	ENSG00000018280	solute carrier family 11 member 1	P49279		LSH|NRAMP|NRAMP1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A3	HGNC:11038	6526	ENSG00000198743	solute carrier family 5 member 3	P53794		SMIT|SMIT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A4	HGNC:11077	389015	ENSG00000180251	solute carrier family 9 member A4	Q6AI14		NHE4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC67A2	HGNC:28158	84804	ENSG00000135953	solute carrier family 67 member 2	Q8NBP5		MGC11332|MFSD9	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC67A1	HGNC:10964	5002	ENSG00000110628	solute carrier family 67 member 1	Q96BI1		BWR1A|TSSC5|ITM|IMPT1|ORCTL2|BWSCR1A|SLC22A18|SLC22A1L	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A12	HGNC:18067	154091	ENSG00000146411	solute carrier family 2 member 12	Q8TD20		GLUT12|GLUT8	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A2	HGNC:17292	57153	ENSG00000129353	solute carrier family 44 member 2 (CTL2 blood group)	Q8IWA5		HNA-3|CTL2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A43	HGNC:30557	203427	ENSG00000077713	solute carrier family 25 member 43	Q8WUT9			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F2	HGNC:23615	54733	ENSG00000110660	solute carrier family 35 member F2	Q8IXU6		FLJ13018	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A5	HGNC:11063	8140	ENSG00000103257	solute carrier family 7 member 5	Q01650		LAT1|E16|D16S469E|MPE16|CD98	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A24	HGNC:20662	29957	ENSG00000085491	solute carrier family 25 member 24	Q6NUK1		DKFZp586G0123|APC1|SCAMC1|SCAMC-1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A14	HGNC:8495	9389	ENSG00000144671	solute carrier family 22 member 14	Q9Y267		OCTL2|ORCTL4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A5	HGNC:10969	6584	ENSG00000197375	solute carrier family 22 member 5	O76082		OCTN2|SCD|CDSP	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC28A2	HGNC:11002	9153	ENSG00000137860	solute carrier family 28 member 2	O43868		CNT2|SPNT1|HCNT2|HsT17153	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A8	HGNC:20303	169026	ENSG00000164756	solute carrier family 30 member 8	Q8IWU4		ZnT-8|ZNT8	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A4	HGNC:8818	5172	ENSG00000091137	solute carrier family 26 member 4	O43511		PDS|DFNB4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G1	HGNC:26607	159371	ENSG00000176273	solute carrier family 35 member G1	Q2M3R5		FLJ33990|C10orf60|POST|TMEM20	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A3	HGNC:10967	6581	ENSG00000146477	solute carrier family 22 member 3	O75751		OCT3|EMT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A9	HGNC:1329	10463	ENSG00000014824	solute carrier family 30 member 9	Q6PML9		HUEL|ZNT9|GAC63|C4orf1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A3	HGNC:10931	10786	ENSG00000124564	solute carrier family 17 member 3	O00476		NPT4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G5	HGNC:15546	83650	ENSG00000177710	solute carrier family 35 member G5	Q96KT7		AMAC|AMAC1L2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO2B1	HGNC:10962	11309	ENSG00000137491	solute carrier organic anion transporter family member 2B1	O94956		OATP-B|OATP2B1|SLC21A9	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A12	HGNC:10982	8604	ENSG00000115840	solute carrier family 25 member 12	O75746		Aralar|aralar1|AGC1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A3	HGNC:10989	5250	ENSG00000075415	solute carrier family 25 member 3	Q00325		PiC|PTP|PHC	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F5	HGNC:23617	80255	ENSG00000115084	solute carrier family 35 member F5	Q8WV83		FLJ22004	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A4	HGNC:10913	6560	ENSG00000124067	solute carrier family 12 member 4	Q9UP95		KCC1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35D1	HGNC:20800	23169	ENSG00000116704	solute carrier family 35 member D1	Q9NTN3		UGTREL7|KIAA0260	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A7	HGNC:10971	10864	ENSG00000137204	solute carrier family 22 member 7	Q9Y694		NLT|OAT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A4	HGNC:11050	6532	ENSG00000108576	solute carrier family 6 member 4	P31645		5-HTT|SERT1|HTT|OCD1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A12	HGNC:17989	116085	ENSG00000197891	solute carrier family 22 member 12	Q96S37		OAT4L|RST|URAT1|hURAT1|UAT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A3	HGNC:17128	29985	ENSG00000141873	solute carrier family 39 member 3	Q9BRY0		ZIP3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A13	HGNC:11046	6540	ENSG00000010379	solute carrier family 6 member 13	Q9NSD5		GAT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A1	HGNC:11057	6541	ENSG00000139514	solute carrier family 7 member 1	P30825		CAT-1|HCAT1|REC1L|ERR|ATRC1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A1	HGNC:10920	6564	ENSG00000088386	solute carrier family 15 member 1	P46059		PEPT1|HPECT1|HPEPT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO6A1	HGNC:23613	133482	ENSG00000205359	solute carrier organic anion transporter family member 6A1	Q86UG4		OATP6A1|OATPY|MGC26949|CT48	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC13A5	HGNC:23089	284111	ENSG00000141485	solute carrier family 13 member 5	Q86YT5		NACT|INDY|mINDY	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A6	HGNC:19863	145389	ENSG00000139974	solute carrier family 38 member 6	Q8IZM9		NAT-1|SNAT6	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC66A2	HGNC:26188	80148	ENSG00000122490	solute carrier family 66 member 2	Q8N2U9		FLJ22378|PQLC1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A13	HGNC:20859	91252	ENSG00000165915	solute carrier family 39 member 13	Q96H72		FLJ25785|LZT-Hs9|ZIP13|ZIP-13	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A6	HGNC:18607	25800	ENSG00000141424	solute carrier family 39 member 6	Q13433		LIV-1|ZIP6	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A4RG	HGNC:15930	56731	ENSG00000125520	SLC2A4 regulator	Q9NR83		GLUT4EF|GEF|HDBP1|Si-1-2|Si-1-2-19	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A5	HGNC:11040	6528	ENSG00000105641	solute carrier family 5 member 5	Q92911		NIS	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A30	HGNC:27371	253512	ENSG00000174032	solute carrier family 25 member 30	Q5SVS4			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC18B1	HGNC:21573	116843	ENSG00000146409	solute carrier family 18 member B1	Q6NT16		dJ55C23.6|C6orf192	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A9	HGNC:14469	115019	ENSG00000174502	solute carrier family 26 member 9	Q7LBE3			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A2	HGNC:11037	6524	ENSG00000140675	solute carrier family 5 member 2	P31639		SGLT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A8	HGNC:20151	246213	ENSG00000179520	solute carrier family 17 member 8	Q8NDX2		VGLUT3|DFNA25	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A2	HGNC:11013	7780	ENSG00000158014	solute carrier family 30 member 2	Q9BRI3		ZNT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC45A3	HGNC:8642	85414	ENSG00000158715	solute carrier family 45 member 3	Q96JT2		IPCA-6|prostein|IPCA-2|IPCA-8|PCANAP6|PCANAP2|PCANAP8	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A14	HGNC:18301	144195	ENSG00000173262	solute carrier family 2 member 14	Q8TDB8		GLUT14|SLC2A3P3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A5	HGNC:20792	55032	ENSG00000138459	solute carrier family 35 member A5	Q9BS91		FLJ20730	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A6	HGNC:11064	9057	ENSG00000103064	solute carrier family 7 member 6	Q92536		y+LAT-2|KIAA0245|LAT3|LAT-2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A10	HGNC:28237	124565	ENSG00000157637	solute carrier family 38 member 10	Q9HBR0		MGC15523|PP1744|SNAT10	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A6	HGNC:19305	55676	ENSG00000152683	solute carrier family 30 member 6	Q6NXT4		FLJ31101|ZNT6	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC49A4	HGNC:16628	84925	ENSG00000138463	solute carrier family 49 member 4	Q96SL1		FLJ14784|RCC4|DIRC2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A53	HGNC:31894	401612	ENSG00000269743	solute carrier family 25 member 53	Q5H9E4		MCART6	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC52A3	HGNC:16187	113278	ENSG00000101276	solute carrier family 52 member 3	Q9NQ40		bA371L19.1|hRFT2|RFVT3|RFT2|C20orf54	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A3	HGNC:11014	7781	ENSG00000115194	solute carrier family 30 member 3	Q99726		ZNT3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A28	HGNC:23472	81894	ENSG00000155287	solute carrier family 25 member 28	Q96A46		MRS3/4|MRS4L	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A6	HGNC:14472	65010	ENSG00000225697	solute carrier family 26 member 6	Q9BXS9		DKFZp586E1422	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A14	HGNC:10984	9016	ENSG00000102078	solute carrier family 25 member 14	O95258		BMCP1|UCP5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO1C1	HGNC:13819	53919	ENSG00000139155	solute carrier organic anion transporter family member 1C1	Q9NYB5		OATP-F|OATP1C1|OATP1|SLC21A14	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC71A1	HGNC:23363	64645	ENSG00000156875	solute carrier family 71 member 1	Q96MC6		DKFZP564L0864|HIAT1|MFSD14A	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A23	HGNC:21106	63027	ENSG00000137266	solute carrier family 22 member 23	A1A5C7		FLJ22174|C6orf85	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A3	HGNC:22979	8273	ENSG00000126903	solute carrier family 10 member 3	P09131		P3|DXS253E	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC28A1	HGNC:11001	9154	ENSG00000156222	solute carrier family 28 member 1	O00337		CNT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A1	HGNC:10910	6557	ENSG00000074803	solute carrier family 12 member 1	Q13621		NKCC2|CCC2|BSC1|BSC|BSC-1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A9	HGNC:13446	56606	ENSG00000109667	solute carrier family 2 member 9	Q9NRM0		Glut9|GLUTX|URATv1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A5	HGNC:10999	10998	ENSG00000083807	solute carrier family 27 member 5	Q9Y2P5		FATP5|VLACSR|VLCS-H2|VLCSH2|FACVL3|FLJ22987|ACSVL6|ACSB	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A3	HGNC:11073	6550	ENSG00000066230	solute carrier family 9 member A3	P48764		NHE-3|NHE3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A6	HGNC:10927	9120	ENSG00000108932	solute carrier family 16 member 6	O15403		MCT6|MCT7	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A7	HGNC:17123	84679	ENSG00000065923	solute carrier family 9 member A7	Q96T83		NHE7|NHE-7	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A2	HGNC:10930	10246	ENSG00000112337	solute carrier family 17 member 2	O00624		NPT3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A1	HGNC:10995	376497	ENSG00000130304	solute carrier family 27 member 1	Q6PCB7		FATP1|FATP|MGC71751|FLJ00336|ACSVL5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A40	HGNC:29680	55972	ENSG00000075303	solute carrier family 25 member 40	Q8TBP6		MCFP	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A36	HGNC:25554	55186	ENSG00000114120	solute carrier family 25 member 36	Q96CQ1		FLJ10618|PNC2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC45A1	HGNC:17939	50651	ENSG00000162426	solute carrier family 45 member 1	Q9Y2W3		DNB5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A17	HGNC:23095	51310	ENSG00000092096	solute carrier family 22 member 17	Q8WUG5		BOCT|BOIT|NGALR	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A12	HGNC:28750	159963	ENSG00000148942	solute carrier family 5 member 12	Q1EHB4		MGC52019|SMCT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A2	HGNC:11072	6549	ENSG00000115616	solute carrier family 9 member A2	Q9UBY0		NHE2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A4	HGNC:22980	201780	ENSG00000145248	solute carrier family 10 member 4	Q96EP9		MGC29802	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A3	HGNC:11061	84889	ENSG00000165349	solute carrier family 7 member 3	Q8WY07		CAT-3|ATRC3|FLJ14541	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A3	HGNC:10912	6559	ENSG00000070915	solute carrier family 12 member 3	P55017		NCCT|NCC|TSC	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A38	HGNC:26054	54977	ENSG00000144659	solute carrier family 25 member 38	Q96DW6		FLJ20551	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A9	HGNC:26907	153129	ENSG00000177058	solute carrier family 38 member 9	Q8NBW4		FLJ90709|SNAT9	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A14	HGNC:29326	57709	ENSG00000013293	solute carrier family 7 member 14	Q8TBB6		KIAA1613|PPP1R142	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A4	HGNC:10990	291	ENSG00000151729	solute carrier family 25 member 4	P12235		T1|AAC1|PEO3|PEO2|ANT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A35	HGNC:31921	399512	ENSG00000125434	solute carrier family 25 member 35	Q3KQZ1		FLJ40217	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A8	HGNC:11055	6535	ENSG00000130821	solute carrier family 6 member 8	P48029		CRTR|CT1|CRT|CRT-1|CRT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A2	HGNC:11028	6522	ENSG00000164889	solute carrier family 4 member 2	P04920		HKB3|BND3L|NBND3|EPB3L1|AE2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC45A2	HGNC:16472	51151	ENSG00000164175	solute carrier family 45 member 2	Q9UMX9		AIM-1|OCA4|MATP	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A6	HGNC:11052	6533	ENSG00000131389	solute carrier family 6 member 6	P31641		TAUT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC47A2	HGNC:26439	146802	ENSG00000180638	solute carrier family 47 member 2	Q86VL8		FLJ31196|MATE2|MATE2-K	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A4	HGNC:20753	113829	ENSG00000176087	solute carrier family 35 member A4	L0R6Q1|Q96G79			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A27	HGNC:21065	9481	ENSG00000153291	solute carrier family 25 member 27	O95847		UCP4|FLJ33552	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC36A4	HGNC:19660	120103	ENSG00000180773	solute carrier family 36 member 4	Q6YBV0		PAT4|FLJ38932	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A11	HGNC:14239	66035	ENSG00000133460	solute carrier family 2 member 11	Q9BYW1		GLUT11	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A19	HGNC:14409	60386	ENSG00000125454	solute carrier family 25 member 19	Q9HC21		DNC|MUP1|TPC|MCPHA	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A1	HGNC:10922	6566	ENSG00000155380	solute carrier family 16 member 1	P53985		MCT|MCT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A7	HGNC:13445	155184	ENSG00000197241	solute carrier family 2 member 7	Q6PXP3		GLUT7	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A13	HGNC:8494	9390	ENSG00000172940	solute carrier family 22 member 13	Q9Y226		OCTL1|OCTL3|OAT10|ORCTL3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A3	HGNC:3018	1811	ENSG00000091138	solute carrier family 26 member 3	P40879		DRA|CLD	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC23A2	HGNC:10973	9962	ENSG00000089057	solute carrier family 23 member 2	Q9UGH3		SVCT2|KIAA0238|YSPL2|SLC23A1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO5A1	HGNC:19046	81796	ENSG00000137571	solute carrier organic anion transporter family member 5A1	Q9H2Y9		OATPRP4|OATP-J|OATP5A1|SLC21A15	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A39	HGNC:24279	51629	ENSG00000013306	solute carrier family 25 member 39	Q9BZJ4		FLJ22407|CGI-69	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A3	HGNC:11023	23443	ENSG00000117620	solute carrier family 35 member A3	Q9Y2D2			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A15	HGNC:10985	10166	ENSG00000102743	solute carrier family 25 member 15	Q9Y619		ORC1|lnc-HC|D13S327|ORNT1|HHH	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A8	HGNC:16270	23539	ENSG00000100156	solute carrier family 16 member 8	O95907		MCT3|REMP	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A2	HGNC:11048	6530	ENSG00000103546	solute carrier family 6 member 2	P23975		NET|NET1|NAT1|SLC6A5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC13A4	HGNC:15827	26266	ENSG00000164707	solute carrier family 13 member 4	Q9UKG4		SUT-1|SUT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A13	HGNC:15956	114134	ENSG00000151229	solute carrier family 2 member 13	Q96QE2		HMIT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35B4	HGNC:20584	84912	ENSG00000205060	solute carrier family 35 member B4	Q969S0		FLJ14697|YEA4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC46A2	HGNC:16055	57864	ENSG00000119457	solute carrier family 46 member 2	Q9BY10		Ly110|TSCOT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A20	HGNC:1421	788	ENSG00000178537	solute carrier family 25 member 20	O43772		CAC|CACT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC41A3	HGNC:31046	54946	ENSG00000114544	solute carrier family 41 member 3	Q96GZ6		FLJ20473	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A8	HGNC:20862	64116	ENSG00000138821	solute carrier family 39 member 8	Q9C0K1		BIGM103|ZIP8|ZIP-8	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A1	HGNC:11071	6548	ENSG00000090020	solute carrier family 9 member A1	P19634		PPP1R143|APNH|NHE1|NHE-1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO1A2	HGNC:10956	6579	ENSG00000084453	solute carrier organic anion transporter family member 1A2	P46721		OATP|OATP1A2|OATP-A|SLC21A3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A37	HGNC:29786	51312	ENSG00000147454	solute carrier family 25 member 37	Q9NYZ2		MSCP|MFRN|MFRN1|HT015	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35H1	HGNC:17117	51006	ENSG00000080189	solute carrier family 35 member H1	Q9NQQ7		CGI-15|bA394O2.1|C20orf5|OVCOV1|SLC35C2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC37A1	HGNC:11024	54020	ENSG00000160190	solute carrier family 37 member 1	P57057		SPX1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A4	HGNC:10932	10050	ENSG00000146039	solute carrier family 17 member 4	Q9Y2C5		KIAA2138	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC68A1	HGNC:26196	79847	ENSG00000138111	solute carrier family 68 member 1	Q14CX5		FLJ22529|bA18I14.8|C10orf77|TMEM180|MFSD13A	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A6	HGNC:11000	28965	ENSG00000113396	solute carrier family 27 member 6	Q9Y2P4		FATP6|VLCS-H1|FACVL2|ACSVL2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC37A2	HGNC:20644	219855	ENSG00000134955	solute carrier family 37 member 2	Q8TED4		FLJ00171|SPX2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A23	HGNC:19375	79085	ENSG00000125648	solute carrier family 25 member 23	Q9BV35		FLJ30339|MGC2615|APC2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC43A2	HGNC:23087	124935	ENSG00000167703	solute carrier family 43 member 2	Q8N370		MGC34680	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC51B	HGNC:29956	123264	ENSG00000186198	SLC51 subunit beta	Q86UW2		OSTbeta|SLC51A1BP	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35D3	HGNC:15621	340146	ENSG00000182747	solute carrier family 35 member D3	Q5M8T2		FRCL1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A7	HGNC:16704	57030	ENSG00000104888	solute carrier family 17 member 7	Q9P2U7		BNPI|VGLUT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F1	HGNC:21483	222553	ENSG00000196376	solute carrier family 35 member F1	Q5T1Q4		dJ230I3.1|C6orf169	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A9	HGNC:20182	55334	ENSG00000029364	solute carrier family 39 member 9	Q9NUM3		FLJ11274|ZIP9	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC36A3	HGNC:19659	285641	ENSG00000186334	solute carrier family 36 member 3	Q495N2		PAT3|TRAMD2|tramdorin2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A6	HGNC:11011	11182	ENSG00000160326	solute carrier family 2 member 6	Q9UGQ3		GLUT9|GLUT6|HSA011372	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A8	HGNC:15595	84561	ENSG00000221955	solute carrier family 12 member 8	A0AV02		CCC9	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A7	HGNC:10915	10723	ENSG00000113504	solute carrier family 12 member 7	Q9Y666		KCC4|DKFZP434F076	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A9	HGNC:22146	200010	ENSG00000117834	solute carrier family 5 member 9	Q2M3M2		SGLT4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC33A2	HGNC:25157	113655	ENSG00000167700	solute carrier family 33 member 2	Q96ES6		MFSD3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A7	HGNC:23088	84068	ENSG00000120519	solute carrier family 10 member 7	Q0GE19		MGC25043|DKFZp566M114|DKFZp313H0531|DKFZp779O2438|C4orf13	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC66A3	HGNC:28503	130814	ENSG00000162976	solute carrier family 66 member 3	Q8N755		MGC33602|C2orf22|PQLC3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A7	HGNC:19306	148867	ENSG00000162695	solute carrier family 30 member 7	Q8NEW0		ZnTL2|ZNT7	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A1	HGNC:10905	6554	ENSG00000100652	solute carrier family 10 member 1	Q14973		NTCP|NTCP1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A3	HGNC:11007	6515	ENSG00000059804	solute carrier family 2 member 3	P11169		GLUT3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A1	HGNC:12876	27173	ENSG00000143570	solute carrier family 39 member 1	Q9NY26		ZIP1|ZIRTL	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A26	HGNC:20661	115286	ENSG00000144741	solute carrier family 25 member 26	Q70HW3		SAMC	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A8	HGNC:14468	116369	ENSG00000112053	solute carrier family 26 member 8	Q96RN1		TAT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A10	HGNC:25355	55532	ENSG00000196660	solute carrier family 30 member 10	Q6XR72		DKFZp547M236|ZnT-10|ZRC1|ZNT8|ZNT10	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC49A3	HGNC:26177	84179	ENSG00000169026	solute carrier family 49 member 3	Q6UXD7		FLJ22269|LP2561|MFSD7	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A16	HGNC:20302	85413	ENSG00000004809	solute carrier family 22 member 16	Q86VW1		FLIPT2|CT2|OKB1|OAT6	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO4C1	HGNC:23612	353189	ENSG00000173930	solute carrier organic anion transporter family member 4C1	Q6ZQN7		SLC21A20|OATP4C1|OATPX|OATP-H	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A5	HGNC:13818	57468	ENSG00000124140	solute carrier family 12 member 5	Q9H2X9		KIAA1176|KCC2|hKCC2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A12	HGNC:20860	221074	ENSG00000148482	solute carrier family 39 member 12	Q504Y0		FLJ30499|ZIP12	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35D4	HGNC:31723	85019	ENSG00000134490	solute carrier family 35 member D4	Q24JQ0		MGC11386|FLJ44259|C18orf45|TMEM241	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A7	HGNC:4927	7922	ENSG00000112473	solute carrier family 39 member 7	Q92504		H2-KE4|D6S2244E|KE4|RING5|ZIP7|HKE4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A31	HGNC:25319	83447	ENSG00000151475	solute carrier family 25 member 31	Q9H0C2		DKFZP434N1235|ANT4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC61A1	HGNC:28156	84975	ENSG00000182544	solute carrier family 61 member 1	Q6N075		MGC11308|HsMOT2|MFSD5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC18A2	HGNC:10935	6571	ENSG00000165646	solute carrier family 18 member A2	Q05940		SVMT|SVAT|VAT2|VMAT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A2	HGNC:10940	6506	ENSG00000110436	solute carrier family 1 member 2	P43004		GLT-1|GLT1|EAAT2|HBGT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A46	HGNC:25198	91137	ENSG00000164209	solute carrier family 25 member 46	Q96AG3			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC37A4	HGNC:4061	2542	ENSG00000137700	solute carrier family 37 member 4	O43826		GSD1b|GSD1c|GSD1d|G6PT|SPX4|G6PT1|G6PT2|G6PT3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A5	HGNC:10991	292	ENSG00000005022	solute carrier family 25 member 5	P05141		T2|2F1|T3|ANT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A4	HGNC:11015	7782	ENSG00000104154	solute carrier family 30 member 4	O14863		ZNT4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO1B1	HGNC:10959	10599	ENSG00000134538	solute carrier organic anion transporter family member 1B1	Q9Y6L6		OATP-C|LST-1|OATP1B1|SLC21A6	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC31A1	HGNC:11016	1317	ENSG00000136868	solute carrier family 31 member 1	O15431		hCTR1|CTR1|COPT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A1	HGNC:11036	6523	ENSG00000100170	solute carrier family 5 member 1	P13866		D22S675|NAGT|SGLT-1|SGLT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35E4	HGNC:17058	339665	ENSG00000100036	solute carrier family 35 member E4	Q6ICL7			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A2	HGNC:10921	6565	ENSG00000163406	solute carrier family 15 member 2	Q16348		PEPT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC19A2	HGNC:10938	10560	ENSG00000117479	solute carrier family 19 member 2	O60779		THTR1|ThT1|TRMA	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC40A1	HGNC:10909	30061	ENSG00000138449	solute carrier family 40 member 1	Q9NP59		MTP1|IREG1|FPN1|HFE4|FPN|SLC11A3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A9	HGNC:16192	63910	ENSG00000101194	solute carrier family 17 member 9	Q9BYT1		FLJ23412|VNUT|C20orf59	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC29A2	HGNC:11004	3177	ENSG00000174669	solute carrier family 29 member 2	Q14542		DER12|ENT2|HNP36	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A3	HGNC:18044	10991	ENSG00000188338	solute carrier family 38 member 3	Q99624		G17|SN1|SNAT3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC43A1	HGNC:9225	8501	ENSG00000149150	solute carrier family 43 member 1	O75387		R00504|PB39|POV1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A4	HGNC:17129	55630	ENSG00000147804	solute carrier family 39 member 4	Q6P5W5		ZIP4|ZIP-4|AWMS2|AEZ	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A18	HGNC:26441	348932	ENSG00000164363	solute carrier family 6 member 18	Q96N87		FLJ31236|Xtrp2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G2	HGNC:28480	80723	ENSG00000168917	solute carrier family 35 member G2	Q8TBE7		MGC3295|DKFZp564K2464|TMEM22	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A3	HGNC:18068	51296	ENSG00000110446	solute carrier family 15 member 3	Q8IY34		PHT2|hPTR3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A42	HGNC:28380	284439	ENSG00000181035	solute carrier family 25 member 42	Q86VD7		MGC26694	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A12	HGNC:23094	387700	ENSG00000152779	solute carrier family 16 member 12	Q6ZSM3		MCT12|CRT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A1	HGNC:11042	6529	ENSG00000157103	solute carrier family 6 member 1	P30531		GAT1|GABATR|GABATHG|GAT-1|hGAT-1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A1	HGNC:10993	10861	ENSG00000145217	solute carrier family 26 member 1	Q9H2B4		SAT-1|EDM4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A6	HGNC:10992	293	ENSG00000169100	solute carrier family 25 member 6	P12236		ANT3Y|MGC17525|ANT3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC20A2	HGNC:10947	6575	ENSG00000168575	solute carrier family 20 member 2	Q08357		PiT-2|Glvr-2|Ram-1|PIT2|MLVAR|GLVR2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A7	HGNC:25582	55238	ENSG00000103042	solute carrier family 38 member 7	Q9NVC3		FLJ10815|SNAT7	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35B1	HGNC:20798	10237	ENSG00000121073	solute carrier family 35 member B1	P78383		UGTREL1|AXER	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G4	HGNC:31043	646000	ENSG00000236396	solute carrier family 35 member G4	P0C7Q5		AMAC1L1|SLC35G4P	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC18A3	HGNC:10936	6572	ENSG00000187714	solute carrier family 18 member A3	Q16572		VACHT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A17	HGNC:10987	10478	ENSG00000100372	solute carrier family 25 member 17	O43808		PMP34	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A4	HGNC:10925	9122	ENSG00000168679	solute carrier family 16 member 4	O15374		MCT4|MCT5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A6OS	HGNC:25807	84138	ENSG00000103061	solute carrier family 7 member 6 opposite strand	Q96CW6		FLJ13291|Iwr1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A5	HGNC:28524	204962	ENSG00000137968	solute carrier family 44 member 5	Q8NCS7		MGC34032|CTL5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC60A2	HGNC:21053	91749	ENSG00000173214	solute carrier family 60 member 2	Q5TF39		MGC33953|KIAA1919|MFSD4B	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A10	HGNC:23155	125206	ENSG00000154025	solute carrier family 5 member 10	A0PJK1		SGLT5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A51	HGNC:23323	92014	ENSG00000122696	solute carrier family 25 member 51	Q9H1U9		MGC14836|CG7943|MCART1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC29A1	HGNC:11003	2030	ENSG00000112759	solute carrier family 29 member 1 (Augustine blood group)	Q99808		ENT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A1	HGNC:18798	23446	ENSG00000070214	solute carrier family 44 member 1	Q8WWI5		CTL1|CHTL1|CD92|CDW92	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC19A1	HGNC:10937	6573	ENSG00000173638	solute carrier family 19 member 1	P41440		FOLT|RFC1|IFC-1|RFC|hRFC|RFT-1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO1B7	HGNC:32934	338821	ENSG00000205754	solute carrier organic anion transporter family member 1B7 (putative)	G3V0H7		LST3|SLC21A21	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A24	HGNC:28542	283238	ENSG00000197658	solute carrier family 22 member 24	Q8N4F4		MGC34821|NET46	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A6	HGNC:30603	345274	ENSG00000145283	solute carrier family 10 member 6	Q3KNW5		SOAT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A25	HGNC:20663	114789	ENSG00000148339	solute carrier family 25 member 25	Q6KCM7		KIAA1896|PCSCL|MCSC	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A3	HGNC:11049	6531	ENSG00000142319	solute carrier family 6 member 3	Q01959		DAT|DAT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A2	HGNC:10911	6558	ENSG00000064651	solute carrier family 12 member 2	P55011		NKCC1|BSC2|BSC-2|PPP1R141|CCC1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A2	HGNC:10966	6582	ENSG00000112499	solute carrier family 22 member 2	O15244		OCT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC75A1	HGNC:16894	10227	ENSG00000109736	solute carrier family 75 member 1	Q14728		IT10C3|TETRAN|SLC75A1|MFSD10	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A5	HGNC:18168	57835	ENSG00000188687	solute carrier family 4 member 5	Q9BY07		NBC4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A44	HGNC:29036	9673	ENSG00000160785	solute carrier family 25 member 44	Q96H78		FLJ90431|KIAA0446	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC33A1	HGNC:95	9197	ENSG00000169359	solute carrier family 33 member 1	O00400		AT-1|AT1|ACATN|SPG42	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC41A2	HGNC:31045	84102	ENSG00000136052	solute carrier family 41 member 2	Q96JW4		DKFZP434K0427	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A2	HGNC:11060	6542	ENSG00000003989	solute carrier family 7 member 2	P52569		CAT-2|HCAT2|SLC7A2A|SLC7A2B|CAT-2A|CAT-2B|ATRC2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A4	HGNC:11009	6517	ENSG00000181856	solute carrier family 2 member 4	P14672		GLUT4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A3	HGNC:10941	6507	ENSG00000079215	solute carrier family 1 member 3	P43003		EAAT1|GLAST|EA6|GLAST1|GLAST-1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC24A1	HGNC:10975	9187	ENSG00000074621	solute carrier family 24 member 1	O60721		NCKX1|NCKX|RODX|KIAA0702|HsT17412|CSNB1D	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A10	HGNC:18057	387775	ENSG00000184999	solute carrier family 22 member 10 (gene/pseudogene)	Q63ZE4		OAT5|hOAT5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC34A1	HGNC:11019	6569	ENSG00000131183	solute carrier family 34 member 1	Q06495		NAPI-3|NPTIIa|SLC11|NPT2|SLC17A2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO2A1	HGNC:10955	6578	ENSG00000174640	solute carrier organic anion transporter family member 2A1	Q92959		PGT|OATP2A1|SLC21A2|MATR1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A29	HGNC:20116	123096	ENSG00000197119	solute carrier family 25 member 29	Q8N8R3		FLJ38975|C14orf69	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A8	HGNC:11066	23428	ENSG00000092068	solute carrier family 7 member 8	Q9UHI5		LPI-PC1|LAT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC36A1	HGNC:18761	206358	ENSG00000123643	solute carrier family 36 member 1	Q7Z2H8		LYAAT-1|PAT1|TRAMD3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A4	HGNC:11062	6545	ENSG00000099960	solute carrier family 7 member 4	O43246		HCAT3|CAT-4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A2	HGNC:10906	6555	ENSG00000125255	solute carrier family 10 member 2	Q12908		NTCP2|IBAT|ASBT|ISBT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A5	HGNC:22981	347051	ENSG00000253598	solute carrier family 10 member 5	Q5PT55			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A12	HGNC:11045	6539	ENSG00000111181	solute carrier family 6 member 12	P48065		BGT-1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC28A3	HGNC:16484	64078	ENSG00000197506	solute carrier family 28 member 3	Q9HAS3		CNT3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC24A3	HGNC:10977	57419	ENSG00000185052	solute carrier family 24 member 3	Q9HC58			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC13A2	HGNC:10917	9058	ENSG00000007216	solute carrier family 13 member 2	Q13183		NaDC-1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A1	HGNC:10963	6580	ENSG00000175003	solute carrier family 22 member 1	O15245		OCT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35C1	HGNC:20197	55343	ENSG00000181830	solute carrier family 35 member C1	Q96A29		FUCT1|FLJ11320	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC71A2	HGNC:23376	84641	ENSG00000148110	solute carrier family 71 member 2	Q5SR56		FLJ14753|HIATL1|MFSD14B	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC8A2	HGNC:11069	6543	ENSG00000118160	solute carrier family 8 member A2	Q9UPR5		NCX2|KIAA1087	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A11	HGNC:26836	151258	ENSG00000169507	solute carrier family 38 member 11	Q08AI6		FLJ39822|AVT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A7	HGNC:14025	60482	ENSG00000115665	solute carrier family 5 member 7	Q9GZV3		hCHT|CHT1|ChT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9B1	HGNC:24244	150159	ENSG00000164037	solute carrier family 9 member B1	Q4ZJI4		NHA1|NHEDC1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A8	HGNC:32434	146167	ENSG00000166558	solute carrier family 38 member 8	A6NNN8		SNAT8	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A5	HGNC:10943	6510	ENSG00000105281	solute carrier family 1 member 5	Q15758		AAAT|ASCT2|RDRC|M7V1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G3	HGNC:26848	146861	ENSG00000164729	solute carrier family 35 member G3	Q8N808		FLJ40154|TMEM21A|AMAC1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC13A3	HGNC:14430	64849	ENSG00000158296	solute carrier family 13 member 3	Q8WWT9		NADC3|SDCT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A11	HGNC:10981	8402	ENSG00000108528	solute carrier family 25 member 11	Q02978		OGC|SLC20A4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A10	HGNC:10980	1468	ENSG00000183048	solute carrier family 25 member 10	Q9UBX3		DIC	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO3A1	HGNC:10952	28232	ENSG00000176463	solute carrier organic anion transporter family member 3A1	Q9UIG8		OATP-D|OATP3A1|SLC21A11	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC32A1	HGNC:11018	140679	ENSG00000101438	solute carrier family 32 member 1	Q9H598		VGAT|bA122O1.1|VIAAT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A2	HGNC:11022	7355	ENSG00000102100	solute carrier family 35 member A2	P78381		UGAT|UGT|UGT1|UGT2|UGTL|UDP-Gal-Tr|UGALT	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9D1	HGNC:20329	55002	ENSG00000150403	solute carrier family 9 member D1	Q6UWJ1		FLJ20623|C13orf11|TMCO3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC43A3	HGNC:17466	29015	ENSG00000134802	solute carrier family 43 member 3	Q8NBI5		SEEEG-1|Eeg1|DKFZp762A227|FOAP-13|PRO1659	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A11	HGNC:18120	55867	ENSG00000168065	solute carrier family 22 member 11	Q9NSA0		OAT4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A10	HGNC:17027	117247	ENSG00000112394	solute carrier family 16 member 10	Q8TF71		TAT1|MCT10	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A8	HGNC:10972	9376	ENSG00000149452	solute carrier family 22 member 8	Q8TCC7		OAT3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC60A1	HGNC:25433	148808	ENSG00000174514	solute carrier family 60 member 1	Q8N468		DKFZp761N1114|FLJ34577|UNQ3064|FLJ25004|MFSD4|MFSD4A	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC24A2	HGNC:10976	25769	ENSG00000155886	solute carrier family 24 member 2	Q9UI40		NCKX2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A16	HGNC:10986	8034	ENSG00000122912	solute carrier family 25 member 16	P16260		GDA|D10S105E|HGT.1|ML7	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A10	HGNC:20861	57181	ENSG00000196950	solute carrier family 39 member 10	Q9ULF5		KIAA1265|FLJ90515|DKFZp564L2123|ZIP10	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC50A1	HGNC:30657	55974	ENSG00000169241	solute carrier family 50 member 1	Q9BRV3		SCP|RP11-540D14.5|slv|RZPDo834D038D|HsSWEET1|SWEET1|RAG1AP1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A11	HGNC:16438	83959	ENSG00000088836	solute carrier family 4 member 11	Q8NBS3		dJ794I6.2|BTR1|NaBC1|FECD4|CHED2|CDPD1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC48A1	HGNC:26035	55652	ENSG00000211584	solute carrier family 48 member 1	Q6P1K1		FLJ20489|hHRG-1|HRG1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC8A3	HGNC:11070	6547	ENSG00000100678	solute carrier family 8 member A3	P57103		NCX3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A8	HGNC:11034	9498	ENSG00000050438	solute carrier family 4 member 8	Q2Y0W8		NBC3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO1B3	HGNC:10961	28234	ENSG00000111700	solute carrier organic anion transporter family member 1B3	Q9NPD5		OATP8|OATP1B3|SLC21A8	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A45	HGNC:27442	283130	ENSG00000162241	solute carrier family 25 member 45	Q8N413			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A4	HGNC:23090	121260	ENSG00000139370	solute carrier family 15 member 4	Q8N697		PHT1|PTR4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F4	HGNC:19845	341880	ENSG00000151812	solute carrier family 35 member F4	A4IF30		FLJ37712|C14orf36	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC52A2	HGNC:30224	79581	ENSG00000185803	solute carrier family 52 member 2	Q9HAB3		FLJ11856|PAR1|GPCR41|D15Ertd747e|RFVT2|hRFT3|RFT3|HuPAR-1|GPR172A	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A9	HGNC:17435	56996	ENSG00000146828	solute carrier family 12 member 9	Q9BXP2		CIP1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A6	HGNC:10944	6511	ENSG00000105143	solute carrier family 1 member 6	P48664		EAAT4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A17	HGNC:31399	388662	ENSG00000197106	solute carrier family 6 member 17	Q9H1V8		NTT4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A5	HGNC:20502	283375	ENSG00000139540	solute carrier family 39 member 5	Q6ZMH5		ZIP5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A4	HGNC:11030	8671	ENSG00000080493	solute carrier family 4 member 4	Q9Y6R1		NBC1|HNBC1|NBC2|pNBC|hhNMC|kNBC1|KNBC|NBCe1|SLC4A5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A3	HGNC:28689	126969	ENSG00000143036	solute carrier family 44 member 3	Q8N4M1		MGC45474|CTL3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC37A3	HGNC:20651	84255	ENSG00000157800	solute carrier family 37 member 3	Q8NCC5		DKFZp761N0624|SPX3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9B2	HGNC:25143	133308	ENSG00000164038	solute carrier family 9 member B2	Q86UD5		FLJ23984|NHA2|NHEDC2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35E3	HGNC:20864	55508	ENSG00000175782	solute carrier family 35 member E3	Q7Z769		BLOV1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A11	HGNC:11044	6538	ENSG00000132164	solute carrier family 6 member 11	P48066		GAT3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A6	HGNC:11079	10479	ENSG00000198689	solute carrier family 9 member A6	Q92581		NHE6|KIAA0267|NHE-6	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A2	HGNC:17127	29986	ENSG00000165794	solute carrier family 39 member 2	Q9NP94		ZIP2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A16	HGNC:13622	28968	ENSG00000063127	solute carrier family 6 member 16	Q9GZN6		NTT5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC45A4	HGNC:29196	57210	ENSG00000022567	solute carrier family 45 member 4	Q5BKX6		KIAA1126	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A6	HGNC:10914	9990	ENSG00000140199	solute carrier family 12 member 6	Q9UHW9		KCC3A|KCC3B|KCC3|ACCPN	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A13	HGNC:10983	10165	ENSG00000004864	solute carrier family 25 member 13	Q9UJS0		CITRIN|ARALAR2|CTLN2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A1	HGNC:11027	6521	ENSG00000004939	solute carrier family 4 member 1 (Diego blood group)	P02730		RTA1A|CD233|FR|SW|WR|EMPB3|EPB3|AE1|DI|WD	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35B2	HGNC:16872	347734	ENSG00000157593	solute carrier family 35 member B2	Q8TB61		UGTrel4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A14	HGNC:26417	151473	ENSG00000163053	solute carrier family 16 member 14	Q7RTX9		FLJ30794|MCT14	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC8B1	HGNC:26175	80024	ENSG00000089060	solute carrier family 8 member B1	Q6J4K2		FLJ22233|NCKX6|NCLX|SLC24A6	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A11	HGNC:14471	284129	ENSG00000181045	solute carrier family 26 member 11	Q86WA9			cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A1	HGNC:11012	7779	ENSG00000170385	solute carrier family 30 member 1	Q9Y6M5		ZRC1|ZNT1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A2	HGNC:10923	6567	ENSG00000147100	solute carrier family 16 member 2	P36021		XPCT|MCT8|MCT7|DXS128E|DXS128|AHDS|MRX22	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC29A4	HGNC:23097	222962	ENSG00000164638	solute carrier family 29 member 4	Q7RTT9		FLJ34923|ENT4	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A10	HGNC:13444	81031	ENSG00000197496	solute carrier family 2 member 10	O95528		GLUT10|GLUT-10	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A9	HGNC:20653	285195	ENSG00000181804	solute carrier family 9 member A9	Q8IVB4		FLJ35613|NHE9	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC24A5	HGNC:20611	283652	ENSG00000188467	solute carrier family 24 member 5	Q71RS6		JSX|OCA6|NCKX5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A5	HGNC:11010	6518	ENSG00000142583	solute carrier family 2 member 5	P22732		GLUT5	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC31A2	HGNC:11017	1318	ENSG00000136867	solute carrier family 31 member 2	O15432		hCTR2|CTR2|COPT2	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A25	HGNC:32935	387601	ENSG00000196600	solute carrier family 22 member 25	Q6T423		UST6|HIMTP|MGC120420	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A8	HGNC:20728	23315	ENSG00000197818	solute carrier family 9 member A8	Q9Y2E8		KIAA0939|NHE8	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC14A1	HGNC:10918	6563	ENSG00000141469	solute carrier family 14 member 1 (Kidd blood group)	Q13336		HsT1341|RACH1|RACH2|JK	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A5	HGNC:10926	9121	ENSG00000170190	solute carrier family 16 member 5	O15375		MCT5|MCT6	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A1	HGNC:10979	6576	ENSG00000100075	solute carrier family 25 member 1	P53007		CTP|CIC|SLC20A3	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC13A1	HGNC:10916	6561	ENSG00000081800	solute carrier family 13 member 1	Q9BZW2		NaSi-1|NAS1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A33	HGNC:29681	84275	ENSG00000171612	solute carrier family 25 member 33	Q9BSK2		MGC4399|BMSC-MCP|PNC1	cystinuria	random	0		SLC decoy	SLC decoy, seed 20260921
+RNASE12	HGNC:24211	493901	ENSG00000258436	ribonuclease A family member 12 (inactive)	Q5GAN4		RAI1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CELSR3	HGNC:3230	1951	ENSG00000008300	cadherin EGF LAG seven-pass G-type receptor 3	Q9NYQ7		MEGF2|HFMI1|FMI1|CDHF11|ADGRC3|EGFL1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SVIL	HGNC:11480	6840	ENSG00000197321	supervillin	O95425			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+EMC6	HGNC:28430	83460	ENSG00000127774	ER membrane protein complex subunit 6	Q9BV81		MGC2963|RAB5IFL|TMEM93	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HSD11B2	HGNC:5209	3291	ENSG00000176387	hydroxysteroid 11-beta dehydrogenase 2	P80365		SDR9C3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ANKRD36C	HGNC:32946	400986	ENSG00000174501	ankyrin repeat domain 36C	Q5JPF3		DKFZp667P0924	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RABL3	HGNC:18072	285282	ENSG00000144840	RAB, member of RAS oncogene family like 3	Q5HYI8		MGC23920	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PTP4A3	HGNC:9636	11156	ENSG00000184489	protein tyrosine phosphatase 4A3	O75365		PRL-3|PRL-R|PRL3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SSTR3	HGNC:11332	6753	ENSG00000278195	somatostatin receptor 3	P32745			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KLC3	HGNC:20717	147700	ENSG00000104892	kinesin light chain 3	Q6P597		KLC2L|KNS2B|KLCt	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PTPRF	HGNC:9670	5792	ENSG00000142949	protein tyrosine phosphatase receptor type F	P10586		LAR	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GRIA3	HGNC:4573	2892	ENSG00000125675	glutamate ionotropic receptor AMPA type subunit 3	P42263		GluA3|GLURC|MRX94|GluR-3|GluR-C|GluR-K3|iGluR3|GLUR3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GNGT2	HGNC:4412	2793	ENSG00000167083	G protein subunit gamma transducin 2	O14610		GNG9	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ARVCF	HGNC:728	421	ENSG00000099889	ARVCF delta catenin family member	O00192			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF808	HGNC:33230	388558	ENSG00000198482	zinc finger protein 808	Q8N4W9			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CCDC12	HGNC:28332	151903	ENSG00000160799	coiled-coil domain containing 12	Q8WUD4		MGC23918	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ARHGEF3	HGNC:683	50650	ENSG00000163947	Rho guanine nucleotide exchange factor 3	Q9NR81		STA3|XPLN|GEF3|DKFZP434F2429	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF224	HGNC:13017	7767	ENSG00000267680	zinc finger protein 224	Q9NZL3		BMZF-2|KOX22|ZNF255|ZNF27	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CPNE4	HGNC:2317	131034	ENSG00000196353	copine 4	Q96A23		COPN4|CPN4	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MIX23	HGNC:31136	131076	ENSG00000160124	mitochondrial matrix import factor 23	Q4VC31		FLJ33273|CCDC58	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PLPP5	HGNC:25026	84513	ENSG00000147535	phospholipid phosphatase 5	Q8NEB5		HTPAP|DPPL1|PPAPDC1B	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+WDR47	HGNC:29141	22911	ENSG00000085433	WD repeat domain 47	O94967		KIAA0893	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SUMO1	HGNC:12502	7341	ENSG00000116030	small ubiquitin like modifier 1	P63165		PIC1|GMP1|SMT3C|SUMO-1|SMT3H3|OFC10|UBL1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CCDC175	HGNC:19847	729665	ENSG00000151838	coiled-coil domain containing 175	P0C221		C14orf38	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NINL	HGNC:29163	22981	ENSG00000101004	ninein like	Q9Y2I6		KIAA0980|NLP	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LSM3	HGNC:17874	27258	ENSG00000170860	LSM3 homolog, U6 small nuclear RNA and mRNA degradation associated	P62310		YLR438C|SMX4|USS2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KLRC2	HGNC:6375	3822	ENSG00000205809	killer cell lectin like receptor C2	P26717		NKG2-C|CD159c|NKG2C	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+STAC	HGNC:11353	6769	ENSG00000144681	SH3 and cysteine rich domain	Q99469		STAC1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HMGCL	HGNC:5005	3155	ENSG00000117305	3-hydroxy-3-methylglutaryl-CoA lyase	P35914		HL|HMGCL1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CD300E	HGNC:28874	342510	ENSG00000186407	CD300e molecule	Q496F6		IREM2|CLM2|CD300LE	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TEX13D	HGNC:52278	100132015	ENSG00000282419	TEX13 family member D	A0A0J9YY54			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RCOR3	HGNC:25594	55758	ENSG00000117625	REST corepressor 3	Q9P2K3		FLJ10876	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RANBP6	HGNC:9851	26953	ENSG00000137040	RAN binding protein 6	O60518			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MAVS	HGNC:29233	57506	ENSG00000088888	mitochondrial antiviral signaling protein	Q7Z434		VISA|KIAA1271|IPS-1|Cardif	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RD3	HGNC:19689	343035	ENSG00000198570	RD3 regulator of GUCY2D	Q7Z3Z2		LCA12|C1orf36	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CTC1	HGNC:26169	80169	ENSG00000178971	CST telomere replication complex component 1	Q2NKJ3		FLJ22170|AAF132|C17orf68	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+EFR3B	HGNC:29155	22979	ENSG00000084710	EFR3 homolog B	Q9Y2G0		FLJ37871|KIAA0953	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TSEN15	HGNC:16791	116461	ENSG00000198860	tRNA splicing endonuclease subunit 15	Q8WW01		C1orf19	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FBXL4	HGNC:13601	26235	ENSG00000112234	F-box and leucine rich repeat protein 4	Q9UKA2		FBL4|FBL5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FGGY	HGNC:25610	55277	ENSG00000172456	FGGY carbohydrate kinase domain containing	Q96C11		FLJ10986	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ANAPC10	HGNC:24077	10393	ENSG00000164162	anaphase promoting complex subunit 10	Q9UM13		APC10|DOC1|DKFZP564L0562	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+STRN3	HGNC:15720	29966	ENSG00000196792	striatin 3	Q13033		SG2NA|PPP2R6B|S/G2NA	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PTN	HGNC:9630	5764	ENSG00000105894	pleiotrophin	P21246		HBNF|HBGF8|NEGF1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TIMP4	HGNC:11823	7079	ENSG00000157150	TIMP metallopeptidase inhibitor 4	Q99727			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TAS2R5	HGNC:14912	54429	ENSG00000127366	taste 2 receptor member 5	Q9NYW4		T2R5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MLPH	HGNC:29643	79083	ENSG00000115648	melanophilin	Q9BV36		l1Rk3|l(1)-3Rk|Slac-2a|ln|exophilin-3|SLAC2-A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RXFP2	HGNC:17318	122042	ENSG00000133105	relaxin family peptide receptor 2	Q8WXD0		GREAT|GPR106|INSL3R|RXFPR2|LGR8	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TSPOAP1	HGNC:16831	9256	ENSG00000005379	TSPO associated protein 1	O95153		PRAX-1|KIAA0612|RIM-BP1|RIMBP1|BZRAP1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FANCL	HGNC:20748	55120	ENSG00000115392	FA complementation group L	Q9NW38		FLJ10335|FAAP43|Pog|PHF9	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TAF1D	HGNC:28759	79101	ENSG00000166012	TATA-box binding protein associated factor, RNA polymerase I subunit D	Q9H5J8		MGC5306|TAF(I)41|JOSD3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CYTH1	HGNC:9501	9267	ENSG00000108669	cytohesin 1	Q15438		B2-1|D17S811E|cytohesin-1|PSCD1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NOX4	HGNC:7891	50507	ENSG00000086991	NADPH oxidase 4	Q9NPH5		KOX-1|KOX	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MITF	HGNC:7105	4286	ENSG00000187098	melanocyte inducing transcription factor	O75030		MI|bHLHe32|WS2A|WS2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SYNDIG1	HGNC:15885	79953	ENSG00000101463	synapse differentiation inducing 1	Q9H7V2		FLJ14220|IFITMD5|DSPC2|C20orf39|TMEM90B	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RLIG1	HGNC:25322	91298	ENSG00000133641	RNA 5'-phosphate and 3'-OH ligase 1	Q8N999		DKFZp434N2030|C12orf29	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+WIPF1	HGNC:12736	7456	ENSG00000115935	WAS/WASL interacting protein family member 1	O43516		WIP|WASPIP	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+WDR83OS	HGNC:30203	51398	ENSG00000105583	WD repeat domain 83 opposite strand	Q9Y284		PTD008|PAT10|C19orf56	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MRPL47	HGNC:16652	57129	ENSG00000136522	mitochondrial ribosomal protein L47	Q9HD33		CGI-204|NCM1|uL29m	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GPR183	HGNC:3128	1880	ENSG00000169508	G protein-coupled receptor 183	P32249		EBI2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CDK11B	HGNC:1729	984	ENSG00000248333	cyclin dependent kinase 11B	P21127		CDK11-p110|CDK11-p58|CDK11-p46|CDC2L1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SPAG4	HGNC:11214	6676	ENSG00000061656	sperm associated antigen 4	Q9NPE6		SUN4|CT127	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FOXS1	HGNC:3735	2307	ENSG00000179772	forkhead box S1	O43638		FREAC10|FKHL18	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NR1H4	HGNC:7967	9971	ENSG00000012504	nuclear receptor subfamily 1 group H member 4	Q96RI1		FXR|RIP14|HRR1|HRR-1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SCAPER	HGNC:13081	49855	ENSG00000140386	S-phase cyclin A associated protein in the ER	Q9BY12		Zfp291|ZNF291	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SP5	HGNC:14529	389058	ENSG00000204335	Sp5 transcription factor	Q6BEB4			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PTP4A2	HGNC:9635	8073	ENSG00000184007	protein tyrosine phosphatase 4A2	Q12974		HU-PP-1|PTPCAAX2|OV-1|ptp-IV1a|PRL-2|PRL2|PTP4A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NCAPG2	HGNC:21904	54892	ENSG00000146918	non-SMC condensin II complex subunit G2	Q86XI2		FLJ20311|MTB|CAP-G2|hCAP-G2|LUZP5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FAM107A	HGNC:30827	11170	ENSG00000168309	family with sequence similarity 107 member A	O95990		DRR1|TU3A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ASF1B	HGNC:20996	55723	ENSG00000105011	anti-silencing function 1B histone chaperone	Q9NVP2		FLJ10604	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CDH8	HGNC:1767	1006	ENSG00000150394	cadherin 8	P55286			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZC2HC1B	HGNC:21174	153918	ENSG00000118491	zinc finger C2HC-type containing 1B	Q5TFG8		dJ468K18.5|FAM164B|C6orf94	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PPP2R1B	HGNC:9303	5519	ENSG00000137713	protein phosphatase 2 scaffold subunit Abeta	P30154		PR65B|PP2A-Abeta	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZSCAN5C	HGNC:34294	649137	ENSG00000204532	zinc finger and SCAN domain containing 5C	A6NGD5		ZNF495C|ZSCAN5CP	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LBR	HGNC:6518	3930	ENSG00000143815	lamin B receptor	Q14739		DHCR14B|TDRD18	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SCHIP1	HGNC:15678	29970	ENSG00000151967	schwannomin interacting protein 1	P0DPB3		SCHIP-1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CAPN1	HGNC:1476	823	ENSG00000014216	calpain 1	P07384		muCANP|muCL|CANP|CANPL1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RNF43	HGNC:18505	54894	ENSG00000108375	ring finger protein 43	Q68DV7		FLJ20315|RNF124|DKFZp781H0392|URCC	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MS4A3	HGNC:7317	932	ENSG00000149516	membrane spanning 4-domains A3	Q96HJ5		HTM4|CD20L	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KRTAP10-6	HGNC:20523	386674	ENSG00000188155	keratin associated protein 10-6	P60371		KRTAP18.6|KAP18.6|KAP10.6|KRTAP18-6	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HPSE	HGNC:5164	10855	ENSG00000173083	heparanase	Q9Y251		HPA|HSE1|HPSE1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SELL	HGNC:10720	6402	ENSG00000188404	selectin L	P14151		LSEL|LAM1|LAM-1|hLHRc|Leu-8|Lyam-1|PLNHR|CD62L|LYAM1|LNHR	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RNASE3	HGNC:10046	6037	ENSG00000169397	ribonuclease A family member 3	P12724		ECP|RAF1|RNS3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZIC1	HGNC:12872	7545	ENSG00000152977	Zic family zinc finger 1	Q15915		ZIC|ZNF201	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CXorf51A	HGNC:30533	100129239	ENSG00000224440	chromosome X open reading frame 51A	A0A1B0GTR3		CXorf51	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ACO1	HGNC:117	48	ENSG00000122729	aconitase 1	P21399		IRP1|IREBP|IREB1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KIAA1614	HGNC:29327	57710	ENSG00000135835	KIAA1614	Q5VZ46			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF749	HGNC:32783	388567	ENSG00000186230	zinc finger protein 749	O43361		FLJ16360	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SCML2	HGNC:10581	10389	ENSG00000102098	Scm polycomb group protein like 2	Q9UQR0			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CDC37L1	HGNC:17179	55664	ENSG00000106993	cell division cycle 37 like 1, HSP90 cochaperone	Q7L3B6		HARC|FLJ20639|CDC37B	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ANKS1B	HGNC:24600	56899	ENSG00000185046	ankyrin repeat and sterile alpha motif domain containing 1B	Q7Z6G8		EB-1|AIDA-1|cajalin-2|ANKS2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TRIM17	HGNC:13430	51127	ENSG00000162931	tripartite motif containing 17	Q9Y577		terf|RBCC|RNF16	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+BCL9L	HGNC:23688	283149	ENSG00000186174	BCL9 like	Q86UU0		DLNB11|B9L|Bcl9-2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KRT85	HGNC:6462	3891	ENSG00000135443	keratin 85	P78386		Hb-5|KRTHB5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+COX16	HGNC:20213	51241	ENSG00000133983	cytochrome c oxidase assembly factor COX16	Q9P0S2		HSPC203|C14orf112	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PREX1	HGNC:32594	57580	ENSG00000124126	phosphatidylinositol-3,4,5-trisphosphate dependent Rac exchange factor 1	Q8TCU6		KIAA1415|P-REX1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TMEM45B	HGNC:25194	120224	ENSG00000151715	transmembrane protein 45B	Q96B21		BC016153|FLJ40787	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CD63	HGNC:1692	967	ENSG00000135404	CD63 molecule	P08962		ME491|TSPAN30|HOP-26|Pltgp40|AD1|MLA1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+UBAC1	HGNC:30221	10422	ENSG00000130560	UBA domain containing 1	Q9BSL1		GBDR1|KPC2|UBADC1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ITGA5	HGNC:6141	3678	ENSG00000161638	integrin subunit alpha 5	P08648		CD49e|FNRA	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SSC4D	HGNC:14461	136853	ENSG00000146700	scavenger receptor cysteine rich family member with 4 domains	Q8WTU2		SRCRB-S4D|S4D-SRCRB|SRCRB4D	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TBCD	HGNC:11581	6904	ENSG00000141556	tubulin folding cofactor D	Q9BTW9			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RGS14	HGNC:9996	10636	ENSG00000169220	regulator of G protein signaling 14	O43566			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CPD	HGNC:2301	1362	ENSG00000108582	carboxypeptidase D	O75976		GP180	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+WASHC2A	HGNC:23416	387680	ENSG00000099290	WASH complex subunit 2A	Q641Q2		bA56A21.1|bA98I6.1|FLJ10824|FAM21B|FAM21A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TNFRSF10C	HGNC:11906	8794	ENSG00000173535	TNF receptor superfamily member 10c	O14798		DcR1|TRAILR3|LIT|TRID|CD263	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FAM90A11	HGNC:32259	441331	ENSG00000233115	family with sequence similarity 90 member A11	A0A8V8TNH8		FAM90A11P	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FBXW10B	HGNC:14379	374286	ENSG00000241322	F-box and WD repeat domain containing 10B	O95170		HREP|SM25H2|FBXW10P1|CDRT1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CDK5RAP1	HGNC:15880	51654	ENSG00000101391	CDK5RAP1 mitochondrial tRNA methylthiotransferase	Q96SZ6		CGI-05|HSPC167|C42|C20orf34	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ISG15	HGNC:4053	9636	ENSG00000187608	ISG15 ubiquitin like modifier	P05161		IFI15|UCRP|G1P2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TMEM275	HGNC:53938	105378696	ENSG00000282881	transmembrane protein 275	A0A0U1RQS6			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+OR11H7	HGNC:15350	390441	ENSG00000258806	olfactory receptor family 11 subfamily H member 7 (gene/pseudogene)	Q8NGC8		OR11H7P	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DAPK3	HGNC:2676	1613	ENSG00000167657	death associated protein kinase 3	O43293		ZIP|ZIPK	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MPHOSPH6	HGNC:7214	10200	ENSG00000135698	M-phase phosphoprotein 6	Q99547		MPP6	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TRAF4	HGNC:12034	9618	ENSG00000076604	TNF receptor associated factor 4	Q9BUZ4		CART1|MLN62|RNF83	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZSCAN18	HGNC:21037	65982	ENSG00000121413	zinc finger and SCAN domain containing 18	Q8TBC5		FLJ12895|ZNF447	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RELB	HGNC:9956	5971	ENSG00000104856	RELB proto-oncogene, NF-kB subunit	Q01201		REL-B	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KRTAP9-7	HGNC:18915	100505724	ENSG00000180386	keratin associated protein 9-7	A8MTY7		KAP9.7|KRTAP9L1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+USH2A	HGNC:12601	7399	ENSG00000042781	usherin	O75445		USHRN|RP39|USH2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TIGD3	HGNC:18334	220359	ENSG00000173825	tigger transposable element derived 3	Q6B0B8			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SYT1	HGNC:11509	6857	ENSG00000067715	synaptotagmin 1	P21579		P65|SYT|SVP65	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TAAR2	HGNC:4514	9287	ENSG00000146378	trace amine associated receptor 2	Q9P1P5		GPR58	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+BCL2L1	HGNC:992	598	ENSG00000171552	BCL2 like 1	Q07817		BCLX|BCL2L|Bcl-X|bcl-xL|bcl-xS|PPP1R52	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SPECC1	HGNC:30615	92521	ENSG00000128487	sperm antigen with calponin homology and coiled-coil domains 1	Q5M775		HCMOGT-1|FLJ36955|NSP|CYTSB	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RASSF9	HGNC:15739	9182	ENSG00000198774	Ras association domain family member 9	O75901		P-CIP1|PAMCI	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SMURF2	HGNC:16809	64750	ENSG00000108854	SMAD specific E3 ubiquitin protein ligase 2	Q9HAU4			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CABP1	HGNC:1384	9478	ENSG00000157782	calcium binding protein 1	Q9NZU7			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NANOG	HGNC:20857	79923	ENSG00000111704	Nanog homeobox	Q9H9S0		FLJ12581|FLJ40451	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NKD1	HGNC:17045	85407	ENSG00000140807	NKD inhibitor of Wnt signaling pathway 1	Q969G9			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MYBPC2	HGNC:7550	4606	ENSG00000086967	myosin binding protein C2	Q14324		MYBPCF|MGC163408|fsMyBP-C	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DISP2	HGNC:19712	85455	ENSG00000140323	dispatched RND transporter family member 2	A7MBM2		DISPB|KIAA1742|HsT16908|LINC00594|C15orf36	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CTSA	HGNC:9251	5476	ENSG00000064601	cathepsin A	P10619		GSL|PPGB	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TCF15	HGNC:11627	6939	ENSG00000125878	transcription factor 15	Q12870		EC2|PARAXIS|bHLHa40	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CCDC125	HGNC:28924	202243	ENSG00000183323	coiled-coil domain containing 125	Q86Z20		KENAE	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RAB40B	HGNC:18284	10966	ENSG00000141542	RAB40B, member RAS oncogene family	Q12829		SEC4L|RAR	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RABGAP1L	HGNC:24663	9910	ENSG00000152061	RAB GTPase activating protein 1 like	B7ZAP0|Q5R372		HHL|TBC1D18|KIAA0471|FLJ38519	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MPV17	HGNC:7224	4358	ENSG00000115204	mitochondrial inner membrane protein MPV17	P39210		SYM1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PPP1R1B	HGNC:9287	84152	ENSG00000131771	protein phosphatase 1 regulatory inhibitor subunit 1B	Q9UD71		DARPP-32|FLJ20940	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MLLT3	HGNC:7136	4300	ENSG00000171843	MLLT3 super elongation complex subunit	P42568		AF-9|AF9|YEATS3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+IRF6	HGNC:6121	3664	ENSG00000117595	interferon regulatory factor 6	O14896		OFC6|VWS1|VWS|LPS	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+AUP1	HGNC:891	550	ENSG00000115307	AUP1 lipid droplet regulating VLDL assembly factor	Q9Y679			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CIAO2B	HGNC:24261	51647	ENSG00000166595	cytosolic iron-sulfur assembly component 2B	Q9Y3D0		CGI-128|MIP18|CIA2B|FAM96B	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DYNC1LI2	HGNC:2966	1783	ENSG00000135720	dynein cytoplasmic 1 light intermediate chain 2	O43237		DNCLI2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TEDDM1	HGNC:30233	127670	ENSG00000203730	transmembrane epididymal protein 1	Q5T9Z0		HE9|Epdd1|TMEM45C|EDDM9	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ILDR1	HGNC:28741	286676	ENSG00000145103	immunoglobulin like domain containing receptor 1	Q86SU0		MGC50831|DFNB42	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GUCD1	HGNC:14237	83606	ENSG00000138867	guanylyl cyclase domain containing 1	Q96NT3		MGC1842|LLN4|C22orf13	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+AMBN	HGNC:452	258	ENSG00000178522	ameloblastin	Q9NP70			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NBEAL1	HGNC:20681	65065	ENSG00000144426	neurobeachin like 1	Q6ZS30		MGC164581|ALS2CR17|ALS2CR16	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TACR1	HGNC:11526	6869	ENSG00000115353	tachykinin receptor 1	P25103		SPR|NK1R|NKIR|TAC1R	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DDX25	HGNC:18698	29118	ENSG00000109832	DEAD-box helicase 25	Q9UHL0		GRTH	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HSFY1	HGNC:18568	86614	ENSG00000172468	heat shock transcription factor Y-linked 1	Q96LI6		HSF2L|HSFY	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CDC42SE1	HGNC:17719	56882	ENSG00000197622	CDC42 small effector 1	Q9NRR8		SCIP1|SPEC1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ASH1L	HGNC:19088	55870	ENSG00000116539	ASH1 like histone lysine methyltransferase	Q9NR48		huASH1|ASH1|ASH1L1|KMT2H	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZC3H13	HGNC:20368	23091	ENSG00000123200	zinc finger CCCH-type containing 13	Q5T200		DKFZp434D1812|Xio|KIAA0853	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ADCYAP1	HGNC:241	116	ENSG00000141433	adenylate cyclase activating polypeptide 1	P18509		PACAP	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KRTAP5-6	HGNC:23600	440023	ENSG00000205864	keratin associated protein 5-6	Q6L8G9		KRTAP5.6	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NUDCD1	HGNC:24306	84955	ENSG00000120526	NudC domain containing 1	Q96RS6		CML66|FLJ14991	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF835	HGNC:34332	90485	ENSG00000127903	zinc finger protein 835	Q9Y2P0		BC37295_3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NPR3	HGNC:7945	4883	ENSG00000113389	natriuretic peptide receptor 3	P17342		GUCY2B|FLJ14054|NPRC|ANPRC|C5orf23	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NAMPT	HGNC:30092	10135	ENSG00000105835	nicotinamide phosphoribosyltransferase	P43490		PBEF|PBEF1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PHPT1	HGNC:30033	29085	ENSG00000054148	phosphohistidine phosphatase 1	Q9NRX4		PHP14|HSPC141|CGI-202|DKFZp564M173|bA216L13.10	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+EGLN1	HGNC:1232	54583	ENSG00000135766	egl-9 family hypoxia inducible factor 1	Q9GZT9		SM-20|PHD2|ZMYND6|HIFPH2|C1orf12	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CBLN2	HGNC:1544	147381	ENSG00000141668	cerebellin 2 precursor	Q8IUK8			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+WWTR1	HGNC:24042	25937	ENSG00000018408	WW domain containing transcription regulator 1	Q9GZV5		TAZ|DKFZp586I1419	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PSENEN	HGNC:30100	55851	ENSG00000205155	presenilin enhancer, gamma-secretase subunit	Q9NZ42		PEN2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LHX8	HGNC:28838	431707	ENSG00000162624	LIM homeobox 8	Q68G74		Lhx7	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ATP13A4	HGNC:25422	84239	ENSG00000127249	ATPase 13A4	Q4VNC1		DKFZp761I1011|FLJ37958	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NAA10	HGNC:18704	8260	ENSG00000102030	N-alpha-acetyltransferase 10, NatA catalytic subunit	P41227		DXS707|TE2|ARD1|ARD1A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GCHFR	HGNC:4194	2644	ENSG00000137880	GTP cyclohydrolase I feedback regulator	P30047		GFRP|HsT16933	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PSG11	HGNC:9516	5680	ENSG00000243130	pregnancy specific beta-1-glycoprotein 11	Q9UQ72		MGC22484|PSG13|PSG14	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CHRNA7	HGNC:1960	1139	ENSG00000175344	cholinergic receptor nicotinic alpha 7 subunit	P36544		a7nAChR	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+WDR7	HGNC:13490	23335	ENSG00000091157	WD repeat domain 7	Q9Y4E6		KIAA0541|TRAG	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TMIE	HGNC:30800	259236	ENSG00000181585	transmembrane inner ear	Q8NEW7		DFNB6	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SDHAF1	HGNC:33867	644096	ENSG00000205138	succinate dehydrogenase complex assembly factor 1	A6NFY7		LYRM8	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TRPV1	HGNC:12716	7442	ENSG00000196689	transient receptor potential cation channel subfamily V member 1	Q8NER1		VR1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CADM3	HGNC:17601	57863	ENSG00000162706	cell adhesion molecule 3	Q8N126		BIgR|FLJ10698|TSLL1|NECL1|SynCAM3|Necl-1|IGSF4B	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ACACA	HGNC:84	31	ENSG00000278540	acetyl-CoA carboxylase alpha	Q13085		ACC1|ACC-alpha|ACCA|ACCalpha|ACACalpha|Acac1|hACC1|ACAC|ACC	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FAM161A	HGNC:25808	84140	ENSG00000170264	FAM161 centrosomal protein A	Q3B820		FLJ13305|RP28	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RBMY1B	HGNC:23914	378948	ENSG00000242875	RNA binding motif protein Y-linked family 1 member B	A6NDE4			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TUBD1	HGNC:16811	51174	ENSG00000108423	tubulin delta 1	Q9UJT1		FLJ12709|TUBD	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+B4GALT2	HGNC:925	8704	ENSG00000117411	beta-1,4-galactosyltransferase 2	O60909		beta4Gal-T2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PPDPFL	HGNC:31745	492307	ENSG00000168333	pancreatic progenitor cell differentiation and proliferation factor like	Q8WWR9		C8orf22	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ANKRD18B	HGNC:23644	441459	ENSG00000230453	ankyrin repeat domain 18B	A2A2Z9		bA255A11.3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LSM6	HGNC:17017	11157	ENSG00000164167	LSM6 homolog, U6 small nuclear RNA and mRNA degradation associated	P62312		YDR378C	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PCBP3	HGNC:8651	54039	ENSG00000183570	poly(rC) binding protein 3	P57721		FLJ44028|PCBP3-OT1|PCBP3OT	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GPRASP1	HGNC:24834	9737	ENSG00000198932	G protein-coupled receptor associated sorting protein 1	Q5JY77		GASP|GASP1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RAP1B	HGNC:9857	5908	ENSG00000127314	RAP1B, member of RAS oncogene family	P61224		K-REV|RAL1B|DKFZp586H0723	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZIM2	HGNC:12875	23619	ENSG00000269699	zinc finger imprinted 2	Q9NZV7		ZNF656	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RHCG	HGNC:18140	51458	ENSG00000140519	Rh family C glycoprotein	Q9UBD6		RHGK|PDRC2|SLC42A3|C15orf6	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HFE	HGNC:4886	3077	ENSG00000010704	homeostatic iron regulator	Q30201		HLA-H|HFE1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+STX11	HGNC:11429	8676	ENSG00000135604	syntaxin 11	O75558			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TNFAIP1	HGNC:11894	7126	ENSG00000109079	TNF alpha induced protein 1	Q13829		B61|B12|MGC2317|BTBD34|EDP1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TBC1D3C	HGNC:24889	414060	ENSG00000278299	TBC1 domain family member 3C	Q6IPX1		MGC44903	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DMRTA1	HGNC:13826	63951	ENSG00000176399	DMRT like family A1	Q5VZB9		DMRT4	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ADAT1	HGNC:228	23536	ENSG00000065457	adenosine deaminase tRNA specific 1	Q9BUB4			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF546	HGNC:28671	339327	ENSG00000187187	zinc finger protein 546	Q86UE3		MGC43537|ZNF49	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ERP27	HGNC:26495	121506	ENSG00000139055	endoplasmic reticulum protein 27	Q96DN0		FLJ32115|PDIA8|C12orf46	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SEC24B	HGNC:10704	10427	ENSG00000138802	SEC24 homolog B, COPII component	O95487			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PNPLA7	HGNC:24768	375775	ENSG00000130653	patatin like domain 7, lysophospholipase	Q6ZV29		FLJ43070|FLJ31318|FLJ44279|RP11-48C7.2|NTEL1|NTE-R1|C9orf111	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TCEAL7	HGNC:28336	56849	ENSG00000182916	transcription elongation factor A like 7	Q9BRU2		MGC23947|WEX5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+AMPH	HGNC:471	273	ENSG00000078053	amphiphysin	P49418			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CCR8	HGNC:1609	1237	ENSG00000179934	C-C motif chemokine receptor 8	P51685		CY6|TER1|CKR-L1|GPR-CY6|CDw198|CMKBRL2|CMKBR8	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ILK	HGNC:6040	3611	ENSG00000166333	integrin linked kinase	Q13418			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CRTC1	HGNC:16062	23373	ENSG00000105662	CREB regulated transcription coactivator 1	Q6UUV9		KIAA0616|FLJ14027|TORC1|MECT1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GSDME	HGNC:2810	1687	ENSG00000105928	gasdermin E	O60443		ICERE-1|DFNA5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RIMS2	HGNC:17283	9699	ENSG00000176406	regulating synaptic membrane exocytosis 2	Q9UQ26		KIAA0751|RIM2|OBOE|RAB3IP3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RPS27L	HGNC:18476	51065	ENSG00000185088	ribosomal protein S27 like	Q71UM5			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LDHA	HGNC:6535	3939	ENSG00000134333	lactate dehydrogenase A	P00338			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+C20orf173	HGNC:16166	140873	ENSG00000125975	chromosome 20 open reading frame 173	Q96LM9		dJ477O4.4	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KIAA1755	HGNC:29372	85449	ENSG00000149633	KIAA1755	Q5JYT7		RP5-1054A22.3|quo	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+COLGALT2	HGNC:16790	23127	ENSG00000198756	collagen beta(1-O)galactosyltransferase 2	Q8IYK4		KIAA0584|C1orf17|GLT25D2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TCHH	HGNC:11791	7062	ENSG00000159450	trichohyalin	Q07283		THH	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+C1QL4	HGNC:31416	338761	ENSG00000186897	complement C1q like 4	Q86Z23		C1QTNF11|CTRP11	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+EFS	HGNC:16898	10278	ENSG00000100842	embryonal Fyn-associated substrate	O43281		EFS2|EFS1|HEFS|SIN|CASS3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LCK	HGNC:6524	3932	ENSG00000182866	LCK proto-oncogene, Src family tyrosine kinase	P06239			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TNFSF4	HGNC:11934	7292	ENSG00000117586	TNF superfamily member 4	P23510		OX-40L|gp34|CD252|TXGP1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TMED7	HGNC:24253	51014	ENSG00000134970	transmembrane p24 trafficking protein 7	Q9Y3B3		CGI-109|FLJ90481|p24gamma3|p24g3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RRP1	HGNC:18785	8568	ENSG00000160214	ribosomal RNA processing 1	P56182		NNP-1|Nop52|NOP52|RRP1A|D21S2056E	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MAGEA3	HGNC:6801	4102	ENSG00000221867	MAGE family member A3	P43357		HYPD|HIP8|MGC14613|CT1.3|MAGE3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HGSNAT	HGNC:26527	138050	ENSG00000165102	heparan-alpha-glucosaminide N-acetyltransferase	Q68CP4		FLJ32731|HGNAT|TMEM76	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+AKAP12	HGNC:370	9590	ENSG00000131016	A-kinase anchoring protein 12	Q02952		AKAP250|SSeCKS	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PIERCE1	HGNC:28435	138162	ENSG00000160345	piercer of microtubule wall 1	Q5BN46		MGC29761|RbEST47|C9orf116	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LRRC57	HGNC:26719	255252	ENSG00000180979	leucine rich repeat containing 57	Q8N9N7		FLJ36812	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ATG16L1	HGNC:21498	55054	ENSG00000085978	autophagy related 16 like 1	Q676U5		WDR30|FLJ10035|ATG16A|APG16L|ATG16L	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PREB	HGNC:9356	10113	ENSG00000138073	prolactin regulatory element binding	Q9HCU5		SEC12	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NCAM1	HGNC:7656	4684	ENSG00000149294	neural cell adhesion molecule 1	P13591		NCAM|CD56	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SSX1	HGNC:11335	6756	ENSG00000126752	SSX family member 1	Q16384		CT5.1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RBMXL1	HGNC:25073	494115	ENSG00000213516	RBMX like 1	Q96E39		KAT3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SETD1A	HGNC:29010	9739	ENSG00000099381	SET domain containing 1A, histone lysine methyltransferase	O15047		KIAA0339|Set1|KMT2F|SET1A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+OPA1	HGNC:8140	4976	ENSG00000198836	OPA1 mitochondrial dynamin like GTPase	O60313		NTG|KIAA0567|FLJ12460|NPG|MGM1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DEDD2	HGNC:24450	162989	ENSG00000160570	death effector domain containing 2	Q8WXF8		FLAME-3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+COA7	HGNC:25716	65260	ENSG00000162377	cytochrome c oxidase assembly factor 7	Q96BR5		FLJ12439|RESA1|C1orf163|SELRC1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ACTR2	HGNC:169	10097	ENSG00000138071	actin related protein 2	P61160		ARP2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+UNG	HGNC:12572	7374	ENSG00000076248	uracil DNA glycosylase	P13051		UDG|UNG1|UNG2|HIGM4|DGU	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NEK3	HGNC:7746	4752	ENSG00000136098	NIMA related kinase 3	P51956		HSPK36|MGC29949	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DHRS1	HGNC:16445	115817	ENSG00000157379	dehydrogenase/reductase 1	Q96LJ7		FLJ25430|MGC20204|SDR19C1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+XKR7	HGNC:23062	343702	ENSG00000260903	XK related 7	Q5GH72		dJ310O13.4|C20orf159	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PLEKHH2	HGNC:30506	130271	ENSG00000152527	pleckstrin homology, MyTH4 and FERM domain containing H2	Q8IVE3		KIAA2028|PLEKHH1L	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FAM13B	HGNC:1335	51306	ENSG00000031003	family with sequence similarity 13 member B	Q9NYF5		N61|KHCHP|ARHGAP49|C5orf5|FAM13B1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF670	HGNC:28167	93474	ENSG00000277462	zinc finger protein 670	Q9BS34		MGC12466	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+STMN3	HGNC:15926	50861	ENSG00000197457	stathmin 3	Q9NZ72		SCLIP	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HSD3B7	HGNC:18324	80270	ENSG00000099377	hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 7	Q9H2F3		C(27)-3BETA-HSD|SDR11E3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FOXC1	HGNC:3800	2296	ENSG00000054598	forkhead box C1	Q12948		FREAC3|ARA|IGDA|IHG1|FKHL7|IRID1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NR2C2AP	HGNC:30763	126382	ENSG00000184162	nuclear receptor 2C2 associated protein	Q86WQ0		TRA16	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RPAIN	HGNC:28641	84268	ENSG00000129197	RPA interacting protein	Q86UA6		MGC4189|RIP|hRIP	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FRRS1L	HGNC:1362	23732	ENSG00000260230	ferric chelate reductase 1 like	Q9P0K9		CG-6|C9orf4	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TP53I11	HGNC:16842	9537	ENSG00000175274	tumor protein p53 inducible protein 11	O14683		PIG11	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MYH14	HGNC:23212	79784	ENSG00000105357	myosin heavy chain 14	Q7Z406		FLJ13881|KIAA2034|MHC16|MYH17|DFNA4	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+AXIN1	HGNC:903	8312	ENSG00000103126	axin 1	O15169		PPP1R49	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TESMIN	HGNC:7446	9633	ENSG00000132749	testis expressed metallothionein like protein	Q9Y4I5		CXCDC2|MTL5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF610	HGNC:26687	162963	ENSG00000167554	zinc finger protein 610	Q8N9Z0		FLJ36040	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CLDN5	HGNC:2047	7122	ENSG00000184113	claudin 5	O00501		CPETRL1|BEC1|AWAL|TMVCF	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DUSP22	HGNC:16077	56940	ENSG00000112679	dual specificity phosphatase 22	Q9NRW4		MKPX|JSP1|JKAP|VHX	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+VOPP1	HGNC:34518	81552	ENSG00000154978	VOPP1 WW domain binding protein	Q96AW1		ECop|GASP|FLJ20532|DKFZp564K0822|WBP1L2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+REN	HGNC:9958	5972	ENSG00000143839	renin	P00797			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+POR	HGNC:9208	5447	ENSG00000127948	cytochrome p450 oxidoreductase	P16435		CYPOR|FLJ26468	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ATRX	HGNC:886	546	ENSG00000085224	ATRX chromatin remodeler	P46100		XH2|XNP|RAD54|JMS|MRX52	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FOXJ3	HGNC:29178	22887	ENSG00000198815	forkhead box J3	Q9UPW0		KIAA1041	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MARF1	HGNC:29562	9665	ENSG00000166783	meiosis regulator and mRNA stability factor 1	Q9Y4F3		LKAP|PPP1R34|LMKB|KIAA0430	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CHMP2A	HGNC:30216	27243	ENSG00000130724	charged multivesicular body protein 2A	O43633		BC-2|CHMP2|VPS2|VPS2A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+BTNL3	HGNC:1143	10917	ENSG00000168903	butyrophilin like 3	Q6UXE8		BTNLR|BTN9.1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TRNP1	HGNC:34348	388610	ENSG00000253368	TMF1 regulated nuclear protein 1	Q6NT89		TRNP|C1orf225	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RHOXF2	HGNC:30011	84528	ENSG00000131721	Rhox homeobox family member 2	Q9BQY4		THG1|PEPP-2|PEPP2|CT107	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KRT10	HGNC:6413	3858	ENSG00000186395	keratin 10	P13645		K10|CK10|KPP	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SYT15	HGNC:17167	83849	ENSG00000204176	synaptotagmin 15	Q9BQS2		CHR10SYT	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RNF8	HGNC:10071	9025	ENSG00000112130	ring finger protein 8	O76064		KIAA0646	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+METTL24	HGNC:21566	728464	ENSG00000053328	methyltransferase like 24	Q5JXM2		dJ71D21.2|C6orf186	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+P4HA1	HGNC:8546	5033	ENSG00000122884	prolyl 4-hydroxylase subunit alpha 1	P13674		C-P4Halpha(I)|P4HA	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+IFI44	HGNC:16938	10561	ENSG00000137965	interferon induced protein 44	Q8TCB0		MTAP44|p44|TLDC5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF783	HGNC:27222	100289678	ENSG00000204946	zinc finger protein 783	Q6ZMS7		DKFZp667J212	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+BANP	HGNC:13450	54971	ENSG00000172530	BTG3 associated nuclear protein	Q8N9N5		SMARBP1|SMAR1|FLJ20538|DKFZp761H172|FLJ10177|BEND1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LRRC20	HGNC:23421	55222	ENSG00000172731	leucine rich repeat containing 20	Q8TCA0		FLJ10751|FLJ10844	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ELOVL7	HGNC:26292	79993	ENSG00000164181	ELOVL fatty acid elongase 7	A1L3X0		FLJ23563	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+N4BP2L2	HGNC:26916	10443	ENSG00000244754	NEDD4 binding protein 2 like 2	Q92802		CG005|PFAAP5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ERMN	HGNC:29208	57471	ENSG00000136541	ermin	Q8TAM6		JN|ERMIN|KIAA1189	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SRGN	HGNC:9361	5552	ENSG00000122862	serglycin	P10124		PPG|PRG|PRG1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RCC1L	HGNC:14948	81554	ENSG00000274523	RCC1 like	Q96I51		WBSCR16	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SARM1	HGNC:17074	23098	ENSG00000004139	sterile alpha and TIR motif containing 1	Q6SZW1		SARM|SAMD2|KIAA0524	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PHLDB1	HGNC:23697	23187	ENSG00000019144	pleckstrin homology like domain family B member 1	Q86UU1		FLJ00141|LL5a|KIAA0638	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ERBIN	HGNC:15842	55914	ENSG00000112851	erbb2 interacting protein	Q96RT1		LAP2|ERBB2IP	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GLS2	HGNC:29570	27165	ENSG00000135423	glutaminase 2	Q9UI32		GA|GLS|LGA|hLGA	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TAF11L6	HGNC:53849	391747	ENSG00000284042	TATA-box binding protein associated factor 11 like 6	P0DW11			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LMAN1L	HGNC:6632	79748	ENSG00000140506	lectin, mannose binding 1 like	Q9HAT1		ERGL|ERGIC-53L	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CSKMT	HGNC:33113	751071	ENSG00000214756	citrate synthase lysine methyltransferase	A8MUP2		U99HG|CS-KMT|METTL12	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MYH9	HGNC:7579	4627	ENSG00000100345	myosin heavy chain 9	P35579		NMMHCA|NMHC-II-A|MHA|FTNS|EPSTS|DFNA17	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LGMN	HGNC:9472	5641	ENSG00000100600	legumain	Q99538		LGMN1|PRSC1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CLASP2	HGNC:17078	23122	ENSG00000163539	cytoplasmic linker associated protein 2	O75122		KIAA0627	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+UHRF2	HGNC:12557	115426	ENSG00000147854	ubiquitin like with PHD and ring finger domains 2	Q96PU4		RNF107|NIRF|URF2|MGC33463|TDRD23	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TBL2	HGNC:11586	26608	ENSG00000106638	transducin beta like 2	Q9Y4P3		WS-betaTRP|WBSCR13|DKFZP43N024	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SVBP	HGNC:29204	374969	ENSG00000177868	small vasohibin binding protein	Q8N300		MGC45441|CCDC23	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FXYD3	HGNC:4027	5349	ENSG00000089356	FXYD domain containing ion transport regulator 3	Q14802		MAT-8|PLML	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TMEM89	HGNC:32372	440955	ENSG00000183396	transmembrane protein 89	A2RUT3			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF235	HGNC:12866	9310	ENSG00000159917	zinc finger protein 235	Q14590		HZF6|ANF270|ZNF270|ZFP93	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RAPSN	HGNC:9863	5913	ENSG00000165917	receptor associated protein of the synapse	Q13702		RNF205|CMS1D|CMS1E	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+UBE3C	HGNC:16803	9690	ENSG00000009335	ubiquitin protein ligase E3C	Q15386		KIAA0010|KIAA10	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RCOR1	HGNC:17441	23186	ENSG00000089902	REST corepressor 1	Q9UKL0		COREST|KIAA0071|RCOR	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MANBA	HGNC:6831	4126	ENSG00000109323	mannosidase beta	O00462			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FAM90A8	HGNC:32256	441324	ENSG00000285937	family with sequence similarity 90 member A8	A6NJQ4		FAM90A8P	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KCNA6	HGNC:6225	3742	ENSG00000151079	potassium voltage-gated channel subfamily A member 6	P17658		Kv1.6|HBK2|PPP1R96	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+C19orf44	HGNC:26141	84167	ENSG00000105072	chromosome 19 open reading frame 44	Q9H6X5		FLJ21742|FCAP71	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CFAP107	HGNC:28567	93190	ENSG00000157330	cilia and flagella associated protein 107	Q8N1D5		MGC35194|C1orf158	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ACE	HGNC:2707	1636	ENSG00000159640	angiotensin I converting enzyme	P12821		ACE1|CD143|DCP1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SEC11C	HGNC:23400	90701	ENSG00000166562	SEC11 homolog C, signal peptidase complex subunit	Q9BY50		SPC21|SPCS4C|SEC11L3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PPP5C	HGNC:9322	5536	ENSG00000011485	protein phosphatase 5 catalytic subunit	P53041		PP5|PPP5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+UBE2T	HGNC:25009	29089	ENSG00000077152	ubiquitin conjugating enzyme E2 T	Q9NPD8		HSPC150|FANCT	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CNR2	HGNC:2160	1269	ENSG00000188822	cannabinoid receptor 2	P34972		CB2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+C10orf105	HGNC:20304	414152	ENSG00000214688	chromosome 10 open reading frame 105	Q8TEF2		FLJ00245	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PRSS8	HGNC:9491	5652	ENSG00000052344	serine protease 8	Q16651		CAP1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NRSN1	HGNC:17881	140767	ENSG00000152954	neurensin 1	Q8IZ57		p24|VMP	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ATP10B	HGNC:13543	23120	ENSG00000118322	ATPase phospholipid transporting 10B (putative)	O94823		ATPVB|KIAA0715|FLJ21477	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+WARS1	HGNC:12729	7453	ENSG00000140105	tryptophanyl-tRNA synthetase 1	P23381		IFP53|IFI53|WARS	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PCBP1	HGNC:8647	5093	ENSG00000169564	poly(rC) binding protein 1	Q15365		HNRPE1|hnRNP-E1|HNRPX|hnRNP-X	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PDE3B	HGNC:8779	5140	ENSG00000152270	phosphodiesterase 3B	Q13370		HcGIP1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DDX42	HGNC:18676	11325	ENSG00000198231	DEAD-box helicase 42	Q86XP3		RNAHP|RHELP|SF3b125|SF3B8	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CASKIN1	HGNC:20879	57524	ENSG00000167971	CASK interacting protein 1	Q8WXD9		KIAA1306|ANKS5A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DQX1	HGNC:20410	165545	ENSG00000144045	DEAQ-box RNA dependent ATPase 1	Q8TE96		FLJ23757	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SPDYE4	HGNC:35463	388333	ENSG00000183318	speedy/RINGO cell cycle regulator family member E4	A6NLX3			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SLF2	HGNC:17814	55719	ENSG00000119906	SMC5/6 complex localization factor 2	Q8IX21		FLJ10512|FLJ25012|hNSE6|C10orf6|FAM178A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RFX4	HGNC:9985	5992	ENSG00000111783	regulatory factor X4	Q33E94			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CHD8	HGNC:20153	57680	ENSG00000100888	chromodomain helicase DNA binding protein 8	Q9HCK8		KIAA1564|DUPLIN|HELSNF1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+WDTC1	HGNC:29175	23038	ENSG00000142784	WD and tetratricopeptide repeats 1	Q8N5D0		KIAA1037|ADP|DCAF9	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SDHAF4	HGNC:20957	135154	ENSG00000154079	succinate dehydrogenase complex assembly factor 4	Q5VUM1		Sdh8|C6orf57	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ACSL3	HGNC:3570	2181	ENSG00000123983	acyl-CoA synthetase long chain family member 3	O95573		ACS3|PRO2194|FACL3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+USP10	HGNC:12608	9100	ENSG00000103194	ubiquitin specific peptidase 10	Q14694		UBPO|KIAA0190	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RBM39	HGNC:15923	9584	ENSG00000131051	RNA binding motif protein 39	Q14498		CC1.3|HCC1|CAPER|fSAP59|CAPERalpha|RNPC2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+BUD13	HGNC:28199	84811	ENSG00000137656	BUD13 spliceosome associated protein	Q9BRD0		MGC13125|fSAP71|Cwc26	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CTSV	HGNC:2538	1515	ENSG00000136943	cathepsin V	O60911		CTSU|CTSL2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+IPO5	HGNC:6402	3843	ENSG00000065150	importin 5	O00410		IMB3|MGC2068|PSE1|KPNB3|RANBP5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+IQCF1	HGNC:28607	132141	ENSG00000173389	IQ motif containing F1	Q8N6M8		MGC39725	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+BEX1	HGNC:1036	55859	ENSG00000133169	brain expressed X-linked 1	Q9HBH7			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RGPD2	HGNC:32415	729857	ENSG00000185304	RANBP2 like and GRIP domain containing 2	P0DJD1		RGP2|RANBP2L2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LRRCC1	HGNC:29373	85444	ENSG00000133739	leucine rich repeat and coiled-coil centrosomal protein 1	Q9C099		KIAA1764|CLERC|VFL1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SHC2	HGNC:29869	25759	ENSG00000129946	SHC adaptor protein 2	P98077		SLI|SCK|SHCB	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ANTXRL	HGNC:27277	195977	ENSG00000274209	ANTXR like	A6NF34			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FAM53A	HGNC:31860	152877	ENSG00000174137	family with sequence similarity 53 member A	Q6NSI3		DNTNP	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MITD1	HGNC:25207	129531	ENSG00000158411	microtubule interacting and trafficking domain containing 1	Q8WV92		LOC129531	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PPY	HGNC:9327	5539	ENSG00000108849	pancreatic polypeptide	P01298		PNP	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TOR2A	HGNC:11996	27433	ENSG00000160404	torsin family 2 member A	Q5JU69|Q8N2E6		FLJ14771|TORP1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TMEM106A	HGNC:28288	113277	ENSG00000184988	transmembrane protein 106A	Q96A25		MGC20235	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZBP1	HGNC:16176	81030	ENSG00000124256	Z-DNA binding protein 1	Q9H171		dJ718J7.3|DLM1|DLM-1|DAI|C20orf183	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ELOVL5	HGNC:21308	60481	ENSG00000012660	ELOVL fatty acid elongase 5	Q9NYP7		HELO1|dJ483K16.1|SCA38	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GPR20	HGNC:4475	2843	ENSG00000204882	G protein-coupled receptor 20	Q99678			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NEUROG2	HGNC:13805	63973	ENSG00000178403	neurogenin 2	Q9H2A3		Atoh4|Math4A|ngn-2|bHLHa8|NGN2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NPR2	HGNC:7944	4882	ENSG00000159899	natriuretic peptide receptor 2	P20594		GUCY2B|ANPb|GC-B|ANPRB|NPRB|AMDM	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LEFTY1	HGNC:6552	10637	ENSG00000243709	left-right determination factor 1	O75610		LEFTYB|LEFTB	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CAV1	HGNC:1527	857	ENSG00000105974	caveolin 1	Q03135		CAV	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF74	HGNC:13144	7625	ENSG00000185252	zinc finger protein 74	Q16587		Cos52|Zfp520|ZNF520	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ERMARD	HGNC:21056	55780	ENSG00000130023	ER membrane associated RNA degradation	Q5T6L9		FLJ11152|dJ266L20.3|C6orf70	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TSPAN18	HGNC:20660	90139	ENSG00000157570	tetraspanin 18	Q96SJ8		TSPAN	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PHACTR1	HGNC:20990	221692	ENSG00000112137	phosphatase and actin regulator 1	Q9C0D0		KIAA1733|dJ257A7.2|RPEL1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FRMPD3	HGNC:29382	84443	ENSG00000147234	FERM and PDZ domain containing 3	Q5JV73		RP5-1070B1.1|KIAA1817	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SHMT2	HGNC:10852	6472	ENSG00000182199	serine hydroxymethyltransferase 2	P34897		mSHMT|SHMT	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ETV1	HGNC:3490	2115	ENSG00000006468	ETS variant transcription factor 1	P50549		ER81	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF419	HGNC:20648	79744	ENSG00000105136	zinc finger protein 419	Q96HQ0		ZAPHIR|ZNF419A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RBM4B	HGNC:28842	83759	ENSG00000173914	RNA binding motif protein 4B	Q9BQ04		MGC10871|ZCCHC15|RBM4L|ZCRB3B|ZCCHC21B|RBM30	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ELOA	HGNC:11620	6924	ENSG00000011007	elongin A	Q14241		SIII|TCEB3A|ELOA1|TCEB3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+APLP2	HGNC:598	334	ENSG00000084234	amyloid beta precursor like protein 2	Q06481		APPH|APPL2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CD244	HGNC:18171	51744	ENSG00000122223	CD244 molecule	Q9BZW8		2B4|NAIL|NKR2B4|Nmrk|SLAMF4	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PRAMEF33	HGNC:49193	645382	ENSG00000237700	PRAME family member 33	A0A0G2JMD5		PRAMEF33P	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NDRG3	HGNC:14462	57446	ENSG00000101079	NDRG family member 3	Q9UGV2			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+VILL	HGNC:30906	50853	ENSG00000136059	villin like	O15195			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HOXC8	HGNC:5129	3224	ENSG00000037965	homeobox C8	P31273		HOX3|HOX3A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+OASL	HGNC:8090	8638	ENSG00000135114	2'-5'-oligoadenylate synthetase like	Q15646		TRIP14|p59OASL|OASL1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SENP2	HGNC:23116	59343	ENSG00000163904	SUMO specific peptidase 2	Q9HC62		SMT3IP2|KIAA1331|DKFZp762A2316|AXAM2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF483	HGNC:23384	158399	ENSG00000173258	zinc finger protein 483	Q8TF39		ZKSCAN16|KIAA1962|ZSCAN48	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CDC23	HGNC:1724	8697	ENSG00000094880	cell division cycle 23	Q9UJX2		APC8|ANAPC8|CUT23	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+H4C14	HGNC:4794	8370	ENSG00000270882	H4 clustered histone 14	P62805		H4F2|H4FN|HIST2H4|H4/n|HIST2H4A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SPATA6	HGNC:18309	54558	ENSG00000132122	spermatogenesis associated 6	Q9NWH7		SRF1|FLJ10007|SRF-1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MCM3	HGNC:6945	4172	ENSG00000112118	minichromosome maintenance complex component 3	P25205			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+H2BC21	HGNC:4760	8349	ENSG00000184678	H2B clustered histone 21	Q16778		H2B/q|H2B.1|H2BE|H2B-GL105|H2B|H2BFQ|HIST2H2BE	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HEPACAM	HGNC:26361	220296	ENSG00000165478	hepatic and glial cell adhesion molecule	Q14CZ8		FLJ25530|GLIALCAM	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+S100PBP	HGNC:25768	64766	ENSG00000116497	S100P binding protein	Q96BU1		FLJ12903|S100PBPR	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HMCN1	HGNC:19194	83872	ENSG00000143341	hemicentin 1	Q96RW7		FBLN6|FIBL6|FIBL-6|ARMD1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SREK1IP1	HGNC:26716	285672	ENSG00000153006	SREK1 interacting protein 1	Q8N9Q2		FLJ36754|P18SRP|SFRS12IP1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+EXT1	HGNC:3512	2131	ENSG00000182197	exostosin glycosyltransferase 1	Q16394		ttv|LGCR|LGS	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF490	HGNC:23705	57474	ENSG00000188033	zinc finger protein 490	Q9ULM2		KIAA1198	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KLF12	HGNC:6346	11278	ENSG00000118922	KLF transcription factor 12	Q9Y4X4		AP-2rep|HSPC122|AP2REP	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+OR8A1	HGNC:8469	390275	ENSG00000196119	olfactory receptor family 8 subfamily A member 1	Q8NGG7		OST025	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ANXA10	HGNC:534	11199	ENSG00000109511	annexin A10	Q9UJ72		ANX14	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MTPAP	HGNC:25532	55149	ENSG00000107951	mitochondrial poly(A) polymerase	Q9NVV4		FLJ10486|SPAX4|TENT6|PAPD1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RELL2	HGNC:26902	285613	ENSG00000164620	RELT like 2	Q8NC24		FLJ90583|C5orf16	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NDUFAF4	HGNC:21034	29078	ENSG00000123545	NADH:ubiquinone oxidoreductase complex assembly factor 4	Q9P032		HSPC125|bA22L21.1|My013|HRPAP20|C6orf66	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CEBPG	HGNC:1837	1054	ENSG00000153879	CCAAT enhancer binding protein gamma	P53567		GPE1BP|IG/EBP-1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TRAF3IP3	HGNC:30766	80342	ENSG00000009790	TRAF3 interacting protein 3	Q9Y228		T3JAM	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TAS2R8	HGNC:14915	50836	ENSG00000121314	taste 2 receptor member 8	Q9NYW2		T2R8|TRB5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HACL1	HGNC:17856	26061	ENSG00000131373	2-hydroxyacyl-CoA lyase 1	Q9UJ83		2-HPCL|PHYH2|HPCL	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF142	HGNC:12927	7701	ENSG00000115568	zinc finger protein 142	P52746		KIAA0236|pHZ-49	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TTC8	HGNC:20087	123016	ENSG00000165533	tetratricopeptide repeat domain 8	Q8TAM2		BBS8|RP51	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LRRC24	HGNC:28947	441381	ENSG00000254402	leucine rich repeat containing 24	Q50LG9		LRRC14OS	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+EIF2B3	HGNC:3259	8891	ENSG00000070785	eukaryotic translation initiation factor 2B subunit gamma	Q9NR50		EIF2Bgamma|EIF-2B	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NEBL	HGNC:16932	10529	ENSG00000078114	nebulette	O76041		LASP2|LNEBL|bA165O3.1|C10orf113	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GALNT4	HGNC:4126	8693	ENSG00000257594	polypeptide N-acetylgalactosaminyltransferase 4	Q8N4A0		GalNAc-T4	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ASDURF	HGNC:53619	110599588	ENSG00000286053	ASNSD1 upstream open reading frame	L0R819		ASNSD1-SEP	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PRKAA2	HGNC:9377	5563	ENSG00000162409	protein kinase AMP-activated catalytic subunit alpha 2	P54646		AMPK|AMPKa2|PRKAA	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+EXT2	HGNC:3513	2132	ENSG00000151348	exostosin glycosyltransferase 2	Q93063		SOTV	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FLRT3	HGNC:3762	23767	ENSG00000125848	fibronectin leucine rich transmembrane protein 3	Q9NZU0			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KCNH1	HGNC:6250	3756	ENSG00000143473	potassium voltage-gated channel subfamily H member 1	O95259		Kv10.1|eag|h-eag|eag1|hEAG|K(V)10.1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HAGH	HGNC:4805	3029	ENSG00000063854	hydroxyacylglutathione hydrolase	Q16775		GLO2|GLXII|HAGH1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SDR39U1	HGNC:20275	56948	ENSG00000100445	short chain dehydrogenase/reductase family 39U member 1	Q9NRG7		HCDI|C14orf124	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+OR8G5	HGNC:19622	219865	ENSG00000255298	olfactory receptor family 8 subfamily G member 5	Q8NG78		OR8G5P|OR8G6	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SNAP23	HGNC:11131	8773	ENSG00000092531	synaptosome associated protein 23	O00161		SNAP23A|SNAP23B|HsT17016	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ST3GAL2	HGNC:10863	6483	ENSG00000157350	ST3 beta-galactoside alpha-2,3-sialyltransferase 2	Q16842		ST3GALII|ST3GalA.2|SIAT4B	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SETSIP	HGNC:42937	646817	ENSG00000230667	SET like protein	P0DME0		SETP18	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HRH1	HGNC:5182	3269	ENSG00000196639	histamine receptor H1	P35367			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DRC5	HGNC:11693	202500	ENSG00000146221	dynein regulatory complex subunit 5	Q5JU00		D6S46|MGC33600|FAP155|TCTE1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KLF16	HGNC:16857	83855	ENSG00000129911	KLF transcription factor 16	Q9BXK1		NSLP2|BTEB4|DRRF	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MTMR1	HGNC:7449	8776	ENSG00000063601	myotubularin related protein 1	Q13613			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PPP3R1	HGNC:9317	5534	ENSG00000221823	protein phosphatase 3 regulatory subunit B, alpha	P63098		CALNB1|CNB|CNB1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NHLRC2	HGNC:24731	374354	ENSG00000196865	NHL repeat containing 2	Q8NBF2		FLJ25621|FLJ20147|FLJ33312|MGC45492|DKFZp779F115	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CSN2	HGNC:2447	1447	ENSG00000135222	casein beta	P05814		CASB	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TMEM170B	HGNC:34244	100113407	ENSG00000205269	transmembrane protein 170B	Q5T4T1			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FBXL3	HGNC:13599	26224	ENSG00000005812	F-box and leucine rich repeat protein 3	Q9UKT7		FBL3|FBL3A|FBXL3A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TSPAN7	HGNC:11854	7102	ENSG00000156298	tetraspanin 7	P41732		DXS1692E|TALLA-1|A15|CD231|MXS1|TM4SF2|MRX58	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RNF213	HGNC:14539	57674	ENSG00000173821	ring finger protein 213	Q63HN8		KIAA1554|NET57|ALO17|C17orf27|KIAA1618|MYMY2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GARIN5A	HGNC:25107	112703	ENSG00000142530	golgi associated RAB2 interactor 5A	Q6IPT2		GARIL5|FAM71E1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+IGF2BP3	HGNC:28868	10643	ENSG00000136231	insulin like growth factor 2 mRNA binding protein 3	O00425		IMP-3|CT98|IMP3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+EXOC1	HGNC:30380	55763	ENSG00000090989	exocyst complex component 1	Q9NV70		SEC3|FLJ10893|BM-102|Sec3p|SEC3L1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KRT77	HGNC:20411	374454	ENSG00000189182	keratin 77	Q7Z794		KRT1B	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+C20orf96	HGNC:16227	140680	ENSG00000196476	chromosome 20 open reading frame 96	Q9NUD7		dJ1103G7.2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LMBR1	HGNC:13243	64327	ENSG00000105983	limb development membrane protein 1	Q8WVP7		ACHP|FLJ11665|ZRS|C7orf2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FGFBP3	HGNC:23428	143282	ENSG00000174721	fibroblast growth factor binding protein 3	Q8TAT2		MGC39320|C10orf13	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+POTEG	HGNC:33896	404785	ENSG00000187537	POTE ankyrin domain family member G	Q6S5H5		POTE14|POTE-14|POTE14alpha|CT104.4|A26C2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CSNK1E	HGNC:2453	1454	ENSG00000213923	casein kinase 1 epsilon	P49674		HCKIE|CKIE|CKIepsilon	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+OTOP3	HGNC:19658	347741	ENSG00000182938	otopetrin 3	Q7RTS5			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KIF20A	HGNC:9787	10112	ENSG00000112984	kinesin family member 20A	O95235		MKLP2|RAB6KIFL	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MLXIP	HGNC:17055	22877	ENSG00000175727	MLX interacting protein	Q9HAP2		MONDOA|KIAA0867|MIR|bHLHe36	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ALG12	HGNC:19358	79087	ENSG00000182858	ALG12 alpha-1,6-mannosyltransferase	Q9BV10		ECM39|CDG1G	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SEMA3A	HGNC:10723	10371	ENSG00000075213	semaphorin 3A	Q14563		SEMA1|SemD|coll-1|Hsema-I|SEMAD	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ANKRD10	HGNC:20265	55608	ENSG00000088448	ankyrin repeat domain 10	Q9NXR5		FLJ20093	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+VPS4A	HGNC:13488	27183	ENSG00000132612	vacuolar protein sorting 4 homolog A	Q9UN37		VPS4|VPS4-1|FLJ22197|SKD2|SKD1|SKD1A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+EME1	HGNC:24965	146956	ENSG00000154920	essential meiotic structure-specific endonuclease 1	Q96AY2		FLJ31364|MMS4L|SLX2A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SEC11A	HGNC:17718	23478	ENSG00000140612	SEC11 homolog A, signal peptidase complex subunit	P67812		SPC18|sid2895|SPCS4A|SEC11L1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TBXT	HGNC:11515	6862	ENSG00000164458	T-box transcription factor T	O15178		T	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+H2BW2	HGNC:27867	286436	ENSG00000101812	H2B.W histone 2	P0C1H6		H2BFM|H2BM	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+REC8	HGNC:16879	9985	ENSG00000100918	REC8 meiotic recombination protein	O95072		Rec8p|kleisin-alpha|REC8L1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+EBP	HGNC:3133	10682	ENSG00000147155	EBP cholestenol delta-isomerase	Q15125		D8D7I|CPX|CPXD|CHO2|CDPX2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LRRC4	HGNC:15586	64101	ENSG00000128594	leucine rich repeat containing 4	Q9HBW1		NAG14|NGL-2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TLE2	HGNC:11838	7089	ENSG00000065717	TLE family member 2, transcriptional corepressor	Q04725		ESG2|GRG2|ESG|FLJ41188	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+APBA2	HGNC:579	321	ENSG00000034053	amyloid beta precursor protein binding family A member 2	Q99767		D15S1518E|LIN-10|MGC:14091|HsT16821|X11L|MINT2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CFAP92	HGNC:29231	57501	ENSG00000114656	cilia and flagella associated protein 92 (putative)	Q9ULG3		FLJ43738|FAP92|KIAA1257	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+IL20RA	HGNC:6003	53832	ENSG00000016402	interleukin 20 receptor subunit alpha	Q9UHF4		ZCYTOR7|IL-20R1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SPNS2	HGNC:26992	124976	ENSG00000183018	SPNS lysolipid transporter 2, sphingosine-1-phosphate	Q8IVW8		SLC63A2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RBP5	HGNC:15847	83758	ENSG00000139194	retinol binding protein 5	P82980		CRBPIII|CRBP3|CRBP-III	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF622	HGNC:30958	90441	ENSG00000173545	zinc finger protein 622	Q969S3		MGC2485|MGC17552|ZPR9	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TBRG1	HGNC:29551	84897	ENSG00000154144	transforming growth factor beta regulator 1	Q3YBR2		FLJ14621|TB-5|NIAM	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TRMT10C	HGNC:26022	54931	ENSG00000174173	tRNA methyltransferase 10C, mitochondrial RNase P subunit	Q7L0Y3		FLJ20432|MRPP1|RG9MTD1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ADAMTS15	HGNC:16305	170689	ENSG00000166106	ADAM metallopeptidase with thrombospondin type 1 motif 15	Q8TE58			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+POTEB2	HGNC:48327	100287399	ENSG00000230031	POTE ankyrin domain family member B2	H3BUK9			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LACRT	HGNC:16430	90070	ENSG00000135413	lacritin	Q9GZZ8		LACRITIN	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF345	HGNC:16367	25850	ENSG00000251247	zinc finger protein 345	Q14585		HZF10	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SUCNR1	HGNC:4542	56670	ENSG00000198829	succinate receptor 1	Q9BXA5		GPR91	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ARL8B	HGNC:25564	55207	ENSG00000134108	ARF like GTPase 8B	Q9NVJ2		FLJ10702|Gie1|ARL10C	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ODAD1	HGNC:26560	93233	ENSG00000105479	outer dynein arm docking complex subunit 1	Q96M63		FLJ32926|CILD20|CCDC114	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ABCA9	HGNC:39	10350	ENSG00000154258	ATP binding cassette subfamily A member 9	Q8IUA7		EST640918	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CNTF	HGNC:2169	1270	ENSG00000242689	ciliary neurotrophic factor	P26441		HCNTF	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LRP2BP	HGNC:25434	55805	ENSG00000109771	LRP2 binding protein	Q9P2M1		DKFZp761O0113	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DYNLT3	HGNC:11694	6990	ENSG00000165169	dynein light chain Tctex-type 3	P51808		TCTEX1L|TCTE1L	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FUOM	HGNC:24733	282969	ENSG00000148803	fucose mutarotase	A2VDF0		FLJ26016|FucU|FucM|C10orf125	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MRO	HGNC:24121	83876	ENSG00000134042	maestro	Q9BYG7		B29|FLJ30140|C18orf3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SRPRB	HGNC:24085	58477	ENSG00000144867	SRP receptor subunit beta	Q9Y5M8		APMCF1|SR-beta	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FAM229B	HGNC:33858	619208	ENSG00000203778	family with sequence similarity 229 member B	Q4G0N7		DKFZp586F0922|LOC619208|C6orf225	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FNIP2	HGNC:29280	57600	ENSG00000052795	folliculin interacting protein 2	Q9P278		KIAA1450|FNIPL|MAPO1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NFIL3	HGNC:7787	4783	ENSG00000165030	nuclear factor, interleukin 3 regulated	Q16649		E4BP4|NFIL3A|NF-IL3A|IL3BP1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+IFI16	HGNC:5395	3428	ENSG00000163565	interferon gamma inducible protein 16	Q16666		IFNGIP1|PYHIN2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KCNJ18	HGNC:39080	100134444	ENSG00000260458	potassium inwardly rectifying channel subfamily J member 18	B7U540		KIR2.6|TTPP2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SEC61B	HGNC:16993	10952	ENSG00000106803	SEC61 translocon subunit beta	P60468			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PSME3IP1	HGNC:29856	80011	ENSG00000172775	proteasome activator subunit 3 interacting protein 1	Q9GZU8		NIP30|PIP30|C16orf94|FAM192A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MAMDC4	HGNC:24083	158056	ENSG00000177943	MAM domain containing 4	Q6UXC1		AEGP|DKFZp434M1411|EDTB	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+UBE2I	HGNC:12485	7329	ENSG00000103275	ubiquitin conjugating enzyme E2 I	P63279		UBC9	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+BID	HGNC:1050	637	ENSG00000015475	BH3 interacting domain death agonist	P55957			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GNAT1	HGNC:4393	2779	ENSG00000114349	G protein subunit alpha transducin 1	P11488		CSNBAD3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TNNI1	HGNC:11945	7135	ENSG00000159173	troponin I1, slow skeletal type	P19237		ssTnI	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PEA15	HGNC:8822	8682	ENSG00000162734	proliferation and apoptosis adaptor protein 15	Q15121		HMAT1|MAT1|PED|PEA-15|MAT1H|HUMMAT1H|PED-PEA15|PED/PEA15	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF202	HGNC:12994	7753	ENSG00000166261	zinc finger protein 202	O95125		ZKSCAN10|ZSCAN42	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+OPN5	HGNC:19992	221391	ENSG00000124818	opsin 5	Q6U736		neuropsin|dJ402H5.1|TMEM13	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CA5A	HGNC:1377	763	ENSG00000174990	carbonic anhydrase 5A	P35218		CA5|CAV|CAVA|CA5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+REEP3	HGNC:23711	221035	ENSG00000165476	receptor accessory protein 3	Q6NUK4		Yip2b|C10orf74	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+UBE2E3	HGNC:12479	10477	ENSG00000170035	ubiquitin conjugating enzyme E2 E3	Q969T4		UbcH9	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PDE7A	HGNC:8791	5150	ENSG00000205268	phosphodiesterase 7A	Q13946		HCP1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HOXA1	HGNC:5099	3198	ENSG00000105991	homeobox A1	P49639		HOX1F|HOX1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ENPP4	HGNC:3359	22875	ENSG00000001561	ectonucleotide pyrophosphatase/phosphodiesterase 4	Q9Y6X5		NPP4|KIAA0879|AP3Aase	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+OR7C2	HGNC:8374	26658	ENSG00000127529	olfactory receptor family 7 subfamily C member 2	O60412		OR19-18|OR7C3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KCNJ14	HGNC:6260	3770	ENSG00000182324	potassium inwardly rectifying channel subfamily J member 14	Q9UNX9		Kir2.4|IRK4	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MCCD1	HGNC:20668	401250	ENSG00000204511	mitochondrial coiled-coil domain 1	P59942			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PPIAL4H	HGNC:53889	105371242	ENSG00000270339	peptidylprolyl isomerase A like 4H	A0A075B767			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CYB5B	HGNC:24374	80777	ENSG00000103018	cytochrome b5 type B	O43169		CYB5-M	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DENND2B	HGNC:11350	6764	ENSG00000166444	DENN domain containing 2B	P78524		HTS1|p126|ST5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ITSN2	HGNC:6184	50618	ENSG00000198399	intersectin 2	Q9NZM3		KIAA1256|SWAP|SH3P18|SWA|PRO2015|SH3D1B	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZCCHC13	HGNC:31749	389874	ENSG00000187969	zinc finger CCHC-type containing 13	Q8WW36		4930513O09RIK|Cnbp2|ZNF9L	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CYB561D2	HGNC:30253	11068	ENSG00000114395	cytochrome b561 family member D2	O14569		101F6|TSP10|TSCytb	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GABBR2	HGNC:4507	9568	ENSG00000136928	gamma-aminobutyric acid type B receptor subunit 2	O75899		HG20|GABABR2|GPRC3B|GPR51	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+BLOC1S3	HGNC:20914	388552	ENSG00000189114	biogenesis of lysosomal organelles complex 1 subunit 3	Q6QNY0		BLOS3|HPS8	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GRXCR2	HGNC:33862	643226	ENSG00000204928	glutaredoxin and cysteine rich domain containing 2	A6NFK2		DFNB101	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LRR1	HGNC:19742	122769	ENSG00000165501	leucine rich repeat protein 1	Q96L50		4-1BBLRR|MGC20689|LRR-1|PPIL5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+INPP5J	HGNC:8956	27124	ENSG00000185133	inositol polyphosphate-5-phosphatase J	Q15735		INPP5|PIPP|PIB5PA	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FBXO42	HGNC:29249	54455	ENSG00000037637	F-box protein 42	Q6P3S6		KIAA1332|Fbx42	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZDHHC16	HGNC:20714	84287	ENSG00000171307	zDHHC palmitoyltransferase 16	Q969W1		APH2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CERS1	HGNC:14253	10715	ENSG00000223802	ceramide synthase 1	P27544		LAG1|UOG1|LASS1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+STPG3	HGNC:37285	441476	ENSG00000197768	sperm-tail PG-rich repeat containing 3	Q8N7X2		FLJ40246|C9orf173	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+INSYN1	HGNC:33753	388135	ENSG00000205363	inhibitory synaptic factor 1	Q2T9L4		MGC131524|LOC388135|C15orf59	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+STAU1	HGNC:11370	6780	ENSG00000124214	staufen double-stranded RNA binding protein 1	O95793		PPP1R150|STAU	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SNRPA1	HGNC:11152	6627	ENSG00000131876	small nuclear ribonucleoprotein polypeptide A'	P09661		Lea1|U2A'	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GK2	HGNC:4291	2712	ENSG00000196475	glycerol kinase 2	Q14410		GKTA|GKP2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KLRF1	HGNC:13342	51348	ENSG00000150045	killer cell lectin like receptor F1	Q9NZS2		CLEC5C|NKp80	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TXNDC8	HGNC:31454	255220	ENSG00000204193	thioredoxin domain containing 8	Q6A555		bA427L11.2|TRX6|SPTRX-3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DNASE2	HGNC:2960	1777	ENSG00000105612	deoxyribonuclease 2, lysosomal	O00115		DNL|DNL2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ASZ1	HGNC:1350	136991	ENSG00000154438	ankyrin repeat, SAM and basic leucine zipper domain containing 1	Q8WWH4		Orf3|GASZ|ALP1|CT1.19|C7orf7|ANKL1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RECK	HGNC:11345	8434	ENSG00000122707	reversion inducing cysteine rich protein with kazal motifs	O95980		hRECK|ST15	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CHD9	HGNC:25701	80205	ENSG00000177200	chromodomain helicase DNA binding protein 9	Q3L8U1		FLJ12178|KIAA0308|BC022889	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+COL4A6	HGNC:2208	1288	ENSG00000197565	collagen type IV alpha 6 chain	Q14031			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SHISA4	HGNC:27139	149345	ENSG00000198892	shisa family member 4	Q96DD7		hShisa4|C1orf40|TMEM58	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PTX3	HGNC:9692	5806	ENSG00000163661	pentraxin 3	P26022		TSG-14|TNFAIP5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MSANTD5	HGNC:55184	102724657	ENSG00000285891	Myb/SANT DNA binding domain containing 5	A0A3B3IT52			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HPGD	HGNC:5154	3248	ENSG00000164120	15-hydroxyprostaglandin dehydrogenase	P15428		SDR36C1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ANKRD34A	HGNC:27639	284615	ENSG00000272031	ankyrin repeat domain 34A	Q69YU3		ANKRD34	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TNMD	HGNC:17757	64102	ENSG00000000005	tenomodulin	Q9H2S6		myodulin|ChM1L|tendin|TEM|BRICD4	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NME4	HGNC:7852	4833	ENSG00000103202	NME/NM23 nucleoside diphosphate kinase 4	O00746		nm23-H4|NM23H4|NDPKD	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ACOT9	HGNC:17152	23597	ENSG00000123130	acyl-CoA thioesterase 9	Q9Y305		CGI-16|MT-ACT48|ACATE2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PRAMEF10	HGNC:27997	343071	ENSG00000187545	PRAME family member 10	O60809			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SCYGR5	HGNC:34224	112441437	ENSG00000284667	small cysteine and glycine repeat containing 5	A0A286YF46		KRTAP28-5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GIMAP4	HGNC:21872	55303	ENSG00000133574	GTPase, IMAP family member 4	Q9NUV9		HIMAP4|FLJ11110|IMAP4|IAN1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DOLPP1	HGNC:29565	57171	ENSG00000167130	dolichyldiphosphatase 1	Q86YN1		LSFR2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MTURN	HGNC:25457	222166	ENSG00000180354	maturin, neural progenitor differentiation regulator homolog	Q8N3F0		FLJ25903|Ells1|C7orf41	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GTPBP6	HGNC:30189	8225	ENSG00000178605	GTP binding protein 6	O43824		PGPL|FLJ20977	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NDUFA12	HGNC:23987	55967	ENSG00000184752	NADH:ubiquinone oxidoreductase subunit A12	Q9UI09		DAP13|B17.2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PDGFRL	HGNC:8805	5157	ENSG00000104213	platelet derived growth factor receptor like	Q15198		PRLTS	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+XYLB	HGNC:12839	9942	ENSG00000093217	xylulokinase	O75191		FLJ10343|FLJ12539	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SOX15	HGNC:11196	6665	ENSG00000129194	SRY-box transcription factor 15	O60248		SOX27|SOX26|SOX20	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TEX52	HGNC:53643	101929469	ENSG00000283297	testis expressed 52	A6NCN8			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GUCA2A	HGNC:4682	2980	ENSG00000197273	guanylate cyclase activator 2A	Q02747		STARA|GUCA2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+IER5	HGNC:5393	51278	ENSG00000162783	immediate early response 5	Q5VY09			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DSC1	HGNC:3035	1823	ENSG00000134765	desmocollin 1	Q08554		CDHF1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ADCY10	HGNC:21285	55811	ENSG00000143199	adenylate cyclase 10	Q96PN6		SAC|Sacy|SACI|HCA2|RP1-313L4.2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ODAD3	HGNC:28303	115948	ENSG00000198003	outer dynein arm docking complex subunit 3	A5D8V7		MGC20983|ODA10|CCDC151	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+USP17L25	HGNC:44452	728373	ENSG00000230430	ubiquitin specific peptidase 17 like family member 25	Q0WX57			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GLI4	HGNC:4320	2738	ENSG00000250571	GLI family zinc finger 4	P10075		HKR4|ZNF928	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SGPL1	HGNC:10817	8879	ENSG00000166224	sphingosine-1-phosphate lyase 1	O95470		SPL	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+BMP10	HGNC:20869	27302	ENSG00000163217	bone morphogenetic protein 10	O95393			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ESR1	HGNC:3467	2099	ENSG00000091831	estrogen receptor 1	P03372		ER|NR3A1|Era|ER-alpha|ESR	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ARHGDIB	HGNC:679	397	ENSG00000111348	Rho GDP dissociation inhibitor beta	P52566		Ly-GDI|RhoGDI2|RAP1GN1|GDIA2|GDID4	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZBTB2	HGNC:20868	57621	ENSG00000181472	zinc finger and BTB domain containing 2	Q8N680		KIAA1483|ZNF437|bA351K16.2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CCDC141	HGNC:26821	285025	ENSG00000163492	coiled-coil domain containing 141	Q6ZP82		FLJ39502|CAMDI	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MTX3	HGNC:24812	345778	ENSG00000177034	metaxin 3	Q5HYI7			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+LSM2	HGNC:13940	57819	ENSG00000204392	LSM2 homolog, U6 small nuclear RNA and mRNA degradation associated	Q9Y333		G7b|YBL026W|C6orf28	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MARCHF7	HGNC:17393	64844	ENSG00000136536	membrane associated ring-CH-type finger 7	Q9H992		MARCH-VII|RNF177|AXOT|MARCH7	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SOHLH1	HGNC:27845	402381	ENSG00000165643	spermatogenesis and oogenesis specific basic helix-loop-helix 1	Q5JUK2		NOHLH|TEB2|bA100C15.3|bHLHe80|SPATA27|C9orf157	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MAGEF1	HGNC:29639	64110	ENSG00000177383	MAGE family member F1	Q9HAY2			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+BRINP2	HGNC:13746	57795	ENSG00000198797	BMP/retinoic acid inducible neural specific 2	Q9C0B6		DBCCR1L2|FAM5B	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ERP29	HGNC:13799	10961	ENSG00000089248	endoplasmic reticulum protein 29	P30040		ERp28|ERp31|PDI-DB|PDIA9|C12orf8	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CRYGN	HGNC:20458	155051	ENSG00000127377	crystallin gamma N	Q8WXF5			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TUBA8	HGNC:12410	51807	ENSG00000183785	tubulin alpha 8	Q9NY65		TUBAL2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CMTM2	HGNC:19173	146225	ENSG00000140932	CKLF like MARVEL transmembrane domain containing 2	Q8TAZ6		MGC39436|FLJ25732|CKLFSF2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+OR10A3	HGNC:8162	26496	ENSG00000170683	olfactory receptor family 10 subfamily A member 3	P58181		HTPCRX12|HSHTPCRX12	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CDC25A	HGNC:1725	993	ENSG00000164045	cell division cycle 25A	P30304			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FAM9C	HGNC:18405	171484	ENSG00000187268	family with sequence similarity 9 member C	Q8IZT9		TEX39C	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF169	HGNC:12957	169841	ENSG00000175787	zinc finger protein 169	Q14929		MGC51961	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+HEPACAM2	HGNC:27364	253012	ENSG00000188175	HEPACAM family member 2	A8MVW5		FLJ38683	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RAPGEFL1	HGNC:17428	51195	ENSG00000108352	Rap guanine nucleotide exchange factor like 1	Q9UHV5		Link-GEFII	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PCK2	HGNC:8725	5106	ENSG00000100889	phosphoenolpyruvate carboxykinase 2, mitochondrial	Q16822		PEPCK|PEPCK2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NEMP1	HGNC:29001	23306	ENSG00000166881	nuclear envelope integral membrane protein 1	O14524		KIAA0286|TMEM194|TMEM194A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TJP1	HGNC:11827	7082	ENSG00000104067	tight junction protein 1	Q07157		ZO-1|MGC133289|DKFZp686M05161	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+QRICH2	HGNC:25326	84074	ENSG00000129646	glutamine rich 2	Q9H0J4		DKFZP434P0316	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CGB1	HGNC:16721	114335	ENSG00000267631	chorionic gonadotropin subunit beta 1	A6NKQ9			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+AK1	HGNC:361	203	ENSG00000106992	adenylate kinase 1	P00568		ADK|Adk1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CCDC42	HGNC:26528	146849	ENSG00000161973	coiled-coil domain containing 42	Q96M95		FLJ32734|CCDC42A	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MYCT1	HGNC:23172	80177	ENSG00000120279	MYC target 1	Q8N699		MTLC|FLJ21269	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+DNAI1	HGNC:2954	27019	ENSG00000122735	dynein axonemal intermediate chain 1	Q9UI46		DIC1|PCD|CILD1|oda6	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CBLL1	HGNC:21225	79872	ENSG00000105879	Cbl proto-oncogene like 1	Q75N03		HAKAI|FLJ23109|RNF188	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MDN1	HGNC:18302	23195	ENSG00000112159	midasin AAA ATPase 1	Q9NU22		KIAA0301|Rea1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SPATA21	HGNC:28026	374955	ENSG00000187144	spermatogenesis associated 21	Q7Z572		spergen-2|spergen2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+FNDC3A	HGNC:20296	22862	ENSG00000102531	fibronectin type III domain containing 3A	Q9Y2H6		bA203I16.5|KIAA0970|FNDC3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GAGE7	HGNC:4104	2579		G antigen 7	O76087		GAGE-7|CT4.7	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+IGFBP4	HGNC:5473	3487	ENSG00000141753	insulin like growth factor binding protein 4	P22692		IBP4|BP-4|HT29-IGFBP|IGFBP-4	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+UTP25	HGNC:28440	27042	ENSG00000117597	UTP25 small subunit processome component	Q68CQ4		MGC29875|DEF|C1orf107|DIEXF	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SEC14L4	HGNC:20627	284904	ENSG00000133488	SEC14 like lipid binding 4	Q9UDX3		TAP3|dJ130H16.5	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ACOT4	HGNC:19748	122970	ENSG00000177465	acyl-CoA thioesterase 4	Q8N9L9		FLJ31235|PTE-Ib|PTE2B	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF165	HGNC:12953	7718	ENSG00000197279	zinc finger protein 165	P49910		ZSCAN7|CT53	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TAF11L2	HGNC:53845	391742	ENSG00000284373	TATA-box binding protein associated factor 11 like 2	A6NLC8			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RGL3	HGNC:30282	57139	ENSG00000205517	ral guanine nucleotide dissociation stimulator like 3	Q3MIN7		FLJ32585	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ANXA3	HGNC:541	306	ENSG00000138772	annexin A3	P12429		ANX3	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GSTT2	HGNC:4642	2953	ENSG00000099984	glutathione S-transferase theta 2 (gene/pseudogene)	P0CG29			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+TOM1L2	HGNC:11984	146691	ENSG00000175662	target of myb1 like 2 membrane trafficking protein	Q6ZVM7			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MAGEA2B	HGNC:19340	266740	ENSG00000183305	MAGE family member A2B	P43356		MAGE2|MGC16973|MAGEA2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MMP27	HGNC:14250	64066	ENSG00000137675	matrix metallopeptidase 27	Q9H306			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PBDC1	HGNC:28790	51260	ENSG00000102390	polysaccharide biosynthesis domain containing 1	Q9BVG4		MGC874|CXorf26	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+GPR107	HGNC:17830	57720	ENSG00000148358	G protein-coupled receptor 107	Q5VW38		KIAA1624|RP11-88G17|FLJ20998|LUSTR1	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+PKDCC	HGNC:25123	91461	ENSG00000162878	protein kinase domain containing, cytoplasmic	Q504Y2		SgK493|Vlk	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZHX2	HGNC:18513	22882	ENSG00000178764	zinc fingers and homeoboxes 2	Q9Y6X8		KIAA0854	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+C5	HGNC:1331	727	ENSG00000106804	complement C5	P01031		CPAMD4|C5a|C5b	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+RBM43	HGNC:24790	375287	ENSG00000184898	RNA binding motif protein 43	Q6ZSC3		FLJ45645|C2orf38	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+AP1S2	HGNC:560	8905	ENSG00000182287	adaptor related protein complex 1 subunit sigma 2	P56377		SIGMA1B|MRX59|MRXS5|PGS	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+CAPN5	HGNC:1482	726	ENSG00000149260	calpain 5	O15484		nCL-3|HTRA3|ADNIV|VRNI	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+KCNC2	HGNC:6234	3747	ENSG00000166006	potassium voltage-gated channel subfamily C member 2	Q96PR1		Kv3.2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+APOB	HGNC:603	338	ENSG00000084674	apolipoprotein B	P04114		ApoB-100	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ACTB	HGNC:132	60	ENSG00000075624	actin beta	P60709			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NHSL2	HGNC:33737	340527	ENSG00000204131	NHS like 2	Q5HYW2			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+MUC21	HGNC:21661	394263	ENSG00000204544	mucin 21, cell surface associated	Q5SSG8		bCX31G15.2|C6orf205	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+SMC1B	HGNC:11112	27127	ENSG00000077935	structural maintenance of chromosomes 1B	Q8NDV3		bK268H5|SMC1L2	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+COQ8B	HGNC:19041	79934	ENSG00000123815	coenzyme Q8B	Q96D53		FLJ12229|COQ8|ADCK4	cystinuria	random	0			HGNC protein-coding random, seed 20260921
+ZNF888	HGNC:38695	388559	ENSG00000213793	zinc finger protein 888	P0CJ79			cystinuria	random	0			HGNC protein-coding random, seed 20260921
+NEDD4	HGNC:7727	4734	ENSG00000069869	NEDD4 E3 ubiquitin protein ligase	P46934		KIAA0093|MGC176705|NEDD4-1|RPF1	cystinuria	random	0			HGNC protein-coding random, seed 20260921

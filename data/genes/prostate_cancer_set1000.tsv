@@ -1,0 +1,1001 @@
+symbol	hgnc_id	entrez_id	ensembl_gene_id	gene_name	uniprot_ids	protein_name_uniprot	alias_symbols	disease	category	label	evidence	note	source
+SLC2A11	HGNC:14239	66035	ENSG00000133460	solute carrier family 2 member 11	Q9BYW1		GLUT11	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A4	HGNC:14679	55089	ENSG00000139209	solute carrier family 38 member 4	Q969I6		PAAT|NAT3|ATA3|SNAT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+WTAP	HGNC:16846	9589	ENSG00000146457	WT1 associated protein	Q15007		KIAA0105|MGC3925|Mum2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC45A1	HGNC:17939	50651	ENSG00000162426	solute carrier family 45 member 1	Q9Y2W3		DNB5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A5	HGNC:20792	55032	ENSG00000138459	solute carrier family 35 member A5	Q9BS91		FLJ20730	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35F4	HGNC:19845	341880	ENSG00000151812	solute carrier family 35 member F4	A4IF30		FLJ37712|C14orf36	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+LRRC3C	HGNC:40034	100505591	ENSG00000204913	leucine rich repeat containing 3C	A6NJW4			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A11	HGNC:10981	8402	ENSG00000108528	solute carrier family 25 member 11	Q02978		OGC|SLC20A4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+FRG2	HGNC:19136	448831	ENSG00000205097	FSHD region gene 2	Q64ET8		FRG2A	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FHAD1	HGNC:29408	114827	ENSG00000142621	forkhead associated phosphopeptide binding domain 1	B1AJZ9		KIAA1937	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC17A9	HGNC:16192	63910	ENSG00000101194	solute carrier family 17 member 9	Q9BYT1		FLJ23412|VNUT|C20orf59	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+HOXB13	HGNC:5112	10481	ENSG00000159184	homeobox B13	Q92826			prostate cancer	candidate	0	germline	G84E risk allele	curated (Claude knowledge; unverified)
+SLC43A2	HGNC:23087	124935	ENSG00000167703	solute carrier family 43 member 2	Q8N370		MGC34680	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+H3C6	HGNC:4769	8353	ENSG00000274750	H3 clustered histone 6	P68431		H3/d|H3.1|H3FD|HIST1H3E	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC1A7	HGNC:10945	6512	ENSG00000162383	solute carrier family 1 member 7	O00341		EAAT5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC18A3	HGNC:10936	6572	ENSG00000187714	solute carrier family 18 member A3	Q16572		VACHT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MLH3	HGNC:7128	27030	ENSG00000119684	mutL homolog 3	Q9UHC1			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC6A13	HGNC:11046	6540	ENSG00000010379	solute carrier family 6 member 13	Q9NSD5		GAT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A11	HGNC:14471	284129	ENSG00000181045	solute carrier family 26 member 11	Q86WA9			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+STK38	HGNC:17847	11329	ENSG00000112079	serine/threonine kinase 38	Q15208		NDR|NDR1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CDC37	HGNC:1735	11140	ENSG00000105401	cell division cycle 37, HSP90 cochaperone	Q16543		P50CDC37	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LCE3E	HGNC:29463	353145	ENSG00000185966	late cornified envelope 3E	Q5T5B0		LEP17	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC30A2	HGNC:11013	7780	ENSG00000158014	solute carrier family 30 member 2	Q9BRI3		ZNT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+LTC4S	HGNC:6719	4056	ENSG00000213316	leukotriene C4 synthase	Q16873		MGC33147	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TMTC4	HGNC:25904	84899	ENSG00000125247	transmembrane O-mannosyltransferase targeting cadherins 4	Q5T4D3		FLJ14624|FLJ22153	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TNMD	HGNC:17757	64102	ENSG00000000005	tenomodulin	Q9H2S6		myodulin|ChM1L|tendin|TEM|BRICD4	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ASF1A	HGNC:20995	25842	ENSG00000111875	anti-silencing function 1A histone chaperone	Q9Y294		DKFZP547E2110|CIA	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+HMGN2	HGNC:4986	3151	ENSG00000198830	high mobility group nucleosomal binding domain 2	P05204		HMG17	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC26A2	HGNC:10994	1836	ENSG00000155850	solute carrier family 26 member 2	P50443		DTDST|DTD	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ARL9	HGNC:23592	132946	ENSG00000196503	ARF like GTPase 9	Q6T311			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC30A1	HGNC:11012	7779	ENSG00000170385	solute carrier family 30 member 1	Q9Y6M5		ZRC1|ZNT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC71A1	HGNC:23363	64645	ENSG00000156875	solute carrier family 71 member 1	Q96MC6		DKFZP564L0864|HIAT1|MFSD14A	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A7	HGNC:11054	6534	ENSG00000011083	solute carrier family 6 member 7	Q99884		PROT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A7	HGNC:23088	84068	ENSG00000120519	solute carrier family 10 member 7	Q0GE19		MGC25043|DKFZp566M114|DKFZp313H0531|DKFZp779O2438|C4orf13	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC31A2	HGNC:11017	1318	ENSG00000136867	solute carrier family 31 member 2	O15432		hCTR2|CTR2|COPT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+FMNL2	HGNC:18267	114793	ENSG00000157827	formin like 2	Q96PY5		KIAA1902|FHOD2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC16A1	HGNC:10922	6566	ENSG00000155380	solute carrier family 16 member 1	P53985		MCT|MCT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+IFIT5	HGNC:13328	24138	ENSG00000152778	interferon induced protein with tetratricopeptide repeats 5	Q13325		RI58	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+UBXN1	HGNC:18402	51035	ENSG00000162191	UBX domain protein 1	Q04323		LOC51035|2B28|UBXD10|SAKS1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC27A6	HGNC:11000	28965	ENSG00000113396	solute carrier family 27 member 6	Q9Y2P4		FATP6|VLCS-H1|FACVL2|ACSVL2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A17	HGNC:31399	388662	ENSG00000197106	solute carrier family 6 member 17	Q9H1V8		NTT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A5	HGNC:18070	92745	ENSG00000017483	solute carrier family 38 member 5	Q8WUX1		SN2|JM24|SNAT5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A3	HGNC:10989	5250	ENSG00000075415	solute carrier family 25 member 3	Q00325		PiC|PTP|PHC	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+OR8K1	HGNC:14831	390157	ENSG00000150261	olfactory receptor family 8 subfamily K member 1	Q8NGG5			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+AMBN	HGNC:452	258	ENSG00000178522	ameloblastin	Q9NP70			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC9D1	HGNC:20329	55002	ENSG00000150403	solute carrier family 9 member D1	Q6UWJ1		FLJ20623|C13orf11|TMCO3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A44	HGNC:29036	9673	ENSG00000160785	solute carrier family 25 member 44	Q96H78		FLJ90431|KIAA0446	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CNTN4	HGNC:2174	152330	ENSG00000144619	contactin 4	Q8IWV2		BIG-2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC35F3	HGNC:23616	148641	ENSG00000183780	solute carrier family 35 member F3	Q8IY50		FLJ37712	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A35	HGNC:31921	399512	ENSG00000125434	solute carrier family 25 member 35	Q3KQZ1		FLJ40217	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A48	HGNC:30451	153328	ENSG00000145832	solute carrier family 25 member 48	Q6ZT89		FLJ44862	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A6	HGNC:19863	145389	ENSG00000139974	solute carrier family 38 member 6	Q8IZM9		NAT-1|SNAT6	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+B4GALT5	HGNC:928	9334	ENSG00000158470	beta-1,4-galactosyltransferase 5	O43286		beta4GalT-V	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC45A3	HGNC:8642	85414	ENSG00000158715	solute carrier family 45 member 3	Q96JT2		IPCA-6|prostein|IPCA-2|IPCA-8|PCANAP6|PCANAP2|PCANAP8	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC13A2	HGNC:10917	9058	ENSG00000007216	solute carrier family 13 member 2	Q13183		NaDC-1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MRGPRE	HGNC:30694	116534	ENSG00000184350	MAS related GPR family member E	Q86SM8		mrgE|GPR167	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC35F6	HGNC:26055	54978	ENSG00000213699	solute carrier family 35 member F6	Q8N357		FLJ20555|ANT2BP|TANGO9|C2orf18	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+WDR31	HGNC:21421	114987	ENSG00000148225	WD repeat domain 31	Q8NA23		FLJ35921	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC22A23	HGNC:21106	63027	ENSG00000137266	solute carrier family 22 member 23	A1A5C7		FLJ22174|C6orf85	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC3A1	HGNC:11025	6519	ENSG00000138079	solute carrier family 3 member 1	Q07837		CSNU1|D2H|RBAT|ATR1|NBAT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MRPL2	HGNC:14056	51069	ENSG00000112651	mitochondrial ribosomal protein L2	Q5T653		MRP-L14|RPML14|CGI-22|uL2m	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TTC24	HGNC:32348	164118	ENSG00000187862	tetratricopeptide repeat domain 24	A2A3L6			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+REXO2	HGNC:17851	25996	ENSG00000076043	RNA exonuclease 2	Q9Y3B8		DKFZP566E144|SFN|CGI-114	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+WNT2B	HGNC:12781	7482	ENSG00000134245	Wnt family member 2B	Q93097		XWNT2|WNT13	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A46	HGNC:25198	91137	ENSG00000164209	solute carrier family 25 member 46	Q96AG3			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A6	HGNC:11041	8884	ENSG00000138074	solute carrier family 5 member 6	Q9Y289		SMVT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CSPG5	HGNC:2467	10675	ENSG00000114646	chondroitin sulfate proteoglycan 5	O95196		NGC	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC38A2	HGNC:13448	54407	ENSG00000134294	solute carrier family 38 member 2	Q96QD8		SAT2|ATA2|KIAA1382|SNAT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ZNF681	HGNC:26457	148213	ENSG00000196172	zinc finger protein 681	Q96N22		FLJ31526	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RBP3	HGNC:9921	5949	ENSG00000265203	retinol binding protein 3	P10745		D10S64|D10S65|D10S66|RP66|IRBP	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A16	HGNC:10986	8034	ENSG00000122912	solute carrier family 25 member 16	P16260		GDA|D10S105E|HGT.1|ML7	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC14A2	HGNC:10919	8170	ENSG00000132874	solute carrier family 14 member 2	Q15849		HUT2|UT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC28A3	HGNC:16484	64078	ENSG00000197506	solute carrier family 28 member 3	Q9HAS3		CNT3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TMPRSS2	HGNC:11876	7113	ENSG00000184012	transmembrane serine protease 2	O15393		PRSS10	prostate cancer	candidate	0	somatic	fusion partner; androgen-regulated protease	curated (Claude knowledge; unverified)
+SLCO2A1	HGNC:10955	6578	ENSG00000174640	solute carrier organic anion transporter family member 2A1	Q92959		PGT|OATP2A1|SLC21A2|MATR1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+RORB	HGNC:10259	6096	ENSG00000198963	RAR related orphan receptor B	Q92753		RZRB|NR1F2|ROR-BETA|RORβ|RZR-BETA	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC7A2	HGNC:11060	6542	ENSG00000003989	solute carrier family 7 member 2	P52569		CAT-2|HCAT2|SLC7A2A|SLC7A2B|CAT-2A|CAT-2B|ATRC2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+HAPLN3	HGNC:21446	145864	ENSG00000140511	hyaluronan and proteoglycan link protein 3	Q96S86		HsT19883|EXLD1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SPATS1	HGNC:22957	221409	ENSG00000249481	spermatogenesis associated serine rich 1	Q496A3		SPATA8|FLJ25442|SRSP1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A12	HGNC:10982	8604	ENSG00000115840	solute carrier family 25 member 12	O75746		Aralar|aralar1|AGC1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ZNF710	HGNC:25352	374655	ENSG00000140548	zinc finger protein 710	Q8N1W2		DKFZp547K1113|FLJ37393|FLJ00306	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ZNF48	HGNC:13114	197407	ENSG00000180035	zinc finger protein 48	Q96MX3		DKFZp762K013|FLJ31751|MGC43952|ZNF553	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ECI1	HGNC:2703	1632	ENSG00000167969	enoyl-CoA delta isomerase 1	P42126		DCI	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TSPAN31	HGNC:10539	6302	ENSG00000135452	tetraspanin 31	Q12999		SAS	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ANAPC10	HGNC:24077	10393	ENSG00000164162	anaphase promoting complex subunit 10	Q9UM13		APC10|DOC1|DKFZP564L0562	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MAT2A	HGNC:6904	4144	ENSG00000168906	methionine adenosyltransferase 2A	P31153		SAMS2|MATA2|MATII|MAT-II	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ARHGDIG	HGNC:680	398	ENSG00000242173	Rho GDP dissociation inhibitor gamma	Q99819		RHOGDI-3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC47A1	HGNC:25588	55244	ENSG00000142494	solute carrier family 47 member 1	Q96FL8		FLJ10847|MATE1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A3	HGNC:18068	51296	ENSG00000110446	solute carrier family 15 member 3	Q8IY34		PHT2|hPTR3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A3	HGNC:10912	6559	ENSG00000070915	solute carrier family 12 member 3	P55017		NCCT|NCC|TSC	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A3	HGNC:11049	6531	ENSG00000142319	solute carrier family 6 member 3	Q01959		DAT|DAT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CDK4	HGNC:1773	1019	ENSG00000135446	cyclin dependent kinase 4	P11802		PSK-J3	prostate cancer	candidate	0	clinical_trial	cell-cycle	curated (Claude knowledge; unverified)
+CPLANE2	HGNC:28127	79363	ENSG00000132881	ciliogenesis and planar polarity effector complex subunit 2	Q9BU20		MGC10731|C1orf89|RSG1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+GNG14	HGNC:53439	105372280	ENSG00000283980	G protein subunit gamma 14	A0A1W2PPG7			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SEC23A	HGNC:10701	10484	ENSG00000100934	SEC23 homolog A, COPII component	Q15436			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PRAMEF8	HGNC:24074	391002	ENSG00000182330	PRAME family member 8	Q5VWM4			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RELA	HGNC:9955	5970	ENSG00000173039	RELA proto-oncogene, NF-kB subunit	Q04206		p65|NFKB3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FAM162B	HGNC:21549	221303	ENSG00000183807	family with sequence similarity 162 member B	Q5T6X4		bA86F4.2|C6orf189	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+HIF3A	HGNC:15825	64344	ENSG00000124440	hypoxia inducible factor 3 subunit alpha	Q9Y2N7		IPAS|MOP7|PASD7|bHLHe17	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC3A2	HGNC:11026	6520	ENSG00000168003	solute carrier family 3 member 2	P08195		4T2HC|4F2|NACAE|CD98|CD98HC|4F2HC|MDU1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A1	HGNC:10939	6505	ENSG00000106688	solute carrier family 1 member 1	P43005		EAAC1|EAAT3|hEAAC1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A9	HGNC:22146	200010	ENSG00000117834	solute carrier family 5 member 9	Q2M3M2		SGLT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+GUCY2F	HGNC:4691	2986	ENSG00000101890	guanylate cyclase 2F, retinal	P51841		GUC2DL|GC-F|RetGC-2|ROS-GC2|CYGF	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+POU4F2	HGNC:9219	5458	ENSG00000151615	POU class 4 homeobox 2	Q12837		Brn-3b|BRN3B	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC29A2	HGNC:11004	3177	ENSG00000174669	solute carrier family 29 member 2	Q14542		DER12|ENT2|HNP36	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MFAP3L	HGNC:29083	9848	ENSG00000198948	microfibril associated protein 3 like	O75121		KIAA0626|NYD-sp9	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MSH2	HGNC:7325	4436	ENSG00000095002	mutS homolog 2	P43246		HNPCC|HNPCC1|MSH-2|COCA1	prostate cancer	candidate	0	germline	mismatch repair; immunotherapy sensitivity	curated (Claude knowledge; unverified)
+GLRA1	HGNC:4326	2741	ENSG00000145888	glycine receptor alpha 1	P23415		STHE	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ADAMTS14	HGNC:14899	140766	ENSG00000138316	ADAM metallopeptidase with thrombospondin type 1 motif 14	Q8WXS8			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CYP17A1	HGNC:2593	1586	ENSG00000148795	cytochrome P450 family 17 subfamily A member 1	P05093		P450C17|CPT7|S17AH|CYP17	prostate cancer	known	1	approved_drug	abiraterone — approved (androgen synthesis inhibitor)	curated (Claude knowledge, 2026-05; unverified)
+BRCA2	HGNC:1101	675	ENSG00000139618	BRCA2 DNA repair associated	P51587		FAD|FAD1|BRCC2|XRCC11|FANCD1|FACD|FANCD	prostate cancer	candidate	0	germline	homologous recombination; PARP-inhibitor sensitivity	curated (Claude knowledge; unverified)
+BCL2	HGNC:990	596	ENSG00000171791	BCL2 apoptosis regulator	P10415		Bcl-2|PPP1R50	prostate cancer	candidate	0	biology	anti-apoptotic	curated (Claude knowledge; unverified)
+APBA2	HGNC:579	321	ENSG00000034053	amyloid beta precursor protein binding family A member 2	Q99767		D15S1518E|LIN-10|MGC:14091|HsT16821|X11L|MINT2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC12A7	HGNC:10915	10723	ENSG00000113504	solute carrier family 12 member 7	Q9Y666		KCC4|DKFZP434F076	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TSC22D4	HGNC:21696	81628	ENSG00000166925	TSC22 domain family member 4	Q9Y3Q8		THG-1|TILZ2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CLEC14A	HGNC:19832	161198	ENSG00000176435	C-type lectin domain containing 14A	Q86T13		C14orf27	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+BEX5	HGNC:27990	340542	ENSG00000184515	brain expressed X-linked 5	Q5H9J7		NGFRAP1L1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC2A5	HGNC:11010	6518	ENSG00000142583	solute carrier family 2 member 5	P22732		GLUT5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CHIA	HGNC:17432	27159	ENSG00000134216	chitinase acidic	Q9BZP6		AMCase|TSA1902|CHIT2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+GABRG1	HGNC:4086	2565	ENSG00000163285	gamma-aminobutyric acid type A receptor subunit gamma1	Q8N1C3			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC2A14	HGNC:18301	144195	ENSG00000173262	solute carrier family 2 member 14	Q8TDB8		GLUT14|SLC2A3P3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+DLC1	HGNC:2897	10395	ENSG00000164741	DLC1 Rho GTPase activating protein	Q96QB1		HP|ARHGAP7|STARD12|DLC-1|p122-RhoGAP	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ADCY9	HGNC:240	115	ENSG00000162104	adenylate cyclase 9	O60503		AC9	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC7A13	HGNC:23092	157724	ENSG00000164893	solute carrier family 7 member 13	Q8TCU3		AGT-1|XAT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC48A1	HGNC:26035	55652	ENSG00000211584	solute carrier family 48 member 1	Q6P1K1		FLJ20489|hHRG-1|HRG1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PCYOX1	HGNC:20588	51449	ENSG00000116005	prenylcysteine oxidase 1	Q9UHG3		KIAA0908|PCL1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC13A5	HGNC:23089	284111	ENSG00000141485	solute carrier family 13 member 5	Q86YT5		NACT|INDY|mINDY	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SEC61B	HGNC:16993	10952	ENSG00000106803	SEC61 translocon subunit beta	P60468			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MUC17	HGNC:16800	140453	ENSG00000169876	mucin 17, cell surface associated	Q685J3			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC16A12	HGNC:23094	387700	ENSG00000152779	solute carrier family 16 member 12	Q6ZSM3		MCT12|CRT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A4	HGNC:10968	6583	ENSG00000197208	solute carrier family 22 member 4	Q9H015		OCTN1|MGC34546|DFNB60	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+KCNE5	HGNC:6241	23630	ENSG00000176076	potassium voltage-gated channel subfamily E regulatory subunit 5	Q9UJ90		KCNE1L	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ZNF22	HGNC:13012	7570	ENSG00000165512	zinc finger protein 22	P17026		KOX15|HKR-T1|ZNF422|Zfp422	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+XRCC1	HGNC:12828	7515	ENSG00000073050	X-ray repair cross complementing 1	P18887		RCC	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC35A1	HGNC:11021	10559	ENSG00000164414	solute carrier family 35 member A1	P78382		CMPST|hCST|CMP-Sia-Tr	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NIPA2	HGNC:17044	81614	ENSG00000140157	NIPA magnesium transporter 2	Q8N8Q9		SLC57A2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC24A1	HGNC:10975	9187	ENSG00000074621	solute carrier family 24 member 1	O60721		NCKX1|NCKX|RODX|KIAA0702|HsT17412|CSNB1D	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+AKT1	HGNC:391	207	ENSG00000142208	AKT serine/threonine kinase 1	P31749		RAC|PKB|PRKBA|AKT|RAC-alpha	prostate cancer	candidate	0	clinical_trial	capivasertib; phase 3 positive in PTEN-deficient disease	curated (Claude knowledge; unverified)
+CDH1	HGNC:1748	999	ENSG00000039068	cadherin 1	P12830		uvomorulin|CD324|UVO	prostate cancer	candidate	0	biology	epithelial adhesion; invasion	curated (Claude knowledge; unverified)
+STX10	HGNC:11428	8677	ENSG00000104915	syntaxin 10	O60499		hsyn10|SYN10	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+VPS33A	HGNC:18179	65082	ENSG00000139719	VPS33A core subunit of CORVET and HOPS complexes	Q96AX1			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FAM120AOS	HGNC:23389	158293	ENSG00000188938	family with sequence similarity 120 member A opposite strand	Q5T036		C9orf10OS	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SDR42E1	HGNC:29834	93517	ENSG00000184860	short chain dehydrogenase/reductase family 42E, member 1	Q8WUS8		HSPC105	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A43	HGNC:30557	203427	ENSG00000077713	solute carrier family 25 member 43	Q8WUT9			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TSTD1	HGNC:35410	100131187	ENSG00000215845	thiosulfate sulfurtransferase like domain containing 1	Q8NFU3		KAT	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC26A1	HGNC:10993	10861	ENSG00000145217	solute carrier family 26 member 1	Q9H2B4		SAT-1|EDM4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CBR1	HGNC:1548	873	ENSG00000159228	carbonyl reductase 1	P16152		SDR21C1|CBR	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+IFNA16	HGNC:5421	3449	ENSG00000147885	interferon alpha 16	P05015		IFN-alphaO	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+DSG4	HGNC:21307	147409	ENSG00000175065	desmoglein 4	Q86SJ6		CDHF13|LAH	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+POU6F2	HGNC:21694	11281	ENSG00000106536	POU class 6 homeobox 2	P78424		RPF-1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLCO3A1	HGNC:10952	28232	ENSG00000176463	solute carrier organic anion transporter family member 3A1	Q9UIG8		OATP-D|OATP3A1|SLC21A11	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NPHP4	HGNC:19104	261734	ENSG00000131697	nephrocystin 4	O75161		SLSN4|KIAA0673|POC10	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+KCNK4	HGNC:6279	50801	ENSG00000182450	potassium two pore domain channel subfamily K member 4	Q9NYG8		K2p4.1|TRAAK	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC6A15	HGNC:13621	55117	ENSG00000072041	solute carrier family 6 member 15	Q9H2J7		hv7-3|NTT73|FLJ10316|V7-3|SBAT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC11A1	HGNC:10907	6556	ENSG00000018280	solute carrier family 11 member 1	P49279		LSH|NRAMP|NRAMP1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CBS	HGNC:1550	875	ENSG00000160200	cystathionine beta-synthase	P35520		HIP4	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SUCLA2	HGNC:11448	8803	ENSG00000136143	succinate-CoA ligase ADP-forming subunit beta	Q9P2R7		LINC00444	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+KLHDC3	HGNC:20704	116138	ENSG00000124702	kelch domain containing 3	Q9BQ90		PEAS|hPeas|dJ20C7.3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SCRN3	HGNC:30382	79634	ENSG00000144306	secernin 3	Q0VDG4		FLJ23142	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TBC1D26	HGNC:28745	353149	ENSG00000214946	TBC1 domain family member 26	Q86UD7		MGC51025	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ELOVL7	HGNC:26292	79993	ENSG00000164181	ELOVL fatty acid elongase 7	A1L3X0		FLJ23563	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC7A6	HGNC:11064	9057	ENSG00000103064	solute carrier family 7 member 6	Q92536		y+LAT-2|KIAA0245|LAT3|LAT-2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SVBP	HGNC:29204	374969	ENSG00000177868	small vasohibin binding protein	Q8N300		MGC45441|CCDC23	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+OR10K1	HGNC:14693	391109	ENSG00000173285	olfactory receptor family 10 subfamily K member 1	Q8NGX5			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ZNF799	HGNC:28071	90576	ENSG00000196466	zinc finger protein 799	Q96GE5		HIT-40|MGC71805|ZNF842	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+POLD4	HGNC:14106	57804	ENSG00000175482	DNA polymerase delta 4, accessory subunit	Q9HCU8		p12|POLDS	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC5A3	HGNC:11038	6526	ENSG00000198743	solute carrier family 5 member 3	P53794		SMIT|SMIT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CCDC126	HGNC:22398	90693	ENSG00000169193	coiled-coil domain containing 126	Q96EE4		FLJ23031	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC46A1	HGNC:30521	113235	ENSG00000076351	solute carrier family 46 member 1	Q96NT5		HCP1|MGC9564|PCFT|HsPCFT|hPCFT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A3	HGNC:10997	11000	ENSG00000143554	solute carrier family 27 member 3	Q5K4L6		FATP3|MGC4365|ACSVL3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TEAD1	HGNC:11714	7003	ENSG00000187079	TEA domain transcription factor 1	P28347		TEF-1|TCF13|AA	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MAMDC2	HGNC:23673	256691	ENSG00000165072	MAM domain containing 2	Q7Z304		MGC21981	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TSN	HGNC:12379	7247	ENSG00000211460	translin	Q15631		TRSLN|BCLF-1|REHF-1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FOLR2	HGNC:3793	2350	ENSG00000165457	folate receptor beta	P14207		FRβ	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+DAZ4	HGNC:15966	57135	ENSG00000205916	deleted in azoospermia 4	Q86SG3			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A5	HGNC:10991	292	ENSG00000005022	solute carrier family 25 member 5	P05141		T2|2F1|T3|ANT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A18	HGNC:10988	83733	ENSG00000182902	solute carrier family 25 member 18	Q9H1K4			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+UBALD1	HGNC:29576	124402	ENSG00000153443	UBA like domain containing 1	Q8TB05		FAM100A	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SPATA24	HGNC:27322	202051	ENSG00000170469	spermatogenesis associated 24	Q86W54		T6441|CCDC161	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC9A5	HGNC:11078	6553	ENSG00000135740	solute carrier family 9 member A5	Q14940		NHE5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+FOXA1	HGNC:5021	3169	ENSG00000129514	forkhead box A1	P55317		HNF3A	prostate cancer	candidate	0	somatic	pioneer factor for AR	curated (Claude knowledge; unverified)
+PURB	HGNC:9702	5814	ENSG00000146676	purine rich element binding protein B	Q96QR8		PURBETA	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ZNF107	HGNC:12887	51427	ENSG00000196247	zinc finger protein 107	Q9UII5		ZFD25|smap-7|ZNF588	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MMP17	HGNC:7163	4326	ENSG00000198598	matrix metallopeptidase 17	Q9ULZ9		MT4-MMP	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ABCA9	HGNC:39	10350	ENSG00000154258	ATP binding cassette subfamily A member 9	Q8IUA7		EST640918	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PSMB7	HGNC:9544	5695	ENSG00000136930	proteasome 20S subunit beta 7	Q99436		Z	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A47	HGNC:20115	283600	ENSG00000140107	solute carrier family 25 member 47	Q6Q0C1		HDCMP|C14orf68	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A21	HGNC:14411	89874	ENSG00000183032	solute carrier family 25 member 21	Q9BQT8		ODC1|ODC	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC37A3	HGNC:20651	84255	ENSG00000157800	solute carrier family 37 member 3	Q8NCC5		DKFZp761N0624|SPX3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A7	HGNC:17123	84679	ENSG00000065923	solute carrier family 9 member A7	Q96T83		NHE7|NHE-7	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NAT1	HGNC:7645	9	ENSG00000171428	N-acetyltransferase 1	P18440		AAC1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+NACA2	HGNC:23290	342538	ENSG00000253506	nascent polypeptide associated complex subunit alpha 2	Q9H009		MGC71999|NACAL	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC30A8	HGNC:20303	169026	ENSG00000164756	solute carrier family 30 member 8	Q8IWU4		ZnT-8|ZNT8	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35C1	HGNC:20197	55343	ENSG00000181830	solute carrier family 35 member C1	Q96A29		FUCT1|FLJ11320	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC19A3	HGNC:16266	80704	ENSG00000135917	solute carrier family 19 member 3	Q9BZV2		THTR2|thTr-2|hTHTR2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+C10orf67	HGNC:28716	256815	ENSG00000179133	chromosome 10 open reading frame 67	Q8IYJ2		MGC46732|bA215C7.4|LINC01552|C10orf115	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LRRC63	HGNC:34296	220416	ENSG00000173988	leucine rich repeat containing 63	Q05C16		RP11-139H14.4	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CLCN3	HGNC:2021	1182	ENSG00000109572	Cl-/H+ antiporter 3	P51790		CLC3|ClC-3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC6A18	HGNC:26441	348932	ENSG00000164363	solute carrier family 6 member 18	Q96N87		FLJ31236|Xtrp2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TREM2	HGNC:17761	54209	ENSG00000095970	triggering receptor expressed on myeloid cells 2	Q9NZC2		TREM-2|Trem2a|Trem2b|Trem2c	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CHODL	HGNC:17807	140578	ENSG00000154645	chondrolectin	Q9H9P2		FLJ12627|PRED12|MT75|C21orf68	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC12A8	HGNC:15595	84561	ENSG00000221955	solute carrier family 12 member 8	A0AV02		CCC9	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+FANK1	HGNC:23527	92565	ENSG00000203780	fibronectin type III and ankyrin repeat domains 1	Q8TC84			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SIDT1	HGNC:25967	54847	ENSG00000072858	SID1 transmembrane family member 1	Q9NXL6		FLJ20174|SID-1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MTRF1L	HGNC:21051	54516	ENSG00000112031	mitochondrial translation release factor 1 like	Q9UGC7		HMRF1L|mtRF1a	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TEX55	HGNC:26553	152405	ENSG00000163424	testis expressed 55	Q96M34		FLJ32859|TSCPA|C3orf30	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+DRGX	HGNC:21536	644168	ENSG00000165606	dorsal root ganglia homeobox	A6NNA5		DRG11|PRRXL1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC43A1	HGNC:9225	8501	ENSG00000149150	solute carrier family 43 member 1	O75387		R00504|PB39|POV1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+RABIF	HGNC:9797	5877	ENSG00000183155	RAB interacting factor	P47224		mss4|RASGRF3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC35A3	HGNC:11023	23443	ENSG00000117620	solute carrier family 35 member A3	Q9Y2D2			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TAOK2	HGNC:16835	9344	ENSG00000149930	TAO kinase 2	Q9UL54		TAO1|KIAA0881|PSK|PSK1|TAO2|MAP3K17|hKFC-C|PSK-1|PSK1-BETA|Tao2beta	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+NR3C1	HGNC:7978	2908	ENSG00000113580	nuclear receptor subfamily 3 group C member 1	P04150		GR|GRL	prostate cancer	candidate	0	biology	glucocorticoid receptor; AR-blockade resistance	curated (Claude knowledge; unverified)
+TAL2	HGNC:11557	6887	ENSG00000186051	TAL bHLH transcription factor 2	Q16559		bHLHa19	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC37A2	HGNC:20644	219855	ENSG00000134955	solute carrier family 37 member 2	Q8TED4		FLJ00171|SPX2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A2	HGNC:17292	57153	ENSG00000129353	solute carrier family 44 member 2 (CTL2 blood group)	Q8IWA5		HNA-3|CTL2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A12	HGNC:20860	221074	ENSG00000148482	solute carrier family 39 member 12	Q504Y0		FLJ30499|ZIP12	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CCDC137	HGNC:33451	339230	ENSG00000185298	coiled-coil domain containing 137	Q6PK04		MGC16597	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FBXW10B	HGNC:14379	374286	ENSG00000241322	F-box and WD repeat domain containing 10B	O95170		HREP|SM25H2|FBXW10P1|CDRT1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A26	HGNC:20661	115286	ENSG00000144741	solute carrier family 25 member 26	Q70HW3		SAMC	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ITGA1	HGNC:6134	3672	ENSG00000213949	integrin subunit alpha 1	P56199		VLA1|CD49a	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC41A3	HGNC:31046	54946	ENSG00000114544	solute carrier family 41 member 3	Q96GZ6		FLJ20473	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+AR	HGNC:644	367	ENSG00000169083	androgen receptor	P10275		AIS|NR3C4|SMAX1|HUMARA|DHTR|SBMA	prostate cancer	known	1	approved_drug	enzalutamide; apalutamide; darolutamide; bicalutamide — approved (androgen receptor antagonists)	curated (Claude knowledge, 2026-05; unverified)
+SUPT20H	HGNC:20596	55578	ENSG00000102710	SPT20 homolog, SAGA complex component	Q8NEM7		SPT20|bA421P11.4|P38IP|C13orf19|FAM48A	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+GRIN3A	HGNC:16767	116443	ENSG00000198785	glutamate ionotropic receptor NMDA type subunit 3A	Q8TCU5		GluN3A	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FBXO24	HGNC:13595	26261	ENSG00000106336	F-box protein 24	O75426		FBX24	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A41	HGNC:28533	284427	ENSG00000181240	solute carrier family 25 member 41	Q8N5S1		FLJ40442|MGC34725|APC4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CNTNAP2	HGNC:13830	26047	ENSG00000174469	contactin associated protein 2	Q9UHC6		Caspr2|KIAA0868|NRXN4	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CDKL3	HGNC:15483	51265	ENSG00000006837	cyclin dependent kinase like 3	Q8IVW4		NKIAMRE	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC4A2	HGNC:11028	6522	ENSG00000164889	solute carrier family 4 member 2	P04920		HKB3|BND3L|NBND3|EPB3L1|AE2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A9	HGNC:11067	11136	ENSG00000021488	solute carrier family 7 member 9	P82251		BAT1|CSNU3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A10	HGNC:20861	57181	ENSG00000196950	solute carrier family 39 member 10	Q9ULF5		KIAA1265|FLJ90515|DKFZp564L2123|ZIP10	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SEH1L	HGNC:30379	81929	ENSG00000085415	SEH1 like nucleoporin	Q96EE3		SEH1A|SEH1B|Seh1|SEC13L	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC35F2	HGNC:23615	54733	ENSG00000110660	solute carrier family 35 member F2	Q8IXU6		FLJ13018	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC10A4	HGNC:22980	201780	ENSG00000145248	solute carrier family 10 member 4	Q96EP9		MGC29802	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC13A3	HGNC:14430	64849	ENSG00000158296	solute carrier family 13 member 3	Q8WWT9		NADC3|SDCT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9B1	HGNC:24244	150159	ENSG00000164037	solute carrier family 9 member B1	Q4ZJI4		NHA1|NHEDC1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+RASA4	HGNC:23181	10156	ENSG00000105808	RAS p21 protein activator 4	O43374		KIAA0538|CAPRI|GAPL	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LTBP2	HGNC:6715	4053	ENSG00000119681	latent transforming growth factor beta binding protein 2	Q14767		LTBP3|C14orf141	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CHEK2	HGNC:16627	11200	ENSG00000183765	checkpoint kinase 2	O96017		CDS1|CHK2|HuCds1|PP1425|bA444G7|RAD53	prostate cancer	candidate	0	germline	DNA damage checkpoint	curated (Claude knowledge; unverified)
+KIF4B	HGNC:6322	285643	ENSG00000226650	kinesin family member 4B	Q2VIQ3			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+OLFM1	HGNC:17187	10439	ENSG00000130558	olfactomedin 1	Q99784		NOE1|OlfA|AMY|NOELIN	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CALB2	HGNC:1435	794	ENSG00000172137	calbindin 2	P22676		CAL2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+NEU3	HGNC:7760	10825	ENSG00000162139	neuraminidase 3	Q9UQ49			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ASH2L	HGNC:744	9070	ENSG00000129691	ASH2 like, histone lysine methyltransferase complex subunit	Q9UBL3		ASH2L2|ASH2|Bre2|ASH2L1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+UROC1	HGNC:26444	131669	ENSG00000159650	urocanate hydratase 1	Q96N76		FLJ31300|HMFN0320	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SCLT1	HGNC:26406	132320	ENSG00000151466	sodium channel and clathrin linker 1	Q96NL6		hCAP-1A|FLJ30655	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+EGLN3	HGNC:14661	112399	ENSG00000129521	egl-9 family hypoxia inducible factor 3	Q9H6Z9		PHD3|HIFPH3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+WDR41	HGNC:25601	55255	ENSG00000164253	WD repeat domain 41	Q9HAD4		FLJ10904	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC35B1	HGNC:20798	10237	ENSG00000121073	solute carrier family 35 member B1	P78383		UGTREL1|AXER	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TOMM6	HGNC:34528	100188893	ENSG00000214736	translocase of outer mitochondrial membrane 6	Q96B49		OBTP|Tom6	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC30A9	HGNC:1329	10463	ENSG00000014824	solute carrier family 30 member 9	Q6PML9		HUEL|ZNT9|GAC63|C4orf1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SPRR4	HGNC:23173	163778	ENSG00000184148	small proline rich protein 4	Q96PI1			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+BRCA1	HGNC:1100	672	ENSG00000012048	BRCA1 DNA repair associated	P38398		RNF53|BRCC1|PPP1R53|FANCS	prostate cancer	candidate	0	germline	homologous recombination	curated (Claude knowledge; unverified)
+SLC35G6	HGNC:31351	643664	ENSG00000259224	solute carrier family 35 member G6	P0C7Q6		TMEM21B|AMAC1L3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+GLYCTK	HGNC:24247	132158	ENSG00000168237	glycerate kinase	Q8IVS8		HBEBP4|HBEBP2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC24A4	HGNC:10978	123041	ENSG00000140090	solute carrier family 24 member 4	Q8NFF2		NCKX4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ZNF230	HGNC:13024	7773	ENSG00000159882	zinc finger protein 230	Q9UIE0		FDZF2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ERG	HGNC:3446	2078	ENSG00000157554	ETS transcription factor ERG	P11308		erg-3|p55	prostate cancer	candidate	0	somatic	TMPRSS2-ERG fusion	curated (Claude knowledge; unverified)
+CFAP20DC	HGNC:24763	200844	ENSG00000163689	CFAP20 domain containing	Q6ZVT6		FLJ42117|FLJ42930|C3orf67	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC34A2	HGNC:11020	10568	ENSG00000157765	solute carrier family 34 member 2	O95436		NAPI-3B|NaPi-2b|NPTIIb|NaPi2b|NAPI-IIb	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A11	HGNC:26836	151258	ENSG00000169507	solute carrier family 38 member 11	Q08AI6		FLJ39822|AVT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC24A2	HGNC:10976	25769	ENSG00000155886	solute carrier family 24 member 2	Q9UI40		NCKX2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+KRT32	HGNC:6449	3882	ENSG00000108759	keratin 32	Q14532		Ha-2|KRTHA2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC9C2	HGNC:28664	284525	ENSG00000162753	solute carrier family 9 member C2 (putative)	Q5TAH2		MGC43026|SLC9A11	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+RNASEK	HGNC:33911	440400	ENSG00000219200	ribonuclease K	Q6P5S7		MGC71993	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC16A13	HGNC:31037	201232	ENSG00000174327	solute carrier family 16 member 13	Q7RTY0		MCT13	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ZNF263	HGNC:13056	10127	ENSG00000006194	zinc finger protein 263	O14978		FPM315|ZKSCAN12|ZSCAN44	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC10A2	HGNC:10906	6555	ENSG00000125255	solute carrier family 10 member 2	Q12908		NTCP2|IBAT|ASBT|ISBT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PRAMEF10	HGNC:27997	343071	ENSG00000187545	PRAME family member 10	O60809			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC12A4	HGNC:10913	6560	ENSG00000124067	solute carrier family 12 member 4	Q9UP95		KCC1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G3	HGNC:26848	146861	ENSG00000164729	solute carrier family 35 member G3	Q8N808		FLJ40154|TMEM21A|AMAC1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A8	HGNC:20728	23315	ENSG00000197818	solute carrier family 9 member A8	Q9Y2E8		KIAA0939|NHE8	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ETAA1	HGNC:24648	54465	ENSG00000143971	ETAA1 activator of ATR kinase	Q9NY74		ETAA16	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+BRMS1	HGNC:17262	25855	ENSG00000174744	BRMS1 transcriptional repressor and anoikis regulator	Q9HCU9		DKFZP564A063	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LDAH	HGNC:26145	60526	ENSG00000118961	lipid droplet associated hydrolase	Q9H6V9		FLJ21820|C2orf43	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC61A1	HGNC:28156	84975	ENSG00000182544	solute carrier family 61 member 1	Q6N075		MGC11308|HsMOT2|MFSD5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+OR10H1	HGNC:8172	26539	ENSG00000186723	olfactory receptor family 10 subfamily H member 1	Q9Y4A9			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC24A5	HGNC:20611	283652	ENSG00000188467	solute carrier family 24 member 5	Q71RS6		JSX|OCA6|NCKX5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+UPF3B	HGNC:20439	65109	ENSG00000125351	UPF3B regulator of nonsense mediated mRNA decay	Q9BZI7		RENT3B|UPF3X|HUPF3B|MRX82|MRX62|UPF3BP1|UPF3BP2|UPF3BP3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC52A1	HGNC:30225	55065	ENSG00000132517	solute carrier family 52 member 1	Q9NWF4		FLJ10060|GPCR42|PAR2|hRFT1|RFVT1|GPR172B	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC47A2	HGNC:26439	146802	ENSG00000180638	solute carrier family 47 member 2	Q86VL8		FLJ31196|MATE2|MATE2-K	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PSCA	HGNC:9500	8000	ENSG00000167653	prostate stem cell antigen	O43653		lncPSCA	prostate cancer	candidate	0	clinical_trial	CAR-T / antibody target	curated (Claude knowledge; unverified)
+TCP11X1	HGNC:48369	100996631	ENSG00000268235	t-complex 11 family, X-linked 1	B4DZS4			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLCO6A1	HGNC:23613	133482	ENSG00000205359	solute carrier organic anion transporter family member 6A1	Q86UG4		OATP6A1|OATPY|MGC26949|CT48	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TCHH	HGNC:11791	7062	ENSG00000159450	trichohyalin	Q07283		THH	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MAGED1	HGNC:6813	9500	ENSG00000179222	MAGE family member D1	Q9Y5V3		NRAGE|DLXIN-1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PET117	HGNC:40045	100303755	ENSG00000232838	PET117 cytochrome c oxidase chaperone	Q6UWS5		CSRP2BP	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC1A5	HGNC:10943	6510	ENSG00000105281	solute carrier family 1 member 5	Q15758		AAAT|ASCT2|RDRC|M7V1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A3	HGNC:10967	6581	ENSG00000146477	solute carrier family 22 member 3	O75751		OCT3|EMT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PARP1	HGNC:270	142	ENSG00000143799	poly(ADP-ribose) polymerase 1	P09874		PARP|ARTD1|Poly-PARP|PARS|PPOL|ADPRT	prostate cancer	known	1	approved_drug	olaparib; rucaparib; niraparib; talazoparib — approved for HRR-mutated mCRPC	curated (Claude knowledge, 2026-05; unverified)
+TACSTD2	HGNC:11530	4070	ENSG00000184292	tumor associated calcium signal transducer 2	P09758		TROP2|GA733-1|EGP-1|M1S1	prostate cancer	candidate	0	clinical_trial	TROP2 antibody-drug conjugates	curated (Claude knowledge; unverified)
+SLC22A24	HGNC:28542	283238	ENSG00000197658	solute carrier family 22 member 24	Q8N4F4		MGC34821|NET46	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SRD5A2	HGNC:11285	6716	ENSG00000277893	steroid 5 alpha-reductase 2	P31213			prostate cancer	candidate	0	biology	5-alpha-reductase; androgen activation	curated (Claude knowledge; unverified)
+IRAG2	HGNC:6690	4033	ENSG00000118308	inositol 1,4,5-triphosphate receptor associated 2	Q12912		JAW1|LRMP	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RSRC2	HGNC:30559	65117	ENSG00000111011	arginine and serine rich coiled-coil 2	Q7L4I2		FLJ11021	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC35D3	HGNC:15621	340146	ENSG00000182747	solute carrier family 35 member D3	Q5M8T2		FRCL1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TNIP1	HGNC:16903	10318	ENSG00000145901	TNFAIP3 interacting protein 1	Q15025		NAF1|KIAA0113|ABIN-1|VAN	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC27A1	HGNC:10995	376497	ENSG00000130304	solute carrier family 27 member 1	Q6PCB7		FATP1|FATP|MGC71751|FLJ00336|ACSVL5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A7	HGNC:14025	60482	ENSG00000115665	solute carrier family 5 member 7	Q9GZV3		hCHT|CHT1|ChT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC33A2	HGNC:25157	113655	ENSG00000167700	solute carrier family 33 member 2	Q96ES6		MFSD3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A11	HGNC:16438	83959	ENSG00000088836	solute carrier family 4 member 11	Q8NBS3		dJ794I6.2|BTR1|NaBC1|FECD4|CHED2|CDPD1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+C19orf84	HGNC:27112	147646	ENSG00000262874	chromosome 19 open reading frame 84	I3L1E1			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC12A6	HGNC:10914	9990	ENSG00000140199	solute carrier family 12 member 6	Q9UHW9		KCC3A|KCC3B|KCC3|ACCPN	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MLF2	HGNC:7126	8079	ENSG00000089693	myeloid leukemia factor 2	Q15773		NTN4	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SUGP1	HGNC:18643	57794	ENSG00000105705	SURP and G-patch domain containing 1	Q8IWZ8		F23858|DKFZp434E2216|RBP|SF4	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC6A1	HGNC:11042	6529	ENSG00000157103	solute carrier family 6 member 1	P30531		GAT1|GABATR|GABATHG|GAT-1|hGAT-1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+KRTAP19-5	HGNC:18940	337972	ENSG00000186977	keratin associated protein 19-5	Q3LI72		KAP19.5	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ZNF92	HGNC:13168	168374	ENSG00000146757	zinc finger protein 92	Q03936		HPF12|TF12	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TM6SF2	HGNC:11861	53345	ENSG00000213996	transmembrane 6 superfamily member 2	Q9BZW4		Lpr4	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC2A9	HGNC:13446	56606	ENSG00000109667	solute carrier family 2 member 9	Q9NRM0		Glut9|GLUTX|URATv1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A3	HGNC:11073	6550	ENSG00000066230	solute carrier family 9 member A3	P48764		NHE-3|NHE3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NR1H4	HGNC:7967	9971	ENSG00000012504	nuclear receptor subfamily 1 group H member 4	Q96RI1		FXR|RIP14|HRR1|HRR-1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC26A9	HGNC:14469	115019	ENSG00000174502	solute carrier family 26 member 9	Q7LBE3			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PRKN	HGNC:8607	5071	ENSG00000185345	parkin RBR E3 ubiquitin protein ligase	O60260		PDJ|AR-JP|parkin|PARK2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ST6GALNAC4	HGNC:17846	27090	ENSG00000136840	ST6 N-acetylgalactosaminide alpha-2,6-sialyltransferase 4	Q9H4F1		ST6GALNACIV|SIAT3C|SIAT7D	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ACTR1B	HGNC:168	10120	ENSG00000115073	actin related protein 1B	P42025		Arp1B|CTRN2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+L3MBTL2	HGNC:18594	83746	ENSG00000100395	L3MBTL histone methyl-lysine binding protein 2	Q969R5		H-l(3)mbt-l|DKFZP761I141|dJ756G23.3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ADCY1	HGNC:232	107	ENSG00000164742	adenylate cyclase 1	Q08828		AC1|DFNB44	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC35D4	HGNC:31723	85019	ENSG00000134490	solute carrier family 35 member D4	Q24JQ0		MGC11386|FLJ44259|C18orf45|TMEM241	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CCDC57	HGNC:27564	284001	ENSG00000176155	coiled-coil domain containing 57	Q2TAC2		FLJ00130|FLJ23754	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RHEB	HGNC:10011	6009	ENSG00000106615	Ras homolog, mTORC1 binding	Q15382		RHEB2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RC3H1	HGNC:29434	149041	ENSG00000135870	ring finger and CCCH-type domains 1	Q5TC82		KIAA2025|roquin|RP5-1198E17.5|RNF198	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PACSIN2	HGNC:8571	11252	ENSG00000100266	protein kinase C and casein kinase substrate in neurons 2	Q9UNF0		SDPII	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PCID2	HGNC:25653	55795	ENSG00000126226	PCI domain containing 2	Q5JVF3		FLJ11305	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+HSD3B1	HGNC:5217	3283	ENSG00000203857	hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 1	P14060		SDR11E1|HSDB3|HSD3B	prostate cancer	candidate	0	germline	1245C variant; extragonadal androgen synthesis	curated (Claude knowledge; unverified)
+INTS9	HGNC:25592	55756	ENSG00000104299	integrator complex subunit 9	Q9NV88		FLJ10871|CPSF2L|RC-74	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PRDM8	HGNC:13993	56978	ENSG00000152784	PR/SET domain 8	Q9NQV8		KMT8D	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+HACD2	HGNC:9640	201562	ENSG00000206527	3-hydroxyacyl-CoA dehydratase 2	Q6Y1H2		PTPLB	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC26A5	HGNC:9359	375611	ENSG00000170615	solute carrier family 26 member 5	P58743		DFNB61|PRESTIN|PRES	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC52A2	HGNC:30224	79581	ENSG00000185803	solute carrier family 52 member 2	Q9HAB3		FLJ11856|PAR1|GPCR41|D15Ertd747e|RFVT2|hRFT3|RFT3|HuPAR-1|GPR172A	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC18A1	HGNC:10934	6570	ENSG00000036565	solute carrier family 18 member A1	P54219		CGAT|VMAT1|VAT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PRCP	HGNC:9344	5547	ENSG00000137509	prolylcarboxypeptidase	P42785		PCP|HUMPCP	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC29A4	HGNC:23097	222962	ENSG00000164638	solute carrier family 29 member 4	Q7RTT9		FLJ34923|ENT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CD2AP	HGNC:14258	23607	ENSG00000198087	CD2 associated protein	Q9Y5K6		CMS	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LHX6	HGNC:21735	26468	ENSG00000106852	LIM homeobox 6	Q9UPM6		LHX6.1|hLHX6	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TAC1	HGNC:11517	6863	ENSG00000006128	tachykinin precursor 1	P20366		NPK|TAC2|NKNA	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC30A10	HGNC:25355	55532	ENSG00000196660	solute carrier family 30 member 10	Q6XR72		DKFZp547M236|ZnT-10|ZRC1|ZNT8|ZNT10	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A4	HGNC:11062	6545	ENSG00000099960	solute carrier family 7 member 4	O43246		HCAT3|CAT-4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A20	HGNC:1421	788	ENSG00000178537	solute carrier family 25 member 20	O43772		CAC|CACT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+IFITM3	HGNC:5414	10410	ENSG00000142089	interferon induced transmembrane protein 3	Q01628		1-8U|DSPA2b	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+REPS2	HGNC:9963	9185	ENSG00000169891	RALBP1 associated Eps domain containing 2	Q8NFH8		POB1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PDS5A	HGNC:29088	23244	ENSG00000121892	PDS5 cohesin associated factor A	Q29RF7		KIAA0648|PIG54|SCC-112	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A51	HGNC:23323	92014	ENSG00000122696	solute carrier family 25 member 51	Q9H1U9		MGC14836|CG7943|MCART1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ESD	HGNC:3465	2098	ENSG00000139684	esterase D	P10768			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+GYPA	HGNC:4702	2993	ENSG00000170180	glycophorin A (MNS blood group)	P02724		GPA|MN|CD235a|PAS-2|MNS	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LMOD3	HGNC:6649	56203	ENSG00000163380	leiomodin 3	Q0VAK6			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC37A4	HGNC:4061	2542	ENSG00000137700	solute carrier family 37 member 4	O43826		GSD1b|GSD1c|GSD1d|G6PT|SPX4|G6PT1|G6PT2|G6PT3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A13	HGNC:10983	10165	ENSG00000004864	solute carrier family 25 member 13	Q9UJS0		CITRIN|ARALAR2|CTLN2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A6	HGNC:11079	10479	ENSG00000198689	solute carrier family 9 member A6	Q92581		NHE6|KIAA0267|NHE-6	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A1	HGNC:12876	27173	ENSG00000143570	solute carrier family 39 member 1	Q9NY26		ZIP1|ZIRTL	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A8	HGNC:19119	160728	ENSG00000256870	solute carrier family 5 member 8	Q8N695		AIT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A7	HGNC:25582	55238	ENSG00000103042	solute carrier family 38 member 7	Q9NVC3		FLJ10815|SNAT7	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A5	HGNC:33455	729025	ENSG00000188991	solute carrier family 15 member 5	A6NIM6			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A2	HGNC:11022	7355	ENSG00000102100	solute carrier family 35 member A2	P78381		UGAT|UGT|UGT1|UGT2|UGTL|UDP-Gal-Tr|UGALT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A7	HGNC:13445	155184	ENSG00000197241	solute carrier family 2 member 7	Q6PXP3		GLUT7	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TPPP3	HGNC:24162	51673	ENSG00000159713	tubulin polymerization promoting protein family member 3	Q9BW30		CGI-38|p25gamma|p20	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TCERG1	HGNC:15630	10915	ENSG00000113649	transcription elongation regulator 1	O14776		CA150|Urn1|TAF2S	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TIPE3	HGNC:20620	388121	ENSG00000183578	TNF alpha induced protein 8 like 3	Q5GJ75		FLJ41287|TNFAIP8L3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RLN2	HGNC:10027	6019	ENSG00000107014	relaxin 2	P04090		H2|RLXH2|bA12D24.1.1|bA12D24.1.2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RFC1	HGNC:9969	5981	ENSG00000035928	replication factor C subunit 1	P35251		A1|PO-GA|RFC140|MHCBFB	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PHF3	HGNC:8921	23469	ENSG00000118482	PHD finger protein 3	Q92576			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LRRC40	HGNC:26004	55631	ENSG00000066557	leucine rich repeat containing 40	Q9H9A6		FLJ20331	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC40A1	HGNC:10909	30061	ENSG00000138449	solute carrier family 40 member 1	Q9NP59		MTP1|IREG1|FPN1|HFE4|FPN|SLC11A3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SFR1	HGNC:29574	119392	ENSG00000156384	SWI5 dependent homologous recombination repair protein 1	Q86XK3		MEI5|bA373N18.1|FLJ41960|C10orf78|MEIR5	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC4A5	HGNC:18168	57835	ENSG00000188687	solute carrier family 4 member 5	Q9BY07		NBC4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A11	HGNC:18120	55867	ENSG00000168065	solute carrier family 22 member 11	Q9NSA0		OAT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC28A2	HGNC:11002	9153	ENSG00000137860	solute carrier family 28 member 2	O43868		CNT2|SPNT1|HCNT2|HsT17153	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A53	HGNC:31894	401612	ENSG00000269743	solute carrier family 25 member 53	Q5H9E4		MCART6	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+RBM18	HGNC:28413	92400	ENSG00000119446	RNA binding motif protein 18	Q96H35		MGC2734	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ACOT8	HGNC:15919	10005	ENSG00000101473	acyl-CoA thioesterase 8	O14734		hACTE-III|hTE|PTE-2|NAP1|PTE1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC39A3	HGNC:17128	29985	ENSG00000141873	solute carrier family 39 member 3	Q9BRY0		ZIP3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+GANAB	HGNC:4138	23193	ENSG00000089597	glucosidase II alpha subunit	Q14697		GluII|G2AN|KIAA0088|GIIA|GIIalpha	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LIM2	HGNC:6610	3982	ENSG00000105370	lens intrinsic membrane protein 2	P55344		MP19|MP17	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC33A1	HGNC:95	9197	ENSG00000169359	solute carrier family 33 member 1	O00400		AT-1|AT1|ACATN|SPG42	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+HS6ST1	HGNC:5201	9394	ENSG00000136720	heparan sulfate 6-O-sulfotransferase 1	O60243		HS6ST	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC52A3	HGNC:16187	113278	ENSG00000101276	solute carrier family 52 member 3	Q9NQ40		bA371L19.1|hRFT2|RFVT3|RFT2|C20orf54	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+JAK2	HGNC:6192	3717	ENSG00000096968	Janus kinase 2	O60674		JTK10	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FZD5	HGNC:4043	7855	ENSG00000163251	frizzled class receptor 5	Q13467		HFZ5|DKFZP434E2135|C2orf31	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ATAD1	HGNC:25903	84896	ENSG00000138138	ATPase family AAA domain containing 1	Q8NBU5		FLJ14600|Msp1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC4A9	HGNC:11035	83697	ENSG00000113073	solute carrier family 4 member 9	Q96Q91		AE4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+YTHDC2	HGNC:24721	64848	ENSG00000047188	YTH N6-methyladenosine RNA binding protein C2	Q9H6S0		FLJ2194|FLJ10053|DKFZp564A186	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SEL1L	HGNC:10717	6400	ENSG00000071537	SEL1L adaptor subunit of SYVN1 ubiquitin ligase	Q9UBV2		IBD2|SEL1L1|Hrd3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CCDC181	HGNC:28051	57821	ENSG00000117477	coiled-coil domain containing 181	Q5TID7		FLJ25846|C1orf114	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC37A1	HGNC:11024	54020	ENSG00000160190	solute carrier family 37 member 1	P57057		SPX1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ATM	HGNC:795	472	ENSG00000149311	ATM serine/threonine kinase	Q13315		TEL1|TELO1|ATA|ATDC|ATC|ATD	prostate cancer	candidate	0	germline	DNA damage response	curated (Claude knowledge; unverified)
+WNK1	HGNC:14540	65125	ENSG00000060237	WNK lysine deficient protein kinase 1	Q9H4A3		HSAN2|PPP1R167|PRKWNK1|HSN2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+USP45	HGNC:20080	85015	ENSG00000123552	ubiquitin specific peptidase 45	Q70EL2		MGC14793	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+DENND6B	HGNC:32690	414918	ENSG00000205593	DENN domain containing 6B	Q8NEG7		MGC33692|AFI1B|FAM116B	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SOX30	HGNC:30635	11063	ENSG00000039600	SRY-box transcription factor 30	O94993			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+DUSP9	HGNC:3076	1852	ENSG00000130829	dual specificity phosphatase 9	Q99956		MKP-4|MKP4	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ACSL1	HGNC:3569	2180	ENSG00000151726	acyl-CoA synthetase long chain family member 1	P33121		LACS2|LACS|ACS1|LACS1|FACL1|FACL2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+C21orf58	HGNC:1300	54058	ENSG00000160298	chromosome 21 open reading frame 58	P58505			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CYB5A	HGNC:2570	1528	ENSG00000166347	cytochrome b5 type A	P00167		MCB5|CYB5	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+HMSD	HGNC:23037	284293	ENSG00000221887	histocompatibility minor serpin domain containing	A8MTL9|P0C7T4		ACC-6|ACC6|C18orf53	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ERCC8	HGNC:3439	1161	ENSG00000049167	ERCC excision repair 8, CSA ubiquitin ligase complex subunit	Q13216		CSA|CKN1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+INAVA	HGNC:25599	55765	ENSG00000163362	innate immunity activator	Q3KP66		FLJ10901|C1orf106	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC5A2	HGNC:11037	6524	ENSG00000140675	solute carrier family 5 member 2	P31639		SGLT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A4	HGNC:10925	9122	ENSG00000168679	solute carrier family 16 member 4	O15374		MCT4|MCT5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SH3GL1	HGNC:10830	6455	ENSG00000141985	SH3 domain containing GRB2 like 1, endophilin A2	Q99961		SH3P8|SH3D2B|CNSA1|EEN|MGC111371	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC41A2	HGNC:31045	84102	ENSG00000136052	solute carrier family 41 member 2	Q96JW4		DKFZP434K0427	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+C22orf31	HGNC:26931	25770	ENSG00000100249	chromosome 22 open reading frame 31	O95567		HS747E2A|bK747E2.1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PIEZO1	HGNC:28993	9780	ENSG00000103335	piezo type mechanosensitive ion channel component 1 (Er blood group)	Q92508		KIAA0233|FAM38A	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SNRPB	HGNC:11153	6628	ENSG00000125835	small nuclear ribonucleoprotein polypeptides B and B1	P14678		COD|SmB/SmB'|Sm-B/B'|snRNP-B|SNRPB1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SAMD10	HGNC:16129	140700	ENSG00000130590	sterile alpha motif domain containing 10	Q9BYL1		C20orf136	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CTH	HGNC:2501	1491	ENSG00000116761	cystathionine gamma-lyase	P32929		CSE	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC16A10	HGNC:17027	117247	ENSG00000112394	solute carrier family 16 member 10	Q8TF71		TAT1|MCT10	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CAPN15	HGNC:11182	6650	ENSG00000103326	calpain 15	O75808		SOLH	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RGS18	HGNC:14261	64407	ENSG00000150681	regulator of G protein signaling 18	Q9NS28		RGS13	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PTEN	HGNC:9588	5728	ENSG00000171862	phosphatase and tensin homolog	P60484		MMAC1|TEP1|PTEN1|BZS|MHAM	prostate cancer	candidate	0	somatic	frequently lost; PI3K pathway activation	curated (Claude knowledge; unverified)
+TREML1	HGNC:20434	340205	ENSG00000161911	triggering receptor expressed on myeloid cells like 1	Q86YW5		TLT1|dJ238O23.3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CYB5RL	HGNC:32220	606495	ENSG00000215883	cytochrome b5 reductase like	Q6IPT4		LOC606495	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC8A1	HGNC:11068	6546	ENSG00000183023	solute carrier family 8 member A1	P32418		NCX1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A8	HGNC:10972	9376	ENSG00000149452	solute carrier family 22 member 8	Q8TCC7		OAT3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A9	HGNC:17435	56996	ENSG00000146828	solute carrier family 12 member 9	Q9BXP2		CIP1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+COX6A2	HGNC:2279	1339	ENSG00000156885	cytochrome c oxidase subunit 6A2	Q02221		COX6AH|COXVIAH|COXVIa-M	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC9A1	HGNC:11071	6548	ENSG00000090020	solute carrier family 9 member A1	P19634		PPP1R143|APNH|NHE1|NHE-1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+KIF1B	HGNC:16636	23095	ENSG00000054523	kinesin family member 1B	O60333		KIAA0591|KLP|HMSNII|CMT2A|CMT2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+EIF3CL	HGNC:26347	728689	ENSG00000205609	eukaryotic translation initiation factor 3 subunit C like	B5ME19			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TMEM207	HGNC:33705	131920	ENSG00000198398	transmembrane protein 207	Q6UWW9			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SELL	HGNC:10720	6402	ENSG00000188404	selectin L	P14151		LSEL|LAM1|LAM-1|hLHRc|Leu-8|Lyam-1|PLNHR|CD62L|LYAM1|LNHR	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ZNF30	HGNC:13090	90075	ENSG00000168661	zinc finger protein 30	P17039		KOX28|DKFZp686N19164|FLJ20562	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ACE	HGNC:2707	1636	ENSG00000159640	angiotensin I converting enzyme	P12821		ACE1|CD143|DCP1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+DAAM2	HGNC:18143	23500	ENSG00000146122	dishevelled associated activator of morphogenesis 2	Q86T65		KIAA0381|NPHS24	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A52	HGNC:23324	147407	ENSG00000141437	solute carrier family 25 member 52	Q3SY17		MCART2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC50A1	HGNC:30657	55974	ENSG00000169241	solute carrier family 50 member 1	Q9BRV3		SCP|RP11-540D14.5|slv|RZPDo834D038D|HsSWEET1|SWEET1|RAG1AP1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+AZGP1	HGNC:910	563	ENSG00000160862	alpha-2-glycoprotein 1, zinc-binding	P25311		ZA2G|ZAG	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MUC7	HGNC:7518	4589	ENSG00000171195	mucin 7, secreted	Q8TAX7		FLJ27047|MG2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CNBD1	HGNC:26663	168975	ENSG00000176571	cyclic nucleotide binding domain containing 1	Q8NA66		FLJ35802	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+NUF2	HGNC:14621	83540	ENSG00000143228	NUF2 component of NDC80 kinetochore complex	Q9BZD4		NUF2R|CT106|CDCA1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC11A2	HGNC:10908	4891	ENSG00000110911	solute carrier family 11 member 2	P49281		DCT1|DMT1|DMT-1|FLJ37416|NRAMP2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+FOXO4	HGNC:7139	4303	ENSG00000184481	forkhead box O4	P98177		AFX1|MLLT7	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ZBTB7C	HGNC:31700	201501	ENSG00000184828	zinc finger and BTB domain containing 7C	A1YPR0		ZNF857C|ZBTB36	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TDP1	HGNC:18884	55775	ENSG00000042088	tyrosyl-DNA phosphodiesterase 1	Q9NUW8		FLJ11090|SCAN1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC49A4	HGNC:16628	84925	ENSG00000138463	solute carrier family 49 member 4	Q96SL1		FLJ14784|RCC4|DIRC2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+YBX3	HGNC:2428	8531	ENSG00000060138	Y-box binding protein 3	P16989		dbpA|ZONAB|CSDA1|CSDA	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CFD	HGNC:2771	1675	ENSG00000197766	complement factor D	P00746		ADN|DF|PFD	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LTBP3	HGNC:6716	4054	ENSG00000168056	latent transforming growth factor beta binding protein 3	Q9NS15		LTBP2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC46A3	HGNC:27501	283537	ENSG00000139508	solute carrier family 46 member 3	Q7Z3Q1		DKFZp686A1775|FLJ42613	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+OXCT1	HGNC:8527	5019	ENSG00000083720	3-oxoacid CoA-transferase 1	P55809		SCOT|OXCT	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CDC37L1	HGNC:17179	55664	ENSG00000106993	cell division cycle 37 like 1, HSP90 cochaperone	Q7L3B6		HARC|FLJ20639|CDC37B	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+REPS1	HGNC:15578	85021	ENSG00000135597	RALBP1 associated Eps domain containing 1	Q96D71			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC6A11	HGNC:11044	6538	ENSG00000132164	solute carrier family 6 member 11	P48066		GAT3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+STAB1	HGNC:18628	23166	ENSG00000010327	stabilin 1	Q9NY15		KIAA0246|STAB-1|FEEL-1|CLEVER-1|FELE-1|FEX1|SCARH2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RNH1	HGNC:10074	6050	ENSG00000023191	ribonuclease/angiogenin inhibitor 1	P13489		RAI|RNH	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+GNRHR	HGNC:4421	2798	ENSG00000109163	gonadotropin releasing hormone receptor	P30968		LHRHR|GRHR	prostate cancer	known	1	approved_drug	leuprolide; goserelin; degarelix; relugolix — approved (androgen deprivation)	curated (Claude knowledge, 2026-05; unverified)
+SEPTIN1	HGNC:2879	1731	ENSG00000180096	septin 1	Q8WYJ6		PNUTL3|Septin-1|DIFF6|SEPT1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MYO15B	HGNC:14083	80022	ENSG00000266714	myosin XVB	Q96JP2		MYO15BP	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LRTM2	HGNC:32443	654429	ENSG00000166159	leucine rich repeat transmembrane protein 2	Q8N967			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC35H1	HGNC:17117	51006	ENSG00000080189	solute carrier family 35 member H1	Q9NQQ7		CGI-15|bA394O2.1|C20orf5|OVCOV1|SLC35C2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A2	HGNC:10966	6582	ENSG00000112499	solute carrier family 22 member 2	O15244		OCT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+DNA2	HGNC:2939	1763	ENSG00000138346	DNA replication helicase/nuclease 2	P51530		KIAA0083|DNA2L	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+APLP2	HGNC:598	334	ENSG00000084234	amyloid beta precursor like protein 2	Q06481		APPH|APPL2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ACACA	HGNC:84	31	ENSG00000278540	acetyl-CoA carboxylase alpha	Q13085		ACC1|ACC-alpha|ACCA|ACCalpha|ACACalpha|Acac1|hACC1|ACAC|ACC	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC1A4	HGNC:10942	6509	ENSG00000115902	solute carrier family 1 member 4	P43007		SATT|ASCT1|ASCT-1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A1	HGNC:10920	6564	ENSG00000088386	solute carrier family 15 member 1	P46059		PEPT1|HPECT1|HPEPT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+HIBADH	HGNC:4907	11112	ENSG00000106049	3-hydroxyisobutyrate dehydrogenase	P31937		NS5ATP1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A23	HGNC:19375	79085	ENSG00000125648	solute carrier family 25 member 23	Q9BV35		FLJ30339|MGC2615|APC2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A6	HGNC:19305	55676	ENSG00000152683	solute carrier family 30 member 6	Q6NXT4		FLJ31101|ZNT6	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC26A7	HGNC:14467	115111	ENSG00000147606	solute carrier family 26 member 7	Q8TE54		SUT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PDHB	HGNC:8808	5162	ENSG00000168291	pyruvate dehydrogenase E1 subunit beta	P11177		PDHE1B|E1beta	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+WHAMM	HGNC:30493	123720	ENSG00000156232	WASP homolog associated with actin, golgi membranes and microtubules	Q8TF30		KIAA1971|WHAMM1|WHDC1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC51A	HGNC:29955	200931	ENSG00000163959	solute carrier family 51 member A	Q86UW1		OSTalpha|SLC51A1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SENP8	HGNC:22992	123228	ENSG00000166192	SUMO peptidase family member, NEDD8 specific	Q96LD8		NEDP1|DEN1|HsT17512|PRSC2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RING1	HGNC:10018	6015	ENSG00000204227	ring finger protein 1	Q06587		RNF1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+KRTAP10-2	HGNC:22967	386679	ENSG00000205445	keratin associated protein 10-2	P60368		KAP10.2|KAP18.2|KRTAP18-2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CDIP1	HGNC:13234	29965	ENSG00000089486	cell death inducing p53 target 1	Q9H305		CDIP|LITAFL|C16orf5	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FSHB	HGNC:3964	2488	ENSG00000131808	follicle stimulating hormone subunit beta	P01225			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A6	HGNC:10992	293	ENSG00000169100	solute carrier family 25 member 6	P12236		ANT3Y|MGC17525|ANT3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+LEMD1	HGNC:18725	93273	ENSG00000186007	LEM domain containing 1	Q68G75		LEMP-1|CT50	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC23A1	HGNC:10974	9963	ENSG00000170482	solute carrier family 23 member 1	Q9UHI7		YSPL3|SVCT1|SLC23A2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC36A4	HGNC:19660	120103	ENSG00000180773	solute carrier family 36 member 4	Q6YBV0		PAT4|FLJ38932	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+EXOC8	HGNC:24659	149371	ENSG00000116903	exocyst complex component 8	Q8IYI6		SEC84|EXO84|Exo84p	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+GSTA4	HGNC:4629	2941	ENSG00000170899	glutathione S-transferase alpha 4	O15217			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A14	HGNC:10984	9016	ENSG00000102078	solute carrier family 25 member 14	O95258		BMCP1|UCP5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A4	HGNC:17129	55630	ENSG00000147804	solute carrier family 39 member 4	Q6P5W5		ZIP4|ZIP-4|AWMS2|AEZ	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MSI2	HGNC:18585	124540	ENSG00000153944	musashi RNA binding protein 2	Q96DH6			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC18A2	HGNC:10935	6571	ENSG00000165646	solute carrier family 18 member A2	Q05940		SVMT|SVAT|VAT2|VMAT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC12A2	HGNC:10911	6558	ENSG00000064651	solute carrier family 12 member 2	P55011		NKCC1|BSC2|BSC-2|PPP1R141|CCC1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC19A2	HGNC:10938	10560	ENSG00000117479	solute carrier family 19 member 2	O60779		THTR1|ThT1|TRMA	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A11	HGNC:14463	201266	ENSG00000133195	solute carrier family 39 member 11	Q8N1S5		ZIP11|C17orf26	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NRDC	HGNC:7995	4898	ENSG00000078618	nardilysin convertase	O43847		hNRD1|hNRD2|NRD1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+NKX3-1	HGNC:7838	4824	ENSG00000167034	NK3 homeobox 1	Q99801		NKX3.1|BAPX2|NKX3A	prostate cancer	candidate	0	biology	prostate lineage; haploinsufficient tumour suppressor	curated (Claude knowledge; unverified)
+SLC49A3	HGNC:26177	84179	ENSG00000169026	solute carrier family 49 member 3	Q6UXD7		FLJ22269|LP2561|MFSD7	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A5	HGNC:19089	64924	ENSG00000145740	solute carrier family 30 member 5	Q8TAD4		ZTL1|ZnT-5|FLJ12496|FLJ12756|ZNT5|MGC5499|ZNTL1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NACC1	HGNC:20967	112939	ENSG00000160877	nucleus accumbens associated 1	Q96RE7		NAC1|NAC-1|BEND8|BTBD30|BTBD14B	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC22A10	HGNC:18057	387775	ENSG00000184999	solute carrier family 22 member 10 (gene/pseudogene)	Q63ZE4		OAT5|hOAT5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC68A1	HGNC:26196	79847	ENSG00000138111	solute carrier family 68 member 1	Q14CX5		FLJ22529|bA18I14.8|C10orf77|TMEM180|MFSD13A	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A5	HGNC:11040	6528	ENSG00000105641	solute carrier family 5 member 5	Q92911		NIS	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NRG2	HGNC:7998	9542	ENSG00000158458	neuregulin 2	O14511		Don-1|NTAK|HRG2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC27A4	HGNC:10998	10999	ENSG00000167114	solute carrier family 27 member 4	Q6P1M0		FATP4|ACSVL4|FATP-4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A7	HGNC:19306	148867	ENSG00000162695	solute carrier family 30 member 7	Q8NEW0		ZnTL2|ZNT7	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SPINK4	HGNC:16646	27290	ENSG00000122711	serine peptidase inhibitor Kazal type 4	O60575		PEC-60|MGC133107	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC41A1	HGNC:19429	254428	ENSG00000133065	solute carrier family 41 member 1	Q8IVJ1		MgtE	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9A9	HGNC:20653	285195	ENSG00000181804	solute carrier family 9 member A9	Q8IVB4		FLJ35613|NHE9	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TMEM132C	HGNC:25436	92293	ENSG00000181234	transmembrane protein 132C	Q8N3T6		DKFZp761O2018|PPP1R152	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+C1QTNF5	HGNC:14344	114902	ENSG00000223953	C1q and TNF related 5	Q9BXJ0		CTRP5|DKFZp586B0621|LORD	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC30A3	HGNC:11014	7781	ENSG00000115194	solute carrier family 30 member 3	Q99726		ZNT3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MBLAC2	HGNC:33711	153364	ENSG00000176055	metallo-beta-lactamase domain containing 2	Q68D91		DKFZp686P15118|MGC46734	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MUS81	HGNC:29814	80198	ENSG00000172732	MUS81 structure-specific endonuclease subunit	Q96NY9		FLJ44872|SLX3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC35F5	HGNC:23617	80255	ENSG00000115084	solute carrier family 35 member F5	Q8WV83		FLJ22004	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+REG1B	HGNC:9952	5968	ENSG00000172023	regenerating family member 1 beta	P48304		REGL|PSPS2|REGH|REGI-BETA	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MAP2K3	HGNC:6843	5606	ENSG00000034152	mitogen-activated protein kinase kinase 3	P46734		MEK3|MKK3|MAPKK3|SAPKK2|PRKMK3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLCO4A1	HGNC:10953	28231	ENSG00000101187	solute carrier organic anion transporter family member 4A1	Q96BD0		OATP-E|OATP4A1|SLC21A12	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A36	HGNC:25554	55186	ENSG00000114120	solute carrier family 25 member 36	Q96CQ1		FLJ10618|PNC2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC20A2	HGNC:10947	6575	ENSG00000168575	solute carrier family 20 member 2	Q08357		PiT-2|Glvr-2|Ram-1|PIT2|MLVAR|GLVR2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO4C1	HGNC:23612	353189	ENSG00000173930	solute carrier organic anion transporter family member 4C1	Q6ZQN7		SLC21A20|OATP4C1|OATPX|OATP-H	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A14	HGNC:20858	23516	ENSG00000104635	solute carrier family 39 member 14	Q15043		KIAA0062|NET34|ZIP14|ZIP-14	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ARHGEF33	HGNC:37252	100271715	ENSG00000214694	Rho guanine nucleotide exchange factor 33	A8MVX0			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC38A1	HGNC:13447	81539	ENSG00000111371	solute carrier family 38 member 1	Q9H2H9		ATA1|NAT2|SAT1|SNAT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CASP2	HGNC:1503	835	ENSG00000106144	caspase 2	P42575		ICH1|PPP1R57|MGC2181|NEDD2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TBX1	HGNC:11592	6899	ENSG00000184058	T-box transcription factor 1	O43435		CATCH22|VCF	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PRKAR2B	HGNC:9392	5577	ENSG00000005249	protein kinase cAMP-dependent type II regulatory subunit beta	P31323		PRKAR2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC16A7	HGNC:10928	9194	ENSG00000118596	solute carrier family 16 member 7	O60669		MCT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ZNF281	HGNC:13075	23528	ENSG00000162702	zinc finger protein 281	Q9Y2X9		ZBP-99	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FOLH1	HGNC:3788	2346	ENSG00000086205	folate hydrolase 1	Q04609		PSM|PSMA|NAALAD1|NAALAdase|GCP2|GCPII|FOLH	prostate cancer	known	1	approved_drug	lutetium-177 PSMA-617 — approved 2022 (PSMA-targeted radioligand)	curated (Claude knowledge, 2026-05; unverified)
+GPT	HGNC:4552	2875	ENSG00000167701	glutamic--pyruvic transaminase	P24298		ALT1|ALT|GPT1|SGPT	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC12A5	HGNC:13818	57468	ENSG00000124140	solute carrier family 12 member 5	Q9H2X9		KIAA1176|KCC2|hKCC2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A10	HGNC:28237	124565	ENSG00000157637	solute carrier family 38 member 10	Q9HBR0		MGC15523|PP1744|SNAT10	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+DYNLT2B	HGNC:28482	255758	ENSG00000213123	dynein light chain Tctex-type 2B	Q8WW35		MGC33212|TCTEX1D2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+EHD3	HGNC:3244	30845	ENSG00000013016	EH domain containing 3	Q9NZN3		PAST3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC16A2	HGNC:10923	6567	ENSG00000147100	solute carrier family 16 member 2	P36021		XPCT|MCT8|MCT7|DXS128E|DXS128|AHDS|MRX22	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9B2	HGNC:25143	133308	ENSG00000164038	solute carrier family 9 member B2	Q86UD5		FLJ23984|NHA2|NHEDC2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35B2	HGNC:16872	347734	ENSG00000157593	solute carrier family 35 member B2	Q8TB61		UGTrel4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A6	HGNC:18607	25800	ENSG00000141424	solute carrier family 39 member 6	Q13433		LIV-1|ZIP6	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TMEM141	HGNC:28211	85014	ENSG00000244187	transmembrane protein 141	Q96I45		MGC14141	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SERINC4	HGNC:32237	619189	ENSG00000184716	serine incorporator 4	A6NH21		FLJ40363	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RCCD1	HGNC:30457	91433	ENSG00000166965	RCC1 domain containing 1	A6NED2		MGC14386	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC7A1	HGNC:11057	6541	ENSG00000139514	solute carrier family 7 member 1	P30825		CAT-1|HCAT1|REC1L|ERR|ATRC1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MCTS2	HGNC:49760	100101490	ENSG00000101898	MCTS family member 2	A0A3B3IRV3		psiMCT-1|MCTS2P	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC22A25	HGNC:32935	387601	ENSG00000196600	solute carrier family 22 member 25	Q6T423		UST6|HIMTP|MGC120420	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A28	HGNC:23472	81894	ENSG00000155287	solute carrier family 25 member 28	Q96A46		MRS3/4|MRS4L	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A14	HGNC:8495	9389	ENSG00000144671	solute carrier family 22 member 14	Q9Y267		OCTL2|ORCTL4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+FASN	HGNC:3594	2194	ENSG00000169710	fatty acid synthase	P49327		FAS|SDR27X1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CSAG3	HGNC:26237	389903	ENSG00000268916	CSAG family member 3	Q9Y5P2		CSAG3A	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ASGR1	HGNC:742	432	ENSG00000141505	asialoglycoprotein receptor 1	P07306		CLEC4H1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FXR2	HGNC:4024	9513	ENSG00000129245	FMR1 autosomal homolog 2	P51116		FMR1L2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+STC1	HGNC:11373	6781	ENSG00000159167	stanniocalcin 1	P52823		STC	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A40	HGNC:29680	55972	ENSG00000075303	solute carrier family 25 member 40	Q8TBP6		MCFP	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A5	HGNC:10926	9121	ENSG00000170190	solute carrier family 16 member 5	O15375		MCT5|MCT6	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PIAS3	HGNC:16861	10401	ENSG00000131788	protein inhibitor of activated STAT 3	Q9Y6X2		FLJ14651|ZMIZ5	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+C10orf105	HGNC:20304	414152	ENSG00000214688	chromosome 10 open reading frame 105	Q8TEF2		FLJ00245	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PARP2	HGNC:272	10038	ENSG00000129484	poly(ADP-ribose) polymerase 2	Q9UGN5		ARTD2|ADPRTL2	prostate cancer	known	1	approved_drug	olaparib; talazoparib — approved (PARP inhibitors also inhibit PARP2)	curated (Claude knowledge, 2026-05; unverified)
+SLC19A1	HGNC:10937	6573	ENSG00000173638	solute carrier family 19 member 1	P41440		FOLT|RFC1|IFC-1|RFC|hRFC|RFT-1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PSG7	HGNC:9524	5676	ENSG00000221878	pregnancy specific beta-1-glycoprotein 7	Q13046			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC15A4	HGNC:23090	121260	ENSG00000139370	solute carrier family 15 member 4	Q8N697		PHT1|PTR4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NEK11	HGNC:18593	79858	ENSG00000114670	NIMA related kinase 11	Q8NG66		FLJ23495	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+REDIC1	HGNC:26846	283461	ENSG00000180116	regulator of DNA class I crossover intermediates 1	Q86WS4		FLJ40126|C12orf40	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ITGB5	HGNC:6160	3693	ENSG00000082781	integrin subunit beta 5	P18084			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+GIPC3	HGNC:18183	126326	ENSG00000179855	GIPC PDZ domain containing family member 3	Q8TF64		DFNB95|C19orf64|DFNB72|DFNB15	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FCER2	HGNC:3612	2208	ENSG00000104921	Fc epsilon receptor II	P06734		CLEC4J|CD23|FCErII|FcepsilonRII|CD23A|FCE2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC36A1	HGNC:18761	206358	ENSG00000123643	solute carrier family 36 member 1	Q7Z2H8		LYAAT-1|PAT1|TRAMD3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A1	HGNC:11005	6513	ENSG00000117394	solute carrier family 2 member 1	P11166		DYT18|DYT9|GLUT-1|GLUT1|GLUT|HTLVR|CSE	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TFCP2	HGNC:11748	7024	ENSG00000135457	transcription factor CP2	Q12800		SEF|CP2|LSF|LBP-1C|TFCP2C	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ZNHIT3	HGNC:12309	9326	ENSG00000273611	zinc finger HIT-type containing 3	Q15649		Hit1|TRIP3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC22A7	HGNC:10971	10864	ENSG00000137204	solute carrier family 22 member 7	Q9Y694		NLT|OAT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ZNF804A	HGNC:21711	91752	ENSG00000170396	zinc finger protein 804A	Q7Z570		C2orf10	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC27A2	HGNC:10996	11001	ENSG00000140284	solute carrier family 27 member 2	O14975		FATP2|hFACVL1|VLACS|VLCS|HsT17226|ACSVL1|FACVL1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A22	HGNC:19954	79751	ENSG00000177542	solute carrier family 25 member 22	Q9H936		GC1|FLJ13044|NET44|EIEE3|GC-1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PPIL6	HGNC:21557	285755	ENSG00000185250	peptidylprolyl isomerase like 6	Q8IXY8		bA425D10.6|MGC41939|dJ919F19.1|RSPH12	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+HS2ST1	HGNC:5193	9653	ENSG00000153936	heparan sulfate 2-O-sulfotransferase 1	Q7LGA3		KIAA0448	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLCO1B1	HGNC:10959	10599	ENSG00000134538	solute carrier organic anion transporter family member 1B1	Q9Y6L6		OATP-C|LST-1|OATP1B1|SLC21A6	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A8	HGNC:20151	246213	ENSG00000179520	solute carrier family 17 member 8	Q8NDX2		VGLUT3|DFNA25	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC20A1	HGNC:10946	6574	ENSG00000144136	solute carrier family 20 member 1	Q8WUM9		PiT-1|Glvr-1|PiT1|GLVR1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+DNAJB12	HGNC:14891	54788	ENSG00000148719	DnaJ heat shock protein family (Hsp40) member B12	Q9NXW2		DJ10|FLJ20027	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLCO1A2	HGNC:10956	6579	ENSG00000084453	solute carrier organic anion transporter family member 1A2	P46721		OATP|OATP1A2|OATP-A|SLC21A3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SIGLEC9	HGNC:10878	27180	ENSG00000129450	sialic acid binding Ig like lectin 9	Q9Y336		CD329	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+S100Z	HGNC:30367	170591	ENSG00000171643	S100 calcium binding protein Z	Q8WXG8		Gm625|S100-zeta	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CABYR	HGNC:15569	26256	ENSG00000154040	calcium binding tyrosine phosphorylation regulated	O75952		FSP-2|CBP86|CT88	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A30	HGNC:27371	253512	ENSG00000174032	solute carrier family 25 member 30	Q5SVS4			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CD79A	HGNC:1698	973	ENSG00000105369	CD79a molecule	P11912		MB-1|Ig-alpha|MB1|IGAlpha|IGA	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ADARB2	HGNC:227	105	ENSG00000185736	adenosine deaminase RNA specific B2 (inactive)	Q9NS39		RED2|hRED2|ADAR3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+NDUFAF6	HGNC:28625	137682	ENSG00000156170	NADH:ubiquinone oxidoreductase complex assembly factor 6	Q330K2		lncREST|MGC40214|C8orf38	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+UBP1	HGNC:12507	7342	ENSG00000153560	upstream binding protein 1	Q9NZI7		TFCP2L5|LBP-1a	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC22A5	HGNC:10969	6584	ENSG00000197375	solute carrier family 22 member 5	O76082		OCTN2|SCD|CDSP	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NOBOX	HGNC:22448	135935	ENSG00000106410	NOBOX oogenesis homeobox	O60393		OG2|Og2x	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+GNS	HGNC:4422	2799	ENSG00000135677	glucosamine (N-acetyl)-6-sulfatase	P15586			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC7A3	HGNC:11061	84889	ENSG00000165349	solute carrier family 7 member 3	Q8WY07		CAT-3|ATRC3|FLJ14541	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A10	HGNC:13811	57282	ENSG00000144290	solute carrier family 4 member 10	Q6U841		NBCn2|NCBE	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+RAB1B	HGNC:18370	81876	ENSG00000174903	RAB1B, member RAS oncogene family	Q9H0U4			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+BLTP1	HGNC:26953	84162	ENSG00000138688	bridge-like lipid transfer protein family member 1	Q2LD37		FLJ21404|FSA|KIAA1371|Tweek|KIAA1109	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC10A5	HGNC:22981	347051	ENSG00000253598	solute carrier family 10 member 5	Q5PT55			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+FANCF	HGNC:3587	2188	ENSG00000183161	FA complementation group F	Q9NPI8		FAF	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TXNDC12	HGNC:24626	51060	ENSG00000117862	thioredoxin domain containing 12	O95881		TLP19|ERP18|ERP19|hAG-1|AGR1|PDIA16	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC6A20	HGNC:30927	54716	ENSG00000163817	solute carrier family 6 member 20	Q9NP91		XT3|Xtrp3|SIT1|IMINO	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ZNF670	HGNC:28167	93474	ENSG00000277462	zinc finger protein 670	Q9BS34		MGC12466	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TP53	HGNC:11998	7157	ENSG00000141510	tumor protein p53	P04637		p53|LFS1	prostate cancer	candidate	0	somatic	frequent in advanced disease	curated (Claude knowledge; unverified)
+SPACA5B	HGNC:19142	729201	ENSG00000171478	sperm acrosome associated 5B	Q96QH8		LYZL5B	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PPP6R3	HGNC:1173	55291	ENSG00000110075	protein phosphatase 6 regulatory subunit 3	Q5H9R7		SAPLa|DKFZp781E2374|DKFZp781O2362|DKFZp781E17107|SAP190|SAPL|PP6R3|FLJ11058|FLJ43065|KIAA1558|MGC125711|MGC125712|C11orf23|SAPS3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC6A2	HGNC:11048	6530	ENSG00000103546	solute carrier family 6 member 2	P23975		NET|NET1|NAT1|SLC6A5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+KSR1	HGNC:6465	8844	ENSG00000141068	kinase suppressor of ras 1	Q8IVT5		RSU2|KSR	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+IMPG2	HGNC:18362	50939	ENSG00000081148	interphotoreceptor matrix proteoglycan 2	Q9BZV3		IPM200|RP56|SPACRCAN	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A17	HGNC:10987	10478	ENSG00000100372	solute carrier family 25 member 17	O43808		PMP34	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MMP14	HGNC:7160	4323	ENSG00000157227	matrix metallopeptidase 14	P50281		MT1-MMP	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+IQCM	HGNC:53443	285423	ENSG00000234828	IQ motif containing M	A0A1B0GVH7			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC30A4	HGNC:11015	7782	ENSG00000104154	solute carrier family 30 member 4	O14863		ZNT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC45A4	HGNC:29196	57210	ENSG00000022567	solute carrier family 45 member 4	Q5BKX6		KIAA1126	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC34A1	HGNC:11019	6569	ENSG00000131183	solute carrier family 34 member 1	Q06495		NAPI-3|NPTIIa|SLC11|NPT2|SLC17A2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NAT10	HGNC:29830	55226	ENSG00000135372	N-acetyltransferase 10	Q9H0A0		hALP|FLJ10774|FLJ12179|NET43|KIAA1709|Kre33	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+OR8U9	HGNC:29166	504190	ENSG00000281038	olfactory receptor family 8 subfamily U member 9	P0C7N5			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC66A3	HGNC:28503	130814	ENSG00000162976	solute carrier family 66 member 3	Q8N755		MGC33602|C2orf22|PQLC3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A5	HGNC:11051	9152	ENSG00000165970	solute carrier family 6 member 5	Q9Y345		GLYT2|GlyT-2|NET1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A8	HGNC:11034	9498	ENSG00000050438	solute carrier family 4 member 8	Q2Y0W8		NBC3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PRKACB	HGNC:9381	5567	ENSG00000142875	protein kinase cAMP-activated catalytic subunit beta	P22694		PKACb	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A27	HGNC:21065	9481	ENSG00000153291	solute carrier family 25 member 27	O95847		UCP4|FLJ33552	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PM20D1	HGNC:26518	148811	ENSG00000162877	peptidase M20 domain containing 1	Q6GTS8		FLJ32569|Cps1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC35F1	HGNC:21483	222553	ENSG00000196376	solute carrier family 35 member F1	Q5T1Q4		dJ230I3.1|C6orf169	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A4RG	HGNC:15930	56731	ENSG00000125520	SLC2A4 regulator	Q9NR83		GLUT4EF|GEF|HDBP1|Si-1-2|Si-1-2-19	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC67A2	HGNC:28158	84804	ENSG00000135953	solute carrier family 67 member 2	Q8NBP5		MGC11332|MFSD9	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+DPEP3	HGNC:23029	64180	ENSG00000141096	dipeptidase 3	Q9H4B8			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+COMMD8	HGNC:26036	54951	ENSG00000169019	COMM domain containing 8	Q9NX08		FLJ20502	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+DRC2	HGNC:29937	85478	ENSG00000139537	dynein regulatory complex subunit 2	Q8IXS2		NYD-SP28|FLJ35732|FAP250|CFAP250|CILD27|DRC2|CCDC65	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+STX8	HGNC:11443	9482	ENSG00000170310	syntaxin 8	Q9UNK0		CARB	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SC5D	HGNC:10547	6309	ENSG00000109929	sterol-C5-desaturase	O75845		SC5DL	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A31	HGNC:25319	83447	ENSG00000151475	solute carrier family 25 member 31	Q9H0C2		DKFZP434N1235|ANT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+DDX54	HGNC:20084	79039	ENSG00000123064	DEAD-box helicase 54	Q8TDD1		MGC2835|APR-5|DP97	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC26A8	HGNC:14468	116369	ENSG00000112053	solute carrier family 26 member 8	Q96RN1		TAT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+RHBDD1	HGNC:23081	84236	ENSG00000144468	rhomboid domain containing 1	Q8TEB9		DKFZp547E052|RHBDL4	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PPP2R2C	HGNC:9306	5522	ENSG00000074211	protein phosphatase 2 regulatory subunit Bgamma	Q9Y2T4		PR52|IMYPNO|MGC33570|PR55G|B55gamma	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PTPRJ	HGNC:9673	5795	ENSG00000149177	protein tyrosine phosphatase receptor type J	Q12913		DEP1|HPTPeta|CD148	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC10A3	HGNC:22979	8273	ENSG00000126903	solute carrier family 10 member 3	P09131		P3|DXS253E	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A7	HGNC:4927	7922	ENSG00000112473	solute carrier family 39 member 7	Q92504		H2-KE4|D6S2244E|KE4|RING5|ZIP7|HKE4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC1A6	HGNC:10944	6511	ENSG00000105143	solute carrier family 1 member 6	P48664		EAAT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MED15	HGNC:14248	51586	ENSG00000099917	mediator complex subunit 15	Q96RN5		TIG-1|CAG7A|Arc105|TNRC7|PCQAP	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+HRG	HGNC:5181	3273	ENSG00000113905	histidine rich glycoprotein	P04196		HRGP|HPRG	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC7A7	HGNC:11065	9056	ENSG00000155465	solute carrier family 7 member 7	Q9UM01		y+LAT-1|Y+LAT1|LPI	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A5	HGNC:20502	283375	ENSG00000139540	solute carrier family 39 member 5	Q6ZMH5		ZIP5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A34	HGNC:27653	284723	ENSG00000162461	solute carrier family 25 member 34	Q6PIV7		DKFZp781A10161	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ATXN10	HGNC:10549	25814	ENSG00000130638	ataxin 10	Q9UBB4		E46L|FLJ37990|ATX10|SCA10	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+KLK2	HGNC:6363	3817	ENSG00000167751	kallikrein related peptidase 2	P20151			prostate cancer	candidate	0	clinical_trial	radioligand / T-cell engager targets	curated (Claude knowledge; unverified)
+SLC35E2B	HGNC:33941	728661	ENSG00000189339	solute carrier family 35 member E2B	P0CK96			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SPDYE4	HGNC:35463	388333	ENSG00000183318	speedy/RINGO cell cycle regulator family member E4	A6NLX3			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+VRK2	HGNC:12719	7444	ENSG00000028116	VRK serine/threonine kinase 2	Q86Y07			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+HARS1	HGNC:4816	3035	ENSG00000170445	histidyl-tRNA synthetase 1	P12081		HisRS|USH3B|HARS	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ARX	HGNC:18060	170302	ENSG00000004848	aristaless related homeobox	Q96QS3		ISSX|CT121|EIEE1|MRXS1|PRTS|MRX76|MRX54|MRX43|MRX36|MRX29|MRX32|MRX33|MRX38|MRX87	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC6A6	HGNC:11052	6533	ENSG00000131389	solute carrier family 6 member 6	P31641		TAUT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TMEM88	HGNC:32371	92162	ENSG00000167874	transmembrane protein 88	Q6PEY1		MGC71744|FLJ20025	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RFESD	HGNC:29587	317671	ENSG00000175449	Rieske Fe-S domain containing	Q8TAC1			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TOMM34	HGNC:15746	10953	ENSG00000025772	translocase of outer mitochondrial membrane 34	Q15785		TOM34|HTOM34P	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC5A4	HGNC:11039	6527	ENSG00000100191	solute carrier family 5 member 4	Q9NY91		SAAT1|SGLT3|DJ90G24.4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A3	HGNC:10931	10786	ENSG00000124564	solute carrier family 17 member 3	O00476		NPT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+OLA1	HGNC:28833	29789	ENSG00000138430	Obg like ATPase 1	Q9NTK5		PTD004|GTPBP9	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC17A6	HGNC:16703	57084	ENSG00000091664	solute carrier family 17 member 6	Q9P2U8		DNPI|VGLUT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+HES5	HGNC:19764	388585	ENSG00000197921	hes family bHLH transcription factor 5	Q5TA89		bHLHb38	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MCM9	HGNC:21484	254394	ENSG00000111877	minichromosome maintenance 9 homologous recombination repair factor	Q9NXL9		MGC35304|dJ329L24.3|FLJ20170|MCMDC1|C6orf61	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+GPR39	HGNC:4496	2863	ENSG00000183840	G protein-coupled receptor 39	O43194		ZnR	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+WFDC11	HGNC:20478	259239	ENSG00000180083	WAP four-disulfide core domain 11	Q8NEX6		WAP11	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TPK1	HGNC:17358	27010	ENSG00000196511	thiamin pyrophosphokinase 1	Q9H3S4		HTPK1|PP20	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MSRB1	HGNC:14133	51734	ENSG00000198736	methionine sulfoxide reductase B1	Q9NZV6		SelR|SepR|SelX|SELENOX|SELENOR|SEPX1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CSNK1E	HGNC:2453	1454	ENSG00000213923	casein kinase 1 epsilon	P49674		HCKIE|CKIE|CKIepsilon	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC2A2	HGNC:11006	6514	ENSG00000163581	solute carrier family 2 member 2	P11168		GLUT-2|GLUT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TACO1	HGNC:24316	51204	ENSG00000136463	translational activator of cytochrome c oxidase I	Q9BSH4		CCDC44	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CTSL	HGNC:2537	1514	ENSG00000135047	cathepsin L	P07711		FLJ31037|CTSL1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FBXO22	HGNC:13593	26263	ENSG00000167196	F-box protein 22	Q8NEZ5		FBX22|FISTC1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+NDUFB5	HGNC:7700	4711	ENSG00000136521	NADH:ubiquinone oxidoreductase subunit B5	O43674		SGDH|CI-SGDH|MGC12314	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LMO7	HGNC:6646	4008	ENSG00000136153	LIM domain 7	Q8WWI1		FBX20|KIAA0858|FBXO20	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TMEM64	HGNC:25441	169200	ENSG00000180694	transmembrane protein 64	Q6YI46		DKFZp762C1112	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ACMSD	HGNC:19288	130013	ENSG00000153086	aminocarboxymuconate semialdehyde decarboxylase	Q8TDX5			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+OR1A2	HGNC:8180	26189	ENSG00000172150	olfactory receptor family 1 subfamily A member 2	Q9Y585		OR17-6	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC60A2	HGNC:21053	91749	ENSG00000173214	solute carrier family 60 member 2	Q5TF39		MGC33953|KIAA1919|MFSD4B	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A37	HGNC:29786	51312	ENSG00000147454	solute carrier family 25 member 37	Q9NYZ2		MSCP|MFRN|MFRN1|HT015	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TWF2	HGNC:9621	11344	ENSG00000247596	twinfilin actin binding protein 2	Q6IBS0		A6RP|A6r|PTK9L	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC7A5	HGNC:11063	8140	ENSG00000103257	solute carrier family 7 member 5	Q01650		LAT1|E16|D16S469E|MPE16|CD98	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC29A1	HGNC:11003	2030	ENSG00000112759	solute carrier family 29 member 1 (Augustine blood group)	Q99808		ENT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35B3	HGNC:21601	51000	ENSG00000124786	solute carrier family 35 member B3	Q9H1N7		CGI-19|dJ453H5.1|PAPST2|C6orf196	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MMP10	HGNC:7156	4319	ENSG00000166670	matrix metallopeptidase 10	P09238		STMY2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC2A6	HGNC:11011	11182	ENSG00000160326	solute carrier family 2 member 6	Q9UGQ3		GLUT9|GLUT6|HSA011372	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NGLY1	HGNC:17646	55768	ENSG00000151092	N-glycanase 1	Q96IV0		FLJ11005|PNG1|PNG-1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RASD1	HGNC:15828	51655	ENSG00000108551	ras related dexamethasone induced 1	Q9Y272		DEXRAS1|AGS1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC26A3	HGNC:3018	1811	ENSG00000091138	solute carrier family 26 member 3	P40879		DRA|CLD	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+EML5	HGNC:18197	161436	ENSG00000165521	EMAP like 5	Q05BV3		HuEMAP-2|EMAP-2|FAP16	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+NCOA2	HGNC:7669	10499	ENSG00000140396	nuclear receptor coactivator 2	Q15596		SRC-2|TIF2|GRIP1|NCoA-2|KAT13C|bHLHe75	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC45A2	HGNC:16472	51151	ENSG00000164175	solute carrier family 45 member 2	Q9UMX9		AIM-1|OCA4|MATP	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A3	HGNC:10924	9123	ENSG00000141526	solute carrier family 16 member 3	O15427		MCT3|MCT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35D2	HGNC:20799	11046	ENSG00000130958	solute carrier family 35 member D2	Q76EJ3		UGTrel8|SQV7L	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC75A1	HGNC:16894	10227	ENSG00000109736	solute carrier family 75 member 1	Q14728		IT10C3|TETRAN|SLC75A1|MFSD10	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SMAD2	HGNC:6768	4087	ENSG00000175387	SMAD family member 2	Q15796		MADR2|JV18-1|MADH2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CYBB	HGNC:2578	1536	ENSG00000165168	cytochrome b-245 beta chain	P04839		GP91-PHOX|NOX2|GP91PHOX|p91-PHOX|CGD	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+KNTC1	HGNC:17255	9735	ENSG00000184445	kinetochore associated 1	P50748		KIAA0166|ROD	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC28A1	HGNC:11001	9154	ENSG00000156222	solute carrier family 28 member 1	O00337		CNT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ORAI1	HGNC:25896	84876	ENSG00000276045	ORAI calcium release-activated calcium modulator 1	Q96D31		FLJ14466|CRACM1|TMEM142A	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC18B1	HGNC:21573	116843	ENSG00000146409	solute carrier family 18 member B1	Q6NT16		dJ55C23.6|C6orf192	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+RASL11A	HGNC:23802	387496	ENSG00000122035	RAS like family 11 member A	Q6T310			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC17A5	HGNC:10933	26503	ENSG00000119899	solute carrier family 17 member 5	Q9NRA2		AST|SD|ISSD|NSD|SIALIN|SLD|SIASD	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A5	HGNC:28524	204962	ENSG00000137968	solute carrier family 44 member 5	Q8NCS7		MGC34032|CTL5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ANKRD10	HGNC:20265	55608	ENSG00000088448	ankyrin repeat domain 10	Q9NXR5		FLJ20093	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ERVFRD-1	HGNC:33823	405754	ENSG00000244476	endogenous retrovirus group FRD member 1, envelope	P60508		HERV-W/FRD|HERV-FRD|envFRD|ERVFRDE1|syncytin-2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC2A8	HGNC:13812	29988	ENSG00000136856	solute carrier family 2 member 8	Q9NY64		GLUTX1|GLUT8	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC43A3	HGNC:17466	29015	ENSG00000134802	solute carrier family 43 member 3	Q8NBI5		SEEEG-1|Eeg1|DKFZp762A227|FOAP-13|PRO1659	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A1	HGNC:10979	6576	ENSG00000100075	solute carrier family 25 member 1	P53007		CTP|CIC|SLC20A3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+AJUBA	HGNC:20250	84962	ENSG00000129474	ajuba LIM protein	Q96IF1		MGC15563|JUB	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+NKD2	HGNC:17046	85409	ENSG00000145506	NKD inhibitor of Wnt signaling pathway 2	Q969F2		Naked2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC60A1	HGNC:25433	148808	ENSG00000174514	solute carrier family 60 member 1	Q8N468		DKFZp761N1114|FLJ34577|UNQ3064|FLJ25004|MFSD4|MFSD4A	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A6	HGNC:10927	9120	ENSG00000108932	solute carrier family 16 member 6	O15403		MCT6|MCT7	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A3	HGNC:28689	126969	ENSG00000143036	solute carrier family 44 member 3	Q8N4M1		MGC45474|CTL3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+RIC8A	HGNC:29550	60626	ENSG00000177963	RIC8 guanine nucleotide exchange factor A	Q9NPQ8		synembryn|synembryn-A	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC10A6	HGNC:30603	345274	ENSG00000145283	solute carrier family 10 member 6	Q3KNW5		SOAT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC46A2	HGNC:16055	57864	ENSG00000119457	solute carrier family 46 member 2	Q9BY10		Ly110|TSCOT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC66A2	HGNC:26188	80148	ENSG00000122490	solute carrier family 66 member 2	Q8N2U9		FLJ22378|PQLC1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+RRAGA	HGNC:16963	10670	ENSG00000155876	Ras related GTP binding A	Q7L523		RAGA|FIP-1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MYC	HGNC:7553	4609	ENSG00000136997	MYC proto-oncogene, bHLH transcription factor	P01106		c-Myc|bHLHe39|MYCC	prostate cancer	candidate	0	somatic	amplification	curated (Claude knowledge; unverified)
+LRRC8D	HGNC:16992	55144	ENSG00000171492	leucine rich repeat containing 8 VRAC subunit D	Q7L1W4		FLJ10470|LRRC5	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ZNF124	HGNC:12907	7678	ENSG00000196418	zinc finger protein 124	Q15973		HZF16|HZF-16	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LFNG	HGNC:6560	3955	ENSG00000106003	LFNG O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase	Q8NES3		SCDO3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+REG3G	HGNC:29595	130120	ENSG00000143954	regenerating family member 3 gamma	Q6UW15		UNQ429|LPPM429|PAP1B	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TGFB1	HGNC:11766	7040	ENSG00000105329	transforming growth factor beta 1	P01137		CED|TGFbeta|TGFB|DPD1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC5A10	HGNC:23155	125206	ENSG00000154025	solute carrier family 5 member 10	A0PJK1		SGLT5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+HES4	HGNC:24149	57801	ENSG00000188290	hes family bHLH transcription factor 4	Q9HCC6		bHLHb42	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MYLIP	HGNC:21155	29116	ENSG00000007944	myosin regulatory light chain interacting protein	Q8WY64		MIR|IDOL	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+NR1H3	HGNC:7966	10062	ENSG00000025434	nuclear receptor subfamily 1 group H member 3	Q13133		LXR-a|RLD-1|LXRa	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FAM171A1	HGNC:23522	221061	ENSG00000148468	family with sequence similarity 171 member A1	Q5VUB5		FLJ12884|APCN|C10orf38	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC13A1	HGNC:10916	6561	ENSG00000081800	solute carrier family 13 member 1	Q9BZW2		NaSi-1|NAS1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35D1	HGNC:20800	23169	ENSG00000116704	solute carrier family 35 member D1	Q9NTN3		UGTREL7|KIAA0260	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+UBL7	HGNC:28221	84993	ENSG00000138629	ubiquitin like 7	Q96S82		BMSC-UbP|MGC14421	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MASP2	HGNC:6902	10747	ENSG00000009724	MBL associated serine protease 2	O00187		Map19|sMAP|MAP-2|MASP1P1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TTC19	HGNC:26006	54902	ENSG00000011295	tetratricopeptide repeat domain 19	Q6DKK2		FLJ20343|MGC19520	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+DLL3	HGNC:2909	10683	ENSG00000090932	delta like canonical Notch ligand 3	Q9NYJ7		SCDO1	prostate cancer	candidate	0	clinical_trial	neuroendocrine prostate cancer; T-cell engagers	curated (Claude knowledge; unverified)
+SLC35G1	HGNC:26607	159371	ENSG00000176273	solute carrier family 35 member G1	Q2M3R5		FLJ33990|C10orf60|POST|TMEM20	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+BCL2L13	HGNC:17164	23786	ENSG00000099968	BCL2 like 13	Q9BXK5		MIL1|BCL-RAMBO	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC67A1	HGNC:10964	5002	ENSG00000110628	solute carrier family 67 member 1	Q96BI1		BWR1A|TSSC5|ITM|IMPT1|ORCTL2|BWSCR1A|SLC22A18|SLC22A1L	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A16	HGNC:13622	28968	ENSG00000063127	solute carrier family 6 member 16	Q9GZN6		NTT5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35A4	HGNC:20753	113829	ENSG00000176087	solute carrier family 35 member A4	L0R6Q1|Q96G79			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A29	HGNC:20116	123096	ENSG00000197119	solute carrier family 25 member 29	Q8N8R3		FLJ38975|C14orf69	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A3	HGNC:11029	6508	ENSG00000114923	solute carrier family 4 member 3	P48751		AE3|SLC2C	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SRSF1	HGNC:10780	6426	ENSG00000136450	serine and arginine rich splicing factor 1	Q07955		ASF|SF2|SRp30a|SF2p33|MGC5228|SFRS1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+AURKB	HGNC:11390	9212	ENSG00000178999	aurora kinase B	Q96GD4		Aik2|IPL1|AurB|AIM-1|ARK2|STK5|PPP1R48|STK12	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC1A3	HGNC:10941	6507	ENSG00000079215	solute carrier family 1 member 3	P43003		EAAT1|GLAST|EA6|GLAST1|GLAST-1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CDK2	HGNC:1771	1017	ENSG00000123374	cyclin dependent kinase 2	P24941			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PLOD3	HGNC:9083	8985	ENSG00000106397	procollagen-lysine,2-oxoglutarate 5-dioxygenase 3	O60568		LH3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ODC1	HGNC:8109	4953	ENSG00000115758	ornithine decarboxylase 1	P11926		ODC	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+STAP2	HGNC:30430	55620	ENSG00000178078	signal transducing adaptor family member 2	Q9UGK3		STAP-2|BKS	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LRRC23	HGNC:19138	10233	ENSG00000010626	leucine rich repeat containing 23	Q53EV4		B7|LRPB7	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ZC3H11B	HGNC:25659	643136	ENSG00000215817	zinc finger CCCH-type containing 11B	A0A1B0GTU1		ZC3HDC11B	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC5A12	HGNC:28750	159963	ENSG00000148942	solute carrier family 5 member 12	Q1EHB4		MGC52019|SMCT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ANXA10	HGNC:534	11199	ENSG00000109511	annexin A10	Q9UJ72		ANX14	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TCEAL6	HGNC:24553	158931	ENSG00000204071	transcription elongation factor A like 6	Q6IPX3		WEX2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CES4A	HGNC:26741	283848	ENSG00000172824	carboxylesterase 4A	Q5XG92		FLJ37464|CES8	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CDC7	HGNC:1745	8317	ENSG00000097046	cell division cycle 7	O00311		Hsk1|huCdc7|HsCdc7|CDC7L1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC6A14	HGNC:11047	11254	ENSG00000268104	solute carrier family 6 member 14	Q9UN76			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC15A2	HGNC:10921	6565	ENSG00000163406	solute carrier family 15 member 2	Q16348		PEPT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+AMPH	HGNC:471	273	ENSG00000078053	amphiphysin	P49418			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+NFKB1	HGNC:7794	4790	ENSG00000109320	nuclear factor kappa B subunit 1	P19838		KBF1|p105|NFKB-p50|p50|NF-kappaB|NFkappaB|NF-kB1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC17A4	HGNC:10932	10050	ENSG00000146039	solute carrier family 17 member 4	Q9Y2C5		KIAA2138	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ZNF585A	HGNC:26305	199704	ENSG00000196967	zinc finger protein 585A	Q6P3V2		FLJ23765|Zfp27	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC24A3	HGNC:10977	57419	ENSG00000185052	solute carrier family 24 member 3	Q9HC58			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A8	HGNC:20862	64116	ENSG00000138821	solute carrier family 39 member 8	Q9C0K1		BIGM103|ZIP8|ZIP-8	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+KLK3	HGNC:6364	354	ENSG00000142515	kallikrein related peptidase 3	P07288		PSA|APS	prostate cancer	candidate	0	biology	PSA; androgen-regulated biomarker	curated (Claude knowledge; unverified)
+CGRRF1	HGNC:15528	10668	ENSG00000100532	cell growth regulator with ring finger domain 1	Q99675		CGR19|RNF197	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SHPRH	HGNC:19336	257218	ENSG00000146414	SNF2 histone linker PHD RING helicase	Q149N8		FLJ90837|KIAA2023|bA545I5.2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MRPS18B	HGNC:14516	28973	ENSG00000204568	mitochondrial ribosomal protein S18B	Q9Y676		MRPS18-2|PTD017|C6orf14|HSPC183|mS40	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC22A31	HGNC:27091	146429	ENSG00000259803	solute carrier family 22 member 31	A6NKX4			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NLGN3	HGNC:14289	54413	ENSG00000196338	neuroligin 3	Q9NZ94		HNL3|KIAA1480|ASPGX1|AUTSX1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC27A5	HGNC:10999	10998	ENSG00000083807	solute carrier family 27 member 5	Q9Y2P5		FATP5|VLACSR|VLCS-H2|VLCSH2|FACVL3|FLJ22987|ACSVL6|ACSB	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A15	HGNC:20301	55356	ENSG00000163393	solute carrier family 22 member 15	Q8IZD6		FLIPT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A2	HGNC:17127	29986	ENSG00000165794	solute carrier family 39 member 2	Q9NP94		ZIP2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+HOXB6	HGNC:5117	3216	ENSG00000108511	homeobox B6	P17509		HOX2|HOX2B	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC23A2	HGNC:10973	9962	ENSG00000089057	solute carrier family 23 member 2	Q9UGH3		SVCT2|KIAA0238|YSPL2|SLC23A1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A11	HGNC:23093	162515	ENSG00000174326	solute carrier family 16 member 11	Q8NCK7		FLJ90193|MCT11	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A1	HGNC:11027	6521	ENSG00000004939	solute carrier family 4 member 1 (Diego blood group)	P02730		RTA1A|CD233|FR|SW|WR|EMPB3|EPB3|AE1|DI|WD	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+EVC2	HGNC:19747	132884	ENSG00000173040	EvC ciliary complex subunit 2	Q86UK5		LBN	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PIH1D1	HGNC:26075	55011	ENSG00000104872	PIH1 domain containing 1	Q9NWS0		FLJ20643|Pih1|MOT48|DNAAF14|NOP17	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RB1	HGNC:9884	5925	ENSG00000139687	RB transcriptional corepressor 1	P06400		RB|PPP1R130|OSRC	prostate cancer	candidate	0	somatic	loss associated with neuroendocrine transformation	curated (Claude knowledge; unverified)
+CCDC15	HGNC:25798	80071	ENSG00000149548	coiled-coil domain containing 15	Q0P6D6		FLJ13215	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC22A17	HGNC:23095	51310	ENSG00000092096	solute carrier family 22 member 17	Q8WUG5		BOCT|BOIT|NGALR	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TAF11L7	HGNC:53850	112488736	ENSG00000284465	TATA-box binding protein associated factor 11 like 7	P0DW12			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TRPV2	HGNC:18082	51393	ENSG00000187688	transient receptor potential cation channel subfamily V member 2	Q9Y5S1		VRL|VRL-1|VRL1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PPARD	HGNC:9235	5467	ENSG00000112033	peroxisome proliferator activated receptor delta	Q03181		NUC1|NUCII|FAAR|NR1C2|PPARB	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MTOR	HGNC:3942	2475	ENSG00000198793	mechanistic target of rapamycin kinase	P42345		mTOR|RAFT1|RAPT1|FLJ44809|FRAP|FRAP2|FRAP1	prostate cancer	candidate	0	clinical_trial	PI3K/AKT/mTOR pathway	curated (Claude knowledge; unverified)
+CAAP1	HGNC:25834	79886	ENSG00000120159	caspase activity and apoptosis inhibitor 1	Q9H8G2		FLJ13657|CAAP|C9orf82	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC35G4	HGNC:31043	646000	ENSG00000236396	solute carrier family 35 member G4	P0C7Q5		AMAC1L1|SLC35G4P	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A10	HGNC:13444	81031	ENSG00000197496	solute carrier family 2 member 10	O95528		GLUT10|GLUT-10	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A42	HGNC:28380	284439	ENSG00000181035	solute carrier family 25 member 42	Q86VD7		MGC26694	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A1	HGNC:18798	23446	ENSG00000070214	solute carrier family 44 member 1	Q8WWI5		CTL1|CHTL1|CD92|CDW92	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A15	HGNC:10985	10166	ENSG00000102743	solute carrier family 25 member 15	Q9Y619		ORC1|lnc-HC|D13S327|ORNT1|HHH	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+DZIP1	HGNC:20908	22873	ENSG00000134874	DAZ interacting zinc finger protein 1	Q86YF9		KIAA0996|DZIP	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+GSN	HGNC:4620	2934	ENSG00000148180	gelsolin	P06396		DKFZp313L0718	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC8A2	HGNC:11069	6543	ENSG00000118160	solute carrier family 8 member A2	Q9UPR5		NCX2|KIAA1087	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A11	HGNC:23091	115584	ENSG00000158865	solute carrier family 5 member 11	Q8WWX8		KST1|SMIT2|SGLT6	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ANKRD34A	HGNC:27639	284615	ENSG00000272031	ankyrin repeat domain 34A	Q69YU3		ANKRD34	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MSH6	HGNC:7329	2956	ENSG00000116062	mutS homolog 6	P52701		MSH-6|GTBP	prostate cancer	candidate	0	germline	mismatch repair	curated (Claude knowledge; unverified)
+NCKAP5	HGNC:29847	344148	ENSG00000176771	NCK associated protein 5	O14513		NAP5|ERIH1|ERIH2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SNX2	HGNC:11173	6643	ENSG00000205302	sorting nexin 2	O60749			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ATP11A	HGNC:13552	23250	ENSG00000068650	ATPase phospholipid transporting 11A	P98196		ATPIH|ATPIS|KIAA1021	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC4A7	HGNC:11033	9497	ENSG00000033867	solute carrier family 4 member 7	Q9Y6M7		NBC3|SBC2|SLC4A6	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+H3-5	HGNC:33164	440093	ENSG00000188375	H3.5 histone	Q6NXT2		H3.5|H3.3C|H3F3C	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TRIM51	HGNC:19023	84767	ENSG00000124900	tripartite motif-containing 51	Q9BSJ1		TRIM51A|SPRYD5	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FOXB1	HGNC:3799	27023	ENSG00000171956	forkhead box B1	Q99853		HFKH-5|FKH5	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+KLHDC8A	HGNC:25573	55220	ENSG00000162873	kelch domain containing 8A	Q8IYD2		FLJ10748	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC66A1	HGNC:26001	54896	ENSG00000040487	solute carrier family 66 member 1	Q6ZP29		FLJ20320|LAAT-1|LAAT1|PQLC2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CTXN2	HGNC:31109	399697	ENSG00000233932	cortexin 2	P0C2S0			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC26A6	HGNC:14472	65010	ENSG00000225697	solute carrier family 26 member 6	Q9BXS9		DKFZp586E1422	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CELF1	HGNC:2549	10658	ENSG00000149187	CUGBP Elav-like family member 1	Q92879		CUG-BP|hNab50|BRUNOL2|NAB50|CUGBP|NAPOR|EDEN-BP|CUGBP1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A19	HGNC:14409	60386	ENSG00000125454	solute carrier family 25 member 19	Q9HC21		DNC|MUP1|TPC|MCPHA	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A8	HGNC:11055	6535	ENSG00000130821	solute carrier family 6 member 8	P48029		CRTR|CT1|CRT|CRT-1|CRT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO5A1	HGNC:19046	81796	ENSG00000137571	solute carrier organic anion transporter family member 5A1	Q9H2Y9		OATPRP4|OATP-J|OATP5A1|SLC21A15	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ZCWPW1	HGNC:23486	55063	ENSG00000078487	zinc finger CW-type and PWWP domain containing 1	Q9H0M4		FLJ10057|DKFZp434N0510|ZCW1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC6A9	HGNC:11056	6536	ENSG00000196517	solute carrier family 6 member 9	P48067		GLYT1|GlyT-1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ISCU	HGNC:29882	23479	ENSG00000136003	iron-sulfur cluster assembly enzyme	Q9H1K1		ISU2|hnifU|NIFUN	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+NCAPD3	HGNC:28952	23310	ENSG00000151503	non-SMC condensin II complex subunit D3	P42695		hCAP-D3|CAP-D3|hHCP-6|KIAA0056|FLJ42888|hcp-6	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RET	HGNC:9967	5979	ENSG00000165731	ret proto-oncogene	P07949		PTC|CDHF12|RET51|CDHR16|HSCR1|MEN2A|MTC1|MEN2B	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC22A1	HGNC:10963	6580	ENSG00000175003	solute carrier family 22 member 1	O15245		OCT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SFTPB	HGNC:10801	6439	ENSG00000168878	surfactant protein B	P07988		SP-B|SFTP3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC38A3	HGNC:18044	10991	ENSG00000188338	solute carrier family 38 member 3	Q99624		G17|SN1|SNAT3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PTDSS1	HGNC:9587	9791	ENSG00000156471	phosphatidylserine synthase 1	P48651		KIAA0024|PSSA|PSS1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+KRTAP12-1	HGNC:20529	353332	ENSG00000187175	keratin associated protein 12-1	P59990		KRTAP12.1|KAP12.1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+NDUFS7	HGNC:7714	374291	ENSG00000115286	NADH:ubiquinone oxidoreductase core subunit S7	O75251		PSST|FLJ46880|FLJ45860|CI-20	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TLK1	HGNC:11841	9874	ENSG00000198586	tousled like kinase 1	Q9UKI8		KIAA0137|PKU-BETA	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLCO1C1	HGNC:13819	53919	ENSG00000139155	solute carrier organic anion transporter family member 1C1	Q9NYB5		OATP-F|OATP1C1|OATP1|SLC21A14	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PSMB9	HGNC:9546	5698	ENSG00000240065	proteasome 20S subunit beta 9	P28065		RING12|beta1i|PSMB6i|LMP2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC36A2	HGNC:18762	153201	ENSG00000186335	solute carrier family 36 member 2	Q495M3		PAT2|tramdorin|TRAMD1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CCSER2	HGNC:29197	54462	ENSG00000107771	coiled-coil serine rich protein 2	Q9H7U1		KIAA1128|FAM190B	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+KIF19	HGNC:26735	124602	ENSG00000196169	kinesin family member 19	Q2TAC6		FLJ37300|KIF19A	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A32	HGNC:29683	81034	ENSG00000164933	solute carrier family 25 member 32	Q9H2D1		MFTC	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PDLIM1	HGNC:2067	9124	ENSG00000107438	PDZ and LIM domain 1	O00151		CLP-36|hCLIM1|CLP36|CLIM1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PPOX	HGNC:9280	5498	ENSG00000143224	protoporphyrinogen oxidase	P50336		PPO|VP	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC7A14	HGNC:29326	57709	ENSG00000013293	solute carrier family 7 member 14	Q8TBB6		KIAA1613|PPP1R142	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SEC24A	HGNC:10703	10802	ENSG00000113615	SEC24 homolog A, COPII component	O95486			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RAD54L2	HGNC:29123	23132	ENSG00000164080	RAD54 like 2	Q9Y4B4		KIAA0809|SRISNF2L|ARIP4	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC9A2	HGNC:11072	6549	ENSG00000115616	solute carrier family 9 member A2	Q9UBY0		NHE2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ZNF846	HGNC:27260	162993	ENSG00000196605	zinc finger protein 846	Q147U1			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC7A11	HGNC:11059	23657	ENSG00000151012	solute carrier family 7 member 11	Q9UPY5		xCT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TLR6	HGNC:16711	10333	ENSG00000174130	toll like receptor 6	Q9Y2C9		CD286	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+UBXN8	HGNC:30307	7993	ENSG00000104691	UBX domain protein 8	O00124		D8S2298E|REP8|UBXD6	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+GCSAML	HGNC:29583	148823	ENSG00000169224	germinal center associated signaling and motility like	Q5JQS6		FLJ44728|C1orf150	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MANSC1	HGNC:25505	54682	ENSG00000111261	MANSC domain containing 1	Q9H8J5		FLJ10298|LOH12CR3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RASL10A	HGNC:16954	10633	ENSG00000100276	RAS like family 10 member A	Q92737		RRP22	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+AKAP11	HGNC:369	11215	ENSG00000023516	A-kinase anchoring protein 11	Q9UKA4		KIAA0629|AKAP220|PRKA11|FLJ11304|DKFZp781I12161|PPP1R44	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+BARHL1	HGNC:953	56751	ENSG00000125492	BarH like homeobox 1	Q9BZE3			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PTPRK	HGNC:9674	5796	ENSG00000152894	protein tyrosine phosphatase receptor type K	Q15262		R-PTP-kappa	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+COL8A1	HGNC:2215	1295	ENSG00000144810	collagen type VIII alpha 1 chain	P27658		MGC9568|C3orf7	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC39A9	HGNC:20182	55334	ENSG00000029364	solute carrier family 39 member 9	Q9NUM3		FLJ11274|ZIP9	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CHI3L2	HGNC:1933	1117	ENSG00000064886	chitinase 3 like 2	Q15782		YKL-39|YKL39	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC22A13	HGNC:8494	9390	ENSG00000172940	solute carrier family 22 member 13	Q9Y226		OCTL1|OCTL3|OAT10|ORCTL3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC5A1	HGNC:11036	6523	ENSG00000100170	solute carrier family 5 member 1	P13866		D22S675|NAGT|SGLT-1|SGLT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+IGHMBP2	HGNC:5542	3508	ENSG00000132740	immunoglobulin mu DNA binding protein 2	P38935		ZFAND7|SMUBP2|CATF1|SMARD1|HCSA|HMN6|CMT2S	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+BIN3	HGNC:1054	55909	ENSG00000147439	bridging integrator 3	Q9NQY0			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SRSF6	HGNC:10788	6431	ENSG00000124193	serine and arginine rich splicing factor 6	Q13247		SRP55|B52|SFRS6	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TMSB10	HGNC:11879	9168	ENSG00000034510	thymosin beta 10	P63313		TB10	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+COG5	HGNC:14857	10466	ENSG00000164597	component of oligomeric golgi complex 5	Q9UP83		GTC90|GOLTC1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC9A4	HGNC:11077	389015	ENSG00000180251	solute carrier family 9 member A4	Q6AI14		NHE4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC9C1	HGNC:31401	285335	ENSG00000172139	solute carrier family 9 member C1	Q4G0N8		NHE|SLC9A10	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ZNF536	HGNC:29025	9745	ENSG00000198597	zinc finger protein 536	O15090		KIAA0390	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC7A8	HGNC:11066	23428	ENSG00000092068	solute carrier family 7 member 8	Q9UHI5		LPI-PC1|LAT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ZFP36L1	HGNC:1107	677	ENSG00000185650	ZFP36 like 1 zinc finger CCCH-type	Q07352		Berg36|ERF1|TIS11B|cMG1|BRF1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RNF130	HGNC:18280	55819	ENSG00000113269	ring finger protein 130	Q86XS8		GP|G1RZFP|GOLIATH	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC1A2	HGNC:10940	6506	ENSG00000110436	solute carrier family 1 member 2	P43004		GLT-1|GLT1|EAAT2|HBGT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+HSPA12A	HGNC:19022	259217	ENSG00000165868	heat shock protein family A (Hsp70) member 12A	O43301		FLJ13874|KIAA0417	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SYT3	HGNC:11511	84258	ENSG00000213023	synaptotagmin 3	Q9BQG1			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A4	HGNC:10990	291	ENSG00000151729	solute carrier family 25 member 4	P12235		T1|AAC1|PEO3|PEO2|ANT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35E1	HGNC:20803	79939	ENSG00000127526	solute carrier family 35 member E1	Q96K37		FLJ14251	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CAVIN4	HGNC:33742	347273	ENSG00000170681	caveolae associated protein 4	Q5BKX8		cavin-4|MURC	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+HSPA8	HGNC:5241	3312	ENSG00000109971	heat shock protein family A (Hsp70) member 8	P11142		HSC71|HSC70|HSP73|HSPA10	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FHL2	HGNC:3703	2274	ENSG00000115641	four and a half LIM domains 2	Q14192		FHL-2|SLIM3|DRAL	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC71A2	HGNC:23376	84641	ENSG00000148110	solute carrier family 71 member 2	Q5SR56		FLJ14753|HIATL1|MFSD14B	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A2	HGNC:22921	83884	ENSG00000120329	solute carrier family 25 member 2	Q9BXI2		ORNT2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC7A10	HGNC:11058	56301	ENSG00000130876	solute carrier family 7 member 10	Q9NS82		asc-1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC39A13	HGNC:20859	91252	ENSG00000165915	solute carrier family 39 member 13	Q96H72		FLJ25785|LZT-Hs9|ZIP13|ZIP-13	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35B4	HGNC:20584	84912	ENSG00000205060	solute carrier family 35 member B4	Q969S0		FLJ14697|YEA4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+VWA3B	HGNC:28385	200403	ENSG00000168658	von Willebrand factor A domain containing 3B	Q502W6		DKFZp686F2227|MGC26733	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PTPRF	HGNC:9670	5792	ENSG00000142949	protein tyrosine phosphatase receptor type F	P10586		LAR	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CD276	HGNC:19137	80381	ENSG00000103855	CD276 molecule	Q5ZPR3		B7-H3|B7H3|B7RP-2	prostate cancer	candidate	0	clinical_trial	B7-H3 antibody-drug conjugates	curated (Claude knowledge; unverified)
+SLC25A25	HGNC:20663	114789	ENSG00000148339	solute carrier family 25 member 25	Q6KCM7		KIAA1896|PCSCL|MCSC	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC17A7	HGNC:16704	57030	ENSG00000104888	solute carrier family 17 member 7	Q9P2U7		BNPI|VGLUT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC44A4	HGNC:13941	80736	ENSG00000204385	solute carrier family 44 member 4	Q53GD3		NG22|CTL4|FLJ14491|TPPT|DFNA72|C6orf29	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CDK12	HGNC:24224	51755	ENSG00000167258	cyclin dependent kinase 12	Q9NYV4		CRK7|CRKR|KIAA0904|CRKRS	prostate cancer	candidate	0	somatic	tandem duplications; immunotherapy sensitivity	curated (Claude knowledge; unverified)
+MPV17L	HGNC:26827	255027	ENSG00000156968	MPV17 mitochondrial inner membrane protein like	Q2QL34		FLJ39599|M-LPH|M-LPH1|M-LPH2|MPV17L1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LRRC31	HGNC:26261	79782	ENSG00000114248	leucine rich repeat containing 31	Q6UY01		FLJ23259	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SYNE3	HGNC:19861	161176	ENSG00000176438	spectrin repeat containing nuclear envelope family member 3	Q6ZMZ3		FLJ25605|NET53|Nesprin-3|Nesp3|C14orf49|LINC00341|C14orf139|NCRNA00341	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PRAMEF2	HGNC:28841	65122	ENSG00000120952	PRAME family member 2	O60811		FLJ43580	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SEMA3D	HGNC:10726	223117	ENSG00000153993	semaphorin 3D	O95025		coll-2|Sema-Z2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLCO2B1	HGNC:10962	11309	ENSG00000137491	solute carrier organic anion transporter family member 2B1	O94956		OATP-B|OATP2B1|SLC21A9	prostate cancer	candidate	0	biology	steroid uptake transporter; abiraterone response	curated (Claude knowledge; unverified)
+TBC1D30	HGNC:29164	23329	ENSG00000111490	TBC1 domain family member 30	Q9Y2I9		KIAA0984	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+MYH16	HGNC:31038	84176	ENSG00000293560	myosin heavy chain 16	Q9H6N6		MHC20|MYH16P|MYH5	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+INTS1	HGNC:24555	26173	ENSG00000164880	integrator complex subunit 1	Q8N201		DKFZp586J0619|KIAA1440|INT1|NET28	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC16A9	HGNC:23520	220963	ENSG00000165449	solute carrier family 16 member 9	Q7RTY1		FLJ43803|MCT9|C10orf36	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+KLF8	HGNC:6351	11279	ENSG00000102349	KLF transcription factor 8	O95600		BKLF3|ZNF741|DXS741	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CHST11	HGNC:17422	50515	ENSG00000171310	carbohydrate sulfotransferase 11	Q9NPF2		C4ST1|C4St-1|C4ST|HSA269537	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC14A1	HGNC:10918	6563	ENSG00000141469	solute carrier family 14 member 1 (Kidd blood group)	Q13336		HsT1341|RACH1|RACH2|JK	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+KCNJ15	HGNC:6261	3772	ENSG00000157551	potassium inwardly rectifying channel subfamily J member 15	Q99712		Kir4.2|Kir1.3|IRKK	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+LAMC2	HGNC:6493	3918	ENSG00000058085	laminin subunit gamma 2	Q13753		nicein-100kDa|kalinin-105kDa|BM600-100kDa|EBR2|LAMB2T|LAMNB2|EBR2A	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC35E3	HGNC:20864	55508	ENSG00000175782	solute carrier family 35 member E3	Q7Z769		BLOV1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+BUB3	HGNC:1151	9184	ENSG00000154473	BUB3 mitotic checkpoint protein	O43684		BUB3L	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PCGF5	HGNC:28264	84333	ENSG00000180628	polycomb group ring finger 5	Q86SE9		MGC16202|RNF159	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC7A6OS	HGNC:25807	84138	ENSG00000103061	solute carrier family 7 member 6 opposite strand	Q96CW6		FLJ13291|Iwr1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MLH1	HGNC:7127	4292	ENSG00000076242	mutL homolog 1	P40692		HNPCC|FCC2|HNPCC2|MLH-1|COCA2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+GASK1B	HGNC:25312	51313	ENSG00000164125	golgi associated kinase 1B	Q6UWH4		FLJ38155|DKFZp434L142|ENED|C4orf18|FAM198B	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ZEB1	HGNC:11642	6935	ENSG00000148516	zinc finger E-box binding homeobox 1	P37275		BZP|ZEB|AREB6|NIL-2-A|Zfhep|Zfhx1a|FECD6|TCF8|PPCD3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+DHRS7C	HGNC:32423	201140	ENSG00000184544	dehydrogenase/reductase 7C	A6NNS2		SDR32C2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RDH10	HGNC:19975	157506	ENSG00000121039	retinol dehydrogenase 10	Q8IZV5		SDR16C4	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SPOP	HGNC:11254	8405	ENSG00000121067	speckle type BTB/POZ protein	O43791		TEF2|BTBD32	prostate cancer	candidate	0	somatic	recurrent point mutations	curated (Claude knowledge; unverified)
+FSD1	HGNC:13745	79187	ENSG00000105255	fibronectin type III and SPRY domain containing 1	Q9BTV5		MGC3213|MIR1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC22A16	HGNC:20302	85413	ENSG00000004809	solute carrier family 22 member 16	Q86VW1		FLIPT2|CT2|OKB1|OAT6	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NSUN5	HGNC:16385	55695	ENSG00000130305	NOP2/Sun RNA methyltransferase 5	Q96P11		NOL1R|p120(NOL1)|FLJ10267|NSUN5A|Ynl022cL|WBSCR20|WBSCR20A	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ZDHHC17	HGNC:18412	23390	ENSG00000186908	zDHHC palmitoyltransferase 17	Q8IUH5		HIP14|HYPH|KIAA0946	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC10A1	HGNC:10905	6554	ENSG00000100652	solute carrier family 10 member 1	Q14973		NTCP|NTCP1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SSX5	HGNC:11339	6758	ENSG00000165583	SSX family member 5	O60225			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A45	HGNC:27442	283130	ENSG00000162241	solute carrier family 25 member 45	Q8N413			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+TAF5	HGNC:11539	6877	ENSG00000148835	TATA-box binding protein associated factor 5	Q15542		TAFII100|TAF2D	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+EZH2	HGNC:3527	2146	ENSG00000106462	enhancer of zeste 2 polycomb repressive complex 2 subunit	Q15910		EZH1|ENX-1|KMT6|KMT6A	prostate cancer	candidate	0	clinical_trial	EZH2 inhibitors combined with AR blockade	curated (Claude knowledge; unverified)
+ALG12	HGNC:19358	79087	ENSG00000182858	ALG12 alpha-1,6-mannosyltransferase	Q9BV10		ECM39|CDG1G	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC8A3	HGNC:11070	6547	ENSG00000100678	solute carrier family 8 member A3	P57103		NCX3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC13A4	HGNC:15827	26266	ENSG00000164707	solute carrier family 13 member 4	Q9UKG4		SUT-1|SUT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+CPS1	HGNC:2323	1373	ENSG00000021826	carbamoyl-phosphate synthase 1	P31327		GATD6	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+USP2	HGNC:12618	9099	ENSG00000036672	ubiquitin specific peptidase 2	O75604		UBP41	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ANTXRL	HGNC:27277	195977	ENSG00000274209	ANTXR like	A6NF34			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SNRNP200	HGNC:30859	23020	ENSG00000144028	small nuclear ribonucleoprotein U5 subunit 200	O75643		U5-200KD|HELIC2|KIAA0788|Brr2|ASCC3L1|RP33	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CSNK2A2	HGNC:2459	1459	ENSG00000070770	casein kinase 2 alpha 2	P19784		CSNK2A1|CK2alpha'	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A33	HGNC:29681	84275	ENSG00000171612	solute carrier family 25 member 33	Q9BSK2		MGC4399|BMSC-MCP|PNC1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+GPR42	HGNC:4500	2866	ENSG00000126251	G protein-coupled receptor 42	O15529		GPR41L|FFAR3L|GPR42P	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC16A8	HGNC:16270	23539	ENSG00000100156	solute carrier family 16 member 8	O95907		MCT3|REMP	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A13	HGNC:15956	114134	ENSG00000151229	solute carrier family 2 member 13	Q96QE2		HMIT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC51B	HGNC:29956	123264	ENSG00000186198	SLC51 subunit beta	Q86UW2		OSTbeta|SLC51A1BP	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC6A12	HGNC:11045	6539	ENSG00000111181	solute carrier family 6 member 12	P48065		BGT-1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+DEFB103A	HGNC:15967	414325	ENSG00000176797	defensin beta 103A	P81534		HBD-3|HBP-3|HBD3|HBP3|DEFB-3|DEFB3|DEFB103	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CRYBA4	HGNC:2396	1413	ENSG00000196431	crystallin beta A4	P53673			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC22A12	HGNC:17989	116085	ENSG00000197891	solute carrier family 22 member 12	Q96S37		OAT4L|RST|URAT1|hURAT1|UAT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ERVMER34-1	HGNC:42970	100288413	ENSG00000226887	endogenous retrovirus group MER34 member 1, envelope	Q9H9K5		envMER34|HEMO	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC2A12	HGNC:18067	154091	ENSG00000146411	solute carrier family 2 member 12	Q8TD20		GLUT12|GLUT8	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+RCN1	HGNC:9934	5954	ENSG00000049449	reticulocalbin 1	Q15293		Rcal|PIG20|FLJ37041|RCN	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ESCO2	HGNC:27230	157570	ENSG00000171320	establishment of sister chromatid cohesion N-acetyltransferase 2	Q56NI9		EFO2|RBS	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC34A3	HGNC:20305	142680	ENSG00000198569	solute carrier family 34 member 3	Q8N130		NPTIIc|FLJ38680|NaPi-2c|NPT2C	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC36A3	HGNC:19659	285641	ENSG00000186334	solute carrier family 36 member 3	Q495N2		PAT3|TRAMD2|tramdorin2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC16A14	HGNC:26417	151473	ENSG00000163053	solute carrier family 16 member 14	Q7RTX9		FLJ30794|MCT14	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC4A4	HGNC:11030	8671	ENSG00000080493	solute carrier family 4 member 4	Q9Y6R1		NBC1|HNBC1|NBC2|pNBC|hhNMC|kNBC1|KNBC|NBCe1|SLC4A5	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+BMP3	HGNC:1070	651	ENSG00000152785	bone morphogenetic protein 3	P12645			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+KNG1	HGNC:6383	3827	ENSG00000113889	kininogen 1	P01042		BK|HMWK|KNG|BDK|HK	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+IL31	HGNC:19372	386653	ENSG00000204671	interleukin 31	Q6EBC2		IL-31	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+BCO2	HGNC:18503	83875	ENSG00000197580	beta-carotene oxygenase 2	Q9BYV7		FLJ34464|B-DIOX-II|BCDO2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+FOXG1	HGNC:3811	2290	ENSG00000176165	forkhead box G1	P55316		HFK2|QIN|BF1|HFK1|HFK3|HBF-3|FKHL2|FOXG1B|FKHL4|FKH2|FKHL1|FOXG1C|FKHL3|FOXG1A	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CD320	HGNC:16692	51293	ENSG00000167775	CD320 molecule	Q9NPF0		8D6|8D6A|TCblR|TCN2R|sCD320|TCII-R	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TOB2	HGNC:11980	10766	ENSG00000183864	transducer of ERBB2, 2	Q14106		TOBL|TOB4|bK223H9|APRO5|TROB2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC17A1	HGNC:10929	6568	ENSG00000124568	solute carrier family 17 member 1	Q14916		NAPI-1|NPT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+RP2	HGNC:10274	6102	ENSG00000102218	RP2 activator of ARL3 GTPase	O75695		TBCCD2|NME10|NM23-H10	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+EMC1	HGNC:28957	23065	ENSG00000127463	ER membrane protein complex subunit 1	Q8N766		KIAA0090	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC6A19	HGNC:27960	340024	ENSG00000174358	solute carrier family 6 member 19	Q695T7		B0AT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35E4	HGNC:17058	339665	ENSG00000100036	solute carrier family 35 member E4	Q6ICL7			prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SSC5D	HGNC:26641	284297	ENSG00000179954	scavenger receptor cysteine rich family member with 5 domains	A1L4H1		FLJ35258|S5D-SRCRB	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC26A4	HGNC:8818	5172	ENSG00000091137	solute carrier family 26 member 4	O43511		PDS|DFNB4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+FAM8A1	HGNC:16372	51439	ENSG00000137414	family with sequence similarity 8 member A1	Q9UBU6		AHCP	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+HPDL	HGNC:28242	84842	ENSG00000186603	4-hydroxyphenylpyruvate dioxygenase like	Q96IR7		MGC15668|4-HPPD-L|GLOXD1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+EZR	HGNC:12691	7430	ENSG00000092820	ezrin	P15311		VIL2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC2A3	HGNC:11007	6515	ENSG00000059804	solute carrier family 2 member 3	P11169		GLUT3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ANKS1B	HGNC:24600	56899	ENSG00000185046	ankyrin repeat and sterile alpha motif domain containing 1B	Q7Z6G8		EB-1|AIDA-1|cajalin-2|ANKS2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CDC42EP2	HGNC:16263	10435	ENSG00000149798	CDC42 effector protein 2	O14613		CEP2|BORG1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC38A12	HGNC:25984	54868	ENSG00000109066	solute carrier family 38 member 12	Q8NE00		FLJ20255|FLJ00021|TMEM104	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC22A9	HGNC:16261	114571	ENSG00000149742	solute carrier family 22 member 9	Q8IVM8		OAT4|FLJ23666|UST3|OAT7	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+GLE1	HGNC:4315	2733	ENSG00000119392	GLE1 RNA export mediator	Q53GS7		hGLE1|GLE1L|LCCS1	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC8B1	HGNC:26175	80024	ENSG00000089060	solute carrier family 8 member B1	Q6J4K2		FLJ22233|NCKX6|NCLX|SLC24A6	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+USP24	HGNC:12623	23358	ENSG00000162402	ubiquitin specific peptidase 24	Q9UPU5		KIAA1057	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC6A4	HGNC:11050	6532	ENSG00000108576	solute carrier family 6 member 4	P31645		5-HTT|SERT1|HTT|OCD1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ANKRD18B	HGNC:23644	441459	ENSG00000230453	ankyrin repeat domain 18B	A2A2Z9		bA255A11.3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC29A3	HGNC:23096	55315	ENSG00000198246	solute carrier family 29 member 3	Q9BZD2		ENT3|FLJ11160|hENT3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+KCNK18	HGNC:19439	338567	ENSG00000186795	potassium two pore domain channel subfamily K member 18	Q7Z418		K2p18.1|TRESK-2|TRESK2|TRESK|TRIK	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+DDX42	HGNC:18676	11325	ENSG00000198231	DEAD-box helicase 42	Q86XP3		RNAHP|RHELP|SF3b125|SF3B8	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A24	HGNC:20662	29957	ENSG00000085491	solute carrier family 25 member 24	Q6NUK1		DKFZp586G0123|APC1|SCAMC1|SCAMC-1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+FAM90A26	HGNC:43746	100287045	ENSG00000229924	family with sequence similarity 90 member A26	D6RGX4		FAM90A26P	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC38A9	HGNC:26907	153129	ENSG00000177058	solute carrier family 38 member 9	Q8NBW4		FLJ90709|SNAT9	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ENTPD6	HGNC:3368	955	ENSG00000197586	ectonucleoside triphosphate diphosphohydrolase 6	O75354		NTPDase-6|dJ738P15.3|CD39L2|IL6ST2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ATG16L2	HGNC:25464	89849	ENSG00000168010	autophagy related 16 like 2	Q8NAA4		FLJ00012|WDR80|ATG16B	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+EGR1	HGNC:3238	1958	ENSG00000120738	early growth response 1	P18146		225|TIS8|AT225|G0S30|NGFI-A|ZIF268|KROX-24|ZIF-268	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+CIDEA	HGNC:1976	1149	ENSG00000176194	cell death inducing DFFA like effector a	O60543		CIDE-A	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC4A1AP	HGNC:13813	22950	ENSG00000163798	solute carrier family 4 member 1 adaptor protein	Q9BWU0		kanadaptin|HLC3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SPINDOC	HGNC:25115	144097	ENSG00000168005	spindlin interactor and repressor of chromatin binding	Q9BUA3		SPIN-DOC|C11orf84	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TNFSF11	HGNC:11926	8600	ENSG00000120659	TNF superfamily member 11	O14788		TRANCE|RANKL|OPGL|ODF|CD254	prostate cancer	known	1	approved_drug	denosumab — approved for skeletal events in bone metastases	curated (Claude knowledge, 2026-05; unverified)
+SLC32A1	HGNC:11018	140679	ENSG00000101438	solute carrier family 32 member 1	Q9H598		VGAT|bA122O1.1|VIAAT	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G2	HGNC:28480	80723	ENSG00000168917	solute carrier family 35 member G2	Q8TBE7		MGC3295|DKFZp564K2464|TMEM22	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+FAM241B	HGNC:23519	219738	ENSG00000171224	family with sequence similarity 241 member B	Q96D05		C10orf35	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TESMIN	HGNC:7446	9633	ENSG00000132749	testis expressed metallothionein like protein	Q9Y4I5		CXCDC2|MTL5	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TUBA8	HGNC:12410	51807	ENSG00000183785	tubulin alpha 8	Q9NY65		TUBAL2	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+AURKA	HGNC:11393	6790	ENSG00000087586	aurora kinase A	O14965		BTAK|AurA|STK7|ARK1|PPP1R47|AIK|STK15|STK6	prostate cancer	candidate	0	biology	neuroendocrine prostate cancer	curated (Claude knowledge; unverified)
+SLC25A39	HGNC:24279	51629	ENSG00000013306	solute carrier family 25 member 39	Q9BZJ4		FLJ22407|CGI-69	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+PXMP2	HGNC:9716	5827	ENSG00000176894	peroxisomal membrane protein 2	Q9NR77		PMP22|MPV17L3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLCO1B3	HGNC:10961	28234	ENSG00000111700	solute carrier organic anion transporter family member 1B3	Q9NPD5		OATP8|OATP1B3|SLC21A8	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+DNMT1	HGNC:2976	1786	ENSG00000130816	DNA methyltransferase 1	P26358		MCMT|CXXC9|DNMT	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC35G5	HGNC:15546	83650	ENSG00000177710	solute carrier family 35 member G5	Q96KT7		AMAC|AMAC1L2	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A4	HGNC:11009	6517	ENSG00000181856	solute carrier family 2 member 4	P14672		GLUT4	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+EMC2	HGNC:28963	9694	ENSG00000104412	ER membrane protein complex subunit 2	Q15006		KIAA0103|TTC35	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+GYG1	HGNC:4699	2992	ENSG00000163754	glycogenin 1	P46976		GYG	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+RPL23A	HGNC:10317	6147	ENSG00000198242	ribosomal protein L23a	P62750		L23A|uL23	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SPANXC	HGNC:14331	64663	ENSG00000198573	SPANX family member C	Q9NY87		CTp11|CT11.3	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC22A6	HGNC:10970	9356	ENSG00000197901	solute carrier family 22 member 6	Q4U2R8		ROAT1|PAHT|OAT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+ATP1A1	HGNC:799	476	ENSG00000163399	ATPase Na+/K+ transporting subunit alpha 1	P05023			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+UBE2Q2	HGNC:19248	92912	ENSG00000140367	ubiquitin conjugating enzyme E2 Q2	Q8WVN8		DKFZp762C143	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC17A2	HGNC:10930	10246	ENSG00000112337	solute carrier family 17 member 2	O00624		NPT3	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+MYL10	HGNC:29825	93408	ENSG00000106436	myosin light chain 10	Q9BUA6		MGC3479|MYLC2PL|PLRLC	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ZNF423	HGNC:16762	23090	ENSG00000102935	zinc finger protein 423	Q2M1K9		KIAA0760|OAZ|hOAZ|Ebfaz|Zfp104|NPHP14|JBTS19	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+TCAP	HGNC:11610	8557	ENSG00000173991	titin-cap	O15273		T-cap|TELE|telethonin|CMD1N|LGMD2G	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+STEAP1	HGNC:11378	26872	ENSG00000164647	STEAP family member 1	Q9UHE8		PRSS24|STEAP	prostate cancer	candidate	0	clinical_trial	xaluritamig (T-cell engager)	curated (Claude knowledge; unverified)
+OR10A7	HGNC:15329	121364	ENSG00000179919	olfactory receptor family 10 subfamily A member 7	Q8NGE5			prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+F10	HGNC:3528	2159	ENSG00000126218	coagulation factor X	P00742		fX	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+PIK3CB	HGNC:8976	5291	ENSG00000051382	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta	P42338		PIK3C1	prostate cancer	candidate	0	biology	PI3K beta, dominant isoform in PTEN-null cells	curated (Claude knowledge; unverified)
+SLC12A1	HGNC:10910	6557	ENSG00000074803	solute carrier family 12 member 1	Q13621		NKCC2|CCC2|BSC1|BSC|BSC-1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SCP2D1	HGNC:16211	140856	ENSG00000132631	SCP2 sterol binding domain containing 1	Q9UJQ7		dJ1068E13.2|HSD22|C20orf79	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC31A1	HGNC:11016	1317	ENSG00000136868	solute carrier family 31 member 1	O15431		hCTR1|CTR1|COPT1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A38	HGNC:26054	54977	ENSG00000144659	solute carrier family 25 member 38	Q96DW6		FLJ20551	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+NEXMIF	HGNC:29433	340533	ENSG00000050030	neurite extension and migration factor	Q5QGS0		XPN|MRX98|KIDLIA|KIAA2022	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+ZNF547	HGNC:26432	284306	ENSG00000152433	zinc finger protein 547	Q8IVP9		FLJ31100	prostate cancer	random	0			HGNC protein-coding random, seed 20260921
+SLC25A10	HGNC:10980	1468	ENSG00000183048	solute carrier family 25 member 10	Q9UBX3		DIC	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLCO1B7	HGNC:32934	338821	ENSG00000205754	solute carrier organic anion transporter family member 1B7 (putative)	G3V0H7		LST3|SLC21A21	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A8	HGNC:32434	146167	ENSG00000166558	solute carrier family 38 member 8	A6NNN8		SNAT8	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC23A3	HGNC:20601	151295	ENSG00000213901	solute carrier family 23 member 3	Q6PIS1		SVCT3|FLJ31168|Yspl1	prostate cancer	random	0		SLC decoy	SLC decoy, seed 20260921

@@ -1,0 +1,5 @@
+symbol	drug_examples	approval_note	source
+FGFR3	infigratinib (phase 3); vosoritide acts downstream	causal gene (gain-of-function G380R); direct inhibitors in late-stage trials	curated (Claude knowledge, 2026-05; unverified)
+NPR2	vosoritide; navepegritide (TransCon CNP)	approved (C-type natriuretic peptide analogues acting on natriuretic peptide receptor B)	curated (Claude knowledge, 2026-05; unverified)
+GH1	somatropin	approved in Japan for short stature in achondroplasia	curated (Claude knowledge, 2026-05; unverified)
+GHR	somatropin	approved in Japan (receptor of growth hormone)	curated (Claude knowledge, 2026-05; unverified)

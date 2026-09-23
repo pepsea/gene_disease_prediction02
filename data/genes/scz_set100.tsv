@@ -2,31 +2,31 @@ symbol	hgnc_id	entrez_id	ensembl_gene_id	gene_name	uniprot_ids	protein_name_unip
 HERC1	HGNC:4867	8925	ENSG00000103657	HECT and RLD domain containing E3 ubiquitin protein ligase family member 1	Q15751		p532|p619	schizophrenia	candidate	0	exome	SCHEMA	curated (Claude knowledge; unverified)
 COMT	HGNC:2228	1312	ENSG00000093010	catechol-O-methyltransferase	P21964			schizophrenia	candidate	0	biology	dopamine metabolism; Val158Met	curated (Claude knowledge; unverified)
 CUL1	HGNC:2551	8454	ENSG00000055130	cullin 1	Q13616			schizophrenia	candidate	0	exome	SCHEMA	curated (Claude knowledge; unverified)
-NPY5R	HGNC:7958	4889	ENSG00000164129	neuropeptide Y receptor Y5	Q15761		NPYR5	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC5A4	HGNC:11039	6527	ENSG00000100191	solute carrier family 5 member 4	Q9NY91		SAAT1|SGLT3|DJ90G24.4	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 ZNF804A	HGNC:21711	91752	ENSG00000170396	zinc finger protein 804A	Q7Z570		C2orf10	schizophrenia	candidate	0	GWAS	early GWAS locus	curated (Claude knowledge; unverified)
 TAAR1	HGNC:17734	134864	ENSG00000146399	trace amine associated receptor 1	Q96RJ0		TAR1|TA1|TRAR1	schizophrenia	candidate	0	clinical_trial	ulotaront failed phase 3	curated (Claude knowledge; unverified)
 ZDHHC8	HGNC:18474	29801	ENSG00000099904	zDHHC palmitoyltransferase 8	Q9ULC8		ZNF378|KIAA1292|DHHC8	schizophrenia	candidate	0	CNV	22q11.2 deletion region	curated (Claude knowledge; unverified)
 SRRM2	HGNC:16639	23524	ENSG00000167978	serine/arginine repetitive matrix 2	Q9UQ35		SRm300|SRL300|KIAA0324|Cwc21	schizophrenia	candidate	0	exome	SCHEMA	curated (Claude knowledge; unverified)
 CHRM4	HGNC:1953	1132	ENSG00000180720	cholinergic receptor muscarinic 4	P08173			schizophrenia	known	1	approved_drug	xanomeline-trospium (KarXT) — approved 2024 (FDA); muscarinic M1/M4 agonist	curated (Claude knowledge, 2026-05; unverified)
-POLD3	HGNC:20932	10714	ENSG00000077514	DNA polymerase delta 3, accessory subunit	Q15054		P66|KIAA0039|P68|PPP1R128	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC51A	HGNC:29955	200931	ENSG00000163959	solute carrier family 51 member A	Q86UW1		OSTalpha|SLC51A1	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 DLG4	HGNC:2903	1742	ENSG00000132535	discs large MAGUK scaffold protein 4	P78352		PSD-95|PSD95|SAP90|SAP-90	schizophrenia	candidate	0	biology	PSD-95	curated (Claude knowledge; unverified)
 CHRNA7	HGNC:1960	1139	ENSG00000175344	cholinergic receptor nicotinic alpha 7 subunit	P36544		a7nAChR	schizophrenia	candidate	0	clinical_trial	alpha7 nicotinic; encenicline failed	curated (Claude knowledge; unverified)
 TRIO	HGNC:12303	7204	ENSG00000038382	trio Rho guanine nucleotide exchange factor	O75962		ARHGEF23	schizophrenia	candidate	0	exome	SCHEMA	curated (Claude knowledge; unverified)
-GPR33	HGNC:4489	2856	ENSG00000214943	G protein-coupled receptor 33	Q49SQ1			schizophrenia	random	0			HGNC protein-coding, random seed 20260921
-MED12L	HGNC:16050	116931	ENSG00000144893	mediator complex subunit 12L	Q86YW9		KIAA1635|TNRC11L|TRALPUSH|TRALP	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC13A5	HGNC:23089	284111	ENSG00000141485	solute carrier family 13 member 5	Q86YT5		NACT|INDY|mINDY	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A14	HGNC:18301	144195	ENSG00000173262	solute carrier family 2 member 14	Q8TDB8		GLUT14|SLC2A3P3	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 PRODH	HGNC:9453	5625	ENSG00000100033	proline dehydrogenase 1	O43272		HSPOX2|PRODH1|PIG6|PRODH2|TP53I6|POX	schizophrenia	candidate	0	CNV	22q11.2 deletion region	curated (Claude knowledge; unverified)
-SLITRK1	HGNC:20297	114798	ENSG00000178235	SLIT and NTRK like family member 1	Q96PX8		KIAA1910|LRRC12	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC39A10	HGNC:20861	57181	ENSG00000196950	solute carrier family 39 member 10	Q9ULF5		KIAA1265|FLJ90515|DKFZp564L2123|ZIP10	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 XPO7	HGNC:14108	23039	ENSG00000130227	exportin 7	Q9UIA9		KIAA0745|EXP7|RANBP16	schizophrenia	candidate	0	exome	SCHEMA	curated (Claude knowledge; unverified)
 GRM3	HGNC:4595	2913	ENSG00000198822	glutamate metabotropic receptor 3	Q14832		GPRC1C|mGlu3|MGLUR3	schizophrenia	candidate	0	GWAS	metabotropic glutamate receptor 3	curated (Claude knowledge; unverified)
 DAO	HGNC:2671	1610	ENSG00000110887	D-amino acid oxidase	P14920		DAMOX|DAAO	schizophrenia	candidate	0	biology	D-amino acid oxidase; D-serine	curated (Claude knowledge; unverified)
-ATG4A	HGNC:16489	115201	ENSG00000101844	autophagy related 4A cysteine peptidase	Q8WYN0		AUTL2|APG4A	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC11A2	HGNC:10908	4891	ENSG00000110911	solute carrier family 11 member 2	P49281		DCT1|DMT1|DMT-1|FLJ37416|NRAMP2	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 SNAP91	HGNC:14986	9892	ENSG00000065609	synaptosome associated protein 91	O60641		KIAA0656|AP180|CALM	schizophrenia	candidate	0	GWAS	synaptic vesicle	curated (Claude knowledge; unverified)
 NOTCH4	HGNC:7884	4855	ENSG00000204301	notch receptor 4	Q99466		INT3	schizophrenia	candidate	0	GWAS	MHC region	curated (Claude knowledge; unverified)
 PDE10A	HGNC:8772	10846	ENSG00000112541	phosphodiesterase 10A	Q9Y233			schizophrenia	candidate	0	clinical_trial	PDE10A inhibitors failed	curated (Claude knowledge; unverified)
 ERBB4	HGNC:3432	2066	ENSG00000178568	erb-b2 receptor tyrosine kinase 4	Q15303		ALS19|HER4	schizophrenia	candidate	0	biology	NRG1 receptor	curated (Claude knowledge; unverified)
 VIPR2	HGNC:12695	7434	ENSG00000106018	vasoactive intestinal peptide receptor 2	P41587		VPAC2|VPAC2R	schizophrenia	candidate	0	CNV	7q36.3 duplication	curated (Claude knowledge; unverified)
 C4B	HGNC:1324	721	ENSG00000224389	complement C4B (Chido/Rodgers blood group)	P0C0L5		CPAMD3|C4F|CO4|C4B1|C4B3|CH	schizophrenia	candidate	0	GWAS	MHC locus	curated (Claude knowledge; unverified)
-GGTA1	HGNC:4253	2681	ENSG00000204136	glycoprotein alpha-galactosyltransferase 1 (inactive)	Q4G0N0		GLYT2|GGTA|GGTA1P	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC16A3	HGNC:10924	9123	ENSG00000141526	solute carrier family 16 member 3	O15427		MCT3|MCT4	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 HTR2A	HGNC:5293	3356	ENSG00000102468	5-hydroxytryptamine receptor 2A	P28223		5-HT2A|HTR2	schizophrenia	known	1	approved_drug	clozapine; risperidone; olanzapine; quetiapine; lurasidone — 5-HT2A antagonism of atypical antipsychotics	curated (Claude knowledge, 2026-05; unverified)
 SLC6A9	HGNC:11056	6536	ENSG00000196517	solute carrier family 6 member 9	P48067		GLYT1|GlyT-1	schizophrenia	candidate	0	clinical_trial	GlyT1; bitopertin failed phase 3	curated (Claude knowledge; unverified)
 MTHFR	HGNC:7436	4524	ENSG00000177000	methylenetetrahydrofolate reductase	P42898			schizophrenia	candidate	0	biology	folate metabolism; meta-analysis association	curated (Claude knowledge; unverified)
@@ -34,20 +34,20 @@ TCF4	HGNC:11634	6925	ENSG00000196628	transcription factor 4	P15884		SEF2-1B|ITF2
 HTR2C	HGNC:5295	3358	ENSG00000147246	5-hydroxytryptamine receptor 2C	P28335		5-HT2C|5HTR2C|HTR1C	schizophrenia	known	1	approved_drug	olanzapine; clozapine — secondary target of several antipsychotics	curated (Claude knowledge, 2026-05; unverified)
 GRIN2B	HGNC:4586	2904	ENSG00000273079	glutamate ionotropic receptor NMDA type subunit 2B	Q13224		GluN2B|NR2B|NMDAR2B	schizophrenia	candidate	0	biology	NMDA receptor 2B	curated (Claude knowledge; unverified)
 PPP1R1B	HGNC:9287	84152	ENSG00000131771	protein phosphatase 1 regulatory inhibitor subunit 1B	Q9UD71		DARPP-32|FLJ20940	schizophrenia	candidate	0	biology	DARPP-32; dopamine signalling	curated (Claude knowledge; unverified)
-CCDC40	HGNC:26090	55036	ENSG00000141519	coiled-coil domain 40 molecular ruler complex subunit	Q4G0X9		FLJ20753|KIAA1640|FLJ32021|CILD15|FAP172|CFAP172	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC22A5	HGNC:10969	6584	ENSG00000197375	solute carrier family 22 member 5	O76082		OCTN2|SCD|CDSP	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 DTNBP1	HGNC:17328	84062	ENSG00000047579	dystrobrevin binding protein 1	Q96EV8		Dysbindin|My031|HPS7|DBND|BLOC1S8	schizophrenia	candidate	0	biology	dysbindin; historical candidate	curated (Claude knowledge; unverified)
 DRD4	HGNC:3025	1815	ENSG00000069696	dopamine receptor D4	P21917			schizophrenia	candidate	0	biology	dopamine D4; clozapine affinity	curated (Claude knowledge; unverified)
-PCBD2	HGNC:24474	84105	ENSG00000132570	pterin-4 alpha-carbinolamine dehydratase 2	Q9H0N5		DCOHM|DCOH2	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC67A2	HGNC:28158	84804	ENSG00000135953	solute carrier family 67 member 2	Q8NBP5		MGC11332|MFSD9	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 SHANK3	HGNC:14294	85358	ENSG00000251322	SH3 and multiple ankyrin repeat domains 3	Q9BYB0		SPANK-2|prosap2|KIAA1650|PSAP2	schizophrenia	candidate	0	CNV	22q13; synaptic scaffold	curated (Claude knowledge; unverified)
 CYFIP1	HGNC:13759	23191	ENSG00000273749	cytoplasmic FMR1 interacting protein 1	Q7L576		KIAA0068|P140SRA-1|SHYC	schizophrenia	candidate	0	CNV	15q11.2 deletion	curated (Claude knowledge; unverified)
 HTR1A	HGNC:5286	3350	ENSG00000178394	5-hydroxytryptamine receptor 1A	P08908		5-HT1A|ADRB2RL1|ADRBRL1	schizophrenia	known	1	approved_drug	aripiprazole; brexpiprazole; lurasidone; cariprazine — 5-HT1A partial agonism	curated (Claude knowledge, 2026-05; unverified)
-GPR174	HGNC:30245	84636	ENSG00000147138	G protein-coupled receptor 174	Q9BXC1		FKSG79|LPS3	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC29A2	HGNC:11004	3177	ENSG00000174669	solute carrier family 29 member 2	Q14542		DER12|ENT2|HNP36	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 NRXN1	HGNC:8008	9378	ENSG00000179915	neurexin 1	P58400|Q9ULB1		KIAA0578|Hs.22998	schizophrenia	candidate	0	CNV	exonic deletions	curated (Claude knowledge; unverified)
-OR8J1	HGNC:14855	219477	ENSG00000172487	olfactory receptor family 8 subfamily J member 1	Q8NGP2			schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC61A1	HGNC:28156	84975	ENSG00000182544	solute carrier family 61 member 1	Q6N075		MGC11308|HsMOT2|MFSD5	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 DISC1	HGNC:2888	27185	ENSG00000162946	DISC1 scaffold protein	Q9NRI5			schizophrenia	candidate	0	biology	historical candidate (Scottish pedigree)	curated (Claude knowledge; unverified)
 GAD1	HGNC:4092	2571	ENSG00000128683	glutamate decarboxylase 1	Q99259		GAD	schizophrenia	candidate	0	biology	GABA synthesis; interneuron deficit	curated (Claude knowledge; unverified)
 GABRB2	HGNC:4082	2561	ENSG00000145864	gamma-aminobutyric acid type A receptor subunit beta2	P47870			schizophrenia	candidate	0	biology	GABA-A receptor subunit	curated (Claude knowledge; unverified)
-ARB2A	HGNC:25365	83989	ENSG00000113391	ARB2 cotranscriptional regulator A	Q8WUF8		DKFZP564D172|Toupee|C5orf21|FAM172A	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC40A1	HGNC:10909	30061	ENSG00000138449	solute carrier family 40 member 1	Q9NP59		MTP1|IREG1|FPN1|HFE4|FPN|SLC11A3	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 SETD1A	HGNC:29010	9739	ENSG00000099381	SET domain containing 1A, histone lysine methyltransferase	O15047		KIAA0339|Set1|KMT2F|SET1A	schizophrenia	candidate	0	exome	SCHEMA; ultra-rare LoF	curated (Claude knowledge; unverified)
 DRD3	HGNC:3024	1814	ENSG00000151577	dopamine receptor D3	P35462			schizophrenia	known	1	approved_drug	cariprazine; aripiprazole — approved antipsychotics (D3-preferring partial agonists)	curated (Claude knowledge, 2026-05; unverified)
 BDNF	HGNC:1033	627	ENSG00000176697	brain derived neurotrophic factor	P23560			schizophrenia	candidate	0	biology	neurotrophin	curated (Claude knowledge; unverified)
@@ -55,15 +55,15 @@ CLCN3	HGNC:2021	1182	ENSG00000109572	Cl-/H+ antiporter 3	P51790		CLC3|ClC-3	schi
 GRIA1	HGNC:4571	2890	ENSG00000155511	glutamate ionotropic receptor AMPA type subunit 1	P42261		GluA1|GLURA|GLUR1	schizophrenia	candidate	0	GWAS	AMPA receptor	curated (Claude knowledge; unverified)
 GRM5	HGNC:4597	2915	ENSG00000168959	glutamate metabotropic receptor 5	P41594		MGLUR5|GPRC1E|mGlu5|PPP1R86	schizophrenia	candidate	0	biology	mGluR5; NMDA modulation	curated (Claude knowledge; unverified)
 KCNH2	HGNC:6251	3757	ENSG00000055118	potassium voltage-gated channel subfamily H member 2	Q12809		Kv11.1|HERG|erg1|LQT2	schizophrenia	candidate	0	biology	hERG; brain isoform 3.1	curated (Claude knowledge; unverified)
-CCDC180	HGNC:29303	100499483	ENSG00000197816	coiled-coil domain containing 180	Q9P1Z9		DKFZp434I2420|BDAG1|FAP76|CFAP76|KIAA1529|C9orf174	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC22A6	HGNC:10970	9356	ENSG00000197901	solute carrier family 22 member 6	Q4U2R8		ROAT1|PAHT|OAT1	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 GRIN2A	HGNC:4585	2903	ENSG00000183454	glutamate ionotropic receptor NMDA type subunit 2A	Q12879		GluN2A|NR2A|NMDAR2A	schizophrenia	candidate	0	GWAS; exome	NMDA receptor 2A; SCHEMA	curated (Claude knowledge; unverified)
-GLI2	HGNC:4318	2736	ENSG00000074047	GLI family zinc finger 2	P10070		THP2|HPE9|THP1	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC35D3	HGNC:15621	340146	ENSG00000182747	solute carrier family 35 member D3	Q5M8T2		FRCL1	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 NRGN	HGNC:8000	4900	ENSG00000154146	neurogranin	Q92686		RC3	schizophrenia	candidate	0	GWAS	neurogranin	curated (Claude knowledge; unverified)
-EXOSC2	HGNC:17097	23404	ENSG00000130713	exosome component 2	Q13868		hRrp4p|Rrp4p|RRP4|p7	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
-KCNAB3	HGNC:6230	9196	ENSG00000170049	potassium voltage-gated channel subfamily A regulatory beta subunit 3	O43448		AKR6A9|KCNA3B	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
-ZCCHC4	HGNC:22917	29063	ENSG00000168228	zinc finger CCHC-type containing 4	Q9H5U6		HSPC052|FLJ23024|ZGRF4	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLCO4C1	HGNC:23612	353189	ENSG00000173930	solute carrier organic anion transporter family member 4C1	Q6ZQN7		SLC21A20|OATP4C1|OATPX|OATP-H	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC27A6	HGNC:11000	28965	ENSG00000113396	solute carrier family 27 member 6	Q9Y2P4		FATP6|VLCS-H1|FACVL2|ACSVL2	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC2A11	HGNC:14239	66035	ENSG00000133460	solute carrier family 2 member 11	Q9BYW1		GLUT11	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 CACNA1I	HGNC:1396	8911	ENSG00000100346	calcium voltage-gated channel subunit alpha1 I	Q9P0X4		Cav3.3	schizophrenia	candidate	0	GWAS	T-type calcium channel	curated (Claude knowledge; unverified)
-TTLL12	HGNC:28974	23170	ENSG00000100304	tubulin tyrosine ligase like 12	Q14166		KIAA0153	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC25A31	HGNC:25319	83447	ENSG00000151475	solute carrier family 25 member 31	Q9H0C2		DKFZP434N1235|ANT4	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 KCNB1	HGNC:6231	3745	ENSG00000158445	potassium voltage-gated channel subfamily B member 1	Q14721		Kv2.1	schizophrenia	candidate	0	GWAS	potassium channel	curated (Claude knowledge; unverified)
 DLG2	HGNC:2901	1740	ENSG00000150672	discs large MAGUK scaffold protein 2	Q15700		PSD-93|PSD93|chapsyn-110|PPP1R58	schizophrenia	candidate	0	CNV	PSD-93; synaptic scaffold	curated (Claude knowledge; unverified)
 CACNA1C	HGNC:1390	775	ENSG00000151067	calcium voltage-gated channel subunit alpha1 C	Q13936		Cav1.2|CACH2|CACN2|TS|LQT8|CCHL1A1|CACNL1A1|CACNA1C-IT2	schizophrenia	candidate	0	GWAS	L-type calcium channel	curated (Claude knowledge; unverified)
@@ -74,21 +74,21 @@ SP4	HGNC:11209	6671	ENSG00000105866	Sp4 transcription factor	Q02446		SPR-1|HF1B|
 NR4A2	HGNC:7981	4929	ENSG00000153234	nuclear receptor subfamily 4 group A member 2	P43354		TINUR|NOT|RNR1|HZF-3|NURR1	schizophrenia	candidate	0	biology	Nurr1; dopaminergic neuron	curated (Claude knowledge; unverified)
 RB1CC1	HGNC:15574	9821	ENSG00000023287	RB1 inducible coiled-coil 1	Q8TDY2		KIAA0203|Cc1|DRAGOU14|FIP200|ATG17|PPP1R131	schizophrenia	candidate	0	exome	SCHEMA	curated (Claude knowledge; unverified)
 TH	HGNC:11782	7054	ENSG00000180176	tyrosine hydroxylase	P07101		DYT5b	schizophrenia	candidate	0	biology	tyrosine hydroxylase	curated (Claude knowledge; unverified)
-RPA1	HGNC:10289	6117	ENSG00000132383	replication protein A1	P27694		REPA1|RPA70|HSSB|RF-A|RP-A	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
-RABL2A	HGNC:9799	11159	ENSG00000144134	RAB, member of RAS oncogene family like 2A	Q9UBK7			schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC7A3	HGNC:11061	84889	ENSG00000165349	solute carrier family 7 member 3	Q8WY07		CAT-3|ATRC3|FLJ14541	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC38A3	HGNC:18044	10991	ENSG00000188338	solute carrier family 38 member 3	Q99624		G17|SN1|SNAT3	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 SLC6A3	HGNC:11049	6531	ENSG00000142319	solute carrier family 6 member 3	Q01959		DAT|DAT1	schizophrenia	candidate	0	biology	dopamine transporter	curated (Claude knowledge; unverified)
 GRM2	HGNC:4594	2912	ENSG00000164082	glutamate metabotropic receptor 2	Q14416		GPRC1B|mGlu2|MGLUR2	schizophrenia	candidate	0	clinical_trial	pomaglumetad (mGluR2/3 agonist) failed phase 3	curated (Claude knowledge; unverified)
 AKAP11	HGNC:369	11215	ENSG00000023516	A-kinase anchoring protein 11	Q9UKA4		KIAA0629|AKAP220|PRKA11|FLJ11304|DKFZp781I12161|PPP1R44	schizophrenia	candidate	0	exome	SCHEMA; shared with bipolar	curated (Claude knowledge; unverified)
-CD99L2	HGNC:18237	83692	ENSG00000102181	CD99 molecule like 2	Q8TCZ2		CD99B|MIC2L1	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
-ZNF575	HGNC:27606	284346	ENSG00000176472	zinc finger protein 575	Q86XF7		FLJ32567	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC30A10	HGNC:25355	55532	ENSG00000196660	solute carrier family 30 member 10	Q6XR72		DKFZp547M236|ZnT-10|ZRC1|ZNT8|ZNT10	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC30A8	HGNC:20303	169026	ENSG00000164756	solute carrier family 30 member 8	Q8IWU4		ZnT-8|ZNT8	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 HTR7	HGNC:5302	3363	ENSG00000148680	5-hydroxytryptamine receptor 7	P34969		5-HT7	schizophrenia	known	1	approved_drug	lurasidone; amisulpride — secondary target	curated (Claude knowledge, 2026-05; unverified)
 KCTD13	HGNC:22234	253980	ENSG00000174943	potassium channel tetramerization domain containing 13	Q8WZ19		PDIP1|FKSG86|POLDIP1	schizophrenia	candidate	0	CNV	16p11.2	curated (Claude knowledge; unverified)
 NOS1AP	HGNC:16859	9722	ENSG00000198929	nitric oxide synthase 1 adaptor protein	O75052		KIAA0464|CAPON	schizophrenia	candidate	0	biology	CAPON; NMDA-nNOS	curated (Claude knowledge; unverified)
-BCL7B	HGNC:1005	9275	ENSG00000106635	BAF chromatin remodeling complex subunit BCL7B	Q9BQE9		SMARCJ2	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC5A7	HGNC:14025	60482	ENSG00000115665	solute carrier family 5 member 7	Q9GZV3		hCHT|CHT1|ChT	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 DRD1	HGNC:3020	1812	ENSG00000184845	dopamine receptor D1	P21728		D1R	schizophrenia	known	1	approved_drug	lumateperone; clozapine — secondary target	curated (Claude knowledge, 2026-05; unverified)
 CHRM1	HGNC:1950	1128	ENSG00000168539	cholinergic receptor muscarinic 1	P11229			schizophrenia	known	1	approved_drug	xanomeline-trospium (KarXT) — approved 2024 (FDA); muscarinic M1/M4 agonist	curated (Claude knowledge, 2026-05; unverified)
 FOXP2	HGNC:13875	93986	ENSG00000128573	forkhead box P2	O15409		CAGH44|TNRC10|SPCH1	schizophrenia	candidate	0	biology	language / neurodevelopment	curated (Claude knowledge; unverified)
-NUBPL	HGNC:20278	80224	ENSG00000151413	NUBP iron-sulfur cluster assembly factor, mitochondrial	Q8TB37		FLJ12660|IND1|huInd1|C14orf127	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC7A10	HGNC:11058	56301	ENSG00000130876	solute carrier family 7 member 10	Q9NS82		asc-1	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
 GRIN1	HGNC:4584	2902	ENSG00000176884	glutamate ionotropic receptor NMDA type subunit 1	Q05586		GluN1|NR1|NMDAR1	schizophrenia	candidate	0	biology	NMDA receptor 1	curated (Claude knowledge; unverified)
 C4A	HGNC:1323	720	ENSG00000244731	complement C4A (Chido/Rodgers blood group)	P0C0L4		CPAMD2|C4S|CO4|C4|C4A3|C4A2|C4A4|C4A6|C4B|RG	schizophrenia	candidate	0	GWAS	complement C4A copy number; MHC locus	curated (Claude knowledge; unverified)
 GLRA1	HGNC:4326	2741	ENSG00000145888	glycine receptor alpha 1	P23415		STHE	schizophrenia	candidate	0	biology	glycine receptor	curated (Claude knowledge; unverified)
@@ -96,6 +96,6 @@ DRD2	HGNC:3023	1813	ENSG00000149295	dopamine receptor D2	P14416		D2R	schizophren
 HTR6	HGNC:5301	3362	ENSG00000158748	5-hydroxytryptamine receptor 6	P50406		5-HT6|5-HT6R	schizophrenia	candidate	0	clinical_trial	5-HT6 antagonists for cognition	curated (Claude knowledge; unverified)
 CACNB2	HGNC:1402	783	ENSG00000165995	calcium voltage-gated channel auxiliary subunit beta 2	Q08289		MYSB|CACNLB2	schizophrenia	candidate	0	GWAS	calcium channel subunit	curated (Claude knowledge; unverified)
 CNTN4	HGNC:2174	152330	ENSG00000144619	contactin 4	Q8IWV2		BIG-2	schizophrenia	candidate	0	GWAS	contactin 4	curated (Claude knowledge; unverified)
-TEDC2	HGNC:25849	80178	ENSG00000162062	tubulin epsilon and delta complex 2	Q7L2K0		FLJ13909|C16orf59	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
-MEGF9	HGNC:3234	1955	ENSG00000106780	multiple EGF like domains 9	Q9H1U4		EGFL5	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
-USP49	HGNC:20078	25862	ENSG00000164663	ubiquitin specific peptidase 49	Q70CQ1		MGC20741	schizophrenia	random	0			HGNC protein-coding, random seed 20260921
+SLC4A2	HGNC:11028	6522	ENSG00000164889	solute carrier family 4 member 2	P04920		HKB3|BND3L|NBND3|EPB3L1|AE2	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC25A40	HGNC:29680	55972	ENSG00000075303	solute carrier family 25 member 40	Q8TBP6		MCFP	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921
+SLC35G4	HGNC:31043	646000	ENSG00000236396	solute carrier family 35 member G4	P0C7Q5		AMAC1L1|SLC35G4P	schizophrenia	random	0		SLC decoy	SLC decoy, seed 20260921

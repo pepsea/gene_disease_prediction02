@@ -5,7 +5,8 @@
                                ループの known_symbols（記号の照合）にも使う。
   <disease>_known.tsv          正解遺伝子（承認薬の標的）
   <disease>_candidates.tsv     可能性遺伝子（GWAS・エクソーム・CNV・臨床試験・生物学）
-  <disease>_random.tsv         ランダム遺伝子（固定シードで抽出。正解・可能性を除く）
+  <disease>_random.tsv         ダミー遺伝子（固定シードで抽出。正解・可能性を除く）。scz / cystinuria / prostate_cancer /
+                               achondroplasia は SLC トランスポーター（SLC*, SLCO*）を優先して埋める（note 列 "SLC decoy"）
   <disease>_set100.tsv         正解 + 可能性 + ランダム = 100 遺伝子（順序はシャッフル）
   <disease>_set1000.tsv        正解 + 可能性 + ランダム = 1000 遺伝子（順序はシャッフル、set100 を含む）
 

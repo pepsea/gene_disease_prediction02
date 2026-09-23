@@ -73,14 +73,17 @@ python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf --mode 
 
 ## 遺伝子リスト（data/genes/）
 
+対応疾患: `ra`（関節リウマチ）、`scz`（統合失調症）、`cystinuria`（シスチン尿症）、`prostate_cancer`（前立腺がん）、`achondroplasia`（軟骨無形成症）。ノートブック 02・03 の「疾患の選択」セルで `DISEASE_KEY` を変えるだけで切り替わります。
+
 | ファイル | 内容 |
 |---|---|
 | `hgnc_protein_coding.tsv` | HGNC のタンパク質コード遺伝子 19,297 件。記号・遺伝子名・別名・UniProt ID。AI の答えの記号照合にも使う |
-| `ra_known.tsv` / `scz_known.tsv` | 正解遺伝子（承認薬の標的） |
-| `ra_candidates.tsv` / `scz_candidates.tsv` | 可能性遺伝子（GWAS・エクソーム・CNV・臨床試験・生物学。`evidence` 列に種類） |
-| `ra_random.tsv` / `scz_random.tsv` | ランダム遺伝子（固定シード 20260921） |
-| `ra_set100.tsv` / `scz_set100.tsv` | 正解 + 可能性 + ランダム = 100（順序シャッフル） |
-| `ra_set1000.tsv` / `scz_set1000.tsv` | 同 1000（set100 を含む） |
+| `<疾患>_known.tsv` | 正解遺伝子（承認薬の標的。シスチン尿症・軟骨無形成症は原因遺伝子を含む） |
+| `<疾患>_candidates.tsv` | 可能性遺伝子（GWAS・エクソーム・CNV・体細胞変異・臨床試験・生物学。`evidence` 列に種類） |
+| `<疾患>_random.tsv` | ダミー遺伝子（固定シード 20260921）。RA 以外は **SLC トランスポーター**を優先して埋める（`note` 列 `SLC decoy`） |
+| `<疾患>_set100.tsv` | 正解 + 可能性 + ダミー = 100（順序シャッフル） |
+| `<疾患>_set1000.tsv` | 同 1000（set100 を含む） |
+| `../diseases.json` | 疾患の登録簿（病名、症状ベースの箇条書き、遺伝子ファイルの接頭辞）。ノートブックの疾患セレクターが読む |
 
 出典: HGNC 完全版（CC0）。`protein_name_uniprot` 列は UniProt REST に届く環境で `python scripts/build_gene_sets.py --uniprot` を実行すると埋まります（HGNC の `gene_name` はタンパク質コード遺伝子ではほぼ同じ名前です）。
 **正解・可能性の表（`data/curated/`）は現状 Claude の知識で作った未検証のものです。** Open Targets に届く環境では `--opentargets` で置き換えられます（未テスト）。

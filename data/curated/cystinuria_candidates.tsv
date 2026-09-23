@@ -1,0 +1,13 @@
+symbol	evidence	note	source
+SLC7A13	biology	AGT1; proposed additional renal cystine transporter, candidate for unexplained cases	curated (Claude knowledge; unverified)
+SLC3A2	biology	4F2hc; heavy-chain partner of related amino-acid transporters	curated (Claude knowledge; unverified)
+SLC7A11	biology	xCT; cystine/glutamate antiporter (not renal reabsorption)	curated (Claude knowledge; unverified)
+SLC7A10	biology	asc-1; related light subunit	curated (Claude knowledge; unverified)
+SLC7A7	biology	y+LAT1; dibasic amino-acid basolateral transporter (lysinuric protein intolerance)	curated (Claude knowledge; unverified)
+SLC6A19	biology	B0AT1; neutral amino-acid reabsorption (Hartnup)	curated (Claude knowledge; unverified)
+SLC6A20	biology	SIT1; proline/glycine reabsorption (iminoglycinuria)	curated (Claude knowledge; unverified)
+SLC36A2	biology	PAT2; iminoglycinuria	curated (Claude knowledge; unverified)
+CTNS	biology	lysosomal cystine transporter (cystinosis, a different disease; often confused)	curated (Claude knowledge; unverified)
+SLC1A1	biology	EAAT3; renal dicarboxylic amino-acid transporter	curated (Claude knowledge; unverified)
+TMEM27	biology	collectrin; required for renal amino-acid transporter expression	curated (Claude knowledge; unverified)
+ACE2	biology	chaperone for intestinal B0AT1	curated (Claude knowledge; unverified)

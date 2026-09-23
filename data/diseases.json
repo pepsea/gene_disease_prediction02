@@ -1,0 +1,62 @@
+{
+ "ra": {
+  "name": "rheumatoid arthritis",
+  "gene_prefix": "ra",
+  "decoy": "generic",
+  "info": [
+   "Joint pain, swelling and morning stiffness, symmetric in the small joints of hands and feet: caused by chronic inflammation of the synovial membrane that lines the joints",
+   "Progressive joint deformity and loss of function: invasive growth of the synovial lining cells and excessive bone resorption by bone-degrading cells erode cartilage and bone",
+   "The inflammation is sustained by the adaptive immune system: self-reactive T cells, antibody-producing B cells and infiltrating macrophages accumulate in the synovium",
+   "Fatigue, low-grade fever and anaemia: systemic effects of inflammatory mediators released by the activated immune cells",
+   "Accelerated cardiovascular disease and interstitial lung disease: consequences of long-standing systemic inflammation"
+  ]
+ },
+ "scz": {
+  "name": "schizophrenia",
+  "gene_prefix": "scz",
+  "decoy": "slc",
+  "info": [
+   "Hallucinations, delusions and disorganised thought (positive symptoms): linked to excessive neurotransmission in striatal circuits of the basal ganglia",
+   "Loss of motivation, blunted emotion and social withdrawal (negative symptoms): related to reduced activity of prefrontal cortical circuits",
+   "Deficits in working memory, attention and executive function: impaired excitatory synaptic signalling and inhibitory interneuron dysfunction in prefrontal cortex and hippocampus",
+   "Onset in late adolescence: coincides with excessive elimination of synapses and disturbed development of cortical circuits",
+   "Chronic relapsing course: persistent dysregulation of cortico-striato-thalamic loops"
+  ]
+ },
+ "cystinuria": {
+  "name": "cystinuria",
+  "gene_prefix": "cystinuria",
+  "decoy": "slc",
+  "info": [
+   "Recurrent kidney stones from childhood, with flank pain, haematuria and urinary obstruction: a poorly soluble dibasic amino acid crystallises in the urine",
+   "Excessive urinary loss of that amino acid and of other dibasic amino acids: failed reabsorption across the apical membrane of proximal tubule epithelial cells",
+   "Autosomal recessive inheritance: loss of function of the transport complex that reabsorbs these amino acids in the kidney and small intestine",
+   "Chronic kidney damage and infections: repeated obstruction and stone surgery",
+   "Symptoms improve with high fluid intake and urinary alkalinisation, which increase the solubility of the amino acid"
+  ]
+ },
+ "prostate_cancer": {
+  "name": "prostate cancer",
+  "gene_prefix": "prostate_cancer",
+  "decoy": "slc",
+  "info": [
+   "Urinary obstruction and a rising blood biomarker: uncontrolled proliferation of luminal epithelial cells of the prostate gland",
+   "Tumour growth depends on male sex hormone signalling in the epithelial cells; suppression of that signalling shrinks tumours, but resistance emerges within years",
+   "Bone pain and fractures: metastases to bone that stimulate bone-forming and bone-resorbing cells",
+   "Progression under hormone suppression: reactivation of the hormone-driven transcriptional programme, loss of tumour-suppressor genes and defective DNA repair",
+   "A minority of advanced tumours lose the epithelial programme and acquire a neuroendocrine, treatment-resistant phenotype"
+  ]
+ },
+ "achondroplasia": {
+  "name": "achondroplasia",
+  "gene_prefix": "achondroplasia",
+  "decoy": "slc",
+  "info": [
+   "Disproportionate short stature with short proximal limbs: reduced proliferation and premature maturation of chondrocytes in the growth plates of long bones",
+   "The growth-plate defect is caused by a constitutively over-active growth-inhibitory receptor signalling in chondrocytes (autosomal dominant gain of function)",
+   "Narrowing of the opening at the base of the skull and of the spinal canal: impaired growth of cartilage-derived bone at the skull base and vertebrae, causing compression of the brainstem and spinal cord",
+   "Large head with prominent forehead and midface hypoplasia: reduced endochondral growth of the skull base",
+   "Sleep apnoea, recurrent ear infections and bowed legs: consequences of the altered craniofacial and limb skeleton"
+  ]
+ }
+}
