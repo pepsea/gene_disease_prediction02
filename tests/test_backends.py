@@ -1,3 +1,4 @@
+import math
 import os
 import pytest
 from target_loop.backends import parse_gene_list, cosine
@@ -49,3 +50,25 @@ def test_guidance_backend_smoke():
     p = b.yes_probability("Is TNF a target?", "yes_first")
     assert 0.0 <= p <= 1.0
     assert isinstance(b.generate("List genes:", max_tokens=4), str)
+
+
+def test_ollama_backend_parsing(monkeypatch):
+    """Ollama の応答の形（chat 形式 / legacy 形式 / 非対応）を正しく読めること（HTTP は差し替え）。"""
+    from target_loop.backends import OllamaBackend
+    b = OllamaBackend("fake")
+    calls = {}
+    def fake_post(path, body):
+        calls[path] = calls.get(path, 0) + 1
+        if path == "/v1/completions":
+            return {"choices": [{"logprobs": {"content": [{"token": " Yes", "logprob": -0.2,
+                     "top_logprobs": [{"token": " Yes", "logprob": -0.2}, {"token": " No", "logprob": -1.8}]}]}}]}
+        return {"response": " Yes"}
+    monkeypatch.setattr(b, "_post", fake_post)
+    p = b.yes_probability("Is TNF a target?")
+    assert abs(p - math.exp(-0.2) / (math.exp(-0.2) + math.exp(-1.8))) < 1e-9 and not b.missing
+    monkeypatch.setattr(b, "_post", lambda path, body: {"choices": [{"logprobs": {"top_logprobs": [{" Yes": -1.0, " No": -1.0}]}}]} if path == "/v1/completions" else {"response": "x"})
+    assert abs(b.yes_probability("q") - 0.5) < 1e-9
+    monkeypatch.setattr(b, "_post", lambda path, body: {"choices": [{"text": " Yes"}]} if path == "/v1/completions" else {"response": " Yes"})
+    p = b.yes_probability("q")                       # logprobs 非対応 → サンプリング代用
+    assert abs(p - (8 + 0.5) / 9) < 1e-9 and b.missing[-1]["option"].startswith("logprobs unsupported")
+    assert b.generate("hi") == "Yes"

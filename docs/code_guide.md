@@ -61,6 +61,7 @@ models.py（入れ物） ──▶ scoring.py（採点） ──▶ pairwise.py�
 | `LLMBackend` | 共通の顔：`yes_probability`（確率）、`generate`（文章）、`embed`（ベクトル） |
 | `RecordedBackend` | 記録（質問文 → 答え）を再生。無い質問は `KeyError` で止める |
 | `GuidanceBackend` | guidance の `select` で答えを Yes/No に限り、`_trace_nodes` の `TokenOutput.top_k`（制約前の上位 TOP_K）から確率を読む。`option_logprobs` はお使いの関数そのもの。`echo=True, top_k=TOP_K` が必要 |
+| `OllamaBackend` | 起動中の Ollama に HTTP で問い合わせる。`/v1/completions` の logprobs から Yes/No を読み、非対応ならサンプリングで代用して `missing` に記録 |
 | `LlamaCppBackend` | GGUF を llama.cpp で動かし、logits から Yes/No の確率を直読みする。`logits_all` は使わない |
 | `parse_gene_list` | 文章から大文字の遺伝子記号だけを取り出す。`known_symbols` で照合可 |
 
@@ -92,6 +93,10 @@ models.py（入れ物） ──▶ scoring.py（採点） ──▶ pairwise.py�
 | `run_txgemma.py` | Mac 用。同じ18遺伝子を GGUF モデルで採点し、Claude の判定との相関を出す |
 | `sensitivity.py` | 定数を変えたときの順位の変化（検証レポート §3） |
 | `make_tiny_gguf.py` | ランダム重みの極小 GGUF。llama.cpp 経路の動作確認専用 |
+
+## notebooks/02_target_validity_yes_no.ipynb
+
+検証用。共通プロンプト（病名・病気の情報 最大5個・遺伝子記号＋タンパク質名）で Yes 確率を集め、正解・可能性・ランダムの分布、上位k中の正解数、AUC を出す。タンパク質名は UniProt REST → キャッシュ → HGNC 遺伝子名の順に埋める。
 
 ## notebooks/01_training_free_loop_demo.ipynb
 

@@ -16,6 +16,7 @@ Every backend answers two kinds of requests:
   was judged by Claude in the original conversation, and for tests).
 * GuidanceBackend  same model through the guidance library (select + top_k trace),
   i.e. the option_logprobs mechanism already used in the project's earlier code.
+* OllamaBackend    a running Ollama server over HTTP (logprobs via /v1/completions when supported).
 * LlamaCppBackend  runs a local GGUF model (e.g. TxGemma-9B-Chat Q6_K) with
   llama-cpp-python and reads the next-token probability of "Yes" vs "No"
   directly from the logits.  No text is generated for scoring questions, so a
@@ -269,6 +270,79 @@ class GuidanceBackend(LLMBackend):
 
     def close(self) -> None:
         self.llm = None
+
+
+# ----------------------------------------------------------------------------
+class OllamaBackend(LLMBackend):
+    """起動中の Ollama（http://localhost:11434）を HTTP で使う AI 役。
+
+    yes_probability は OpenAI 互換の /v1/completions に logprobs を要求して先頭トークンの上位 k 個から
+    Yes/No を読む。Ollama の版が logprobs 非対応なら、温度 1.0 で n_fallback 回サンプリングした
+    Yes 割合で代用し、missing に記録する。generate は /api/generate（温度 0）。
+    """
+    name = "ollama"
+
+    def __init__(self, model: str, url: str = "http://localhost:11434", top_k: int = 20, n_fallback: int = 8,
+                 timeout: int = 300):
+        self.model, self.url, self.top_k, self.n_fallback, self.timeout = model, url.rstrip("/"), top_k, n_fallback, timeout
+        self.missing: List[dict] = []
+
+    @staticmethod
+    def list_models(url: str = "http://localhost:11434", timeout: int = 3) -> List[dict]:
+        """/api/tags からモデル一覧（name, size）を返す。サーバーが無ければ空リスト。"""
+        import urllib.request
+        try:
+            with urllib.request.urlopen(url.rstrip("/") + "/api/tags", timeout=timeout) as r:
+                return [{"name": m["name"], "size": m.get("size", 0)} for m in json.load(r).get("models", [])]
+        except Exception:
+            return []
+
+    def _post(self, path: str, body: dict) -> dict:
+        import urllib.request
+        req = urllib.request.Request(self.url + path, data=json.dumps(body).encode(),
+                                     headers={"Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=self.timeout) as r:
+            return json.load(r)
+
+    def generate(self, prompt: str, max_tokens: int = 128, temperature: float = 0.0) -> str:
+        out = self._post("/api/generate", {"model": self.model, "prompt": prompt, "stream": False,
+                                           "options": {"temperature": temperature, "num_predict": max_tokens}})
+        return out.get("response", "").strip()
+
+    def top_logprobs(self, prompt: str) -> Optional[Dict[str, float]]:
+        try:
+            ch = self._post("/v1/completions", {"model": self.model, "prompt": prompt, "max_tokens": 1, "temperature": 0,
+                                                "logprobs": True, "top_logprobs": self.top_k})["choices"][0]
+        except Exception:
+            return None
+        lp = ch.get("logprobs") or {}
+        if lp.get("content"):
+            return {t["token"]: t["logprob"] for t in lp["content"][0].get("top_logprobs", [])}
+        if lp.get("top_logprobs"):
+            return dict(lp["top_logprobs"][0])
+        return None
+
+    def yes_probability(self, prompt: str, option_order: str = "yes_first") -> float:
+        options = "Answer with Yes or No." if option_order == "yes_first" else "Answer with No or Yes."
+        full = f"{options}\n{prompt}\nAnswer:"
+        top = self.top_logprobs(full)
+        if top is None:
+            yes = 0
+            for _ in range(self.n_fallback):
+                m = re.match(r"\s*([A-Za-z]+)", self.generate(full, max_tokens=3, temperature=1.0))
+                yes += 1 if m and m.group(1).lower().startswith("yes") else 0
+            self.missing.append({"prompt": full[-80:], "option": "logprobs unsupported; sampled"})
+            return (yes + 0.5) / (self.n_fallback + 1)
+        floor = min([math.exp(v) for v in top.values()] or [1e-6])
+        lp = {}
+        for option in (" Yes", " No"):
+            hit = [v for t, v in top.items() if t == option] or [v for t, v in top.items() if t.strip().lower() == option.strip().lower()]
+            if hit:
+                lp[option.strip()] = hit[0]
+            else:
+                self.missing.append({"prompt": full[-80:], "option": option}); lp[option.strip()] = math.log(floor)
+        py, pn = math.exp(lp["Yes"]), math.exp(lp["No"])
+        return py / (py + pn)
 
 
 def cosine(a: Sequence[float], b: Sequence[float]) -> float:

@@ -27,7 +27,16 @@ P = max( M, 0.8×N, 0.6×V )        M:しくみ N:関係の網 V:地図
 逆向き・矛盾 → 点数に関係なく別枠
 ```
 
-## Jupyter Notebook で1ステップずつ実証する
+## Jupyter Notebook
+
+| ノートブック | 内容 |
+|---|---|
+| `notebooks/01_training_free_loop_demo.ipynb` | 学習なしループ（種→広げる→確かめる→分ける）を1ステップずつ実行。RA の18遺伝子デモを再現 |
+| `notebooks/02_target_validity_yes_no.ipynb` | **検証用**。どの病気でも使える共通プロンプトで、遺伝子リストの各遺伝子を「活性化または抑制で改善する可能性があるか」Yes/No 判定し、Yes 確率（確率読みとサンプリング）を集めて正解・可能性・ランダムで評価 |
+
+どちらも .py を参照しない自己完結型です。**モデルは `~/llm/models` の GGUF（guidance + llama.cpp）と起動中の Ollama から選べます。** 設定セルで `BACKEND`（auto / gguf / ollama / mock）と `MODEL_SELECT`（auto / 一覧の番号 / 名前の一部）を指定します。auto なら txgemma → medgemma → gemma の順で優先します。
+
+### 1ステップずつ実証する
 
 ```bash
 pip install -e ".[dev,notebook]"
@@ -55,6 +64,7 @@ python scripts/run_txgemma.py --list-models        # ~/llm/models にある GGUF
 python scripts/run_txgemma.py --mode compare       # ~/llm/models の txgemma*.gguf を自動選択（既定: guidance 方式）
 python scripts/run_txgemma.py --mode compare --engine llama_cpp                  # logits 直読み
 python scripts/run_txgemma.py --model ~/llm/models/<別のモデル>.gguf --mode compare
+python scripts/run_txgemma.py --engine ollama --model medgemma:4b --mode compare      # Ollama（--list-models に Ollama のモデルも出ます）
 python scripts/run_txgemma.py --model ~/models/txgemma-9b-chat-Q6_K.gguf --mode loop   # 拡張もLLMに任せる
 ```
 
@@ -87,7 +97,7 @@ python scripts/run_txgemma.py --gene-set data/genes/ra_set100.tsv   # set100 を
 | `target_loop/scoring.py` | Q・M・N・V・P・総合点の計算と分類 |
 | `target_loop/pairwise.py` | 左右入れ替え2回の対戦比較、Copeland順位 |
 | `target_loop/loop.py` | 種の検証（薬→標的の逆引き）、3種類の拡張、検証、ループ制御 |
-| `target_loop/backends.py` | `RecordedBackend`（記録の再生）、`GuidanceBackend`（guidance の `select` ＋ top_k トレースで確率を読む。お使いの `option_logprobs` 方式）、`LlamaCppBackend`（logits 直読み） |
+| `target_loop/backends.py` | `RecordedBackend`（記録の再生）、`GuidanceBackend`（guidance の `select` ＋ top_k トレースで確率を読む。お使いの `option_logprobs` 方式）、`OllamaBackend`（起動中の Ollama を HTTP で。logprobs 非対応ならサンプリング代用）、`LlamaCppBackend`（logits 直読み） |
 | `demo/ra_demo.py` | RAデモの全データ（Claude判定・5段階確信度）と記録ファイル生成 |
 | `scripts/run_txgemma.py` | Mac用：TxGemmaで同じ18遺伝子を採点・比較 |
 | `scripts/sensitivity.py` | ルール定数の感度分析 |

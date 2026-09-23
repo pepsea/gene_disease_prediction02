@@ -13,6 +13,7 @@ Usage (Mac, Apple Silicon):
     python scripts/run_txgemma.py --mode loop                   # full loop, LLM does expansion too
     python scripts/run_txgemma.py --gene-set data/genes/ra_set100.tsv
     python scripts/run_txgemma.py --model ~/llm/models/other.gguf --mode compare   # 明示指定
+    python scripts/run_txgemma.py --engine ollama --model medgemma:4b --mode compare  # Ollama
 
 Output: outputs/txgemma_compare.csv  (gene, qid, claude_conf, model_p_yes, |diff|)
         outputs/txgemma_loop_report.md (mode loop)
@@ -29,7 +30,7 @@ def find_model(pattern="txgemma"):
     pref = [h for h in hits if pattern.lower() in os.path.basename(h).lower()]
     return (pref or hits or [None])[0]
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from target_loop.backends import LlamaCppBackend, GuidanceBackend
+from target_loop.backends import LlamaCppBackend, GuidanceBackend, OllamaBackend
 from target_loop.config import QUESTIONS, ScoringRules
 from target_loop.loop import TargetLoop
 from target_loop.report import to_markdown
@@ -50,8 +51,9 @@ def main():
     ap.add_argument("--model", default=None, help=f"GGUF のパス。省略時は {MODEL_DIR} 内の txgemma*.gguf を自動で使う")
     ap.add_argument("--list-models", action="store_true", help=f"{MODEL_DIR} にある GGUF を表示して終了")
     ap.add_argument("--mode", choices=["compare", "loop"], default="compare")
-    ap.add_argument("--engine", choices=["guidance", "llama_cpp"], default="guidance",
-                    help="guidance: select+top_k トレース方式（既定） / llama_cpp: logits 直読み")
+    ap.add_argument("--engine", choices=["guidance", "llama_cpp", "ollama"], default="guidance",
+                    help="guidance: select+top_k トレース方式（既定） / llama_cpp: logits 直読み / ollama: 起動中の Ollama（--model にモデル名）")
+    ap.add_argument("--ollama-url", default="http://localhost:11434")
     ap.add_argument("--top-k", type=int, default=50, help="guidance で記録する上位トークン数")
     ap.add_argument("--n-ctx", type=int, default=1024)
     ap.add_argument("--n-gpu-layers", type=int, default=-1)
@@ -65,15 +67,25 @@ def main():
 
     if args.list_models:
         for h in sorted(glob.glob(os.path.join(MODEL_DIR, "**", "*.gguf"), recursive=True)):
-            print(f"{os.path.getsize(h)/1e9:6.2f} GB  {h}")
+            print(f"gguf    {os.path.getsize(h)/1e9:6.2f} GB  {h}")
+        for m in OllamaBackend.list_models(args.ollama_url):
+            print(f"ollama  {m['size']/1e9:6.2f} GB  {m['name']}")
         return
+    if args.engine == "ollama" and args.model is None:
+        ms = OllamaBackend.list_models(args.ollama_url)
+        if not ms:
+            sys.exit(f"Ollama が起動していないか、モデルがありません: {args.ollama_url}")
+        args.model = ([m["name"] for m in ms if "gemma" in m["name"].lower()] or [ms[0]["name"]])[0]
+        print("ollama model:", args.model)
     if args.model is None:
         args.model = find_model()
         if args.model is None:
             sys.exit(f"GGUF が見つかりません: {MODEL_DIR}（--model で指定するか、--list-models で確認）")
         print("model:", args.model)
     os.makedirs("outputs", exist_ok=True)
-    if args.engine == "guidance":
+    if args.engine == "ollama":
+        b = OllamaBackend(args.model, url=args.ollama_url, top_k=args.top_k)
+    elif args.engine == "guidance":
         b = GuidanceBackend(args.model, top_k=args.top_k, n_ctx=args.n_ctx, n_gpu_layers=args.n_gpu_layers)
     else:
         b = LlamaCppBackend(args.model, n_ctx=args.n_ctx, n_gpu_layers=args.n_gpu_layers,
