@@ -310,13 +310,24 @@ class OllamaBackend(LLMBackend):
         return out.get("response", "").strip()
 
     def top_logprobs(self, prompt: str) -> Optional[Dict[str, float]]:
-        """先頭1トークンの上位 k 個の {token: logprob}。/v1/completions と /api/generate を試し、取れた方を以後使う。"""
-        tries = [self.lp_endpoint] if getattr(self, "lp_endpoint", None) else ["/v1/completions", "/api/generate"]
+        """先頭1トークンの上位 k 個の {token: logprob}。
+
+        Ollama の仕様（api/types.go）: /api/generate は logprobs: true, top_logprobs: 0〜20（上限 20）。
+        /v1/completions では logprobs は個数（整数）。/api/generate → /v1/completions の順に試す。"""
+        k = max(1, min(int(self.top_k), 20))
+        tries = [self.lp_endpoint] if getattr(self, "lp_endpoint", None) else ["/api/generate", "/v1/completions"]
         for ep in tries:
             try:
-                if ep == "/v1/completions":
+                if ep == "/api/generate":
+                    out = self._post(ep, {"model": self.model, "prompt": prompt, "stream": False, "logprobs": True,
+                                          "top_logprobs": k, "options": {"temperature": 0, "num_predict": 1}})
+                    lps = out.get("logprobs") or []
+                    top = {t["token"]: t["logprob"] for t in (lps[0].get("top_logprobs", []) if lps else [])}
+                    if lps and not top:
+                        top = {lps[0]["token"]: lps[0]["logprob"]}
+                else:
                     ch = self._post(ep, {"model": self.model, "prompt": prompt, "max_tokens": 1, "temperature": 0,
-                                         "logprobs": True, "top_logprobs": self.top_k})["choices"][0]
+                                         "logprobs": k})["choices"][0]
                     lp = ch.get("logprobs") or {}
                     if lp.get("content"):
                         top = {t["token"]: t["logprob"] for t in lp["content"][0].get("top_logprobs", [])}
@@ -324,13 +335,6 @@ class OllamaBackend(LLMBackend):
                         top = dict(lp["top_logprobs"][0])
                     else:
                         top = {}
-                else:
-                    out = self._post(ep, {"model": self.model, "prompt": prompt, "stream": False, "logprobs": True,
-                                          "top_logprobs": self.top_k, "options": {"temperature": 0, "num_predict": 1}})
-                    lps = out.get("logprobs") or []
-                    top = {t["token"]: t["logprob"] for t in (lps[0].get("top_logprobs", []) if lps else [])}
-                    if lps and not top:
-                        top = {lps[0]["token"]: lps[0]["logprob"]}
                 if top:
                     self.lp_endpoint = ep
                     return top

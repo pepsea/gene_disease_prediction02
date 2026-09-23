@@ -112,7 +112,9 @@ set100 を Ollama の gemma3:4b-it-qat で採点したところ、全遺伝子�
 - `STRICT_PROMPT`（大半の遺伝子は標的ではない、の前置き）と、対照疾患による補正（`USE_CONTROLS`）。
 - **較正チェック**：嗅覚受容体・無関係な遺伝子・確立した標的の3つでスコアの差が 0.1 未満なら警告する。本番の前に必ず見る。
 
-根本的には、確率が読める経路（`~/llm/models` の GGUF ＋ guidance）で 9B 級以上のモデルを使うのが本筋です。
+Ollama の公式ソース（`api/types.go`, `openai/openai.go`）を確認したところ、**新しい Ollama は `/api/generate` と `/api/chat` で `logprobs: true, top_logprobs: 0〜20` に対応**しています（応答は `logprobs[0].top_logprobs`）。OpenAI 互換 `/v1/completions` では `logprobs` は真偽値ではなく **個数（整数）** です。当初のコードは `top_logprobs=50` を送っていたため、対応版でも拒否されて「非対応」に見えていた可能性があります。上限 20 に丸め、`/api/generate` を先に試す形に直しました。古い Ollama では依然として読めないので、`p_yes` が空のままなら Ollama を更新してください。
+
+根本的には、確率が読める経路（`~/llm/models` の GGUF ＋ guidance、または対応版 Ollama）で 9B 級以上のモデルを使うのが本筋です。
 
 ## 5. 次にやること（お手元のMacで）
 

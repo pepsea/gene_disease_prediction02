@@ -89,3 +89,19 @@ def test_ollama_backend_generate_endpoint_logprobs(monkeypatch):
     p = b.yes_probability("q")
     assert abs(p - math.exp(-0.2) / (math.exp(-0.2) + math.exp(-1.8))) < 1e-9 and not b.missing
     assert b.lp_endpoint == "/api/generate"
+
+
+def test_ollama_backend_caps_top_logprobs_at_20(monkeypatch):
+    """top_k=50 でも Ollama には 20 で送る（21 以上は Ollama が拒否する）。/v1/completions では整数で送る。"""
+    from target_loop.backends import OllamaBackend
+    b = OllamaBackend("fake", top_k=50)
+    seen = []
+    def fake_post(path, body):
+        seen.append((path, body))
+        if path == "/api/generate" and body.get("logprobs"):
+            if body["top_logprobs"] > 20: raise RuntimeError("400 top_logprobs must be 0-20")
+            return {"response": " Yes", "logprobs": [{"token": " Yes", "logprob": -0.1, "top_logprobs": [{"token": " Yes", "logprob": -0.1}, {"token": " No", "logprob": -2.4}]}]}
+        return {"response": " Yes"}
+    monkeypatch.setattr(b, "_post", fake_post)
+    assert b.yes_probability("q") > 0.9
+    assert seen[0][0] == "/api/generate" and seen[0][1]["top_logprobs"] == 20
