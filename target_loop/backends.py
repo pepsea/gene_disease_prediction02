@@ -292,6 +292,8 @@ class OllamaBackend(LLMBackend):
         "gemma": "<start_of_turn>user\n{body}<end_of_turn>\n<start_of_turn>model\n",
         "llama3": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n{body}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
         "chatml": "<|im_start|>user\n{body}<|im_end|>\n<|im_start|>assistant\n",
+        "qwen3": "<|im_start|>user\n{body}<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+        "mistral": "[INST] {body} [/INST] ",
         "none": "{body}\n",
     }
 
@@ -300,8 +302,9 @@ class OllamaBackend(LLMBackend):
         self.model, self.url, self.top_k, self.n_fallback, self.timeout = model, url.rstrip("/"), top_k, n_fallback, timeout
         self.missing: List[dict] = []
         n = model.lower()
-        self.template = (("gemma" if "gemma" in n else "llama3" if "llama" in n else
-                          "chatml" if any(k in n for k in ("qwen", "deepseek", "phi")) else "none")
+        self.template = (("gemma" if "gemma" in n else "llama3" if "llama" in n else "qwen3" if "qwen3" in n
+                          else "mistral" if "mistral" in n
+                          else "chatml" if any(k in n for k in ("qwen", "deepseek", "phi")) else "none")
                          if template == "auto" else template)
 
     def wrap(self, prompt: str) -> str:
