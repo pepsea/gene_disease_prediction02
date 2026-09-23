@@ -310,16 +310,32 @@ class OllamaBackend(LLMBackend):
         return out.get("response", "").strip()
 
     def top_logprobs(self, prompt: str) -> Optional[Dict[str, float]]:
-        try:
-            ch = self._post("/v1/completions", {"model": self.model, "prompt": prompt, "max_tokens": 1, "temperature": 0,
-                                                "logprobs": True, "top_logprobs": self.top_k})["choices"][0]
-        except Exception:
-            return None
-        lp = ch.get("logprobs") or {}
-        if lp.get("content"):
-            return {t["token"]: t["logprob"] for t in lp["content"][0].get("top_logprobs", [])}
-        if lp.get("top_logprobs"):
-            return dict(lp["top_logprobs"][0])
+        """先頭1トークンの上位 k 個の {token: logprob}。/v1/completions と /api/generate を試し、取れた方を以後使う。"""
+        tries = [self.lp_endpoint] if getattr(self, "lp_endpoint", None) else ["/v1/completions", "/api/generate"]
+        for ep in tries:
+            try:
+                if ep == "/v1/completions":
+                    ch = self._post(ep, {"model": self.model, "prompt": prompt, "max_tokens": 1, "temperature": 0,
+                                         "logprobs": True, "top_logprobs": self.top_k})["choices"][0]
+                    lp = ch.get("logprobs") or {}
+                    if lp.get("content"):
+                        top = {t["token"]: t["logprob"] for t in lp["content"][0].get("top_logprobs", [])}
+                    elif lp.get("top_logprobs"):
+                        top = dict(lp["top_logprobs"][0])
+                    else:
+                        top = {}
+                else:
+                    out = self._post(ep, {"model": self.model, "prompt": prompt, "stream": False, "logprobs": True,
+                                          "top_logprobs": self.top_k, "options": {"temperature": 0, "num_predict": 1}})
+                    lps = out.get("logprobs") or []
+                    top = {t["token"]: t["logprob"] for t in (lps[0].get("top_logprobs", []) if lps else [])}
+                    if lps and not top:
+                        top = {lps[0]["token"]: lps[0]["logprob"]}
+                if top:
+                    self.lp_endpoint = ep
+                    return top
+            except Exception:
+                continue
         return None
 
     def yes_probability(self, prompt: str, option_order: str = "yes_first") -> float:

@@ -99,6 +99,21 @@ guidance 0.3.1 で、`select` の後に `state._trace_nodes` の `TokenOutput.to
 - `LlamaCpp(model, echo=True, top_k=TOP_K)` としないと top_k が記録されません（ソース上 `enable_top_k=echo`）。`echo=False` にすると top_k が空になり、お使いの関数は空の辞書を返します。
 - top_k に選択肢が入らなかった場合、お使いの版は黙ってその選択肢を落とします。`GuidanceBackend` とノートブックでは、top_k の最小確率を上限値として代用し `missing` に記録する形に変えました。`missing` が出たら `TOP_K` を増やしてください。
 
+### 4.2 実機（Ollama gemma3:4b-it-qat）での最初の結果と対処（2026-09-23）
+
+set100 を Ollama の gemma3:4b-it-qat で採点したところ、全遺伝子が `p_yes = 0.944`、`frac = 1.0` になりました。原因は2つです。
+
+1. その版の Ollama は `/v1/completions` で logprobs を返さず、代用のサンプリング（温度 1.0 × 8 回）に落ちていた。0.944 = (8+0.5)/(8+1) で、8 回すべて Yes だった印です。確率は読めていません。
+2. 小型の指示調整モデルは「もっともらしいか？」に迎合して Yes に寄る。嗅覚受容体（OR8U8）まで Yes でした。
+
+対処として、ノートブック 02 に次を入れました。
+- Ollama の `/api/generate` でも logprobs を試し、読込時に「対応／非対応」を表示する。
+- 確率が読めないときの主スコアを **0〜9 の評点**（サンプリング平均）に変える。確率が読めるときは各数字の確率からの期待値。
+- `STRICT_PROMPT`（大半の遺伝子は標的ではない、の前置き）と、対照疾患による補正（`USE_CONTROLS`）。
+- **較正チェック**：嗅覚受容体・無関係な遺伝子・確立した標的の3つでスコアの差が 0.1 未満なら警告する。本番の前に必ず見る。
+
+根本的には、確率が読める経路（`~/llm/models` の GGUF ＋ guidance）で 9B 級以上のモデルを使うのが本筋です。
+
 ## 5. 次にやること（お手元のMacで）
 
 1. `pip install llama-cpp-python guidance` の後、`python scripts/run_txgemma.py --model <TxGemmaのGGUF> --mode compare`。

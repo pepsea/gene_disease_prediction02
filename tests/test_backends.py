@@ -72,3 +72,20 @@ def test_ollama_backend_parsing(monkeypatch):
     p = b.yes_probability("q")                       # logprobs 非対応 → サンプリング代用
     assert abs(p - (8 + 0.5) / 9) < 1e-9 and b.missing[-1]["option"].startswith("logprobs unsupported")
     assert b.generate("hi") == "Yes"
+
+
+def test_ollama_backend_generate_endpoint_logprobs(monkeypatch):
+    """/v1/completions が logprobs を返さず /api/generate が返す Ollama でも確率が読めること。"""
+    from target_loop.backends import OllamaBackend
+    b = OllamaBackend("fake")
+    def fake_post(path, body):
+        if path == "/v1/completions":
+            return {"choices": [{"text": " Yes"}]}
+        if body.get("logprobs"):
+            return {"response": " Yes", "logprobs": [{"token": " Yes", "logprob": -0.2,
+                    "top_logprobs": [{"token": " Yes", "logprob": -0.2}, {"token": " No", "logprob": -1.8}]}]}
+        return {"response": " Yes"}
+    monkeypatch.setattr(b, "_post", fake_post)
+    p = b.yes_probability("q")
+    assert abs(p - math.exp(-0.2) / (math.exp(-0.2) + math.exp(-1.8))) < 1e-9 and not b.missing
+    assert b.lp_endpoint == "/api/generate"
