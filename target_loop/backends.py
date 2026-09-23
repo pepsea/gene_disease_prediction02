@@ -168,14 +168,17 @@ class LlamaCppBackend(LLMBackend):
         return f"<start_of_turn>user\n{prompt}<end_of_turn>\n<start_of_turn>model\n"
 
     def _last_logits(self, text: str):
-        """プロンプトを1回評価し、最後の位置の logits（全語彙のスコア）を取り出す。logits_all は不要。"""
+        """プロンプトを1回評価し、最後の位置の logits（全語彙のスコア）を取り出す。logits_all は不要。
+
+        注意: llama-cpp-python 0.3.x は logits_all=False のとき llm.scores を埋めない（常に 0）。
+        コンテキストから直接 get_logits() で読む。"""
         import numpy as np
         toks = self.llm.tokenize(text.encode("utf-8"), add_bos=True, special=True)
         if len(toks) >= self.llm.n_ctx():
             raise ValueError(f"prompt too long for n_ctx={self.llm.n_ctx()}: {len(toks)} tokens")
         self.llm.reset()
         self.llm.eval(toks)
-        return np.asarray(self.llm.scores[self.llm.n_tokens - 1], dtype=np.float64)
+        return np.ctypeslib.as_array(self.llm._ctx.get_logits(), shape=(self.llm.n_vocab(),)).astype(np.float64).copy()
 
     def yes_probability(self, prompt: str, option_order: str = "yes_first") -> float:
         """p_yes ＝ ΣYes系トークン / (ΣYes系 + ΣNo系)。option_order で「Yes or No」「No or Yes」を切り替える。"""

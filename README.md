@@ -32,6 +32,7 @@ P = max( M, 0.8×N, 0.6×V )        M:しくみ N:関係の網 V:地図
 | ノートブック | 内容 |
 |---|---|
 | `notebooks/01_training_free_loop_demo.ipynb` | 学習なしループ（種→広げる→確かめる→分ける）を1ステップずつ実行。RA の18遺伝子デモを再現 |
+| `notebooks/03_fast_six_questions.ipynb` | **高速版**。6種類の質問（A1 既存薬の標的 / A2 ヒト遺伝学 / B1 病態経路 / B2 罹患組織・細胞 / B3 摂動で症状改善 / B4 既知標的との関係）を、前置きの KV キャッシュ保存＋1回の処理で採点。順序の癖は先頭 N 遺伝子で推定して補正。回答の尤度（PMI）も出す。GGUF 直接駆動が本命 |
 | `notebooks/02_target_validity_yes_no.ipynb` | **検証用**。どの病気でも使える共通プロンプトで、遺伝子リストの各遺伝子を「活性化または抑制で改善する可能性があるか」Yes/No 判定し、スコア（確率読み／0〜9 評点／サンプリング）を集めて正解・可能性・ランダムで評価。較正チェックと対照疾患補正付き |
 
 どちらも .py を参照しない自己完結型です。**モデルは `~/llm/models` の GGUF（guidance + llama.cpp）と起動中の Ollama から選べます。** 設定セルで `BACKEND`（auto / gguf / ollama / mock）と `MODEL_SELECT`（auto / 一覧の番号 / 名前の一部）を指定します。auto なら txgemma → medgemma → gemma の順で優先します。

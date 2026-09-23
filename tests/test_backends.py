@@ -34,6 +34,9 @@ def test_llama_cpp_backend_smoke():
     assert 0.0 <= p1 <= 1.0 and 0.0 <= p2 <= 1.0
     # deterministic: same prompt -> same probability
     assert b.yes_probability("Is TNF a drug target for rheumatoid arthritis?", "yes_first") == pytest.approx(p1)
+    # logits must really be read (a stale all-zero row would give exactly 0.5 for every prompt)
+    p3 = b.yes_probability("Completely different question about OR8U8?", "yes_first")
+    assert not (p1 == 0.5 and p2 == 0.5 and p3 == 0.5)
     txt = b.generate("List genes:", max_tokens=4)
     assert isinstance(txt, str)
     b.close()
