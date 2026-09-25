@@ -61,6 +61,14 @@ VARIANTS = {
            "above precisely, rather than a related but distinct one (e.g. a different molecule, cell type, tissue or subcellular compartment); "
            "a similar-sounding but distinct role, even in the same gene family, does not count.\n"
            "Which numbered gene above best meets at least one of these criteria?",
+    # --- ノートブック 03 の M3s（短く言い切る3条件）を選択式にした版 ---
+    "M3sr": "Consider these three criteria:\n"
+            "(a) Inhibiting or activating the gene could plausibly treat {disease} or improve at least one of the symptoms listed above.\n"
+            "(b) Even outside the causal pathway, modulating the gene could counteract the abnormal process described above through a "
+            "parallel or opposing pathway.\n"
+            "(c) The gene's own substrate, ligand, pathway, cell type or circuit precisely matches the mechanism of {disease} described above "
+            "(a similar but distinct role, even in the same gene family, does not count).\n"
+            "Which numbered gene above best meets at least one of these criteria?",
 }
 VIDS = list(VARIANTS)
 WORST = set()                                                          # 最悪側の質問は「該当なし」と相性が悪いので ask_modes.py の worst で聞く
