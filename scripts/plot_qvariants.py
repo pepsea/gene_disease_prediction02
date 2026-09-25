@@ -125,7 +125,7 @@ def main():
         legend3=dict(x=0.0, y=0.49, orientation="h", font=dict(size=11)))
     for an in fig.layout.annotations[:4]: an.font = dict(size=13, color=INK)
     out = os.path.join(ROOT, "outputs", f"{os.path.basename(a.disease)}_set100_qvariants_charts.html")
-    fig.write_html(out, include_plotlyjs="cdn"); print("wrote", out)
+    fig.write_html(out, include_plotlyjs=True); print("wrote", out)
     try:
         fig.write_image(out.replace(".html", ".png"), scale=1); print("wrote", out.replace(".html", ".png"))
     except Exception as e:

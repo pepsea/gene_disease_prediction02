@@ -17,9 +17,10 @@ from rank_variants import gene_scores
 
 DISEASES = [("achondroplasia", "軟骨無形成症"), ("ra", "関節リウマチ"), ("prostate_cancer", "前立腺がん"),
             ("scz", "統合失調症"), ("cystinuria", "シスチン尿症")]
-METHODS = ["M1", "M2", "M1r", "M2r"]
-LABEL = {"M1": "Yes/No M1（現行）", "M2": "Yes/No M2（(a) を症状改善に拡張）", "M1r": "選択式 M1r", "M2r": "選択式 M2r"}
-COLOR = {"M1": "#9ec0ec", "M2": "#2a78d6", "M1r": "#f6c3ad", "M2r": "#eb6834"}
+METHODS = ["M1", "M2", "M3", "M3s", "M3d", "M3w", "M1r", "M2r"]
+LABEL = {"M1": "Yes/No M1（旧）", "M2": "Yes/No M2（現行）", "M3": "Yes/No M3（M2 の表記を遺伝子名・病名にそろえた版）",
+         "M3s": "Yes/No M3s（M3 を短く）", "M3d": "Yes/No M3d（M3 を詳しく）", "M3w": "Yes/No M3w（M3 の言い方を変更）", "M1r": "選択式 M1r", "M2r": "選択式 M2r"}
+COLOR = {"M1": "#9ec0ec", "M2": "#2a78d6", "M3": "#123f7a", "M3s": "#1baf7a", "M3d": "#8a5cd1", "M3w": "#eda100", "M1r": "#f6c3ad", "M2r": "#eb6834"}
 CAT = [("known", "既知", "#2a78d6", "circle"), ("candidate", "候補", "#eb6834", "square"), ("random", "ダミー", "#1baf7a", "diamond"),
        ("random_same", "ダミー（正解と同じファミリー）", "#eda100", "triangle-up")]
 LAYOUT = dict(template="plotly_white", font=dict(family="Hiragino Sans, Noto Sans JP, sans-serif", size=12))
@@ -30,7 +31,7 @@ def load():
     data = {}
     for key, _ in DISEASES:
         w, _ = wide_scores(key)
-        w = w[["symbol", "category", "M1", "M2"]].copy()
+        w = w[["symbol", "category"] + [m for m in ("M1", "M2", "M3", "M3s", "M3d", "M3w") if m in w.columns]].copy()
         g = gene_scores(pd.read_csv(os.path.join(ROOT, "outputs", f"{key}_set100_rankvar.csv")))
         r = g[g.variant.isin(["M1r", "M2r"])].pivot_table(index="symbol", columns="variant", values="mean_p")
         w = w.merge(r, left_on="symbol", right_index=True, how="left")
@@ -48,7 +49,7 @@ def table(data):
             rows.append({"疾患": name, "方式": m, "既知 vs その他": auc(w.loc[k, m], w.loc[~k, m]), "既知 vs ダミー": auc(w.loc[k, m], w.loc[r, m]),
                          "候補 vs ダミー": auc(w.loc[c, m], w.loc[r, m]),
                          "既知 vs 同族ダミー": auc(w.loc[k, m], w.loc[rs, m]) if rs.sum() >= 3 else np.nan,
-                         "ダミーの Yes 率": 1 / (1 + np.exp(-w.loc[r, m].median())) if m in ("M1", "M2") else np.nan})
+                         "ダミーの Yes 率": 1 / (1 + np.exp(-w.loc[r, m].median())) if not m.endswith("r") else np.nan})
     return pd.DataFrame(rows)
 
 
@@ -63,13 +64,13 @@ def fig_auc(t):
             fig.add_trace(go.Bar(x=names, y=y, name=LABEL[m], marker_color=COLOR[m], legendgroup=m, showlegend=(j == 1),
                                  hovertemplate=f"<b>{LABEL[m]}</b><br>%{{x}}<br>{col} %{{y:.3f}}<extra></extra>"), row=1, col=j)
     fig.update_yaxes(range=[0.5, 1.0])
-    fig.update_layout(**LAYOUT, barmode="group", height=480, title="AUC：M1（現行）と M2（条件 (a) を症状改善に拡張）。淡色＝M1、濃色＝M2")
+    fig.update_layout(**LAYOUT, barmode="group", height=480, title="AUC：M1（旧）・M2（現行）・M3（表記をそろえた版）と選択式")
     return fig
 
 
 def fig_side(t):
     fig = make_subplots(rows=1, cols=2, subplot_titles=("ダミーの Yes 率（Yes/No 版、中央値）", "シスチン尿症：既知 vs 正解と同じファミリーのダミー"))
-    for m in ("M1", "M2"):
+    for m in [m for m in METHODS if not m.endswith("r")]:
         s = t[t["方式"] == m]
         fig.add_trace(go.Bar(x=s["疾患"], y=s["ダミーの Yes 率"], name=LABEL[m], marker_color=COLOR[m], legendgroup=m,
                              hovertemplate=f"<b>{LABEL[m]}</b><br>%{{x}}<br>ダミーの Yes 率 %{{y:.2f}}<extra></extra>"), row=1, col=1)
@@ -89,18 +90,20 @@ def fig_rank(data):
         for i in w.index[k].to_series().sort_values(key=lambda s: rk["M1"][s], ascending=False):
             rows.append([rk[m][i] for m in METHODS]); ylab.append(f"{name}｜{w.at[i, 'symbol']}")
     z = np.array(rows, float)
-    d = np.c_[z[:, 1] - z[:, 0], z[:, 3] - z[:, 2]]                # M2 − M1、M2r − M1r（負 = 上がった）
-    fig = make_subplots(rows=1, cols=2, column_widths=[0.72, 0.28], shared_yaxes=True, horizontal_spacing=0.02,
-                        subplot_titles=("順位（100中）", "差（負＝M2 で上がった）"))
+    ix = {m: METHODS.index(m) for m in METHODS}
+    DIFF = [("M2", "M1"), ("M3", "M2"), ("M3s", "M3"), ("M3d", "M3"), ("M3w", "M3")]
+    d = np.c_[tuple(z[:, ix[a]] - z[:, ix[b]] for a, b in DIFF)]   # 負 = 左の方式で上がった
+    fig = make_subplots(rows=1, cols=2, column_widths=[0.62, 0.38], shared_yaxes=True, horizontal_spacing=0.02,
+                        subplot_titles=("順位（100中）", "差（負＝右側の方式で上がった）"))
     fig.add_trace(go.Heatmap(z=z, x=[LABEL[m] for m in METHODS], y=ylab, zmin=1, zmax=100, colorscale="RdYlGn_r",
-                             text=z.astype(int).astype(str), texttemplate="%{text}", colorbar=dict(title="順位", x=0.7),
+                             text=z.astype(int).astype(str), texttemplate="%{text}", colorbar=dict(title="順位", x=1.02),
                              hovertemplate="%{y}<br>%{x}<br>順位 %{z:.0f}<extra></extra>"), row=1, col=1)
-    fig.add_trace(go.Heatmap(z=d, x=["M2 − M1", "M2r − M1r"], y=ylab, zmid=0, zmin=-40, zmax=40, colorscale="RdBu_r", showscale=False,
+    fig.add_trace(go.Heatmap(z=d, x=[f"{a} − {b}" for a, b in DIFF], y=ylab, zmid=0, zmin=-40, zmax=40, colorscale="RdBu_r", showscale=False,
                              text=[[f"{v:+.0f}" for v in r] for r in d], texttemplate="%{text}",
                              hovertemplate="%{y}<br>%{x} %{z:+.0f}<extra></extra>"), row=1, col=2)
     fig.update_yaxes(autorange="reversed")
     fig.update_layout(**LAYOUT, height=24 * len(ylab) + 200, margin=dict(l=190),
-                      title="既知遺伝子の順位（緑＝上位）。右の青＝M2 で順位が上がった、赤＝下がった")
+                      title="既知遺伝子の順位（緑＝上位）。右の差：青＝右側の方式で順位が上がった、赤＝下がった")
     return fig
 
 
@@ -133,7 +136,7 @@ def main():
     out = os.path.join(ROOT, "outputs", "m2_charts.html")
     with open(out, "w", encoding="utf-8") as fh:
         fh.write("<html><head><meta charset='utf-8'><title>M1 と M2 の比較</title></head><body style='max-width:1300px;margin:auto'>"
-                 + "".join(f.to_html(full_html=False, include_plotlyjs=("cdn" if i == 0 else False)) for i, f in enumerate(figs)) + "</body></html>")
+                 + "".join(f.to_html(full_html=False, include_plotlyjs=(True if i == 0 else False)) for i, f in enumerate(figs)) + "</body></html>")
     print("saved:", out)
     return data, t, figs
 

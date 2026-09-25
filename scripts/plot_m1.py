@@ -127,7 +127,7 @@ def main():
     out = os.path.join(ROOT, "outputs", "m1_charts.html")
     with open(out, "w", encoding="utf-8") as fh:
         fh.write("<html><head><meta charset='utf-8'><title>M1 の検証</title></head><body style='max-width:1300px;margin:auto'>"
-                 + "".join(f.to_html(full_html=False, include_plotlyjs=("cdn" if i == 0 else False)) for i, f in enumerate(figs)) + "</body></html>")
+                 + "".join(f.to_html(full_html=False, include_plotlyjs=(True if i == 0 else False)) for i, f in enumerate(figs)) + "</body></html>")
     print("saved:", out)
     return data, figs
 

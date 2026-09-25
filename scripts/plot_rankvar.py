@@ -175,7 +175,7 @@ def main():
     out = os.path.join(ROOT, "outputs", "rankvar_charts.html")
     with open(out, "w", encoding="utf-8") as fh:
         fh.write("<html><head><meta charset='utf-8'><title>強制選択の質問パターン比較</title></head><body style='max-width:1300px;margin:auto'>"
-                 + "".join(f.to_html(full_html=False, include_plotlyjs=("cdn" if i == 0 else False)) for i, f in enumerate(figs)) + "</body></html>")
+                 + "".join(f.to_html(full_html=False, include_plotlyjs=(True if i == 0 else False)) for i, f in enumerate(figs)) + "</body></html>")
     print("saved:", out)
     return data, longs, figs
 

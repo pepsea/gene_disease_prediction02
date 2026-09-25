@@ -79,6 +79,85 @@ QUESTIONS = [
                "above precisely, rather than a related but distinct one (e.g. a different molecule, cell type, tissue or subcellular compartment); "
                "a similar-sounding but distinct role, even in the same gene family, does not count.\n"
                "Does this gene meet at least one of these criteria?"),
+    # --- M2 の表記をそろえた版（ユーザー案、文法のみ修正）：(a)(b)(c) すべて遺伝子名 {gene}、(c) に病名も入れる ---
+    ("M3", +1, "Consider these three criteria:\n"
+               "(a) A hypothesis can be constructed that inhibiting or activating {gene} would treat {disease} or improve at least "
+               "one of the symptoms listed above.\n"
+               "(b) Even if {gene} is not part of the pathway that causes {disease}, activating or inhibiting it could counteract or compensate "
+               "for the abnormal process described above, for example through a parallel or opposing pathway in the same cells.\n"
+               "(c) {gene}'s own specific role — its substrate, ligand, signalling pathway, cell type or circuit — matches the mechanism of {disease} described "
+               "above precisely, rather than a related but distinct one (e.g. a different molecule, cell type, tissue or subcellular compartment); "
+               "a similar-sounding but distinct role, even in the same gene family, does not count.\n"
+               "Does this gene meet at least one of these criteria?"),
+    # --- M3 のコンセプト（(a) 治療・症状改善の仮説 / (b) 代償経路 / (c) 機構の一致 の OR）を保ったまま文章だけ変えた3版 ---
+    # M3s：短くした版（各条件を1文に）
+    ("M3s", +1, "Consider these three criteria:\n"
+                "(a) Inhibiting or activating {gene} could plausibly treat {disease} or improve at least one of the symptoms listed above.\n"
+                "(b) Even outside the causal pathway, modulating {gene} could counteract the abnormal process described above through a "
+                "parallel or opposing pathway.\n"
+                "(c) {gene}'s own substrate, ligand, pathway, cell type or circuit precisely matches the mechanism of {disease} described above "
+                "(a similar but distinct role, even in the same gene family, does not count).\n"
+                "Does this gene meet at least one of these criteria?"),
+    # M3d：説明を詳しくした版（各条件に判断の目安を足す。病気に固有の例は入れない）
+    ("M3d", +1, "Consider these three criteria:\n"
+                "(a) A hypothesis can be constructed that inhibiting or activating {gene} would treat {disease} or improve at least one of the "
+                "symptoms listed above. The hypothesis must state a direction (inhibit or activate) and a plausible biological route from {gene} "
+                "to the disease or symptom; a vague association is not enough.\n"
+                "(b) Even if {gene} is not part of the pathway that causes {disease}, activating or inhibiting it could counteract or compensate "
+                "for the abnormal process described above, for example by boosting a parallel pathway that restores the lost function, or by "
+                "dampening the output of an over-active process in the same cells.\n"
+                "(c) {gene}'s own specific role — its substrate, ligand, signalling pathway, cell type or circuit — matches the mechanism of "
+                "{disease} described above precisely, rather than a related but distinct one (e.g. a different molecule, cell type, tissue or "
+                "subcellular compartment). Judge by what {gene} itself does, not by its name or gene family; a similar-sounding but distinct role, "
+                "even in the same gene family, does not count.\n"
+                "Answer Yes if at least one criterion is clearly met, and No if none is. Does this gene meet at least one of these criteria?"),
+    # M3w：言い方を変えた版（「治療の入り口となる3つの道筋」として問う）
+    ("M3w", +1, "A gene can be a sound therapeutic entry point for {disease} through any of three routes:\n"
+                "(a) Direct benefit: modulating {gene} (inhibiting or activating it) is expected to treat {disease} or relieve at least one of "
+                "the symptoms listed above.\n"
+                "(b) Compensation: {gene} lies outside the causal pathway, but modulating it could offset the abnormal process described above "
+                "through a parallel or opposing pathway in the same cells.\n"
+                "(c) Mechanistic match: {gene}'s own substrate, ligand, signalling pathway, cell type or circuit is exactly the mechanism of "
+                "{disease} described above, not a similar-sounding one in the same gene family or in a different tissue or compartment.\n"
+                "Is {gene} a sound therapeutic entry point for {disease} through at least one of these routes?"),
+    # --- 短く、かつ言い方を変えた3版（コンセプトは M3 と同じ：(a) 治療・症状改善 / (b) 代償経路 / (c) 機構の一致 の OR） ---
+    # M3r1：「治療標的になる3つの道筋」の枠組みを短く
+    ("M3r1", +1, "Three routes can make a gene a therapeutic target for {disease}:\n"
+                 "(a) Direct: inhibiting or activating {gene} could treat {disease} or relieve a symptom listed above.\n"
+                 "(b) Compensatory: outside the causal pathway, modulating {gene} could offset the abnormal process described above via a "
+                 "parallel or opposing pathway.\n"
+                 "(c) Mechanistic: {gene}'s own substrate, ligand, pathway, cell type or circuit exactly matches the mechanism of {disease} "
+                 "described above (a similar role in the same gene family does not count).\n"
+                 "Does this gene fit at least one route?"),
+    # M3r2：「次のどれかが正しければ Yes」と答え方を先に言う
+    ("M3r2", +1, "Answer Yes if any of the following is true, otherwise No.\n"
+                 "(a) Inhibiting or activating {gene} could plausibly treat {disease} or improve a symptom listed above.\n"
+                 "(b) Although {gene} is not in the causal pathway, modulating it could counteract the abnormal process described above "
+                 "through a parallel or opposing pathway.\n"
+                 "(c) {gene}'s own substrate, ligand, pathway, cell type or circuit precisely matches the mechanism of {disease} described "
+                 "above; a similar but distinct role, even in the same gene family, does not count.\n"
+                 "Is at least one of these true for this gene?"),
+    # M3r3：箇条書きをやめて1文の問いにまとめる
+    ("M3r3", +1, "Could inhibiting or activating {gene} plausibly treat {disease} or relieve a symptom listed above — either directly, "
+                 "by counteracting the abnormal process through a parallel or opposing pathway, or because {gene}'s own substrate, ligand, "
+                 "pathway, cell type or circuit precisely matches the mechanism of {disease} described above (not merely a related gene "
+                 "in the same family)?"),
+    # --- 癖の分析から作った版：M4 = M3s の (b) だけ this gene に戻す（知名度による Yes を抑える）、M4L = M4 に短いラベルを付ける ---
+    ("M4", +1, "Consider these three criteria:\n"
+               "(a) Inhibiting or activating {gene} could plausibly treat {disease} or improve at least one of the symptoms listed above.\n"
+               "(b) Even outside the causal pathway, modulating this gene could counteract the abnormal process described above through a "
+               "parallel or opposing pathway.\n"
+               "(c) {gene}'s own substrate, ligand, pathway, cell type or circuit precisely matches the mechanism of {disease} described above "
+               "(a similar but distinct role, even in the same gene family, does not count).\n"
+               "Does this gene meet at least one of these criteria?"),
+    ("M4L", +1, "Consider these three criteria:\n"
+                "(a) Direct benefit: inhibiting or activating {gene} could plausibly treat {disease} or improve at least one of the symptoms "
+                "listed above.\n"
+                "(b) Compensation: even outside the causal pathway, modulating this gene could counteract the abnormal process described above "
+                "through a parallel or opposing pathway.\n"
+                "(c) Mechanistic match: {gene}'s own substrate, ligand, pathway, cell type or circuit precisely matches the mechanism of {disease} "
+                "described above (a similar but distinct role, even in the same gene family, does not count).\n"
+                "Does this gene meet at least one of these criteria?"),
     ("C1", +1, "Setting the disease aside:is this a well-studied human gene, the subject of a large number of published research papers?"),
 ]
 QIDS = [q[0] for q in QUESTIONS]

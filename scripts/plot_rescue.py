@@ -109,7 +109,7 @@ def main():
     data = load()
     figs = [fig_rank_heatmap(data), fig_auc_vs_yes(data)] + [fig_strips(data, k, n) for k, n in DISEASES]
     out = os.path.join(ROOT, "outputs", "rescue_charts.html")
-    html = "".join(f.to_html(full_html=False, include_plotlyjs=("cdn" if i == 0 else False)) for i, f in enumerate(figs))
+    html = "".join(f.to_html(full_html=False, include_plotlyjs=(True if i == 0 else False)) for i, f in enumerate(figs))
     with open(out, "w", encoding="utf-8") as fh:
         fh.write("<html><head><meta charset='utf-8'><title>レスキュー質問の検証</title></head><body style='max-width:1200px;margin:auto'>"
                  + html + "</body></html>")
