@@ -20,10 +20,11 @@ model:                             # 段階2〜5（Yes/No と5択）と方向推
     prompt_wrap: none              # 書式なしで「… Answer:」の直後の語の確率を読む（txgemma で検証した方式）
   server:                          # Linux の GPU サーバー：Hugging Face のモデルを transformers で動かす
     backend: transformers
-    name: google/medgemma-27b-it   # Hugging Face の名前か、ローカルのフォルダ（MedGemma は利用規約への同意とログインが必要）
+    name: google/txgemma-27b-chat  # Hugging Face の名前か、ローカルのフォルダ（TxGemma は利用規約への同意とログインが必要）
     device: auto                   # auto = cuda → mps → cpu
     dtype: bfloat16                # 27B は bfloat16 で約 55GB の GPU メモリ
-    prompt_wrap: chat              # モデルのチャット書式で包み、答えの最初の語の確率を読む（指示に従うように調整されたモデル向け）
+    prompt_wrap: none              # Mac の txgemma-9b と同じく、書式なしで「… Answer:」の直後を読む（検証してきた方式）
+                                   # chat にすると、チャット書式で包んで答えの最初の語を読む（MedGemma など向け）
 
 stage0:                            # 準備（全疾患で共通、1回だけ。約10分）：UniProt の機能情報
   uniprot_batch: 50                # UniProt に1回で問い合わせる数
