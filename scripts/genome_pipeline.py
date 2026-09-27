@@ -1,8 +1,8 @@
 """全遺伝子（HGNC のタンパク質コード遺伝子）から、疾患ごとにトップ500の創薬標的ランキングを作るパイプライン。
-設定はすべて YAML（config/pipeline07.yaml と config/diseases.yaml）。ノートブック 07 もこのモジュールを呼ぶ。
+設定はすべて YAML（config/pipeline07.yaml と config/diseases.yaml）。ノートブック 07 と同じ処理のコマンドライン版。
 
-段階0 準備（全疾患で共通）  : 全遺伝子の機能情報（UniProt。疾患に触れる記述は除去）と、その埋め込み（bge-m3）を作る
-段階1 ふるい                : 疾患の説明と機能説明の埋め込みの類似度で stage1.keep 件に絞る（生成 LLM は使わない）
+段階0 準備（全疾患で共通）  : 全遺伝子の機能情報を UniProt から取ったまま保存する（病名を含む文は使うときに除く）
+段階1 ふるい                : リランカー（Qwen3-Reranker）で全遺伝子を採点し stage1.keep 件に絞る
 段階2 粗い採点              : 質問（M3s）を1順だけで聞き、順序の偏り δ を一部の遺伝子で推定して補正 → stage2.keep 件
 段階3 精密な採点            : 両順 × 機能情報なし・ありの対数オッズの平均（ノートブック 06 の点数）→ stage3.keep 件＝最終順位
 段階4 上位の並べ直し        : 上位 stage4.top 件を 5択 × スイス式 × Bradley-Terry で並べ直す（確認用。順位は変えない）
@@ -14,8 +14,8 @@
 
 使い方:
   python scripts/genome_pipeline.py                              # config/pipeline07.yaml の run_diseases を全段階
-  python scripts/genome_pipeline.py --disease scz --stages 1 2   # 一部の段階だけ
-  python scripts/genome_pipeline.py --disease ra --run-id latest       # 途中で止まった実行を、最新の日付フォルダで続きから
+  python scripts/genome_pipeline.py --disease schizophrenia --stages 1 2   # 一部の段階だけ
+  python scripts/genome_pipeline.py --disease "rheumatoid arthritis" --run-id latest       # 途中で止まった実行を、最新の日付フォルダで続きから
   python scripts/genome_pipeline.py --set stage1.keep=300 stage2.keep=100 stage3.keep=50 stage4.top=20   # 設定の上書き（試運転など）
 """
 import argparse, copy, glob, json, math, os, random, re, sys, time, urllib.request
@@ -26,7 +26,6 @@ import yaml
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, ".."))
 sys.path.insert(0, HERE)
-import fetch_function as FF                                       # 機能情報の取得と、疾患に触れる記述の除去
 from yesno_question_variants import QUESTIONS as YN_QUESTIONS, STRICT_NOTE as YN_NOTE
 from rank_variants import VARIANTS as CHOICE_QUESTIONS, STRICT_NOTE as CHOICE_NOTE
 from rank_bt import luce
@@ -94,64 +93,82 @@ def log(msg):
 
 # ---------------------------------------------------------------- 段階0：機能情報と埋め込み（全疾患で共通）
 def stage0(cfg):
-    g = universe(cfg)
-    cache_p = path(cfg, "function_cache")
+    """全遺伝子の機能情報を UniProt から取ったまま保存する（疾患の語は除かない。除くのは使うとき＝func_text）。"""
+    g = universe(cfg); cache_p = path(cfg, "uniprot_function")
     cache = json.load(open(cache_p)) if os.path.exists(cache_p) else {}
     todo = sorted({a for a in g["acc"] if a and a not in cache})
     log(f"段階0: 機能情報 {len(g)} 遺伝子（取得済み {len(g) - len(todo)}、残り {len(todo)}）")
     b = cfg["stage0"]["uniprot_batch"]
     for i in range(0, len(todo), b):
-        for e in FF.fetch(todo[i:i + b]): cache[e["primaryAccession"]] = FF.parse(e)
-        for a in todo[i:i + b]: cache.setdefault(a, FF.parse({}))
-        if (i // b) % 20 == 0:
+        url = ("https://rest.uniprot.org/uniprotkb/accessions?accessions=" + ",".join(todo[i:i + b]) +
+               "&fields=accession,cc_function,go_p,go_f,xref_reactome&format=json")
+        with urllib.request.urlopen(url, timeout=60) as r:
+            entries = json.load(r)["results"]
+        for e in entries:
+            func = " ".join(t["value"] for c in e.get("comments", []) if c.get("commentType") == "FUNCTION" for t in c.get("texts", []))
+            func = re.sub(r"\(PubMed:[^)]*\)|\{ECO:[^}]*\}", "", func)                # 文献・証拠コードを除く
+            go_p, go_f, rea = [], [], []
+            for x in e.get("uniProtKBCrossReferences", []):
+                props = {p["key"]: p["value"] for p in x.get("properties", [])}
+                name = props.get("GoTerm", props.get("PathwayName", ""))
+                if x["database"] == "GO" and name.startswith("P:"): go_p.append(name[2:])
+                if x["database"] == "GO" and name.startswith("F:"): go_f.append(name[2:])
+                if x["database"] == "Reactome": rea.append(name)
+            cache[e["primaryAccession"]] = {"function": [t.strip() for t in re.split(r"(?<=[.;])\s+", func) if t.strip()],
+                                            "go_f": go_f, "go_p": go_p, "reactome": sorted(set(rea), key=len)}
+        for a in todo[i:i + b]: cache.setdefault(a, {"function": [], "go_f": [], "go_p": [], "reactome": []})
+        if (i // b) % 20 == 0 or i + b >= len(todo):
             json.dump(cache, open(cache_p, "w"), ensure_ascii=False); log(f"  UniProt {min(i + b, len(todo))}/{len(todo)}")
         time.sleep(0.2)
-    json.dump(cache, open(cache_p, "w"), ensure_ascii=False)
-    names = [d["name"].lower() for d in cfg["_diseases"].values()]
-    bad = [a for a, v in cache.items() if any(n in v["text"].lower() for n in names)]
-    if bad: raise SystemExit(f"機能情報に病名が残っています: {bad[:10]}")
-    log(f"  機能情報 OK（{len(cache)} 件、登録疾患の病名は含まれない）")
+    log(f"  機能情報 OK（{len(cache)} 件）→ {cache_p}")
 
-    edir = path(cfg, "embedding_dir"); os.makedirs(edir, exist_ok=True)
-    model = cfg["stage0"]["embed_model"]; ep = os.path.join(edir, f"{model}.npz")
-    old = dict(np.load(ep, allow_pickle=True)) if os.path.exists(ep) else {"symbols": np.array([]), "vectors": np.zeros((0, 1))}
-    have = {s: v for s, v in zip(old["symbols"], old["vectors"])}
-    texts = {s: gene_text(s, lab, cache.get(a, {})) for s, lab, a in zip(g["symbol"], g["gene_label"], g["acc"])}
-    todo = [s for s in g["symbol"] if s not in have]
-    log(f"段階0: 埋め込み（{model}）残り {len(todo)} 遺伝子")
-    bs = cfg["stage0"]["embed_batch"]
+
+def func_text(cfg, dkey):
+    """遺伝子ごとの機能情報（Function 2文・GO 6つ・Reactome 3つの3行）。この疾患の病名を含む文・項目は除く。"""
+    cache = json.load(open(path(cfg, "uniprot_function"))); leak = cfg["_diseases"][dkey]["name"].lower()
+    ok = lambda t: leak not in t.lower()
+    out = {}
+    for s, a in zip(*universe(cfg)[["symbol", "acc"]].T.values):
+        v = cache.get(a, {"function": [], "go_f": [], "go_p": [], "reactome": []})
+        f = " ".join([x for x in v["function"] if ok(x)][:2])
+        if len(f) > 320: f = f[:320].rsplit(" ", 1)[0] + "…"
+        go = "; ".join([x for x in v["go_f"] if ok(x)][:2] + [x for x in v["go_p"] if ok(x)][:4])
+        rea = "; ".join([x for x in v["reactome"] if ok(x)][:3])
+        out[s] = f"Function: {f or 'not described'}\nGO: {go or 'not described'}\nPathways: {rea or 'not described'}\n"
+    return out
+
+
+# ---------------------------------------------------------------- 段階1：ふるい（リランカー）
+def stage1(cfg, dkey):
+    """リランカー（既定 Qwen3-Reranker-0.6B）で全遺伝子を採点し、上位 stage1.keep 件を残す。途中結果から再開できる。"""
+    import gc, torch
+    from transformers import AutoTokenizer, AutoModelForCausalLM
+    c = cfg["stage1"]; T = c["template"]; D = cfg["_diseases"][dkey]; od = out_dir(cfg, dkey)
+    out, part = os.path.join(od, "stage1.csv"), os.path.join(od, "stage1_partial.csv")
+    dev = c["device"] if c["device"] != "auto" else ("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
+    tok = AutoTokenizer.from_pretrained(c["model"], padding_side="left")
+    model = AutoModelForCausalLM.from_pretrained(c["model"], dtype=torch.float32 if dev == "cpu" else getattr(torch, c["dtype"])).to(dev).eval()
+    yes, no = tok.convert_tokens_to_ids(T["yes_token"]), tok.convert_tokens_to_ids(T["no_token"])
+    g = universe(cfg).set_index("symbol"); ft = func_text(cfg, dkey)
+    query = f"{D['name']}. " + " ".join(D["info"])
+    rows = resume(part).to_dict("records"); have = {r["symbol"] for r in rows}
+    todo = [s for s in g.index if s not in have]; t0 = time.time(); bs = c["batch"]
+    log(f"段階1 {dkey}: {c['model']}（{dev}）残り {len(todo)} / {len(g)}")
     for i in range(0, len(todo), bs):
         chunk = todo[i:i + bs]
-        for s, v in zip(chunk, embed(cfg, [texts[s] for s in chunk])): have[s] = v
-        if (i // bs) % 50 == 0:
-            np.savez(ep, symbols=np.array(list(have)), vectors=np.array(list(have.values()))); log(f"  埋め込み {min(i + bs, len(todo))}/{len(todo)}")
-    np.savez(ep, symbols=np.array(list(have)), vectors=np.array(list(have.values())))
-    log(f"  埋め込み OK（{len(have)} 件）→ {ep}")
-
-
-def gene_text(symbol, label, info):
-    """埋め込み用の文章：タンパク質名＋機能情報（疾患に触れる記述は除去済み）。"""
-    return f"{label}. {info.get('function', '')} GO: {info.get('go', '')}. Pathways: {info.get('reactome', '')}"
-
-
-def embed(cfg, texts):
-    req = urllib.request.Request(cfg["stage0"]["ollama_url"] + "/api/embed", headers={"Content-Type": "application/json"},
-                                 data=json.dumps({"model": cfg["stage0"]["embed_model"], "input": texts}).encode())
-    with urllib.request.urlopen(req, timeout=600) as r:
-        v = np.array(json.load(r)["embeddings"], dtype=np.float32)
-    return v / np.linalg.norm(v, axis=1, keepdims=True)
-
-
-# ---------------------------------------------------------------- 段階1：ふるい
-def stage1(cfg, dkey):
-    D = cfg["_diseases"][dkey]; out = os.path.join(out_dir(cfg, dkey), "stage1.csv")
-    e = np.load(os.path.join(path(cfg, "embedding_dir"), f"{cfg['stage0']['embed_model']}.npz"), allow_pickle=True)
-    q = embed(cfg, [f"{D['name']}. " + " ".join(D["info"])])[0]      # 疾患の説明（病名＋症状の箇条書き）
-    sim = e["vectors"] @ q
-    t = pd.DataFrame({"symbol": e["symbols"], "sim": sim}).sort_values("sim", ascending=False).reset_index(drop=True)
-    t["rank1"] = np.arange(1, len(t) + 1); t["keep1"] = t["rank1"] <= cfg["stage1"]["keep"]
-    runlog(cfg, dkey, "stage1", {"input": len(t), "kept": int(t["keep1"].sum())})
+        texts = [T["prefix"] + T["body"].format(instruction=c["instruction"], query=query, document=f"{g.at[s, 'gene_label']}.\n{ft[s]}") + T["suffix"] for s in chunk]
+        x = tok(texts, padding=True, truncation=True, max_length=c["max_length"], return_tensors="pt").to(dev)
+        with torch.no_grad(): lg = model(**x, logits_to_keep=1).logits[:, -1, :].float()   # 最後の位置だけ
+        rows += [{"symbol": s, "score1": v} for s, v in zip(chunk, (lg[:, yes] - lg[:, no]).cpu().tolist())]   # log P(yes) − log P(no)
+        if (i + bs) % c["checkpoint_every"] < bs or i + bs >= len(todo):
+            pd.DataFrame(rows).to_csv(part, index=False); log(f"  {i + len(chunk)}/{len(todo)}（{time.time() - t0:.0f} 秒）")
+    t = pd.DataFrame(rows).sort_values("score1", ascending=False).reset_index(drop=True)
+    t["rank1"] = np.arange(1, len(t) + 1); t["keep1"] = t["rank1"] <= c["keep"]
+    runlog(cfg, dkey, "stage1", {"model": c["model"], "device": dev, "input": len(t), "kept": int(t["keep1"].sum())})
     t.to_csv(out, index=False); log(f"段階1 {dkey}: {len(t)} → {int(t['keep1'].sum())} 件 → {out}")
+    del model; gc.collect()                                               # txgemma を読み込む前にメモリを空ける
+    if dev == "mps": torch.mps.empty_cache()
+    if dev.startswith("cuda"): torch.cuda.empty_cache()
     return t
 
 
@@ -223,13 +240,6 @@ class Engine:
         p = np.exp(l - l.max()); return p / p.sum()
 
 
-def func_extra(cfg, dkey, acc, cache):
-    """プロンプト用の機能情報。この疾患の病名を含む行は落とす（念のための二重チェック）。"""
-    t = cache.get(acc, {}).get("text", "")
-    terms = [cfg["_diseases"][dkey]["name"].lower()]
-    return "".join(l + "\n" for l in t.splitlines() if l and not any(x in l.lower() for x in terms))
-
-
 def resume(path_, key="symbol"):
     return pd.read_csv(path_) if os.path.exists(path_) else pd.DataFrame(columns=[key])
 
@@ -265,13 +275,13 @@ def stage2(cfg, dkey, eng):
 def stage3(cfg, dkey, eng):
     c = cfg["stage3"]; od = out_dir(cfg, dkey); out = os.path.join(od, "stage3.csv")
     s2 = pd.read_csv(os.path.join(od, "stage2.csv")); cand = s2[s2["keep2"]]
-    g = universe(cfg).set_index("symbol"); cache = json.load(open(path(cfg, "function_cache")))
+    g = universe(cfg).set_index("symbol"); ft = func_text(cfg, dkey)
     done = resume(out); have = set(done["symbol"]); rows = done.to_dict("records"); q = c["question"]
     todo = cand[~cand["symbol"].isin(have)]; t0 = time.time()
     log(f"段階3 {dkey}: {len(cand)} 件（済み {len(have)}、残り {len(todo)}）")
     for k, r in enumerate(todo.itertuples(), 1):
         s, lab = r.symbol, g.at[r.symbol, "gene_label"]
-        extra = func_extra(cfg, dkey, g.at[s, "acc"], cache)
+        extra = "" if ft[s].startswith("Function: not described\nGO: not described\nPathways: not described") else ft[s]   # 機能情報の3行
         yf = r.lo_yes_first                                                    # 段階2の yes_first を再利用（同じプロンプト）
         nf = r.lo_no_first if not pd.isna(r.lo_no_first) else eng.yes_logodds(lab, s, [q], "no_first")[q]
         fy = eng.yes_logodds(lab, s, [q], "yes_first", extra)[q]; fn = eng.yes_logodds(lab, s, [q], "no_first", extra)[q]
@@ -375,13 +385,13 @@ def final_table(cfg, dkey):
     od = out_dir(cfg, dkey); n = cfg["stage3"]["keep"]
     rd = lambda f: pd.read_csv(os.path.join(od, f)) if os.path.exists(os.path.join(od, f)) else None
     t = rd("stage3.csv").head(n)
-    for f, cols in (("stage2.csv", ["symbol", "rank2", "score2"]), ("stage1.csv", ["symbol", "rank1", "sim"]), ("stage4.csv", ["symbol", "rank4", "bt", "bt_above_none"]),
+    for f, cols in (("stage2.csv", ["symbol", "rank2", "score2"]), ("stage1.csv", ["symbol", "rank1", "score1"]), ("stage4.csv", ["symbol", "rank4", "bt", "bt_above_none"]),
                     ("stage5.csv", None), ("stage6.csv", ["symbol", "ot_max_stage", "ot_drugs", "ot_assoc_score"])):
         x = rd(f)
         if x is not None: t = t.merge(x if cols is None else x[cols], on="symbol", how="left")
-    g = universe(cfg).set_index("symbol"); cache = json.load(open(path(cfg, "function_cache")))
+    g = universe(cfg).set_index("symbol"); ft = func_text(cfg, dkey)
     t.insert(2, "gene_name", t["symbol"].map(g["gene_name"]))
-    t["function"] = [cache.get(g.at[s, "acc"], {}).get("function", "")[:160] for s in t["symbol"]]
+    t["function"] = [ft[s].splitlines()[0][len("Function: "):][:160] for s in t["symbol"]]
     A, B = cfg["tiers"]["A"], cfg["tiers"]["B"]
     t["tier"] = np.where((t["rank"] <= A) & (t.get("rank4", pd.Series(np.inf, index=t.index)) <= A), "A", np.where(t["rank"] <= B, "B", "C"))
     if "ot_max_stage" in t:

@@ -33,7 +33,7 @@ def load(dkey):
     g["acc"] = g["uniprot_ids"].str.split("|").str[0]
     g["label"] = [f"{s} ({(p or n).split('|')[0]})" if (p or n) else s for s, p, n in zip(g["symbol"], g["protein_name_uniprot"], g["gene_name"])]
     g = g.drop_duplicates("symbol").reset_index(drop=True)
-    cache = json.load(open(os.path.join(ROOT, cfg["paths"]["function_cache"])))
+    cache = json.load(open(os.path.join(ROOT, "data", "genes", "function_cache.json")))
     docs = [f"{lab}. {cache.get(a, {}).get('function', '')} GO: {cache.get(a, {}).get('go', '')}. Pathways: {cache.get(a, {}).get('reactome', '')}"
             for lab, a in zip(g["label"], g["acc"])]                   # 段階0の gene_text と同じ
     return D, g, docs
@@ -42,7 +42,7 @@ def load(dkey):
 def run_bge(queries, docs, bs=32):
     from transformers import AutoTokenizer, AutoModelForSequenceClassification
     tok = AutoTokenizer.from_pretrained("BAAI/bge-reranker-v2-m3")
-    m = AutoModelForSequenceClassification.from_pretrained("BAAI/bge-reranker-v2-m3", torch_dtype=torch.float16).to(DEV).eval()
+    m = AutoModelForSequenceClassification.from_pretrained("BAAI/bge-reranker-v2-m3", dtype=torch.float16).to(DEV).eval()
     out = {}
     for name, q in queries.items():
         s, t0 = [], time.time()
@@ -57,7 +57,7 @@ def run_bge(queries, docs, bs=32):
 def run_qwen(query, docs, repo="Qwen/Qwen3-Reranker-0.6B", bs=16, instr="base"):
     from transformers import AutoTokenizer, AutoModelForCausalLM
     tok = AutoTokenizer.from_pretrained(repo, padding_side="left")
-    m = AutoModelForCausalLM.from_pretrained(repo, torch_dtype=torch.float16).to(DEV).eval()
+    m = AutoModelForCausalLM.from_pretrained(repo, dtype=torch.float16).to(DEV).eval()
     yes, no = tok.convert_tokens_to_ids("yes"), tok.convert_tokens_to_ids("no")
     pre = ("<|im_start|>system\nJudge whether the Document meets the requirements based on the Query and the Instruct provided. "
            "Note that the answer can only be \"yes\" or \"no\".<|im_end|>\n<|im_start|>user\n")

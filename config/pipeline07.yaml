@@ -8,8 +8,6 @@ diseases_file: config/diseases.yaml
 paths:
   gene_universe: data/genes/hgnc_protein_coding.tsv   # 対象の全遺伝子（symbol, gene_name, uniprot_ids, protein_name_uniprot）
   uniprot_function: data/genes/uniprot_function.json  # 段階0の機能情報（UniProt から取ったまま。全疾患で共通。疾患の語は使うときに除く）
-  function_cache: data/genes/function_cache.json      # 旧形式（コマンドライン版・06 用。疾患の語を除いて保存したもの）
-  embedding_dir: data/cache/embeddings                # 段階0の埋め込み（全疾患で共通）
   out_dir: outputs/genome                             # 疾患ごとの結果は out_dir/<病名の空白を _ にしたもの>/<年月日-時分>/ に出る
 
 model:
@@ -19,10 +17,6 @@ model:
 
 stage0:                            # 準備（全疾患で共通、1回だけ。約10分）：UniProt の機能情報
   uniprot_batch: 50                # UniProt に1回で問い合わせる数
-  # 以下はコマンドライン版の旧段階1（埋め込み）用。ノートブック 07 では使わない
-  embed_model: bge-m3
-  ollama_url: http://localhost:11434
-  embed_batch: 32
 
 stage1:                            # ふるい（約1時間）：リランカーで全遺伝子を採点し、上位 keep 件を残す
   keep: 5000

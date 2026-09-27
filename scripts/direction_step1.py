@@ -23,7 +23,7 @@ def main():
              "achondroplasia": "achondroplasia"}                      # 病名 → 検証用ファイル（data/genes/<短い名前>_set100.tsv）と正解表の disease 列
     D = {SHORT[d["name"]]: d for d in yaml.safe_load(open(os.path.join(ROOT, cfg["diseases_file"]), encoding="utf-8"))["diseases"] if d["name"] in SHORT}
     truth = pd.read_csv(os.path.join(ROOT, cfg["stage7"]["truth_file"]), sep="\t")
-    cache = json.load(open(os.path.join(ROOT, cfg["paths"]["function_cache"])))       # 旧形式の機能情報（06 と同じ）
+    cache = json.load(open(os.path.join(ROOT, "data", "genes", "function_cache.json")))       # 旧形式の機能情報（06 と同じ）
     Q = cfg["stage7"]["questions"]
     import glob
     model = sorted(glob.glob(os.path.expanduser("~/llm/models/**/*txgemma*.gguf"), recursive=True))[0]
