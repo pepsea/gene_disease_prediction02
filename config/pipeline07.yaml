@@ -88,17 +88,3 @@ tiers:                             # 確からしさの段
                                    # C：それ以外の〜500位
 
 checkpoint_every: 100              # この件数ごとに途中結果を保存（止まっても続きから再開できる）
-
-stage7:                            # 方向の推定（阻害すべきか・活性化すべきか）。ステップ1〜3で順に作る
-  truth_file: data/direction/truth_known37.tsv     # 答え合わせ用：既知37遺伝子の正しい方向（net_effect）と薬の作用型（action_class）
-  # ステップ1：LLM の方向の質問（M3s と同じ書き方で、阻害・活性化を別々に聞く。{gene}・{disease} は置き換わる）
-  questions:
-    V1:                            # 依頼どおりの素直な聞き方
-      inhibit:  "Could inhibiting {gene} improve at least one of the symptoms of {disease} listed above?"
-      activate: "Could activating {gene} improve at least one of the symptoms of {disease} listed above?"
-    V2:                            # 仮説として聞く（H3・M2 と同じ言い回し）
-      inhibit:  "Can a hypothesis be constructed that inhibiting {gene} would improve at least one of the symptoms of {disease} listed above?"
-      activate: "Can a hypothesis be constructed that activating {gene} would improve at least one of the symptoms of {disease} listed above?"
-    V3:                            # 薬の形を具体的に書く
-      inhibit:  "Would a drug that inhibits {gene} (for example an inhibitor, an antagonist or a blocking antibody) be expected to improve at least one of the symptoms of {disease} listed above?"
-      activate: "Would a drug that activates {gene} (for example an agonist, an activator or a replacement of the protein) be expected to improve at least one of the symptoms of {disease} listed above?"
