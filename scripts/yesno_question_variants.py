@@ -231,11 +231,11 @@ class Engine:
         self.llm.reset(); self.llm.eval(self.tok(text, bos=True))
         self.state = (self.llm.save_state(), self.llm.n_tokens)
 
-    def score(self, gene_label, question_lines):
-        """前置き → 遺伝子ブロック の位置に毎回巻き戻して、各質問を独立に聞く。"""
+    def score(self, gene_label, question_lines, extra=""):
+        """前置き → 遺伝子ブロック の位置に毎回巻き戻して、各質問を独立に聞く。extra は遺伝子行の後に足す機能情報（--function）。"""
         llm = self.llm
         llm.reset(); llm.load_state(self.state[0])
-        llm.eval(self.tok(f"Gene: {gene_label}\n"))
+        llm.eval(self.tok(f"Gene: {gene_label}\n" + extra))
         base = llm.n_tokens
         out = {}
         for qid, line in question_lines.items():
@@ -245,18 +245,20 @@ class Engine:
         return out
 
 
-def run_disease(eng, key, reg, max_genes, model_name, qids=None):
+def run_disease(eng, key, reg, max_genes, model_name, qids=None, function=False):
     D = reg[key]; disease, info = D["name"], D["info"][:5]
     genes = load_genes(D["gene_prefix"], max_genes)
+    fcache = json.load(open(os.path.join(ROOT, "data", "genes", "function_cache.json"))) if function else {}   # fetch_function.py の出力
     rows, t0 = [], time.time()
     for order in ("yes_first", "no_first"):
         eng.set_prefix(prefix_text(disease, info, order))
         for i, g in genes.iterrows():
             lines = {qid: f"{qid}. {text.format(disease=disease, gene=g['symbol'])} Answer:" for qid, _, text in QUESTIONS
                      if qids is None or qid in qids}
-            p = eng.score(g["gene_label"], lines)
+            extra = fcache.get(g["uniprot_ids"].split("|")[0], {}).get("text", "") if function else ""
+            p = eng.score(g["gene_label"], lines, extra)
             rows += [{"symbol": g["symbol"], "category": g["category"], "note": g.get("note", ""), "order": order,
-                      "qid": q, "p_yes": round(v, 6)} for q, v in p.items()]
+                      "qid": q + ("F" if function else ""), "p_yes": round(v, 6)} for q, v in p.items()]   # 機能情報つきは末尾に F（例 M3sF）
             if (i + 1) % 25 == 0: print(f"  {key} {order} {i+1}/{len(genes)} ({time.time()-t0:.0f}s)", flush=True)
     long = pd.DataFrame(rows); long["model"] = model_name; long["disease"] = disease
     out = os.path.join(ROOT, "outputs", f"{D['gene_prefix']}_set100_qvariants.csv")
@@ -321,6 +323,7 @@ def main():
     ap.add_argument("--max-genes", type=int, default=None)
     ap.add_argument("--report-only", action="store_true", help="既存の CSV から表だけ出す")
     ap.add_argument("--qids", nargs="+", default=None, help="この質問だけ聞いて既存の CSV に足す（例 --qids N2 N3）")
+    ap.add_argument("--function", action="store_true", help="遺伝子行の後に機能情報（fetch_function.py）を足す。結果の qid は末尾に F")
     a = ap.parse_args()
     reg = json.load(open(os.path.join(ROOT, "data", "diseases.json"), encoding="utf-8"))
     if a.report_only:
@@ -331,7 +334,7 @@ def main():
     print("model:", model, flush=True)
     eng = Engine(model)
     for key in a.disease:
-        report(run_disease(eng, key, reg, a.max_genes, os.path.basename(model), a.qids), key)
+        report(run_disease(eng, key, reg, a.max_genes, os.path.basename(model), a.qids, a.function), key)
 
 
 if __name__ == "__main__":

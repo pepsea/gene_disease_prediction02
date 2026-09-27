@@ -1,0 +1,98 @@
+# 全遺伝子（HGNC のタンパク質コード遺伝子）からトップ500のランキングを作るパイプラインの設定
+# ノートブック 07（notebooks/07_genome_top500.ipynb）と scripts/genome_pipeline.py が読みます。
+# 数値を変えるだけで件数・時間を調整できます（時間は txgemma-9b Q6_K、Mac での目安）。
+
+run_diseases: [rheumatoid arthritis]   # 実行する疾患（config/diseases.yaml の name）。複数並べると順に実行
+diseases_file: config/diseases.yaml
+
+paths:
+  gene_universe: data/genes/hgnc_protein_coding.tsv   # 対象の全遺伝子（symbol, gene_name, uniprot_ids, protein_name_uniprot）
+  uniprot_function: data/genes/uniprot_function.json  # 段階0の機能情報（UniProt から取ったまま。全疾患で共通。疾患の語は使うときに除く）
+  function_cache: data/genes/function_cache.json      # 旧形式（コマンドライン版・06 用。疾患の語を除いて保存したもの）
+  embedding_dir: data/cache/embeddings                # 段階0の埋め込み（全疾患で共通）
+  out_dir: outputs/genome                             # 疾患ごとの結果は out_dir/<病名の空白を _ にしたもの>/<年月日-時分>/ に出る
+
+model:
+  gguf: auto                       # "auto" = model_dir の中の txgemma を探す。ファイルのパスを書いてもよい
+  model_dir: ~/llm/models
+  n_ctx: 2048
+
+stage0:                            # 準備（全疾患で共通、1回だけ。約10分）：UniProt の機能情報
+  uniprot_batch: 50                # UniProt に1回で問い合わせる数
+  # 以下はコマンドライン版の旧段階1（埋め込み）用。ノートブック 07 では使わない
+  embed_model: bge-m3
+  ollama_url: http://localhost:11434
+  embed_batch: 32
+
+stage1:                            # ふるい（約1時間）：リランカーで全遺伝子を採点し、上位 keep 件を残す
+  keep: 5000
+  # --- リランカーのモデル（Hugging Face の名前か、ローカルのフォルダ）。別のサーバーではここを変える ---
+  model: Qwen/Qwen3-Reranker-0.6B
+  device: auto                     # auto = cuda → mps（Mac）→ cpu の順に使えるもの。cuda:0 などと書いてもよい
+  dtype: float16                   # cpu なら float32
+  batch: 16                        # 一度に処理する遺伝子の数（GPU のメモリに合わせる。0.6B・16GB なら 16〜64）
+  max_length: 1024                 # 1件あたりの最大トークン数（前置き＋疾患の説明＋遺伝子の説明）
+  checkpoint_every: 1600           # この件数ごとに途中結果を保存（止まっても続きから再開できる）
+  # --- 指示文と書式。{instruction}・{query}（疾患の説明）・{document}（遺伝子の説明）が置き換わる ---
+  instruction: "Given a disease description, judge whether inhibiting or activating the gene/protein described in the document could plausibly treat the disease or improve its symptoms"
+  template:                        # Qwen3-Reranker の決まった書式。別の系統のモデルならここを合わせる
+    prefix: "<|im_start|>system\nJudge whether the Document meets the requirements based on the Query and the Instruct provided. Note that the answer can only be \"yes\" or \"no\".<|im_end|>\n<|im_start|>user\n"
+    body: "<Instruct>: {instruction}\n<Query>: {query}\n<Document>: {document}"
+    suffix: "<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    yes_token: "yes"               # 次の語が yes か no かの確率を読む（1トークンになる語）
+    no_token: "no"
+
+stage2:                            # 粗い採点（約85分）：質問を1順（Yes or No）だけで聞き、順序の偏りを補正
+  keep: 2000
+  question: M3s                    # scripts/yesno_question_variants.py の質問 ID
+  calib_genes: 50                  # 両順で聞いて順序の偏り（δ）を推定する遺伝子数（無作為に選ぶ）
+  seed: 0
+
+stage3:                            # 精密な採点（約3.3時間）：06 の点数＝質問を両順 × 機能情報なし・ありの平均
+  keep: 500
+  question: M3s
+
+stage4:                            # 上位の並べ直し（約20分）：5択 × スイス式 × Bradley-Terry
+  top: 200
+  question: M2r                    # scripts/rank_variants.py の質問 ID
+  rounds: 8
+  random_rounds: 2
+  jitter: 0.3
+  seed: 0
+
+stage5:                            # 理由のラベル（約25分）：上位 keep 件の中で、各条件の対数オッズが平均より z_threshold 標準偏差以上高いもの
+  questions: {H3: 直接効く, R1: 代償経路, B1: 機構が一致}
+  z_threshold: 0.5
+
+stage6:                            # 裏付けの注釈（順位を付けたあと。数分）：Open Targets（臨床段階は ChEMBL 由来）
+  enabled: true
+  api: https://api.platform.opentargets.org/api/v4/graphql
+
+evaluation:                        # 答え合わせ（任意）：最後の評価と図の目印にだけ使う。順位付けには使わない
+  known_files:                     # 病名 → 既知の標的の一覧（TSV、symbol 列）。無い疾患は Open Targets の第2相以上の標的だけで評価する
+    rheumatoid arthritis: data/genes/ra_known.tsv
+    schizophrenia: data/genes/scz_known.tsv
+    cystinuria: data/genes/cystinuria_known.tsv
+    prostate cancer: data/genes/prostate_cancer_known.tsv
+    achondroplasia: data/genes/achondroplasia_known.tsv
+
+tiers:                             # 確からしさの段
+  A: 50                            # 1〜50位で、かつ段階4でも50位以内
+  B: 200                           # 〜200位（A 以外）
+                                   # C：それ以外の〜500位
+
+checkpoint_every: 100              # この件数ごとに途中結果を保存（止まっても続きから再開できる）
+
+stage7:                            # 方向の推定（阻害すべきか・活性化すべきか）。ステップ1〜3で順に作る
+  truth_file: data/direction/truth_known37.tsv     # 答え合わせ用：既知37遺伝子の正しい方向（net_effect）と薬の作用型（action_class）
+  # ステップ1：LLM の方向の質問（M3s と同じ書き方で、阻害・活性化を別々に聞く。{gene}・{disease} は置き換わる）
+  questions:
+    V1:                            # 依頼どおりの素直な聞き方
+      inhibit:  "Could inhibiting {gene} improve at least one of the symptoms of {disease} listed above?"
+      activate: "Could activating {gene} improve at least one of the symptoms of {disease} listed above?"
+    V2:                            # 仮説として聞く（H3・M2 と同じ言い回し）
+      inhibit:  "Can a hypothesis be constructed that inhibiting {gene} would improve at least one of the symptoms of {disease} listed above?"
+      activate: "Can a hypothesis be constructed that activating {gene} would improve at least one of the symptoms of {disease} listed above?"
+    V3:                            # 薬の形を具体的に書く
+      inhibit:  "Would a drug that inhibits {gene} (for example an inhibitor, an antagonist or a blocking antibody) be expected to improve at least one of the symptoms of {disease} listed above?"
+      activate: "Would a drug that activates {gene} (for example an agonist, an activator or a replacement of the protein) be expected to improve at least one of the symptoms of {disease} listed above?"

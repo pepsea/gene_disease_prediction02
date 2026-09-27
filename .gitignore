@@ -7,3 +7,7 @@ outputs/
 build/
 data/raw/
 notebooks/local/
+.DS_Store
+.ipynb_checkpoints/
+notebooks/iframe_figures/
+data/cache/
