@@ -10,10 +10,20 @@ paths:
   uniprot_function: data/genes/uniprot_function.json  # 段階0の機能情報（UniProt から取ったまま。全疾患で共通。疾患の語は使うときに除く）
   out_dir: outputs/genome                             # 疾患ごとの結果は out_dir/<病名の空白を _ にしたもの>/<年月日-時分>/ に出る
 
-model:
-  gguf: auto                       # "auto" = model_dir の中の txgemma を探す。ファイルのパスを書いてもよい
-  model_dir: ~/llm/models
-  n_ctx: 2048
+model:                             # 段階2〜5（Yes/No と5択）と方向推定で使う生成 LLM。使う計算機ごとに設定を分ける
+  use: auto                        # auto = Mac なら mac、Linux なら server の設定を使う。mac / server と書けばそれを使う
+  mac:                             # Mac のローカル：GGUF を llama.cpp で動かす（これまで検証してきた txgemma-9b）
+    backend: llama_cpp
+    gguf: auto                     # "auto" = model_dir の中の txgemma を探す。ファイルのパスを書いてもよい
+    model_dir: ~/llm/models
+    n_ctx: 2048
+    prompt_wrap: none              # 書式なしで「… Answer:」の直後の語の確率を読む（txgemma で検証した方式）
+  server:                          # Linux の GPU サーバー：Hugging Face のモデルを transformers で動かす
+    backend: transformers
+    name: google/medgemma-27b-it   # Hugging Face の名前か、ローカルのフォルダ（MedGemma は利用規約への同意とログインが必要）
+    device: auto                   # auto = cuda → mps → cpu
+    dtype: bfloat16                # 27B は bfloat16 で約 55GB の GPU メモリ
+    prompt_wrap: chat              # モデルのチャット書式で包み、答えの最初の語の確率を読む（指示に従うように調整されたモデル向け）
 
 stage0:                            # 準備（全疾患で共通、1回だけ。約10分）：UniProt の機能情報
   uniprot_batch: 50                # UniProt に1回で問い合わせる数

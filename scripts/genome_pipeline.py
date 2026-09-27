@@ -34,7 +34,6 @@ from swiss import random_groups, swiss_groups
 YN_TEXT = {q: t for q, _, t in YN_QUESTIONS}
 GROUP_SIZE = 5
 STAGE_ORDER = ["PRECLINICAL", "IND", "EARLY_PHASE_1", "PHASE_1", "PHASE_1_2", "PHASE_2", "PHASE_2_3", "PHASE_3", "PREAPPROVAL", "APPROVAL"]
-logit = lambda x: math.log(max(x, 1e-6) / max(1 - x, 1e-6))
 stage_idx = lambda st: STAGE_ORDER.index(st) if st in STAGE_ORDER else -1     # UNKNOWN などは最も低い
 
 
@@ -166,31 +165,51 @@ def stage1(cfg, dkey):
     t["rank1"] = np.arange(1, len(t) + 1); t["keep1"] = t["rank1"] <= c["keep"]
     runlog(cfg, dkey, "stage1", {"model": c["model"], "device": dev, "input": len(t), "kept": int(t["keep1"].sum())})
     t.to_csv(out, index=False); log(f"段階1 {dkey}: {len(t)} → {int(t['keep1'].sum())} 件 → {out}")
-    del model; gc.collect()                                               # txgemma を読み込む前にメモリを空ける
+    del model; gc.collect()                                               # 生成 LLM を読み込む前にメモリを空ける
     if dev == "mps": torch.mps.empty_cache()
     if dev.startswith("cuda"): torch.cuda.empty_cache()
     return t
 
 
-# ---------------------------------------------------------------- 生成 LLM（txgemma、GGUF）
+# ---------------------------------------------------------------- 生成 LLM（Mac：GGUF／サーバー：Hugging Face）
+CAP = math.log((1 - 1e-6) / 1e-6)                                  # 対数オッズの頭打ち（±13.8）
+YES_WORDS, NO_WORDS = ["Yes", " Yes", "yes", " yes", "YES", " YES"], ["No", " No", "no", " no", "NO", " NO"]
+
+
 class Engine:
+    """config の model.use（auto = Mac なら mac、Linux なら server）の設定でモデルを読み込み、Yes/No と5択の確率を読む。"""
     def __init__(self, cfg, dkey):
-        from llama_cpp import Llama
-        m = cfg["model"]["gguf"]
-        if m == "auto":
-            hits = sorted(glob.glob(os.path.join(os.path.expanduser(cfg["model"]["model_dir"]), "**", "*txgemma*.gguf"), recursive=True))
-            if not hits: raise SystemExit("GGUF モデルが見つかりません（config の model.gguf を指定してください）")
-            m = hits[0]
-        self.model = os.path.basename(m)
-        self.llm = Llama(model_path=m, n_ctx=cfg["model"]["n_ctx"], n_gpu_layers=-1, logits_all=False, verbose=False)
-        self.D = cfg["_diseases"][dkey]
-        ids = lambda sp: list(dict.fromkeys(t[0] for t in (self.tok(s) for s in sp) if len(t) == 1))
-        self.yes, self.no = ids(["Yes", " Yes", "yes", " yes", "YES", " YES"]), ids(["No", " No", "no", " no", "NO", " NO"])
-        self.digit = {n: self.tok(str(n))[0] for n in range(1, GROUP_SIZE + 2)}
-        self.state = {}
-        for name, text in (("yes_first", self.yn_prefix("yes_first")), ("no_first", self.yn_prefix("no_first")), ("choice", self.choice_prefix())):
-            self.llm.reset(); self.llm.eval(self.tok(text, bos=True)); self.state[name] = self.llm.save_state()
-        log(f"model {self.model} ready"); runlog(cfg, dkey, "model", {"path": m})
+        use = cfg["model"]["use"] if cfg["model"]["use"] != "auto" else ("mac" if sys.platform == "darwin" else "server")
+        M = self.M = cfg["model"][use]; self.chat = M["prompt_wrap"] == "chat"; self.D = cfg["_diseases"][dkey]
+        if M["backend"] == "llama_cpp":                             # Mac：GGUF を llama.cpp で（前置きの処理結果を保存して使い回す）
+            from llama_cpp import Llama
+            assert not self.chat, "llama_cpp では prompt_wrap: none を使ってください"
+            m = M["gguf"]
+            if m == "auto":
+                hits = sorted(glob.glob(os.path.join(os.path.expanduser(M["model_dir"]), "**", "*txgemma*.gguf"), recursive=True))
+                if not hits: raise SystemExit("GGUF モデルが見つかりません（config の model.mac.gguf を指定してください）")
+                m = hits[0]
+            self.name = m
+            self.llm = Llama(model_path=m, n_ctx=M["n_ctx"], n_gpu_layers=-1, logits_all=False, verbose=False)
+            enc = lambda w: self.tok(w)
+            self.state = {}
+            for name, text in (("yes_first", self.yn_prefix("yes_first")), ("no_first", self.yn_prefix("no_first")), ("choice", self.choice_prefix())):
+                self.llm.reset(); self.llm.eval(self.tok(text, bos=True)); self.state[name] = self.llm.save_state()
+        else:                                                        # サーバー：Hugging Face のモデルを transformers で
+            import torch
+            from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModelForImageTextToText
+            self.torch = torch
+            self.dev = M["device"] if M["device"] != "auto" else ("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
+            self.gtok = AutoTokenizer.from_pretrained(M["name"], padding_side="left")
+            try: model = AutoModelForCausalLM.from_pretrained(M["name"], dtype=getattr(torch, M["dtype"]))
+            except ValueError: model = AutoModelForImageTextToText.from_pretrained(M["name"], dtype=getattr(torch, M["dtype"]))   # 画像も読めるモデル
+            self.gmodel = model.to(self.dev).eval(); self.name = M["name"]
+            enc = lambda w: self.gtok.encode(w, add_special_tokens=False)
+        ids = lambda words: list(dict.fromkeys(t[0] for t in (enc(w) for w in words) if len(t) == 1))
+        self.yes, self.no = ids(YES_WORDS), ids(NO_WORDS)
+        self.digit = {n: enc(str(n))[0] for n in range(1, GROUP_SIZE + 2)}
+        log(f"model {self.name}（{use} / {M['backend']} / prompt_wrap={M['prompt_wrap']}）ready")
+        runlog(cfg, dkey, "model", {"use": use, "backend": M["backend"], "model": self.name, "prompt_wrap": M["prompt_wrap"]})
         with open(os.path.join(out_dir(cfg, dkey), "conditions", "prompts.txt"), "w", encoding="utf-8") as f:      # 条件：前置きと質問文
             for o in ("yes_first", "no_first"): f.write(f"===== Yes/No の前置き（{o}）\n{self.yn_prefix(o)}\n")
             f.write(f"===== 5択の前置き\n{self.choice_prefix()}\n")
@@ -214,29 +233,41 @@ class Engine:
                 f"Disease: {self.D['name']}\nTarget symptoms and the organ, cell and functional abnormalities behind them:\n{self.bullets()}\n"
                 f"Answer with a single number from 1 to {GROUP_SIZE + 1} only. No words, no explanation.\n\n")
 
-    def logits(self):
-        return np.ctypeslib.as_array(self.llm._ctx.get_logits(), shape=(self.llm.n_vocab(),)).astype(np.float64)
+    def next_logits(self, texts):
+        """transformers：各文章の次の語のロジット（chat ならユーザーの発言として包み、答えの最初の語の位置）。"""
+        wrap = lambda t: (self.gtok.apply_chat_template([{"role": "user", "content": t}], tokenize=False, add_generation_prompt=True)
+                          if self.chat else (self.gtok.bos_token or "") + t)
+        x = self.gtok([wrap(t) for t in texts], return_tensors="pt", padding=True, add_special_tokens=False).to(self.dev)
+        with self.torch.no_grad():
+            return self.gmodel(**x, logits_to_keep=1).logits[:, -1, :].float().cpu().numpy().astype(np.float64)
 
     def yes_logodds(self, label, symbol, qids, order, extra=""):
-        """前置き → 遺伝子行（extra に機能情報）→ 質問ごとに巻き戻して独立に聞き、Yes の対数オッズを返す。"""
-        llm = self.llm
-        llm.reset(); llm.load_state(self.state[order]); llm.eval(self.tok(f"Gene: {label}\n" + extra)); base = llm.n_tokens
-        out = {}
-        for q in qids:
-            llm.n_tokens = base
-            llm.eval(self.tok(f"{q}. {YN_TEXT[q].format(disease=self.D['name'], gene=symbol)} Answer:"))
-            lg = self.logits(); lg -= lg.max(); lp = lg - math.log(np.exp(lg).sum())
-            lse = lambda v: max(v) + math.log(sum(math.exp(x - max(v)) for x in v))
-            out[q] = logit(1 / (1 + math.exp(lse([lp[i] for i in self.no]) - lse([lp[i] for i in self.yes]))))
-        return out
+        """前置き → 遺伝子行（extra に機能情報）→ 質問ごとに独立に聞き、Yes の対数オッズ（±13.8 で頭打ち）を返す。"""
+        lse = lambda v: max(v) + math.log(sum(math.exp(x - max(v)) for x in v))
+        qtext = {q: f"{q}. {YN_TEXT[q].format(disease=self.D['name'], gene=symbol)}" for q in qids}
+        if self.M["backend"] == "llama_cpp":
+            llm = self.llm
+            llm.reset(); llm.load_state(self.state[order]); llm.eval(self.tok(f"Gene: {label}\n" + extra)); base = llm.n_tokens
+            rows = []
+            for q in qids:
+                llm.n_tokens = base                                  # 遺伝子行の直後へ巻き戻す（質問を独立に聞く）
+                llm.eval(self.tok(qtext[q] + " Answer:"))
+                rows.append(np.ctypeslib.as_array(llm._ctx.get_logits(), shape=(llm.n_vocab(),)).astype(np.float64))
+        else:
+            rows = self.next_logits([self.yn_prefix(order) + f"Gene: {label}\n" + extra + qtext[q] + ("" if self.chat else " Answer:") for q in qids])
+        return {q: float(max(-CAP, min(CAP, lse([lg[i] for i in self.yes]) - lse([lg[i] for i in self.no])))) for q, lg in zip(qids, rows)}
 
     def choice(self, labels, qid):
-        llm = self.llm
-        llm.reset(); llm.load_state(self.state["choice"])
-        llm.eval(self.tok("Candidate genes:\n" + "\n".join(f"{i + 1}. {g}" for i, g in enumerate(labels)) +
-                          f"\n{len(labels) + 1}. None of the above genes seem clearly relevant\n"))
-        llm.eval(self.tok(f"Question: {CHOICE_QUESTIONS[qid].format(disease=self.D['name'])} Answer: "))
-        lg = self.logits(); l = np.array([lg[self.digit[n]] for n in range(1, GROUP_SIZE + 2)])
+        cands = ("Candidate genes:\n" + "\n".join(f"{i + 1}. {g}" for i, g in enumerate(labels)) +
+                 f"\n{len(labels) + 1}. None of the above genes seem clearly relevant\n")
+        q = f"Question: {CHOICE_QUESTIONS[qid].format(disease=self.D['name'])}"
+        if self.M["backend"] == "llama_cpp":
+            llm = self.llm
+            llm.reset(); llm.load_state(self.state["choice"]); llm.eval(self.tok(cands)); llm.eval(self.tok(q + " Answer: "))
+            lg = np.ctypeslib.as_array(llm._ctx.get_logits(), shape=(llm.n_vocab(),)).astype(np.float64)
+        else:
+            lg = self.next_logits([self.choice_prefix() + cands + q + ("" if self.chat else " Answer: ")])[0]
+        l = np.array([lg[self.digit[n]] for n in range(1, GROUP_SIZE + 2)])
         p = np.exp(l - l.max()); return p / p.sum()
 
 
