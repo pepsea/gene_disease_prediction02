@@ -137,6 +137,16 @@ def func_text(cfg, dkey):
     return out
 
 
+def machine(cfg):
+    """この計算機の種類（config の model.use。auto = Mac なら mac、Linux なら server）。"""
+    return cfg["model"]["use"] if cfg["model"]["use"] != "auto" else ("mac" if sys.platform == "darwin" else "server")
+
+
+def pick(cfg, v):
+    """{mac: …, server: …} の形なら、この計算機の値を取る。"""
+    return v[machine(cfg)] if isinstance(v, dict) else v
+
+
 # ---------------------------------------------------------------- 段階1：ふるい（リランカー）
 def stage1(cfg, dkey):
     """リランカー（既定 Qwen3-Reranker-0.6B）で全遺伝子を採点し、上位 stage1.keep 件を残す。途中結果から再開できる。"""
@@ -145,14 +155,15 @@ def stage1(cfg, dkey):
     c = cfg["stage1"]; T = c["template"]; D = cfg["_diseases"][dkey]; od = out_dir(cfg, dkey)
     out, part = os.path.join(od, "stage1.csv"), os.path.join(od, "stage1_partial.csv")
     dev = c["device"] if c["device"] != "auto" else ("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
-    tok = AutoTokenizer.from_pretrained(c["model"], padding_side="left")
-    model = AutoModelForCausalLM.from_pretrained(c["model"], dtype=torch.float32 if dev == "cpu" else getattr(torch, c["dtype"])).to(dev).eval()
+    rname = pick(cfg, c["model"])                                        # この計算機で使うリランカー
+    tok = AutoTokenizer.from_pretrained(rname, padding_side="left")
+    model = AutoModelForCausalLM.from_pretrained(rname, dtype=torch.float32 if dev == "cpu" else getattr(torch, pick(cfg, c["dtype"]))).to(dev).eval()
     yes, no = tok.convert_tokens_to_ids(T["yes_token"]), tok.convert_tokens_to_ids(T["no_token"])
     g = universe(cfg).set_index("symbol"); ft = func_text(cfg, dkey)
     query = f"{D['name']}. " + " ".join(D["info"])
     rows = resume(part).to_dict("records"); have = {r["symbol"] for r in rows}
-    todo = [s for s in g.index if s not in have]; t0 = time.time(); bs = c["batch"]
-    log(f"段階1 {dkey}: {c['model']}（{dev}）残り {len(todo)} / {len(g)}")
+    todo = [s for s in g.index if s not in have]; t0 = time.time(); bs = pick(cfg, c["batch"])
+    log(f"段階1 {dkey}: {rname}（{dev}）残り {len(todo)} / {len(g)}")
     for i in range(0, len(todo), bs):
         chunk = todo[i:i + bs]
         texts = [T["prefix"] + T["body"].format(instruction=c["instruction"], query=query, document=f"{g.at[s, 'gene_label']}.\n{ft[s]}") + T["suffix"] for s in chunk]
@@ -163,7 +174,7 @@ def stage1(cfg, dkey):
             pd.DataFrame(rows).to_csv(part, index=False); log(f"  {i + len(chunk)}/{len(todo)}（{time.time() - t0:.0f} 秒）")
     t = pd.DataFrame(rows).sort_values("score1", ascending=False).reset_index(drop=True)
     t["rank1"] = np.arange(1, len(t) + 1); t["keep1"] = t["rank1"] <= c["keep"]
-    runlog(cfg, dkey, "stage1", {"model": c["model"], "device": dev, "input": len(t), "kept": int(t["keep1"].sum())})
+    runlog(cfg, dkey, "stage1", {"model": rname, "device": dev, "input": len(t), "kept": int(t["keep1"].sum())})
     t.to_csv(out, index=False); log(f"段階1 {dkey}: {len(t)} → {int(t['keep1'].sum())} 件 → {out}")
     del model; gc.collect()                                               # 生成 LLM を読み込む前にメモリを空ける
     if dev == "mps": torch.mps.empty_cache()
@@ -179,7 +190,7 @@ YES_WORDS, NO_WORDS = ["Yes", " Yes", "yes", " yes", "YES", " YES"], ["No", " No
 class Engine:
     """config の model.use（auto = Mac なら mac、Linux なら server）の設定でモデルを読み込み、Yes/No と5択の確率を読む。"""
     def __init__(self, cfg, dkey):
-        use = cfg["model"]["use"] if cfg["model"]["use"] != "auto" else ("mac" if sys.platform == "darwin" else "server")
+        use = machine(cfg)
         M = self.M = cfg["model"][use]; self.chat = M["prompt_wrap"] == "chat"; self.D = cfg["_diseases"][dkey]
         if M["backend"] == "llama_cpp":                             # Mac：GGUF を llama.cpp で（前置きの処理結果を保存して使い回す）
             from llama_cpp import Llama
@@ -199,11 +210,13 @@ class Engine:
             import torch
             from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModelForImageTextToText
             self.torch = torch
-            self.dev = M["device"] if M["device"] != "auto" else ("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
+            split = M["device"] == "split"                           # split = 見えている GPU すべてにモデルを分けて載せる
+            self.dev = ("cuda" if split else M["device"]) if M["device"] != "auto" else ("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
             self.gtok = AutoTokenizer.from_pretrained(M["name"], padding_side="left")
-            try: model = AutoModelForCausalLM.from_pretrained(M["name"], dtype=getattr(torch, M["dtype"]))
-            except ValueError: model = AutoModelForImageTextToText.from_pretrained(M["name"], dtype=getattr(torch, M["dtype"]))   # 画像も読めるモデル
-            self.gmodel = model.to(self.dev).eval(); self.name = M["name"]
+            kw = dict(dtype=getattr(torch, M["dtype"]), device_map="auto" if split else None)
+            try: model = AutoModelForCausalLM.from_pretrained(M["name"], **kw)
+            except ValueError: model = AutoModelForImageTextToText.from_pretrained(M["name"], **kw)   # 画像も読めるモデル
+            self.gmodel = (model if split else model.to(self.dev)).eval(); self.name = M["name"]
             enc = lambda w: self.gtok.encode(w, add_special_tokens=False)
         ids = lambda words: list(dict.fromkeys(t[0] for t in (enc(w) for w in words) if len(t) == 1))
         self.yes, self.no = ids(YES_WORDS), ids(NO_WORDS)

@@ -11,7 +11,7 @@ paths:
   out_dir: outputs/genome                             # 疾患ごとの結果は out_dir/<病名の空白を _ にしたもの>/<年月日-時分>/ に出る
 
 model:                             # 段階2〜5（Yes/No と5択）と方向推定で使う生成 LLM。使う計算機ごとに設定を分ける
-  use: auto                        # auto = Mac なら mac、Linux なら server の設定を使う。mac / server と書けばそれを使う
+  use: auto                        # auto = Mac なら mac、Linux なら server の設定を使う。mac / server と書けばそれを使う（段階1のリランカーも同じ）
   mac:                             # Mac のローカル：GGUF を llama.cpp で動かす（これまで検証してきた txgemma-9b）
     backend: llama_cpp
     gguf: auto                     # "auto" = model_dir の中の txgemma を探す。ファイルのパスを書いてもよい
@@ -21,7 +21,8 @@ model:                             # 段階2〜5（Yes/No と5択）と方向推
   server:                          # Linux の GPU サーバー：Hugging Face のモデルを transformers で動かす
     backend: transformers
     name: google/txgemma-27b-chat  # Hugging Face の名前か、ローカルのフォルダ（TxGemma は利用規約への同意とログインが必要）
-    device: auto                   # auto = cuda → mps → cpu
+    device: auto                   # auto = 1枚目の GPU（cuda）→ mps → cpu。cuda:1 などと書けばその GPU
+                                   # split = 見えている GPU すべてにモデルを分けて載せる（1枚に載らないとき。例：24〜48GB の GPU × 4）
     dtype: bfloat16                # 27B は bfloat16 で約 55GB の GPU メモリ
     prompt_wrap: none              # Mac の txgemma-9b と同じく、書式なしで「… Answer:」の直後を読む（検証してきた方式）
                                    # chat にすると、チャット書式で包んで答えの最初の語を読む（MedGemma など向け）
@@ -29,13 +30,13 @@ model:                             # 段階2〜5（Yes/No と5択）と方向推
 stage0:                            # 準備（全疾患で共通、1回だけ。約10分）：UniProt の機能情報
   uniprot_batch: 50                # UniProt に1回で問い合わせる数
 
-stage1:                            # ふるい（約1時間）：リランカーで全遺伝子を採点し、上位 keep 件を残す
+stage1:                            # ふるい：リランカーで全遺伝子を採点し、上位 keep 件を残す（Mac の 0.6B で約1時間）
   keep: 5000
-  # --- リランカーのモデル（Hugging Face の名前か、ローカルのフォルダ）。別のサーバーではここを変える ---
-  model: Qwen/Qwen3-Reranker-0.6B
+  # --- リランカーのモデル（Hugging Face の名前か、ローカルのフォルダ）。計算機（model.use と同じ mac / server）ごとに分ける ---
+  model: {mac: Qwen/Qwen3-Reranker-0.6B, server: Qwen/Qwen3-Reranker-8B}
+  dtype: {mac: float16, server: bfloat16}   # cpu なら float32 を使う
+  batch: {mac: 16, server: 16}     # 一度に処理する遺伝子の数（GPU のメモリに合わせる）
   device: auto                     # auto = cuda → mps（Mac）→ cpu の順に使えるもの。cuda:0 などと書いてもよい
-  dtype: float16                   # cpu なら float32
-  batch: 16                        # 一度に処理する遺伝子の数（GPU のメモリに合わせる。0.6B・16GB なら 16〜64）
   max_length: 1024                 # 1件あたりの最大トークン数（前置き＋疾患の説明＋遺伝子の説明）
   checkpoint_every: 1600           # この件数ごとに途中結果を保存（止まっても続きから再開できる）
   # --- 指示文と書式。{instruction}・{query}（疾患の説明）・{document}（遺伝子の説明）が置き換わる ---
