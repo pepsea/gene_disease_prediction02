@@ -160,7 +160,7 @@ def stage1(cfg, dkey):
     model = AutoModelForCausalLM.from_pretrained(rname, dtype=torch.float32 if dev == "cpu" else getattr(torch, pick(cfg, c["dtype"]))).to(dev).eval()
     yes, no = tok.convert_tokens_to_ids(T["yes_token"]), tok.convert_tokens_to_ids(T["no_token"])
     g = universe(cfg).set_index("symbol"); ft = func_text(cfg, dkey)
-    query = f"{D['name']}. " + " ".join(D["info"])
+    query = f"{D['name']}.\n" + "\n".join(f"- {b}" for b in D["info"])   # 症状は1行1項目（空白でつなぐと文の切れ目が消える）
     rows = resume(part).to_dict("records"); have = {r["symbol"] for r in rows}
     todo = [s for s in g.index if s not in have]; t0 = time.time(); bs = pick(cfg, c["batch"])
     log(f"段階1 {dkey}: {rname}（{dev}）残り {len(todo)} / {len(g)}")
