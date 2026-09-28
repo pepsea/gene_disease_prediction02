@@ -77,8 +77,9 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--disease", default="ra"); ap.add_argument("--models", default="bge,qwen06"); ap.add_argument("--instr", default="base")
     a = ap.parse_args()
     D, g, docs = load(a.disease)
-    plain = f"{D['name']}. " + " ".join(D["info"])                    # 段階1の埋め込みと同じ質問文
-    target = f"Which gene or protein could be a drug target to treat {D['name']} or improve its symptoms? " + " ".join(D["info"])
+    info = "\n".join(f"- {b}" for b in D["info"])                     # 症状は1行1項目（段階1と同じ書式）
+    plain = f"{D['name']}.\n" + info                                  # 段階1のリランカーと同じ質問文
+    target = f"Which gene or protein could be a drug target to treat {D['name']} or improve its symptoms?\n" + info
     out = os.path.join(ROOT, "outputs", "rerank"); os.makedirs(out, exist_ok=True)
     p = os.path.join(out, f"{a.disease}_rerank.csv")
 
